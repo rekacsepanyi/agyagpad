@@ -324,4 +324,4 @@ A sorrend: tanfolyamok (programkártyák, majd közvetlenül a tudnivalóblokk),
 
 ### Közös fejléc CTA
 
-A navigáció végén kiemelt „Érdeklődöm” gomb szerepel a főoldalon, a Tanfolyamok és az Adatkezelés aloldalon. A Tanfolyamok menüpont megmarad; Koncepciók menüpont nincs. A CTA minden esetben a főoldali #kapcsolat szakaszhoz vezet, az aloldalakról a főoldalfájlt is megadva. A lenyíló mobilmenüben ugyanez a gomb szerepel.
+A navigáció végén kiemelt „Jelentkezés” gomb szerepel a főoldalon, a Tanfolyamok és az Adatkezelés aloldalon. A Tanfolyamok menüpont megmarad; Koncepciók menüpont nincs. A CTA minden esetben a főoldali #kapcsolat szakaszhoz vezet, az aloldalakról a főoldalfájlt is megadva. A lenyíló mobilmenüben ugyanez a gomb szerepel.

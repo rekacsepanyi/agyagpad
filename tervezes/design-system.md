@@ -74,7 +74,7 @@ Merriweather a címsorokhoz, Inter a szöveghez és kezelőelemekhez. Helyi WOFF
 - Hero: #F9F8F6. Tanfolyamok: #D9C3B0, törtfehér programkártyákkal. Műhely: #F9F8F6. Kapcsolat: #D9C3B0, világos mezőkkel és információs kártyával.
 - Nincs dekoratív határvonal a szakaszok között vagy a műhelybolt blokkja körül. A funkcionális mezőkeretek és fókuszjelzések megmaradnak.
 - 1024 px alatt mobilmenü; 768 px alatt egyoszlopos tartalmi blokkok. A programkártyák tabletméretben egymás alatt, asztalon három oszlopban látszanak.
-- A fejléc: átlátszó logó, Kezdőlap, Tanfolyamok, Műhely, Kapcsolat, majd jobb oldalt kiemelt „Érdeklődöm” CTA. A főoldalon #kapcsolat, a meglévő aloldalakon koncepcio-1-udvari-muhely.html#kapcsolat a cél. Koncepciók link nincs.
+- A fejléc: átlátszó logó, Kezdőlap, Tanfolyamok, Műhely, Kapcsolat, majd jobb oldalt kiemelt „Jelentkezés” CTA. A főoldalon #kapcsolat, a meglévő aloldalakon koncepcio-1-udvari-muhely.html#kapcsolat a cél. Koncepciók link nincs.
 - A fejléc CTA a meglévő elsődleges gombot használja: terrakotta háttér, törtfehér felirat, kapszulaforma, sötétebb terrakotta hover és közös, 3 px grafit billentyűzetes fókusz. 1024 px alatt a lenyíló menü része, mobilon teljes szélességű. 1024–1199 px között kisebb logószélesség és navigációs térköz tartja szellősen a fejlécet.
 
 ## Programkártyák

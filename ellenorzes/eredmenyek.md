@@ -39,4 +39,11 @@ Részletes méret- és forrásleltár: ../tervezes/arculat/webp-keplista.json. A
 
 ## Élesítés előtt
 
-Koncepcióválasztás és finomhangolás; valódi üzemeltetői adatok és űrlapfogadó; végleges adatkezelési tájékoztató; pontos képkreditek; SEO véglegesítése; éles Netlify-űrlap és próbaüzenet; AI-használat leírása és beadási csomag.
+### Udvari műhely – első finomítás ellenőrzése
+
+A felhasználó az első koncepciót választotta. A módosított oldal ismét átment a 320, 390 és 1440 px-es ellenőrzésen. Ellenőrizve az átlátszó SVG-logó, az idővonal mobil/asztali oszlopszáma, az öt ikonos tudnivaló és az egy-/kétoszlopos rács, a két organikus fotóháttér, az összevont láblécjelzés, a programválasztás, a menü és a helyi űrlap. A dekorációk mobilos vízszintes túlcsordulása javítva. Az SVG nem tartalmaz beágyazott képet vagy háttértéglalapot; a tartalmi fotók továbbra is WebP-k.
+
+### Hátralévő lépések
+
+Az Udvari műhely további finomhangolása; valódi üzemeltetői adatok és űrlapfogadó; végleges adatkezelési tájékoztató; pontos képkreditek; SEO véglegesítése; éles Netlify-űrlap és próbaüzenet; AI-használat leírása és beadási csomag.
+

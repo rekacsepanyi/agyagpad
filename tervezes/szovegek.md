@@ -64,9 +64,9 @@ Megvalósítási megjegyzés: a nyitvatartás a kitalált műhely bemutatott mű
 
 #### Alsó sor és projektjelzés
 
-- **Alsó sor:** © 2026 Agyagpad · AI webdesigner vizsgamunka
+- **Alsó sor (Udvari műhely):** © 2026 Agyagpad · AI webdesigner vizsgamunka. Az Agyagpad kitalált vállalkozás, az oldal bemutatóprojekt.
 - **Adatkezelési link:** Adatkezelési tájékoztató → `adatkezeles.html`
-- **Projektjelzés:** Az Agyagpad kitalált vállalkozás, az oldal bemutatóprojekt. Az űrlap nem foglal valódi tanfolyami helyet.
+- **Kiegészítő projektjelzés:** Az űrlap nem foglal valódi tanfolyami helyet. A kitalált vállalkozás jelölése a fenti alsó sor része, nem kell még egyszer külön megismételni.
 - **Képhasználati megjegyzés:** A fotók a kitalált műhely és szereplő illusztrációi.
 
 A szükséges képkreditek e megjegyzés alatt kapnak helyet, a ténylegesen felhasznált képek forrás- és licencadatai szerint. Pontos szövegük még nem ismert; helykitöltő vagy ellenőrizetlen szerzőnév nem kerül az éles láblécbe. Az évszám a kiadás éve, későbbi kiadáskor frissítendő.
@@ -278,3 +278,4 @@ Ez a szövegcsomag még nem jelenti a technikai SEO megvalósítását.
 3. A képekhez tartozó alt szövegek, a végleges képkiválasztás és kivágás után.
 
 A négy fő szekció, a közös fejléc és lábléc, a CTA-k és az űrlap állapotszövegei rögzítve vannak. Új ár, díj, garancia, válaszidő vagy szolgáltatás csak új tartalmi döntés alapján kerülhet a szövegekbe. Az Eliza-mintában szereplő vélemények, hírlevél, garanciák és külön oldalak nem részei az Agyagpad tartalmi tervének.
+

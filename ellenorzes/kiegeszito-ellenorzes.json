@@ -1,12 +1,6 @@
 {
   "checks": [
     {
-      "file": "koncepcio-1-udvari-muhely.html",
-      "fileProtocol": true,
-      "noJsNavigation": true,
-      "noJsSubmitDisabled": true
-    },
-    {
       "file": "koncepcio-2-agyagnaplo.html",
       "fileProtocol": true,
       "noJsNavigation": true,
@@ -14,6 +8,12 @@
     },
     {
       "file": "koncepcio-3-az-alkotas-kozelrol.html",
+      "fileProtocol": true,
+      "noJsNavigation": true,
+      "noJsSubmitDisabled": true
+    },
+    {
+      "file": "koncepcio-1-udvari-muhely.html",
       "fileProtocol": true,
       "noJsNavigation": true,
       "noJsSubmitDisabled": true

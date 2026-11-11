@@ -1,6 +1,6 @@
 # Agyagpad – design system
 
-Verzió: 2.0 · 2026. november 11.  
+Verzió: 2.1 · 2026. november 11.  
 Állapot: rögzített Agyagpad-specifikáció, a felhasználó által megadott méretezési alap és a javított Figma-tábla alapján.
 
 ## 1. Források és az adatok státusza
@@ -328,3 +328,13 @@ A korábbi archivum/figma-arculat-ellenorzes.json a javítás előtti minták vi
 A megjelenő szövegek aktuális forrása a szomszédos szovegek.md. A korábbi komponenspéldákkal való szöveges eltéréskor ezt kövessük, különösen az űrlap siker- és hibajelzéseinél. A megjelenési szabályok továbbra is e design-system szerintiek. Az Agyagpad egyoldalas: a teljes kapcsolati űrlap egyszer jelenik meg, a kiegészítő tájékoztató és visszajelző oldalak csak a közös fejlécet és láblécet öröklik.
 
 
+
+## 14. Kiválasztott irány: Udvari műhely – első finomítás
+
+A felhasználó az Udvari műhely koncepciót választotta. Az alábbi szabályok ezt a változatot pontosítják, és az esetleg eltérő korábbi komponensleírásoknál elsőbbséget élveznek:
+
+- **Logó:** images/logo/Agyagpad-logo-transparent.svg a fejlécben és láblécben; átlátszó PNG-változat ugyanott Agyagpad-logo-transparent.png néven. A meglévő SVG vektoros előtérgrafikáját megőriztük, a fehér téglalapokat és a beágyazott háttérképet eltávolítottuk. A webes SVG nem tartalmaz raszteres képet. Nincs befoglaló háttér, keret vagy árnyék. Színek: #2D2A26 és #A65B32; a háttér mögötte #F9F8F6.
+- **Mérföldkövek:** 768 px-től négy állomásos vízszintes idővonal, 1 px terrakotta összekötő, 13 px-es terrakotta csomópont az évszám felett. Az évszám Merriweather 700, #A65B32; desktopon 28 px. Mobilon bal oldali függőleges vonal, egymás alatti állomások és 24 px-es évszám, vízszintes görgetés nélkül.
+- **Tudnivalók:** #D9C3B0 háttér, 16 px sugár. Öt tudnivaló kétoszlopos rácsban, 768 px alatt egy oszlopban. 24 px-es, dekoratív kör-pipa ikonok #8C4A27 színnel; a szöveg #2D2A26. A HTML-lista szemantikája megmarad, látható alap bullet nincs.
+- **Fotók:** 16 px lekerekítés. A nyitó portré mögött visszafogott homokszínű amorf folt; a bemutatkozó fotó mögött a terrakotta 18%-os, fő háttérrel kevert árnyalata. A dekoráció nem mozog, nem takarja a szöveget, és mobilon kisebb eltéréssel követi a képet. Új márkaszínt nem vezetünk be.
+- **Lábléc:** az alsó sáv kisméretű, olvasható sora: „© 2026 Agyagpad · AI webdesigner vizsgamunka. Az Agyagpad kitalált vállalkozás, az oldal bemutatóprojekt.” Az adatkezelési hivatkozás, a fotóillusztrációs megjegyzés és a valódi helyfoglalás kizárása megmarad. Az űrlap továbbra is helyi bemutató.

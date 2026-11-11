@@ -3,5 +3,7 @@
   "phase": "prototypes_complete",
   "source_url": null,
   "approval": "Felhasználó: igen, mehet.",
-  "is_redesign": false
+  "is_redesign": false,
+  "selected_direction": 1,
+  "selected_name": "Udvari műhely"
 }

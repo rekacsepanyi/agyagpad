@@ -1,47 +1,6 @@
 {
   "results": [
     {
-      "file": "koncepcio-1-udvari-muhely.html",
-      "width": 320,
-      "checks": [
-        "elrendezés, 4 szekció, 1 H1, WebP-k, helyi fontok",
-        "mobilmenü nyitás/zárás Escape",
-        "3 kártya programválasztás, hero reset, adatmegőrzés, footer megőrzi",
-        "bemutatóűrlap nem küld adatot",
-        "nincs JS/erőforráshiba vagy külső kérés"
-      ],
-      "passed": true,
-      "jsErrors": [],
-      "failedResources": []
-    },
-    {
-      "file": "koncepcio-1-udvari-muhely.html",
-      "width": 390,
-      "checks": [
-        "elrendezés, 4 szekció, 1 H1, WebP-k, helyi fontok",
-        "mobilmenü nyitás/zárás Escape",
-        "3 kártya programválasztás, hero reset, adatmegőrzés, footer megőrzi",
-        "bemutatóűrlap nem küld adatot",
-        "nincs JS/erőforráshiba vagy külső kérés"
-      ],
-      "passed": true,
-      "jsErrors": [],
-      "failedResources": []
-    },
-    {
-      "file": "koncepcio-1-udvari-muhely.html",
-      "width": 1440,
-      "checks": [
-        "elrendezés, 4 szekció, 1 H1, WebP-k, helyi fontok",
-        "3 kártya programválasztás, hero reset, adatmegőrzés, footer megőrzi",
-        "bemutatóűrlap nem küld adatot",
-        "nincs JS/erőforráshiba vagy külső kérés"
-      ],
-      "passed": true,
-      "jsErrors": [],
-      "failedResources": []
-    },
-    {
       "file": "koncepcio-2-agyagnaplo.html",
       "width": 320,
       "checks": [
@@ -115,6 +74,50 @@
       "width": 1440,
       "checks": [
         "elrendezés, 4 szekció, 1 H1, WebP-k, helyi fontok",
+        "3 kártya programválasztás, hero reset, adatmegőrzés, footer megőrzi",
+        "bemutatóűrlap nem küld adatot",
+        "nincs JS/erőforráshiba vagy külső kérés"
+      ],
+      "passed": true,
+      "jsErrors": [],
+      "failedResources": []
+    },
+    {
+      "file": "koncepcio-1-udvari-muhely.html",
+      "width": 320,
+      "checks": [
+        "elrendezés, 4 szekció, 1 H1, WebP-k, helyi fontok",
+        "átlátszó SVG-logó, reszponzív idővonal és 5 ikonos tudnivaló, 2 fotódíszítés, láblécjelzés",
+        "mobilmenü nyitás/zárás Escape",
+        "3 kártya programválasztás, hero reset, adatmegőrzés, footer megőrzi",
+        "bemutatóűrlap nem küld adatot",
+        "nincs JS/erőforráshiba vagy külső kérés"
+      ],
+      "passed": true,
+      "jsErrors": [],
+      "failedResources": []
+    },
+    {
+      "file": "koncepcio-1-udvari-muhely.html",
+      "width": 390,
+      "checks": [
+        "elrendezés, 4 szekció, 1 H1, WebP-k, helyi fontok",
+        "átlátszó SVG-logó, reszponzív idővonal és 5 ikonos tudnivaló, 2 fotódíszítés, láblécjelzés",
+        "mobilmenü nyitás/zárás Escape",
+        "3 kártya programválasztás, hero reset, adatmegőrzés, footer megőrzi",
+        "bemutatóűrlap nem küld adatot",
+        "nincs JS/erőforráshiba vagy külső kérés"
+      ],
+      "passed": true,
+      "jsErrors": [],
+      "failedResources": []
+    },
+    {
+      "file": "koncepcio-1-udvari-muhely.html",
+      "width": 1440,
+      "checks": [
+        "elrendezés, 4 szekció, 1 H1, WebP-k, helyi fontok",
+        "átlátszó SVG-logó, reszponzív idővonal és 5 ikonos tudnivaló, 2 fotódíszítés, láblécjelzés",
         "3 kártya programválasztás, hero reset, adatmegőrzés, footer megőrzi",
         "bemutatóűrlap nem küld adatot",
         "nincs JS/erőforráshiba vagy külső kérés"

@@ -4,6 +4,8 @@ Az Agyagpad kitalált szentendrei kerámiaműhely bemutatóprojektje.
 
 ## A három elkészült weboldal-koncepció
 
+**Kiválasztott és továbbfejlesztett irány:** [Udvari műhely](koncepcio-1-udvari-muhely.html). Első finomítás: átlátszó vektoros logó, reszponzív mérföldkő-idővonal, ikonos tudnivalók, organikus fotóhátterek és összevont láblécjelzés. A másik két változat megmarad összehasonlításra.
+
 Nyisd meg az [index.html koncepcióválasztót](index.html) a böngészőben, akár dupla kattintással. A fotók, betűk, stílusok és interakciók helyi fájlokból működnek, nem igényelnek internetkapcsolatot vagy telepítést.
 
 1. [Udvari műhely](koncepcio-1-udvari-muhely.html) – személyes, osztott portrés nyitás.

@@ -83,12 +83,12 @@ Külön GYIK, blog, galéria-aloldal és részletes folyamatbemutató nem kész�
 
 - Stílus: meleg, kézműves, földközeli, finoman játékos.
 - Vizuális irány: természetes anyagok és textúrák — agyag, fa, len —, levegős elrendezés.
-- Logó: a felhasználó friss, szíves bögrét ábrázoló emblémája, sötét „AGYAG” és terrakotta „PAD” felirattal, „Kerámiaműhely” alcímmel. Elsődleges fájl: images/logo/Agyagpad-logo-jo.svg; PNG-változat: images/logo/Agyagpad-logo.png.
+- Logó: a felhasználó friss, szíves bögrét ábrázoló emblémája, sötét „AGYAG” és terrakotta „PAD” felirattal, „Kerámiaműhely” alcímmel. Elsődleges webes fájl: images/logo/Agyagpad-logo-transparent.svg; átlátszó PNG: images/logo/Agyagpad-logo-transparent.png. A korábbi exportok forrásként megmaradnak.
 - Favicon: images/logo/Agyagpad-Favicon-jo.svg; PNG-változat: images/logo/Agyagpad-Favicon.png.
 - Arculati referencia: tervezes/arculat/Arculati-tabla.png. Az új változat felülírja a korábbi vázaemblémás irányt.
 - Kerülendő: steril, hideg, luxusüzletre emlékeztető megjelenés és túlzsúfoltság.
 - Szöveghang: magyar nyelvű, tegező, közvetlen, bátorító, túlzó ígéretek nélkül.
-- A konkrét színek, Merriweather–Inter tipográfia, mobilméretek, térközök és komponensszabályok a tervezes/design-system.md 2.0 dokumentumban rögzítve. Az építés ezt a specifikációt kövesse.
+- A konkrét színek, Merriweather–Inter tipográfia, mobilméretek, térközök és komponensszabályok a tervezes/design-system.md 2.1 dokumentumban rögzítve. Az építés ezt a specifikációt kövesse.
 
 ## 8. Tartalmak és képek
 
@@ -106,6 +106,7 @@ Külön GYIK, blog, galéria-aloldal és részletes folyamatbemutató nem kész�
 - Magyar nyelvi beállítás, megfelelő oldalcím és meta description.
 - Ellenőrzött navigáció, CTA-k és űrlapműködés.
 - Publikusan megnyitható, HTTPS-en elérhető oldal.
+
 
 
 

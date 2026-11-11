@@ -1,5 +1,23 @@
 # Agyagpad – a három prototípus ellenőrzése
 
+## Aktuális kiválasztott változat: türkiz Udvari műhely
+
+A felhasználó új kérése alapján elkészült a #1B4D4F elsődleges színű főoldal és a tanfolyamok.html részletező aloldal. Az új, öt nézetes ellenőrzés eredménye a turkiz-ellenorzes.json fájlban, a számított színkontrasztok a turkiz-kontrasztok.json fájlban találhatók. Az alábbi korábbi koncepcióellenőrzés a projekt előzménye; a régi hero-reset és közvetlen kártyaválasztás helyett most a kártya → részletes program → érdeklődés útvonal az érvényes.
+
+Ellenőrzött szélességek: **320, 390, 768, 1024 és 1440 px**, mind sikeres.
+
+- Új hero CTA a főoldali programokhoz vezet; nem változtatja meg az űrlap választását.
+- Mindhárom „Részletek és árak →” link a tanfolyamaloldal megfelelő programjához vezet.
+- A két fix ár változatlan, a céges programnál „Egyedi ajánlat” szerepel.
+- A részletes programokból az érdeklődési gomb a kiválasztott programmal tér vissza az űrlaphoz.
+- Hat kiemelt tudnivaló sötéttürkiz kártyán, két-/egyoszlopos elrendezéssel; lényeges feltétel nem veszett el.
+- A 2018/2022/2023/2024 idővonal változatlan állomásokkal, nagyobb évszámokkal.
+- Nincs túlcsordulás, külső erőforráskérés, JavaScript-hiba vagy hiányzó kép/betű. A menü és a helyi űrlap működik; adatküldés nincs.
+- Átlátszó logó, WebP-fotók, eltérő nyitókép és bemutatkozó fotó, közös fejléc/lábléc és megosztott CSS.
+- Törtfehér/türkiz gombkontraszt: **8,91:1**; a hover állapoté **11,36:1**; homokikon/türkiz kontraszt: **5,58:1**.
+
+Képernyőképek: kepernyokepek/udvari-turkiz-... és kepernyokepek/tanfolyamok-... fájlok. A szemrevételezés a mobil és asztali nyitásra, programokra, tudnivalókra, idővonalra és tanfolyamaloldalra is kiterjedt.
+
 ## Elkészült eredmény
 
 Három önálló statikus HTML-koncepció és egy közös index.html választó. Azonos, elfogadott márkaarculat és tartalom, eltérő nyitás, képhasználat és szekcióritmus. Nincs véleményszekció vagy kitalált értékelés.

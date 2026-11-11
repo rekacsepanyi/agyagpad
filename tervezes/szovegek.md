@@ -1,9 +1,9 @@
 # Agyagpad – a weboldal szövegei
 
-Verzió: 1.1 · 2026. november 11.  
+Verzió: 2.0 · 2026. november 11.  
 Állapot: az építéshez rögzített weboldalszövegek; az adatkezelési tájékoztató és a képkreditek külön, még előkészítendő tartalmak.
 
-Az Agyagpad egyetlen görgethető főoldal, négy szekcióval. Ez a dokumentum a felhasználó szövegtervének javított, kiegészített változata. A szerkezeti minta az iskolai Eliza Beauty `forrasok/szovegek.md` fájlja; a vállalkozás, a programok, a történet és a megjelenő szövegek az Agyagpad saját projektanyagából származnak.
+Az Agyagpad főoldala négy görgethető szekciót tartalmaz; a részletes programokat a tanfolyamok.html aloldal mutatja be. Az aktuális főoldalfájl koncepcio-1-udvari-muhely.html; az index.html továbbra is a három korábbi koncepció választója. Ez a dokumentum a felhasználó szövegtervének javított, kiegészített változata. A szerkezeti minta az iskolai Eliza Beauty `forrasok/szovegek.md` fájlja; a vállalkozás, a programok, a történet és a megjelenő szövegek az Agyagpad saját projektanyagából származnak.
 
 Az Agyagpad és Fehér Dóra kitalált szereplők. A dátumok és mérföldkövek a felhasználó által az aktuális szövegtervbe beemelt karaktertörténet részei. A bemutatóprojekt-jelzés az oldalon is megjelenik. Nem teszünk hozzá díjakat, intézményi elismeréseket vagy vásárlói véleményeket.
 
@@ -24,12 +24,12 @@ A **Kicker** a címsor fölötti rövid felirat; nem külön címsorszint. A sze
 
 | Menüelem | Főoldali cél | Kiegészítő oldalról elérendő cél |
 | --- | --- | --- |
-| Kezdőlap / logó | `#kezdo` | `index.html#kezdo` |
-| Tanfolyamok | `#tanfolyamok` | `index.html#tanfolyamok` |
-| Műhely | `#muhely` | `index.html#muhely` |
-| Kapcsolat | `#kapcsolat` | `index.html#kapcsolat` |
+| Kezdőlap / logó | `#kezdo` | `koncepcio-1-udvari-muhely.html#kezdo` |
+| Tanfolyamok | `tanfolyamok.html` | `tanfolyamok.html` |
+| Műhely | `#muhely` | `koncepcio-1-udvari-muhely.html#muhely` |
+| Kapcsolat | `#kapcsolat` | `koncepcio-1-udvari-muhely.html#kapcsolat` |
 
-Megvalósítási megjegyzés: a relatív `index.html#...` célok az azonos könyvtárba kerülő statikus oldalakra vonatkoznak. Az „Ugrás a tartalomra” célja minden dokumentum saját fő tartalma, nem egy másik oldal.
+Megvalósítási megjegyzés: a relatív `koncepcio-1-udvari-muhely.html#...` célok az azonos könyvtárba kerülő statikus oldalakra vonatkoznak. Az „Ugrás a tartalomra” célja minden dokumentum saját fő tartalma, nem egy másik oldal.
 
 ### Közös érdeklődési lehetőség
 
@@ -51,7 +51,7 @@ Az adatkezelési tájékoztatóra és a beküldés visszajelző oldalára nem is
 - **Közvetlen címjelölés:** Kitalált bemutatócím, nem látogatható műhelyhelyszín.
 - **Nyitvatartás:** Csütörtök–vasárnap: 10:00–18:00
 - **Tanfolyamok:** A programok időbeosztását a Tanfolyamok résznél találod.
-- **A „Tanfolyamok” szöveg célja:** főoldalon `#tanfolyamok`, kiegészítő oldalon `index.html#tanfolyamok`.
+- **A „Tanfolyamok” szöveg célja:** főoldalon `#tanfolyamok`, kiegészítő oldalon `koncepcio-1-udvari-muhely.html#tanfolyamok`.
 
 Megvalósítási megjegyzés: a nyitvatartás a kitalált műhely bemutatott működéséhez tartozik. A címjelölést nem rejtjük tooltipbe. A bemutatócím nem kap valós helyszínt jelölő térképtűt vagy útvonaltervező linket. Nyilvános telefonszám és e-mail-cím nincs megadva; nem írunk be helyettük fiktív működő elérhetőséget.
 
@@ -60,7 +60,7 @@ Megvalósítási megjegyzés: a nyitvatartás a kitalált műhely bemutatott mű
 - **Csoportcím:** Fedezd fel
 - **Hivatkozások:** Kezdőlap · Tanfolyamok · Műhely · Kapcsolat
 - **Kapcsolati hivatkozás felirata:** Írj az űrlapon
-- **Cél:** főoldalon `#kapcsolat`, kiegészítő oldalon `index.html#kapcsolat`.
+- **Cél:** főoldalon `#kapcsolat`, kiegészítő oldalon `koncepcio-1-udvari-muhely.html#kapcsolat`.
 
 #### Alsó sor és projektjelzés
 
@@ -80,10 +80,10 @@ A szükséges képkreditek e megjegyzés alatt kapnak helyet, a ténylegesen fel
 - **Kicker:** SZENTENDREI KÉZMŰVES MŰHELY
 - **Főcím (H1):** Alkoss agyagból, kapcsolódj ki Szentendrén.
 - **Leírás:** Kezdőbarát korongozás kis csoportban, egy hangulatos szentendrei kerámiaműhelyben.
-- **Fő CTA:** Érdeklődöm a tanfolyamról → `#kapcsolat`
-- **Másodlagos CTA:** Megnézem a műhelyt → `#muhely`
+- **Fő CTA:** Megnézem a tanfolyamokat → `#tanfolyamok`
+- **Másodlagos CTA:** Megismerem a műhelyt → `#muhely`
 
-A fő CTA az űrlaphoz vezet, és a programválasztót a „Válassz programot” alapállapotra állítja. Nem foglalási gomb. A részletes viselkedést az űrlap alábbi leírása rögzíti.
+A nyitó CTA a főoldali programáttekintéshez vezet; nem foglalási gomb és nem változtatja meg az űrlap programválasztását. A kártyák részletlinkjei a tanfolyamaloldalra mutatnak.
 
 ### 02 / Tanfolyamok (`#tanfolyamok`)
 
@@ -94,27 +94,25 @@ A fő CTA az űrlaphoz vezet, és a programválasztót a „Válassz programot�
 
 - **Kártyakicker:** Első találkozás az agyaggal
 - **Címsor (H3):** Korongozó kóstoló
-- **Időbeosztás:** Szombat 14:00–17:00
-- **Időtartam:** 1 alkalom · 3 óra
-- **Ár:** 18 500 Ft / fő
-- **Gomb:** Érdeklődöm a tanfolyamról → `#kapcsolat`, Korongozó kóstoló előzetes kiválasztásával.
+- **Leírás:** Próbáld ki, hogyan formálódik az agyag a kezed alatt. Kezdőként is csatlakozhatsz.
+- **Összefoglaló:** 1 alkalom · 3 óra · 18 500 Ft / fő
+- **Link:** Részletek és árak → `tanfolyamok.html#korongozo-kostolo`
 
 #### Négyhetes kezdő kurzus
 
 - **Kártyakicker:** Alapok négy alkalom alatt
 - **Címsor (H3):** Négyhetes kezdő kurzus
-- **Időbeosztás:** Szerda 17:00–19:30
-- **Időtartam:** Négy egymást követő alkalom · 4 × 2,5 óra
-- **Ár:** 65 000 Ft / fő, a teljes kurzusra
-- **Gomb:** Érdeklődöm a tanfolyamról → `#kapcsolat`, Négyhetes kezdő kurzus előzetes kiválasztásával.
+- **Leírás:** Adj időt az alkotásnak: négy alkalmon át ismerkedhetsz a korongozás alapjaival.
+- **Összefoglaló:** 4 alkalom · 4 × 2,5 óra · 65 000 Ft / fő, a teljes kurzusra
+- **Link:** Részletek és árak → `tanfolyamok.html#kezdo-kurzus`
 
 #### Céges csapatépítő
 
 - **Kártyakicker:** Közös élmény
 - **Címsor (H3):** Céges csapatépítő
-- **Időbeosztás és időtartam:** Egyedi egyeztetés szerint
-- **Ár:** Egyedi árajánlat alapján
-- **Gomb:** Érdeklődöm a tanfolyamról → `#kapcsolat`, Céges csapatépítő előzetes kiválasztásával.
+- **Leírás:** Közös kikapcsolódás a korong mellett, ahol a csapat együtt próbálhatja ki az agyagformálást.
+- **Összefoglaló:** Egyeztetett időpont · Egyedi időtartam · Egyedi ajánlat
+- **Link:** Részletek és árak → `tanfolyamok.html#ceges-csapatepito`
 
 #### Közös részvételi tudnivalók
 
@@ -182,8 +180,8 @@ Minden mező saját, állandó címkét kap; a segítő szöveg nem helyettesít
 
 #### A programválasztó és a CTA-k viselkedése
 
-- **Nyitó szekció fő CTA-ja:** a `#kapcsolat` űrlaphoz vezet; a programválasztó „Válassz programot” alapállapotba kerül, korábbi kártyaválasztás után is.
-- **Tanfolyamkártya CTA-ja:** ugyanahhoz a `#kapcsolat` űrlaphoz vezet, de előre kiválasztja a kártyához tartozó programot.
+- **Nyitó szekció fő CTA-ja:** a #tanfolyamok áttekintéshez vezet; az űrlap programválasztását nem módosítja.
+- **Tanfolyamkártya linkje:** a tanfolyamok.html megfelelő programhorgonyára vezet. Az aloldali érdeklődési gomb vezet a főoldali űrlaphoz, ?program=kostolo, ?program=kezdo-kurzus vagy ?program=csapatepito választással és #kapcsolat horgonnyal. Csak az ismert programértékek állíthatók be.
 - **Fejléc és lábléc Kapcsolat hivatkozása:** csak az űrlaphoz navigál; a már megadott programválasztást nem módosítja.
 - **Adatmegőrzés:** egyik CTA sem törli a nevet, az e-mail-címet vagy az üzenetet. A programválasztás kézzel bármikor módosítható.
 - **Alapállapot:** „Válassz programot”, üres `value=""` értékkel. Ez nem érvényes választás; a `required` mező beküldéséhez a négy lehetőség egyikét kell kiválasztani.
@@ -195,7 +193,7 @@ Minden mező saját, állandó címkét kap; a segítő szöveg nem helyettesít
 | Céges csapatépítő | `csapatepito` |
 | Ajándékozás vagy egyéb érdeklődés | `egyeb` |
 
-A kártyagombok ezekre az értékekre hivatkoznak. JavaScript nélkül a hivatkozások továbbra is az űrlaphoz vezetnek, de az automatikus programválasztás helyett a látogató választ a legördülő listából.
+Az aloldali érdeklődési gombok ezekre az értékekre hivatkoznak URL-paraméterben. JavaScript nélkül a hivatkozások az űrlaphoz vezetnek, az automatikus választás helyett a látogató választ a legördülő listából; a helyi prototípus küldése ilyenkor letiltott.
 
 #### Beküldés előtti szöveg
 
@@ -238,7 +236,7 @@ Az ismételt beküldés a küldés idejére nem elérhető. Az állapotszöveg n
 
 - **Cím:** Köszönjük az érdeklődést!
 - **Szöveg:** Az üzenetet megkaptuk. Ez egy bemutatóprojekt: a beküldés nem jelent valódi tanfolyami jelentkezést vagy helyfoglalást.
-- **Továbblépés:** Vissza a tanfolyamokhoz → főoldalon `#tanfolyamok`, külön visszajelző oldalról `index.html#tanfolyamok`.
+- **Továbblépés:** Vissza a tanfolyamokhoz → főoldalon `#tanfolyamok`, külön visszajelző oldalról `koncepcio-1-udvari-muhely.html#tanfolyamok`.
 
 A sikerüzenet csak igazoltan sikeres szolgáltatói fogadás után jelenhet meg. Nem ígérünk automatikus emberi választ vagy megadott válaszidőt. Ha a Netlify Forms külön visszajelző oldalra irányít, azon ugyanezek a szövegek szerepeljenek a közös fejléc és lábléc között. A közvetlen oldalmegnyitást nem szabad egy új, sikeres beküldés bizonyítékaként kezelni.
 
@@ -255,7 +253,7 @@ Az adatmegőrzésre vonatkozó mondat csak akkor használható, ha a megvalósí
 ## Kiegészítő oldal: adatkezelési tájékoztató
 
 - **Oldalcím / H1:** Adatkezelési tájékoztató
-- **Visszavezető link:** Vissza az érdeklődő űrlaphoz → `index.html#kapcsolat`
+- **Visszavezető link:** Vissza az érdeklődő űrlaphoz → `koncepcio-1-udvari-muhely.html#kapcsolat`
 - **Fejléc és lábléc:** a közös elemek szerint, főoldali szekciókra mutató hivatkozásokkal.
 
 A részletes tájékoztató szövege még nem végleges. Az oldal üzemeltetőjének valós adatai, az űrlap fogadóhelye és a ténylegesen választott adatkezelés ismeretében készítendő el. A kitalált Fehér Dóra és a bemutatócím nem helyettesíti a tényleges üzemeltető adatait. Hiányos tájékoztatóra mutató linkkel a működő adatgyűjtés nem tekinthető késznek. Ez előkészítési megjegyzés, nem publikálandó helykitöltő szöveg.
@@ -279,3 +277,36 @@ Ez a szövegcsomag még nem jelenti a technikai SEO megvalósítását.
 
 A négy fő szekció, a közös fejléc és lábléc, a CTA-k és az űrlap állapotszövegei rögzítve vannak. Új ár, díj, garancia, válaszidő vagy szolgáltatás csak új tartalmi döntés alapján kerülhet a szövegekbe. Az Eliza-mintában szereplő vélemények, hírlevél, garanciák és külön oldalak nem részei az Agyagpad tartalmi tervének.
 
+
+## Tanfolyamok aloldal – aktuális részletek
+
+- **Fájl:** tanfolyamok.html
+- **H1:** Találj időt az alkotásra
+- **Bevezető:** Egyetlen alkalomra érkeznél, vagy több héten át ismerkednél az agyaggal? Itt megtalálod a programok árait, időbeosztását és a közös részvételi tudnivalókat.
+- **Kóstoló:** 1 alkalom, 3 óra, szombat 14:00–17:00, 18 500 Ft / fő; legfeljebb 6 fő.
+- **Kezdő kurzus:** négy egymást követő szerda 17:00–19:30; 4 × 2,5 óra; 65 000 Ft / fő, a teljes kurzusra; legfeljebb 6 fő.
+- **Céges program:** egyedi egyeztetés szerinti időpont és időtartam, legfeljebb 6 fő, Egyedi ajánlat.
+- **Fix programok érdeklődési gombja:** Érdeklődöm a tanfolyamról
+- **Céges érdeklődési gomb:** Egyedi ajánlatról érdeklődöm
+- **Gombcélok:** a kiválasztott főoldal ?program=...#kapcsolat címe, a fenti programértékekkel.
+- **Közös fejléc/lábléc:** azonos megjelenés és adatok; főoldali szekciókra és a tanfolyamok.html oldalra mutató linkek.
+
+### A főoldalon és aloldalon közös, rövid tudnivalók
+
+1. **Kezdőként is jöhetsz.** Nem szükséges előképzettség.
+2. **Az alapanyag benne van.** Az ár tartalmazza az agyagot, a mázat és a két égetést.
+3. **Kis csoportban alkotunk.** Legfeljebb hat fővel dolgozunk.
+4. **Az alkotásod később vihető haza.** Az utolsó alkalom után két héttel veheted át az elkészült tárgyakat.
+5. **A tanulás és az élmény a fontos.** Meghatározott darabszámot vagy hibátlan végeredményt nem garantálunk.
+6. **Az időpontot külön egyeztetjük.** A heti időbeosztás tájékoztató; a konkrét indulás és a szabad férőhely egyeztetéssel tisztázható.
+
+### Rövidített idővonal a főoldalon
+
+- **2018:** Az első találkozás az agyaggal. Első korongozóélmény.
+- **2022:** Megnyílik az Agyagpad. Saját műhely Szentendrén.
+- **2023:** Az első saját kollekció. Bögrék, tálak, tányérok.
+- **2024:** Elindulnak a kezdő foglalkozások. Alkotás legfeljebb hatfős csoportban.
+
+### Következetes helyszíni tájékoztatás
+
+A csütörtök–vasárnap 10:00–18:00 nyitvatartás a kitalált műhelyboltra vonatkozik. A tanfolyamoknak ettől elkülönített programbeosztása van. 2000 Szentendre, Agyagliget köz 4. kitalált bemutatócím, nem látogatható műhelyhelyszín. A bemutatóprojekt nem fogad valódi tanfolyami jelentkezést; az űrlap nem küld üzenetet. Új fizetési, lemondási vagy visszatérítési feltételeket nem találtunk ki.

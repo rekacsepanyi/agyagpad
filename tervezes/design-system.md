@@ -1,7 +1,7 @@
 # Agyagpad – design system
 
-Verzió: 2.1 · 2026. november 11.  
-Állapot: rögzített Agyagpad-specifikáció, a felhasználó által megadott méretezési alap és a javított Figma-tábla alapján.
+Verzió: 3.0 · 2026. november 11.  
+Állapot: a kiválasztott Udvari műhely türkiz változata, részletes tanfolyamaloldallal. A 15. szakasz a felhasználó legújabb szöveg- és elrendezési döntéseit rögzíti; ezek felülírják a korábbi koncepciószabályokat.
 
 ## 1. Források és az adatok státusza
 
@@ -24,7 +24,7 @@ Az alábbi méretek az aktuális megvalósítási előírások, nem függőben l
 
 - Meleg, földközeli, kézműves, közvetlen; a szíves bögre adja a játékos részletet.
 - Levegős elrendezés, anyagközeli fotók, jól olvasható magyar szövegek.
-- A terrakotta irányítja a figyelmet az érdeklődésre; a sötét szöveg és a törtfehér háttér biztosítja a nyugalmat.
+- A mély sötéttürkiz irányítja a figyelmet a programokra és az érdeklődésre; a terrakotta az évszámok és a finom részletek színe; a sötét szöveg és a törtfehér háttér biztosítja a nyugalmat.
 - A kézműves hangulatot a meglévő logó, a képek és a betűk adják. Nincs szükség minden felületre textúrára, szabálytalan keretre vagy dekorációra.
 - Nincs külön GYIK, blog, webshop vagy automatikus foglalás. A terv számozott szekciójelölései tervezési címkék, az éles oldalon nem kötelező megjeleníteni őket.
 
@@ -34,9 +34,11 @@ Az alábbi méretek az aktuális megvalósítási előírások, nem függőben l
 | --- | --- | --- |
 | `--color-bg` | `#F9F8F6` | Meleg törtfehér fő háttér; elsődleges gomb felirata |
 | `--color-text` | `#2D2A26` | Törzsszöveg, címsorok, címkék, ikonok |
-| `--color-primary` | `#A65B32` | Terrakotta CTA, hangsúlyos hivatkozás, logó |
+| `--color-primary` | `#1B4D4F` | Sötéttürkiz CTA, fontos kiemelés, hivatkozás, tudnivalóblokk |
+| `--color-clay` | `#A65B32` | Terrakotta évszámok, kis jelölések, dekoráció és a logó PAD része |
 | `--color-sand` | `#D9C3B0` | Homokszínű kiegészítő felület, dekoratív elválasztó |
-| `--color-primary-hover` | `#8C4A27` | Interaktív elem hover és aktív állapota |
+| `--color-primary-hover` | `#123C3E` | A türkiz gomb sötétebb hover és aktív árnyalata |
+| `--color-earth` | `#8C4A27` | Kis terrakotta címkék sötétebb változata |
 
 ### Használat és ellenőrzött kontraszt
 
@@ -45,14 +47,16 @@ Az arányok a dokumentumban rögzített HEX-értékekből, sRGB relatív fénys�
 | Előtér / háttér | Kontraszt | Használat |
 | --- | --- | --- |
 | Sötét / törtfehér | 13,45:1 | Alap szöveg és címsor |
-| Törtfehér / terrakotta | 4,75:1 | Elsődleges gomb normál felirata |
-| Törtfehér / sötét terrakotta | 6,33:1 | Gomb hover felirata |
-| Terrakotta / törtfehér | 4,75:1 | Hivatkozás, rövid kiemelés |
+| Törtfehér / sötéttürkiz | 8,91:1 | Elsődleges gomb és tudnivalóblokk szövege |
+| Törtfehér / türkiz hover | 11,36:1 | Gomb hover felirata |
+| Sötéttürkiz / törtfehér | 8,91:1 | Hivatkozás, fő kiemelés |
+| Terrakotta / törtfehér | 4,75:1 | Évszám és kis jelölés |
+| Homok / sötéttürkiz | 5,58:1 | Tudnivalóikonok |
 | Sötét / homok | 8,42:1 | Kártya és információs blokk szövege |
 | Terrakotta / homok | 2,97:1 | Szöveghez és lényeges ikonhoz ne használjuk |
 | Homok / törtfehér | 1,60:1 | Dekorációhoz jó; önálló mezőhatárnak nem elég erős |
 
-Homokszínű felületen a szöveg és az aláhúzott link is sötét legyen. Az elsődleges terrakotta gombot törtfehér felületre helyezzük; homokszínű környezetben kapjon törtfehér befoglalót vagy sötét keretet. Nem csökkentjük a gombszöveg átlátszatlanságát. Fotóra közvetlenül nem helyezünk szöveget: külön, egyszínű szövegblokkot használunk.
+Homokszínű felületen sötét szöveg és sötéttürkiz link használható; a türkiz/homok kontrasztja 5,58:1. Az elsődleges gomb sötéttürkiz, törtfehér szöveggel. Nem csökkentjük a gombszöveg átlátszatlanságát. Fotóra közvetlenül nem helyezünk szöveget: külön, egyszínű szövegblokkot használunk.
 
 Hiba és siker jelzéséhez ebben a változatban nem vezetünk be új márkaszínt: sötét szöveg, egyértelmű ikon és állapotszöveg jelöl. A hiba nem pusztán színváltozás.
 
@@ -151,10 +155,10 @@ A mobil menü a fejléc alatt nyílik; nem teljes képernyős modal. A gomb `ari
 
 ### Elsődleges CTA
 
-- Normál: terrakotta háttér, törtfehér szöveg, 1 px terrakotta keret, 999 px kapszulaforma.
+- Normál: sötéttürkiz háttér, törtfehér szöveg, 1 px sötéttürkiz keret, 999 px kapszulaforma.
 - Felirat: Inter SemiBold 600, 15 px, 130% sorköz, nagybetű, 0,04em ritkítás. A súly a javított Figma, a méret az Eliza skálája. A hosszú magyar felirat több sorba törhet.
 - Belső tér: asztalon 16 px függőlegesen és 32 px vízszintesen az Eliza alapján; mobilon és tanfolyamkártyán 16 × 24 px a hosszú CTA miatt. A gomb legalább 48 px magas, a tényleges szöveg és padding miatt egysoros formában körülbelül 54 px; több sorral nőhet.
-- Hover és lenyomott állapot: sötét terrakotta; a lenyomást enyhe belső keret is jelezheti. Nincs ugráló méret vagy elmozdítás.
+- Hover és lenyomott állapot: #123C3E; a lenyomást enyhe belső keret is jelezheti. Nincs ugráló méret vagy elmozdítás.
 - Fókusz: 3 px sötét kontúr, 3 px törtfehér elválasztóval. Nem támaszkodik kizárólag színváltásra.
 - Küldés: „Küldés…” szöveg, foglaltságjelzés, ismételt beküldés blokkolása.
 - Letiltott gomb: homok háttér, sötét szöveg, egyértelmű ok/szöveg; nem csökkentett átlátszatlanság.
@@ -222,9 +226,11 @@ A rögzített szabályok kódolható alapja. A komponensek és a reszponzív vis
 :root {
   --color-bg: #F9F8F6;
   --color-text: #2D2A26;
-  --color-primary: #A65B32;
+  --color-primary: #1B4D4F;
+  --color-clay: #A65B32;
   --color-sand: #D9C3B0;
-  --color-primary-hover: #8C4A27;
+  --color-primary-hover: #123C3E;
+  --color-earth: #8C4A27;
   --font-heading: "Merriweather", Georgia, serif;
   --font-body: "Inter", Arial, sans-serif;
   --space-8: .5rem;
@@ -338,3 +344,19 @@ A felhasználó az Udvari műhely koncepciót választotta. Az alábbi szabályo
 - **Tudnivalók:** #D9C3B0 háttér, 16 px sugár. Öt tudnivaló kétoszlopos rácsban, 768 px alatt egy oszlopban. 24 px-es, dekoratív kör-pipa ikonok #8C4A27 színnel; a szöveg #2D2A26. A HTML-lista szemantikája megmarad, látható alap bullet nincs.
 - **Fotók:** 16 px lekerekítés. A nyitó portré mögött visszafogott homokszínű amorf folt; a bemutatkozó fotó mögött a terrakotta 18%-os, fő háttérrel kevert árnyalata. A dekoráció nem mozog, nem takarja a szöveget, és mobilon kisebb eltéréssel követi a képet. Új márkaszínt nem vezetünk be.
 - **Lábléc:** az alsó sáv kisméretű, olvasható sora: „© 2026 Agyagpad · AI webdesigner vizsgamunka. Az Agyagpad kitalált vállalkozás, az oldal bemutatóprojekt.” Az adatkezelési hivatkozás, a fotóillusztrációs megjegyzés és a valódi helyfoglalás kizárása megmarad. Az űrlap továbbra is helyi bemutató.
+
+## 15. Aktuális főoldal és tanfolyamaloldal – türkiz finomítás
+
+- **Színhierarchia:** elsődleges #1B4D4F; hover #123C3E. A #A65B32 a logó, évszámok és dekoráció terrakottája marad. Törtfehér és homok alapok változatlanok. A részletes kontrasztszámítás: ellenorzes/turkiz-kontrasztok.json.
+- **Megosztott megjelenés:** a kiválasztott főoldal, a tanfolyamok.html és az adatkezeles.html az assets/udvari-muhely.css fájlt és azonos fejléc/lábléc elemeket használja. A betűútvonalak a CSS mappájából fonts/... alakúak.
+- **Főoldali nyitás:** reszletfoto2 WebP-sorozat, kezek és agyag közelről. A bemutatkozásban a hero1 munka közbeni fotó marad, így nincs kétszer hangsúlyos portré.
+- **Hero CTA-k:** „Megnézem a tanfolyamokat” → #tanfolyamok; „Megismerem a műhelyt” → #muhely. Nem változtatják meg az űrlap programválasztását.
+- **Kártyák:** rövid élményleírás, alkalomszám és időtartam, a két fix programnál változatlan ár és egység. Céges program: „Egyedi ajánlat”. A „Részletek és árak →” szöveges link a tanfolyamok.html megfelelő programhorgonyára vezet, nem az űrlaphoz.
+- **Részletes kínálat:** a tanfolyamok.html három programot, pontos heti időbeosztást, árakat, közös feltételeket és a bemutatott érdeklődési folyamatot tartalmazza. Nem találunk ki fizetési vagy lemondási feltételeket. Az érdeklődési gomb a főoldal ?program=...#kapcsolat címére vezet, validált programválasztással.
+- **Tudnivalók:** sötéttürkiz háttér, törtfehér szöveg, homokszínű 24 px-es kör-pipa ikonok. Hat rövid kiemelt állítás: kezdőbarát, anyagok/égetések, kis csoport, átvétel, végeredmény korlátai, időpont-egyeztetés. 768 px-től két oszlop, alatta egy. A két hét a meglévő brief szerinti átvételi idő.
+- **Idővonal:** az évszámok és a meglévő négy mérföldkő változatlan. Mobilon 28 px, tablettől 36 px Merriweather 700 terrakotta évszámok. Vízszintes / függőleges viselkedés megmarad, leírások rövidítve.
+- **Olvashatóság:** kis leírások, címkék és űrlapsegédletek legalább 15 px, mezőszöveg legalább 16 px; levegős sorköz. A dekoráció eltolt vékony képkeret és egy visszafogott, koronggyűrűket idéző vonalgrafika; levélminta és állandó animáció nincs.
+- **Logó:** változatlan átlátszó SVG, doboz és keret nélkül.
+- **Közös adatok:** csütörtök–vasárnap 10:00–18:00 a bemutatott műhelybolt nyitvatartása; a tanfolyamoknak külön programbeosztása van. A cím kitalált és nem látogatható. A projektjelzés és az üzenetküldés nélküli prototípusjelzés megmarad.
+
+A korábbi 14. szakasz homokszínű tudnivalókártyája és a 7. szakasz régi fő CTA-ja történeti előzmény: a kiválasztott oldalon ezek helyett a fenti türkiz blokk és új navigáció érvényes. Az eredeti 2.1-es dokumentum az archivum/design-system-2.1.md fájlban megmarad.

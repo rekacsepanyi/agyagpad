@@ -1,0 +1,50 @@
+{
+  "results": [
+    {
+      "width": 320,
+      "passed": true,
+      "checks": [
+        "színek, olvasható 6 tudnivaló, idővonal és képhasználat",
+        "3 főoldali részletlink, árak és működő tanfolyamaloldal",
+        "aloldali érdeklődés programválasztással, adatmegőrzés, helyi űrlap"
+      ]
+    },
+    {
+      "width": 390,
+      "passed": true,
+      "checks": [
+        "színek, olvasható 6 tudnivaló, idővonal és képhasználat",
+        "3 főoldali részletlink, árak és működő tanfolyamaloldal",
+        "aloldali érdeklődés programválasztással, adatmegőrzés, helyi űrlap"
+      ]
+    },
+    {
+      "width": 768,
+      "passed": true,
+      "checks": [
+        "színek, olvasható 6 tudnivaló, idővonal és képhasználat",
+        "3 főoldali részletlink, árak és működő tanfolyamaloldal",
+        "aloldali érdeklődés programválasztással, adatmegőrzés, helyi űrlap"
+      ]
+    },
+    {
+      "width": 1024,
+      "passed": true,
+      "checks": [
+        "színek, olvasható 6 tudnivaló, idővonal és képhasználat",
+        "3 főoldali részletlink, árak és működő tanfolyamaloldal",
+        "aloldali érdeklődés programválasztással, adatmegőrzés, helyi űrlap"
+      ]
+    },
+    {
+      "width": 1440,
+      "passed": true,
+      "checks": [
+        "színek, olvasható 6 tudnivaló, idővonal és képhasználat",
+        "3 főoldali részletlink, árak és működő tanfolyamaloldal",
+        "aloldali érdeklődés programválasztással, adatmegőrzés, helyi űrlap"
+      ]
+    }
+  ],
+  "passed": true
+}

@@ -43,17 +43,17 @@ Ajándékozással kapcsolatos kérdés az űrlapon küldhető. Külön utalvány
 
 Elsődleges cél: érdeklődések és jelentkezési szándékok gyűjtése a tanfolyamokra.
 
-Fő CTA: „Érdeklődöm a tanfolyamról”.
-- A nyitó szekcióból az űrlaphoz vezet, ahol a látogató programot választhat.
-- A tanfolyamkártyákról az adott program előzetes kiválasztásával vezet az űrlaphoz.
+Főoldali fő CTA: „Megnézem a tanfolyamokat” → #tanfolyamok. A részletes tanfolyamaloldalról „Érdeklődöm a tanfolyamról”, illetve „Egyedi ajánlatról érdeklődöm” gomb vezet a főoldali űrlaphoz, a program kiválasztásával.
+- A nyitó szekcióból a főoldali programáttekintéshez vezet; nem módosítja az űrlap választását.
+- A tanfolyamkártyák „Részletek és árak →” linkje a tanfolyamok.html programhorgonyára mutat. Az ottani érdeklődési gomb állítja be az adott programot a főoldali űrlapban.
 - Az űrlap beküldése nem jelent automatikus helyfoglalást. A részvétel külön egyeztetéssel és visszaigazolással válna véglegessé.
 Másodlagos cél: a műhely és a kerámiák bemutatása, kedvteremtés a személyes látogatáshoz.
 
-Másodlagos CTA: „Megnézem a műhelyt”, amely a Műhely és alkotó szekcióhoz vezet.
+Másodlagos CTA: „Megismerem a műhelyt”, amely a Műhely és alkotó szekcióhoz vezet.
 
 ## 5. Oldalszerkezet
 
-Egyetlen görgethető weboldal, négy szekcióval. A navigáció az oldal megfelelő részeire mutat.
+Négy szekciós görgethető főoldal, külön tanfolyamok.html részletező aloldallal és adatkezelési tájékoztatóval. A főoldali programkártyák az aloldal megfelelő programjához vezetnek.
 
 1. Nyitó szekció: egyértelmű főcím, rövid bemutatkozás, szentendrei helyszín, hangulatos kép, fő és másodlagos CTA.
 
@@ -88,7 +88,7 @@ Külön GYIK, blog, galéria-aloldal és részletes folyamatbemutató nem kész�
 - Arculati referencia: tervezes/arculat/Arculati-tabla.png. Az új változat felülírja a korábbi vázaemblémás irányt.
 - Kerülendő: steril, hideg, luxusüzletre emlékeztető megjelenés és túlzsúfoltság.
 - Szöveghang: magyar nyelvű, tegező, közvetlen, bátorító, túlzó ígéretek nélkül.
-- A konkrét színek, Merriweather–Inter tipográfia, mobilméretek, térközök és komponensszabályok a tervezes/design-system.md 2.1 dokumentumban rögzítve. Az építés ezt a specifikációt kövesse.
+- A konkrét színek, Merriweather–Inter tipográfia, mobilméretek, térközök és komponensszabályok a tervezes/design-system.md 3.0 dokumentumban rögzítve. Az építés ezt a specifikációt kövesse.
 
 ## 8. Tartalmak és képek
 
@@ -110,4 +110,7 @@ Külön GYIK, blog, galéria-aloldal és részletes folyamatbemutató nem kész�
 
 
 
+
+
+A kiválasztott Udvari műhely aktuális színhierarchiája sötéttürkiz (#1B4D4F) elsődleges gombokat és kiemeléseket használ; a terrakotta a logó, az évszámok és a dekoráció színe marad. A részletes feltételek és a főoldali rövid kártyák tartalma a szovegek.md 2.0 frissítésében található.
 

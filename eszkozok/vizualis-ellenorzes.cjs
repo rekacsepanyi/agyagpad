@@ -22,7 +22,7 @@ for(let i=0;i<files.length;i++){
  }
  await context.close();
  const nojs=await browser.newContext({javaScriptEnabled:false,viewport:{width:390,height:900}});const nojsPage=await nojs.newPage();await nojsPage.goto('http://127.0.0.1:4173/'+files[i]);
- const links=await nojsPage.locator('header a[href="#tanfolyamok"]').first().isVisible();const disabled=await nojsPage.locator('form button[type="submit"]').isDisabled();
+ const links=await nojsPage.locator('header .site-nav a').filter({hasText:'Tanfolyamok'}).first().isVisible();const disabled=await nojsPage.locator('form button[type="submit"]').isDisabled();
  if(!links||!disabled)throw Error('JavaScript nélküli fallback hibás: '+files[i]);checks.push({file:files[i],fileProtocol:true,noJsNavigation:true,noJsSubmitDisabled:true});await nojs.close();
 }
 const page=await browser.newPage({viewport:{width:1440,height:1000}});await page.goto('http://127.0.0.1:4173/index.html',{waitUntil:'networkidle'});await page.screenshot({path:path.join(root,'ellenorzes/kepernyokepek/koncepciovalaszto.png'),fullPage:true});await page.setViewportSize({width:390,height:900});await page.screenshot({path:path.join(root,'ellenorzes/kepernyokepek/koncepciovalaszto-mobil.png'),fullPage:true});

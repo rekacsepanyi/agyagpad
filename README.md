@@ -4,7 +4,7 @@ Az Agyagpad kitalált szentendrei kerámiaműhely bemutatóprojektje.
 
 ## A három elkészült weboldal-koncepció
 
-**Kiválasztott és továbbfejlesztett irány:** [Udvari műhely](koncepcio-1-udvari-muhely.html). Első finomítás: átlátszó vektoros logó, reszponzív mérföldkő-idővonal, ikonos tudnivalók, organikus fotóhátterek és összevont láblécjelzés. A másik két változat megmarad összehasonlításra.
+**Kiválasztott és továbbfejlesztett irány:** [Udvari műhely](koncepcio-1-udvari-muhely.html). Aktuális finomítás: mély sötéttürkiz elsődleges szín, anyagközeli nyitókép, rövid programkártyák és külön [Tanfolyamok és árak](tanfolyamok.html) aloldal. A logó átlátszó, az idővonal reszponzív, a hat tudnivaló sötéttürkiz kártyán jelenik meg. A másik két változat megmarad összehasonlításra.
 
 Nyisd meg az [index.html koncepcióválasztót](index.html) a böngészőben, akár dupla kattintással. A fotók, betűk, stílusok és interakciók helyi fájlokból működnek, nem igényelnek internetkapcsolatot vagy telepítést.
 
@@ -78,4 +78,9 @@ Hátravan a választott koncepció véglegesítése, a fotóforrások tételes r
 Az `eszkozok/helyi-szerver.cjs` opcionális helyi előnézetet indít (`node eszkozok/helyi-szerver.cjs`), a három HTML-oldal azonban szerver nélkül is megnyitható. A fejlesztői ellenőrző és képoptimalizáló szkriptek a helyi Codex Node-runtime sharp/playwright csomagjait használják; a kész HTML-fájlok futtatásához ezek nem szükségesek. A nagy eredeti fotók megmaradnak helyben, a `.gitignore` kizárja őket a Gitből; az optimalizált WebP-k és az oldalak verziókövetettek.
 
 Beadási határidő: 2026. november 24. A kiírás szerint kérhető haladékkal december 1.
+
+
+A kiválasztott változat aktuális megjelenési forrása assets/udvari-muhely.css, dokumentációja tervezes/design-system.md 3.0 és tervezes/szovegek.md 2.0. A friss öt nézetes ellenőrzés: ellenorzes/turkiz-ellenorzes.json; kontrasztok: ellenorzes/turkiz-kontrasztok.json. A régebbi koncepcióellenőrzések történeti anyagok, az új navigációt a turkiz-ellenorzes.cjs ellenőrzi.
+
+Az archivum/udvari-muhely-turkiz-migracio.cjs egyszeri átalakítási segédlet, nem aktuális buildparancs. A kész HTML- és CSS-fájlokat kell tovább szerkeszteni; a migrációt nem kell újrafuttatni.
 

@@ -57,7 +57,7 @@ p{max-width:min(42.5rem,65ch)}p+p{margin-top:1rem}
 .site-nav a,.concept-link{display:inline-flex;align-items:center;min-height:3rem;color:var(--ink);text-decoration:none;font:600 1rem/1.5 var(--body)}
 .site-nav a:hover,.site-nav [aria-current],.concept-link:hover{text-decoration:underline;text-underline-offset:.42em}
 .concept-link{margin-left:2rem;font-size:var(--small);font-weight:400}
-/* A türkiz kizárólag a mondatkezdő nagybetűs kicker feliratoké. */
+/* Mondatkezdő nagybetűs kicker feliratok. */
 .eyebrow,.course-tag{color:var(--teal);font:400 .9375rem/1.5 var(--body);letter-spacing:normal;text-transform:none}
 .eyebrow{margin-bottom:1rem}.eyebrow::before{content:none}.course-tag{margin-bottom:.5rem}
 .hero{display:grid;align-items:center;gap:2rem;padding-block:4rem;background:var(--paper)}.hero p.intro{margin-top:1rem;max-width:32rem}
@@ -126,3 +126,7 @@ p,.detail-link,.button,.notes-grid li,figcaption{overflow-wrap:anywhere}
 #tanfolyamok .notes{background:var(--teal);color:var(--paper);padding:1.5rem}
 #tanfolyamok .notes h3,#tanfolyamok .notes strong,#tanfolyamok .notes .note-icon{color:var(--paper)}
 @media(min-width:48rem){#tanfolyamok .notes{padding:2rem}}
+.header-cta{margin-left:1.5rem;flex-shrink:0}
+@media(min-width:64rem) and (max-width:74.999rem){.site-header .brand{width:12rem}.site-nav{gap:1rem}.header-cta{margin-left:1rem;padding-inline:1.25rem}}
+@media(max-width:63.999rem){.header-cta{margin:1rem 0 0}.nav-group{flex-direction:column}.site-nav{width:100%}}
+@media(max-width:47.999rem){.header-cta{width:100%}}

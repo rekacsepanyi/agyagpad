@@ -320,3 +320,8 @@ A kickerek normál, mondatkezdő nagybetűs szövegek, Inter Regular 400 betűve
 ### Böngészőmegjegyzések alapján pontosítva
 
 A sorrend: tanfolyamok (programkártyák, majd közvetlenül a tudnivalóblokk), alkotó és műhely (idővonal, műhelybolt), kapcsolat. A hero képaláírása dőlt és idézőjeles: „Az alkotás az első mozdulattal kezdődik.” A főoldali második programkártya rövid neve Négyhetes kurzus; az űrlap és az aloldal teljes programneve megmarad. A három „Részletek és árak” linkhez nem tartozik nyíl. A végeredményről szóló tudnivalónál a „vagy” új sort kezd.
+
+
+### Közös fejléc CTA
+
+A navigáció végén kiemelt „Érdeklődöm” gomb szerepel a főoldalon, a Tanfolyamok és az Adatkezelés aloldalon. A Tanfolyamok menüpont megmarad; Koncepciók menüpont nincs. A CTA minden esetben a főoldali #kapcsolat szakaszhoz vezet, az aloldalakról a főoldalfájlt is megadva. A lenyíló mobilmenüben ugyanez a gomb szerepel.

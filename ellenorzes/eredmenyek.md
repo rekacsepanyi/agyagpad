@@ -93,3 +93,9 @@ A fooldal-ellenorzes.cjs mind a hét futása sikeres: 320, 390, 768, 1024 és 14
 ### Tudnivalóblokk visszahelyezése a tanfolyamokhoz
 
 Az egyetlen tudnivalóblokk közvetlenül a három programkártya alatt helyezkedik el, velük azonos szélességgel. Háttér #1B4D4F; cím, szöveg és ikonok #F9F8F6 (8,91:1). Belső tér mobilon 24 px, asztalon 32 px; két/egy oszlop. Új szín nincs. A korábbi különálló hely és üres konténere megszűnt. A böngészős ellenőrzés az elhelyezést, egyszeri előfordulást, igazítást, színeket és oszlopszámot is vizsgálja.
+
+### Fejléc: Érdeklődöm CTA
+
+A főoldal és a két meglévő aloldal fejlécében a navigáció jobb szélén elsődleges „Érdeklődöm” gomb jelenik meg. Célja a főoldali kapcsolat szakasz; a Tanfolyamok menüpont megmaradt. A korábbi aloldali Koncepciók hivatkozást a CTA váltotta. Mobilon a lenyíló menü része. A terrakotta, törtfehér, sötétebb terrakotta hover és grafit fókusz a meglévő tokeneket használja.
+
+A fejlec-ellenorzes.cjs 30 sikeres fejlécpróbája: három oldal 320, 390, 768, 1023, 1024, 1100, 1200 és 1440 px-en; további 390 és 1024 px-es próbák 200%-os szövegmérettel. Ellenőrzött: fejlécen belüli átfedés és túlcsordulás, gombszínek és lekerekítés, hover, Tab-fókusz, Enter-navigáció a főoldali űrlaphoz, mobilmenü nyitás és bezárás. Eredmény: ellenorzes/fejlec-ellenorzes.json; fejléc-képernyőképek 390, 1024 és 1100 px-en. Ez a jelentés a fejlécet vizsgálja, nem helyettesíti az aloldalak teljes tartalmi és elrendezési ellenőrzését.

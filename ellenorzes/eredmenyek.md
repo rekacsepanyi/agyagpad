@@ -107,3 +107,7 @@ A Jelentkezés fejlécgomb text-transform: none beállítást kapott. A bögre m
 A türkiz fotókeretek 1,5 px-es vonalat kaptak; a bemutatkozó és műhelybolti fotó mellett jobb oldali koronggyűrű-motívum jelenik meg. A műhelybolt tartalmi sorrendje szöveg, fotó: asztalon bal/jobb, mobilon fent/lent. A hero idézete olvasható törtfehér kártyán a fotó bal alsó részére került, grafit dőlt Merriweather szöveggel és rövid türkiz vonallal. Új szín nincs.
 
 A legutóbbi főoldalellenőrzés hét futása sikeres (320, 390, 768, 1024, 1440 px, valamint mobil és asztal 200%-os szöveggel). Külön vizsgálja az idézet fotón belüli függőleges elhelyezését, a műhelybolt sorrendjét, a gomb normál betűhasználatát és az SVG-favicon hivatkozását. A 30 fejlécpróba a gomb és az új logó mellett is sikeres volt.
+
+### Fotómotívum: levezetett vonal, korongspirál
+
+A három díszített fotón a korábbi körgyűrűk és keretek helyét egy jobb alsó saroktól induló, lefelé vezetett türkiz vonal vette át, háromfordulatú spirálvéggel. Mindhárom dekoráció egyetlen folyamatos SVG-útvonal; mobilon kisebb méretben jelenik meg. A főoldal hét ellenőrzési futása sikeres, 200%-os szövegmérettel is. A hero aktuális képernyőképén a spirál a kép alatt, az idézettől külön, tartalmi takarás nélkül látható.

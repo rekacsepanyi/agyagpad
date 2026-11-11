@@ -1,7 +1,7 @@
 # Agyagpad – a weboldal szövegei
 
-Verzió: 2.3 · 2026. november 11.
-Állapot: az építéshez rögzített weboldalszövegek; az adatkezelési tájékoztató és a képkreditek külön, még előkészítendő tartalmak.
+Verzió: 2.4 · 2026. november 11.
+Állapot: a megtartott 16527e0 oldalváltozathoz egyeztetett weboldalszövegek; az adatkezelési tájékoztató és a képkreditek külön, még előkészítendő tartalmak.
 
 Az Agyagpad főoldala négy görgethető szekciót tartalmaz; a részletes programokat a tanfolyamok.html aloldal mutatja be. Az aktuális főoldalfájl koncepcio-1-udvari-muhely.html; az index.html továbbra is a három korábbi koncepció választója. Ez a dokumentum a felhasználó szövegtervének javított, kiegészített változata. A szerkezeti minta az iskolai Eliza Beauty `forrasok/szovegek.md` fájlja; a vállalkozás, a programok, a történet és a megjelenő szövegek az Agyagpad saját projektanyagából származnak.
 
@@ -17,7 +17,7 @@ A **Kicker** a címsor fölötti rövid felirat; nem külön címsorszint. A sze
 
 - **Logó:** a megadott bögrés Agyagpad-logó „Kerámiaműhely” alcímmel.
 - **Logóhivatkozás hozzáférhető neve:** Agyagpad – kezdőlap
-- **Menü:** Kezdőlap · Tanfolyamok · Műhely · Kapcsolat
+- **Menü:** Kezdőlap · Tanfolyamok · Műhely · Kapcsolat; külön kiemelt CTA: Jelentkezés
 - **Mobil menügomb, zárt állapot:** Menü
 - **Mobil menügomb, nyitott állapot:** Menü bezárása
 - **Billentyűzetes ugróhivatkozás:** Ugrás a tartalomra
@@ -28,6 +28,7 @@ A **Kicker** a címsor fölötti rövid felirat; nem külön címsorszint. A sze
 | Tanfolyamok | `tanfolyamok.html` | `tanfolyamok.html` |
 | Műhely | `#muhely` | `koncepcio-1-udvari-muhely.html#muhely` |
 | Kapcsolat | `#kapcsolat` | `koncepcio-1-udvari-muhely.html#kapcsolat` |
+| Jelentkezés CTA | `#kapcsolat` | `koncepcio-1-udvari-muhely.html#kapcsolat` |
 
 Megvalósítási megjegyzés: a relatív `koncepcio-1-udvari-muhely.html#...` célok az azonos könyvtárba kerülő statikus oldalakra vonatkoznak. Az „Ugrás a tartalomra” célja minden dokumentum saját fő tartalma, nem egy másik oldal.
 
@@ -50,8 +51,8 @@ Az adatkezelési tájékoztatóra és a beküldés visszajelző oldalára nem is
 - **Cím:** 2000 Szentendre, Agyagliget köz 4.
 - **Közvetlen címjelölés:** Kitalált bemutatócím, nem látogatható műhelyhelyszín.
 - **Nyitvatartás:** Csütörtök–vasárnap: 10:00–18:00
-- **Tanfolyamok:** A programok időbeosztását a Tanfolyamok résznél találod.
-- **A „Tanfolyamok” szöveg célja:** főoldalon `#tanfolyamok`, kiegészítő oldalon `koncepcio-1-udvari-muhely.html#tanfolyamok`.
+- **Tanfolyamok:** A programok időbeosztását a Tanfolyamok oldalon találod.
+- **A „Tanfolyamok” szöveg célja:** `tanfolyamok.html`.
 
 Megvalósítási megjegyzés: a nyitvatartás a kitalált műhely bemutatott működéséhez tartozik. A címjelölést nem rejtjük tooltipbe. A bemutatócím nem kap valós helyszínt jelölő térképtűt vagy útvonaltervező linket. Nyilvános telefonszám és e-mail-cím nincs megadva; nem írunk be helyettük fiktív működő elérhetőséget.
 
@@ -138,10 +139,10 @@ Ma olyan bögréket, tálakat és vázákat készítek, amelyeket jó kézbe ven
 
 #### Rövid mérföldkövek
 
-- **2018 – Az első találkozás az agyaggal.** Egy korongozó foglalkozásból rendszeres alkotás születik.
-- **2022 – Megnyílik az Agyagpad.** Saját műhely egy régi szentendrei udvari helyiségben.
-- **2023 – Az első saját kollekció.** Kézzel készült bögrék, tálak és tányérok a mindennapokra.
-- **2024 – Elindulnak a kezdő foglalkozások.** Közös alkotás legfeljebb hatfős csoportokban.
+- **2018 – Az első találkozás az agyaggal.** Első korongozóélmény.
+- **2022 – Megnyílik az Agyagpad.** Saját műhely Szentendrén.
+- **2023 – Az első saját kollekció.** Bögrék, tálak, tányérok.
+- **2024 – Elindulnak a kezdő foglalkozások.** Alkotás legfeljebb hatfős csoportban.
 
 Mind a négy rövid mérföldkő használható, a bemutatkozással egy szekción belül; mobilon egymás alatt. Nem külön ötödik fő szekció. Ezek kitalált karakteradatok, nem valós szakmai referenciák.
 
@@ -313,7 +314,7 @@ A csütörtök–vasárnap 10:00–18:00 nyitvatartás a kitalált műhelyboltra
 
 ## Aktuális főoldali megjelenés
 
-A kickerek normál, mondatkezdő nagybetűs szövegek, Inter Regular 400 betűvel, bevezető vonal vagy em dash nélkül. A kickerek, a két eltolt képkeret, a koronggyűrű-motívum és a tudnivalóblokk háttere türkizek. A tudnivalóblokk címe, szövege és ikonjai törtfehérek. H1 terrakotta, H2/H3 grafit. A főoldali kártyák nem mutatnak konkrét árat; a részletes árak a meglévő tanfolyamok.html oldalon maradnak. A fejlécből a Koncepciók hivatkozás kikerült. A műhelyboltban csak a kész bögréket mutató fotó marad. A tárgyak bemutatásáról szóló második mondat új bekezdésben kezdődik. Az idővonal szövege és a kitalált adatok változatlanok. Az aloldalak további tartalmi munkája, így a muhely.html galériája a főoldal lezárása után következik.
+A kickerek normál, mondatkezdő nagybetűs szövegek, Inter Regular 400 betűvel, bevezető vonal vagy em dash nélkül. A kickerek, a három eltolt képkeret, a koronggyűrű-motívum és a tudnivalóblokk háttere türkizek. A tudnivalóblokk címe, szövege és ikonjai törtfehérek. H1 terrakotta, H2/H3 grafit. A főoldali kártyák nem mutatnak konkrét árat; a részletes árak a meglévő tanfolyamok.html oldalon maradnak. A fejlécből a Koncepciók hivatkozás kikerült. A műhelyboltban csak a kész bögréket mutató fotó marad. A tárgyak bemutatásáról szóló második mondat új bekezdésben kezdődik. Az idővonal szövege és a kitalált adatok változatlanok. Az aloldalak további tartalmi munkája, így a muhely.html galériája a főoldal lezárása után következik.
 
 
 

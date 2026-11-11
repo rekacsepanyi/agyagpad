@@ -1,5 +1,8 @@
 # Agyagpad – három weboldal-koncepció terve
 
+> Történeti tervezési anyag. Az eredeti folyamatot őrzi; az aktuális, megtartott 16527e0 verzióhoz a tervezes/aktualis-oldalterkep.md, tervezes/design-system.md és tervezes/szovegek.md az irányadó. A régi ár- és CTA-elrendezés nem aktuális megvalósítási utasítás.
+
+
 Állapot: a felhasználó jóváhagyta mindhárom irányt; a három helyi HTML-prototípus, WebP-assetek és böngészős ellenőrzések elkészültek. Belépési pont: a projekt index.html fájlja.
 
 ## Közös alap

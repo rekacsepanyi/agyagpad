@@ -1,7 +1,7 @@
 # Agyagpad – design system
 
-Verzió: 4.2 · 2026. november 11.
-Állapot: a kiválasztott Udvari műhely főoldalának aktuális specifikációja. A korábbi türkiz gombos irányt ez a dokumentum felülírja.
+Verzió: 4.3 · 2026. november 11.
+Állapot: a megtartott 16527e0 Udvari műhely főoldalának aktuális specifikációja. Dokumentációegyeztetés, az oldal megjelenésének módosítása nélkül. A korábbi türkiz gombos irányt ez a dokumentum felülírja.
 
 ## Források és hatókör
 
@@ -24,7 +24,7 @@ Meleg, földközeli, kézműves, rendezett és olvasható. A nyitókép az agyag
 | --clay | #A65B32 | Terrakotta H1, elsődleges gomb, évszám és idővonaltengely |
 | --earth | #8C4A27 | Az elsődleges gomb sötétebb hover állapota |
 | --sand | #D9C3B0 | Tanfolyami és kapcsolati szakasz, tudnivalóblokk meleg bézs alapja |
-| --teal | #1B4D4F | Kicker feliratok, eltolt képkeretek, koronggyűrű-motívum és a tudnivalóblokk háttere |
+| --teal | #1B4D4F | Kicker feliratok, eltolt képkeretek, koronggyűrű-motívumok, logó bögrekiemelése, hero-idézet és a tudnivalóblokk háttere |
 
 Új bézs-, homok-, grafit- vagy türkiz-hover árnyalat nincs. A korábban felvetett #F3EFEA, #EFE8E1 és #123C3E nem része az aktuális rendszernek. A fényképek természetes színei nem UI-tokenek.
 
@@ -131,7 +131,7 @@ Aktuális teszt: eszkozok/fooldal-ellenorzes.cjs; eredmény: ellenorzes/fo-ellen
 
 A főoldal lezárása után következik az aloldalak tartalmi finomítása. A kért muhely.html még nem készül el ebben a körben; oda 4–6 változatos, tartalom alapján kiválasztott fotó kerülhet: portré, munkafolyamat, műhelyrészlet és kész tárgyak. Addig a főoldali Műhely hivatkozás működő #muhely célra mutat.
 
-Az éles űrlap, adatkezelési tájékoztató, tételes képkreditek, végleges SEO, publikálás és az AI-használat leírása továbbra is külön lezárandó munka.
+Az éles űrlap, adatkezelési tájékoztató, tételes képkreditek, végleges SEO, publikálás továbbra is külön lezárandó munka. Az AI-használat eddigi folyamata a beadas/AI-hasznalat.md fájlban elkészült; élesítés után a tényleges publikálási lépéssel frissítendő.
 
 Favicon: images/logo/Agyagpad-favicon-transparent.svg, 256 px-es átlátszó PNG-tartalékkal; a korábbi WebP ikon is átlátszó változatra frissült. Az eredeti háttérrel rendelkező forrásfájlok megmaradnak, az oldal a háttér nélküli változatokat használja.
 

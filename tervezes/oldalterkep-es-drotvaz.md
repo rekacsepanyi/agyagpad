@@ -1,5 +1,8 @@
 # Agyagpad – oldaltérkép és szekciók drótváza
 
+> Történeti tervezési anyag. Az eredeti folyamatot őrzi; az aktuális, megtartott 16527e0 verzióhoz a tervezes/aktualis-oldalterkep.md, tervezes/design-system.md és tervezes/szovegek.md az irányadó. A régi ár- és CTA-elrendezés nem aktuális megvalósítási utasítás.
+
+
 Dátum: 2026. november 6.  
 Kiindulás: `agyagpad-projektbrief.md` – végleges projektbrief.  
 Állapot: első szerkezeti terv, átnézésre. Ez még nem a végleges arculat és nem működő weboldal.

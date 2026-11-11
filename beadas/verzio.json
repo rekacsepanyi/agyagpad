@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-11",
+  "savedDesignCommit": "16527e0b05fc1b8faa251a54e96c16770f523ab7",
+  "liveUrl": null,
+  "designSystem": "4.3",
+  "copy": "2.4",
+  "sourceFiles": [
+    {
+      "file": "koncepcio-1-udvari-muhely.html",
+      "sha256": "11b289dd7d3d3f962f8f57b4b32301f7b4534e3d6b3e312c4d0a2dbaf16879b0"
+    },
+    {
+      "file": "assets/udvari-muhely.css",
+      "sha256": "515d30e482714e7172f6e282e5a1bdc0b791075018035f9021d53ca41a6c290c"
+    },
+    {
+      "file": "tanfolyamok.html",
+      "sha256": "fa6877f8e59a826af45117796a5fcc3a7ba511fac4f6e3644602e90a53b6d838"
+    },
+    {
+      "file": "adatkezeles.html",
+      "sha256": "33f6c969abed863a8494bc13613088ed3bf6612c1255ec6b5c80f3698a9bc855"
+    },
+    {
+      "file": "images/logo/Agyagpad-logo-transparent.svg",
+      "sha256": "b7c73c9f524c5d0bec30ca9884079a967568aa0dd9060bb5a9ab74e605422cdd"
+    },
+    {
+      "file": "images/logo/Agyagpad-favicon-transparent.svg",
+      "sha256": "307a8611389d2321b09ad54ccbc2cb8fb295426f5e7acf047b5e2583b15bbb17"
+    }
+  ],
+  "planningImages": [
+    "01-eredeti-oldalterkep.png",
+    "02-eredeti-drotvaz.png",
+    "03-aktualis-oldalterkep.png"
+  ],
+  "currentScreenshots": [
+    "fooldal-asztali.png",
+    "fooldal-mobil.png",
+    "hero-asztali.png",
+    "muhelybolt-asztali.png",
+    "tudnivalok-asztali.png"
+  ],
+  "note": "A megjelenési források a megtartott verziót követik; a dokumentumok és felvételek újra egyeztetve."
+}

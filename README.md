@@ -8,7 +8,7 @@ Az Agyagpad kitalált szentendrei kerámiaműhely bemutatóprojektje.
 
 Nyisd meg az [index.html koncepcióválasztót](index.html) a böngészőben, akár dupla kattintással. A fotók, betűk, stílusok és interakciók helyi fájlokból működnek, nem igényelnek internetkapcsolatot vagy telepítést.
 
-1. [Udvari műhely](koncepcio-1-udvari-muhely.html) – személyes, osztott portrés nyitás.
+1. [Udvari műhely](koncepcio-1-udvari-muhely.html) – osztott nyitás, agyagot formáló kezek fotójával.
 2. [Agyagnapló](koncepcio-2-agyagnaplo.html) – tipográfiai nyitás, aszimmetrikus képpár, naplószerű ritmus.
 3. [Az alkotás közelről](koncepcio-3-az-alkotas-kozelrol.html) – széles anyagközeli fotók, kép és külön szövegblokk.
 
@@ -21,7 +21,7 @@ Az [ellenőrzési összefoglaló](ellenorzes/eredmenyek.md) és a képernyőkép
 1. [Projektbrief](tervezes/agyagpad-projektbrief.md) – célok, szolgáltatások, követelmények.
 2. [Design system](tervezes/design-system.md) – színek, tipográfia, térközök, komponensek.
 3. [Weboldalszövegek](tervezes/szovegek.md) – a megjelenő tartalom, fejléc, lábléc, űrlapállapotok.
-4. [Szerkezeti leírás](tervezes/oldalterkep-es-drotvaz.md) – szekciók és látogatói útvonalak.
+4. [Aktuális szerkezeti leírás](tervezes/aktualis-oldalterkep.md) – szekciók és látogatói útvonalak.
 
 A dokumentumokban szereplő `tervezes/...`, `images/...` és `archivum/...` útvonalak a projekt főmappájához képest értendők. A szomszédos fájlokra mutató rövid hivatkozásokat az adott dokumentum mappájából kell értelmezni.
 
@@ -73,15 +73,23 @@ Az `archivum/update-design-system.cjs` egyszer lefuttatott migrációs segédlet
 
 A tervezési dokumentumok, weboldalszövegek és a három böngészhető prototípus elkészültek. A használt fotók WebP-ként, több méretben előkészítve, a betűk és licencek helyben elérhetők. Mindhárom változat 320, 390 és 1440 px szélességen ellenőrizve.
 
-Hátravan a választott koncepció véglegesítése, a fotóforrások tételes rögzítése, az éles adatkezelési tájékoztató és valódi űrlapfogadó beállítása, a végleges SEO és publikálás. Az AI-használat legfeljebb egyoldalas leírását a tényleges munkafolyamat alapján kell lezárni.
+Hátravan a kiválasztott változat és az aloldalak végső átnézése, a fotóforrások tételes rögzítése, a végleges SEO és publikálás. A valódi üzenetküldés ajánlott extra; ha beállítjuk, a tényleges adatkezelési tájékoztatót és a próbaüzenetet is le kell zárni. Az AI-használat rövid leírása a beadas/AI-hasznalat.md fájlban elkészült; élesítés után a tényleges publikálási lépéssel frissítendő.
 
 Az `eszkozok/helyi-szerver.cjs` opcionális helyi előnézetet indít (`node eszkozok/helyi-szerver.cjs`), a három HTML-oldal azonban szerver nélkül is megnyitható. A fejlesztői ellenőrző és képoptimalizáló szkriptek a helyi Codex Node-runtime sharp/playwright csomagjait használják; a kész HTML-fájlok futtatásához ezek nem szükségesek. A nagy eredeti fotók megmaradnak helyben, a `.gitignore` kizárja őket a Gitből; az optimalizált WebP-k és az oldalak verziókövetettek.
 
 Beadási határidő: 2026. november 24. A kiírás szerint kérhető haladékkal december 1.
 
 
-A kiválasztott változat aktuális megjelenési forrása assets/udvari-muhely.css, dokumentációja tervezes/design-system.md 4.2 és tervezes/szovegek.md 2.3. Az aktuális hét futásos ellenőrzés: ellenorzes/fo-ellenorzes.json; kontrasztok: ellenorzes/fo-kontrasztok.json. Öt normál nézetszélesség és két 200%-os szövegméret-próba sikeres. A régebbi koncepcióellenőrzések történeti anyagok, a főoldal aktuális elrendezését a fooldal-ellenorzes.cjs ellenőrzi.
+A kiválasztott változat aktuális megjelenési forrása assets/udvari-muhely.css, dokumentációja tervezes/design-system.md 4.3 és tervezes/szovegek.md 2.4. Az aktuális hét futásos ellenőrzés: ellenorzes/fo-ellenorzes.json; kontrasztok: ellenorzes/fo-kontrasztok.json. Öt normál nézetszélesség és két 200%-os szövegméret-próba sikeres. A régebbi koncepcióellenőrzések történeti anyagok, a főoldal aktuális elrendezését a fooldal-ellenorzes.cjs ellenőrzi.
 
 Az archivum/udvari-muhely-turkiz-migracio.cjs egyszeri átalakítási segédlet, nem aktuális buildparancs. A kész HTML- és CSS-fájlokat kell tovább szerkeszteni; a migrációt nem kell újrafuttatni.
 
 
+
+## Megtartott verzió és beadási dokumentáció
+
+A honlap megjelenési alapja az utoljára jóváhagyott 16527e0. A későbbi összefonódó és lefelé vezetett spirálos motívumkísérleteket visszavontuk; a HTML, CSS és a webes assetek megtartott állapota az irányadó. A dokumentáció erre az állapotra frissült, a weboldal újratervezése nélkül. A fejléc CTA „Jelentkezés”, csak kezdő nagybetűvel.
+
+A beadási csomag és a kötelező/ajánlott tételek szétválasztása: [beadas/README.md](beadas/README.md). Itt található az AI-leírás, az eredeti tervezési képek másolata, az aktuális oldaltérkép és a visszaállított oldal friss képernyőképei. A csomag élő URL hiányában még nem végleges beadás.
+
+A tervezes/oldalterkep-es-drotvaz.md, a koncepciótervek és az eredeti PNG-k történeti anyagok. A régi dokumentáció pillanatképe az archivum/dokumentacio-2026-11-11-korabbi/ mappában maradt meg. A korábbi képernyőképek az ellenorzes/kepernyokepek/korabbi-valtozatok-2026-11-11/ almappába kerültek; nem a jelenlegi felület bizonyítékai. A friss képek a képernyőképmappa gyökerében és a beadas/jelenlegi-oldal/ mappában találhatók.

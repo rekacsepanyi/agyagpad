@@ -1,6 +1,6 @@
 # Projektbrief: Agyagpad kerámiaműhely
 
-Frissítve: 2026. november 11. Az arculat és a karakterbemutatás pontosítva; a kitalált bemutatócím rögzítve; a karaktertörténet és a megjelenő szövegek a tervezes/szovegek.md dokumentumban rögzítve.
+Frissítve: 2026. november 11. · Aktuális alap: a megtartott 16527e0 oldalváltozat. Az arculat és a karakterbemutatás pontosítva; a kitalált bemutatócím rögzítve; a karaktertörténet és a megjelenő szövegek a tervezes/szovegek.md dokumentumban rögzítve.
 
 ## 1. Az ügyfél és a vállalkozás
 
@@ -45,9 +45,9 @@ Elsődleges cél: érdeklődések és jelentkezési szándékok gyűjtése a tan
 
 Főoldali fő CTA: „Megnézem a tanfolyamokat” → #tanfolyamok. A részletes tanfolyamaloldalról „Érdeklődöm a tanfolyamról”, illetve „Egyedi ajánlatról érdeklődöm” gomb vezet a főoldali űrlaphoz, a program kiválasztásával.
 - A nyitó szekcióból a főoldali programáttekintéshez vezet; nem módosítja az űrlap választását.
-- A tanfolyamkártyák „Részletek és árak →” linkje a tanfolyamok.html programhorgonyára mutat. Az ottani érdeklődési gomb állítja be az adott programot a főoldali űrlapban.
+- A tanfolyamkártyák „Részletek és árak” linkje a tanfolyamok.html programhorgonyára mutat. Az ottani érdeklődési gomb állítja be az adott programot a főoldali űrlapban.
 - Az űrlap beküldése nem jelent automatikus helyfoglalást. A részvétel külön egyeztetéssel és visszaigazolással válna véglegessé.
-Másodlagos cél: a műhely és a kerámiák bemutatása, kedvteremtés a személyes látogatáshoz.
+Másodlagos cél: a kitalált műhely és a kerámiák bemutatása, kedvteremtés az alkotáshoz. A bemutatócím nem látogatható.
 
 Másodlagos CTA: „Megismerem a műhelyt”, amely a Műhely és alkotó szekcióhoz vezet.
 
@@ -58,7 +58,7 @@ Négy szekciós görgethető főoldal, külön tanfolyamok.html részletező alo
 1. Nyitó szekció: egyértelmű főcím, rövid bemutatkozás, szentendrei helyszín, hangulatos kép, fő és másodlagos CTA.
 
 
-2. Tanfolyamok: a három program összehasonlítható bemutatása, időtartammal, időbeosztással, árral és érdeklődési gombbal. A közös részvételi tudnivalók egyszer szerepelnek a kártyák mellett vagy alatt.
+2. Tanfolyamok: a három program összehasonlítható bemutatása időtartammal és alkalomszámmal, ár nélkül, „Részletek és árak” linkkel. A konkrét árak az aloldalon szerepelnek. A közös részvételi tudnivalók közvetlenül a kártyák alatt, türkiz blokkban jelennek meg.
 
 
 3. Műhely és alkotó: Fehér Dóra bemutatása a brief tényadatai és az egyeztetett, kitalált karaktertörténet alapján; a kézműves alkotás és a kerámiák bemutatása. A karakter története életszerű szakmai mérföldkövekkel és eredményekkel bővíthető; ezek a bemutatóprojekt számára létrehozott adatok. A felhasználó szövegtervébe beemelt karaktertörténet és négy mérföldkő a tervezes/szovegek.md fájlban rögzítve; az építés ezt a szövegforrást kövesse. Díjak, intézményi elismerések és vásárlói vélemények nem kerülnek automatikusan a tartalomba.
@@ -72,9 +72,9 @@ Külön GYIK, blog, galéria-aloldal és részletes folyamatbemutató nem kész�
 
 - Statikus HTML/CSS-alapú megvalósítás, szükség esetén kevés JavaScripttel.
 - Reszponzív, mobilon és asztali gépen is megfelelő megjelenés.
-- Működő érdeklődő űrlap: név, e-mail-cím, programválasztás, üzenet.
-- Egyértelmű mezőcímkék, kötelező mezők jelölése, hibajelzések és sikeres beküldési visszajelzés.
-- Tervezett űrlapkezelés: Netlify Forms. A fogadóhely beállítása a megvalósítás része.
+- Jelenleg helyi bemutatóűrlap: név, e-mail-cím, programválasztás, üzenet. Nem küld és nem tárol adatot. A valódi üzenetküldés ajánlott vizsgaextra, külön későbbi beállítás.
+- Egyértelmű mezőcímkék, kötelező mezők jelölése, hibajelzések és a helyi próbát őszintén jelző visszajelzés.
+- Tervezett űrlapkezelés: Netlify Forms. A fogadóhely még nincs beállítva.
 - Az űrlap mellett a tényleges adatkezelésnek megfelelő tájékoztatás és a részletes tájékoztató elérése.
 - Online fizetés, webshop, felhasználói fiók és automatikus foglalási rendszer nem készül.
 - A lábléc jelzi: „Az Agyagpad kitalált vállalkozás, az oldal bemutatóprojekt. Az űrlap nem foglal valódi tanfolyami helyet.”
@@ -84,11 +84,11 @@ Külön GYIK, blog, galéria-aloldal és részletes folyamatbemutató nem kész�
 - Stílus: meleg, kézműves, földközeli, finoman játékos.
 - Vizuális irány: természetes anyagok és textúrák — agyag, fa, len —, levegős elrendezés.
 - Logó: a felhasználó friss, szíves bögrét ábrázoló emblémája, sötét „AGYAG” és terrakotta „PAD” felirattal, „Kerámiaműhely” alcímmel. Elsődleges webes fájl: images/logo/Agyagpad-logo-transparent.svg; átlátszó PNG: images/logo/Agyagpad-logo-transparent.png. A korábbi exportok forrásként megmaradnak.
-- Favicon: images/logo/Agyagpad-Favicon-jo.svg; PNG-változat: images/logo/Agyagpad-Favicon.png.
+- Favicon: images/logo/Agyagpad-favicon-transparent.svg; PNG-tartalék: images/logo/Agyagpad-favicon-transparent.png. Mindkettő átlátszó.
 - Arculati referencia: tervezes/arculat/Arculati-tabla.png. Az új változat felülírja a korábbi vázaemblémás irányt.
 - Kerülendő: steril, hideg, luxusüzletre emlékeztető megjelenés és túlzsúfoltság.
 - Szöveghang: magyar nyelvű, tegező, közvetlen, bátorító, túlzó ígéretek nélkül.
-- A konkrét színek, Merriweather–Inter tipográfia, mobilméretek, térközök és komponensszabályok a tervezes/design-system.md 4.0 dokumentumban rögzítve. Az építés ezt a specifikációt kövesse.
+- A konkrét színek, Merriweather–Inter tipográfia, mobilméretek, térközök és komponensszabályok a tervezes/design-system.md 4.3 dokumentumban rögzítve. Az építés ezt a specifikációt kövesse.
 
 ## 8. Tartalmak és képek
 
@@ -112,7 +112,7 @@ Külön GYIK, blog, galéria-aloldal és részletes folyamatbemutató nem kész�
 
 
 
-A kiválasztott Udvari műhely aktuális színhierarchiája kizárólag a mondatkezdő nagybetűs kicker feliratokon használ sötéttürkizt (#1B4D4F). A H1 és az elsődleges gomb terrakotta; a H2/H3 grafit. A főoldali kártyák árat nem mutatnak, az időtartam és az alkalomszám látható marad. A részletes feltételek és a főoldali rövid kártyák tartalma a szovegek.md 2.1 frissítésében található.
+A kiválasztott Udvari műhely sötéttürkizt használ a kickereken, a képmotívumokon, a logó jobb oldali bögrerészén és a hero-idézet szövegén, valamint a tudnivalóblokk hátterén. A H1 és az elsődleges gomb terrakotta, a H2/H3 grafit. A főoldali kártyák ár nélkül mutatják az időtartamot és az alkalomszámot. A fejléc CTA felirata „Jelentkezés”, csak kezdő nagybetűvel. Az aktuális tartalmi forrás a szovegek.md 2.4, a szerkezeti forrás az aktualis-oldalterkep.md.
 
 
 Az aloldalak új tartalmi fejlesztése a főoldal lezárása után következik. A kért 4–6 képes műhelygyűjtemény a későbbi muhely.html feladata; ebben a körben nem készült új aloldal. A fejlécből a koncepcióválasztó linkje eltávolítva.

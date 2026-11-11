@@ -83,3 +83,9 @@ A felhasználó az első koncepciót választotta. A módosított oldal ismét �
 
 Az Udvari műhely további finomhangolása; valódi üzemeltetői adatok és űrlapfogadó; végleges adatkezelési tájékoztató; pontos képkreditek; SEO véglegesítése; éles Netlify-űrlap és próbaüzenet; AI-használat leírása és beadási csomag.
 
+
+### 2026. november 11. – 12 böngészőmegjegyzés átvezetése
+
+Türkiz képkeretek, kerámiamotívum és kör-pipa ikonok; idézőjeles, dőlt hero-képaláírás; terrakotta másodlagos gomb; módosított programcímek és nyíl nélküli kártyalinkek. A sorrend tanfolyamok → műhely → tudnivalók → kapcsolat. A műhelyboltban egy bögrés fotó maradt, a második mondat külön bekezdés.
+
+A fooldal-ellenorzes.cjs mind a hét futása sikeres: 320, 390, 768, 1024 és 1440 px, valamint 390 és 1440 px 200%-os szövegmérettel. Nincs vízszintes túlcsordulás, hiányzó kép, külső kérés vagy JavaScript-hiba. Ellenőrzött sorrend, színek, linkcélok, menü/Escape, billentyűzetes ugrólink és helyi űrlap. A másodlagos gomb normál és hover szövegkontrasztja 4,75:1; a türkiz ikonok kontrasztja homokon 5,58:1. Az aktuális mobil- és asztali képernyőképek az ellenorzes/kepernyokepek mappába kerültek.

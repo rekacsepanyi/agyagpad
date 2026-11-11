@@ -1,6 +1,6 @@
 # Agyagpad – design system
 
-Verzió: 4.0 · 2026. november 11.
+Verzió: 4.1 · 2026. november 11.
 Állapot: a kiválasztott Udvari műhely főoldalának aktuális specifikációja. A korábbi türkiz gombos irányt ez a dokumentum felülírja.
 
 ## Források és hatókör
@@ -21,10 +21,10 @@ Meleg, földközeli, kézműves, rendezett és olvasható. A nyitókép az agyag
 | --- | --- | --- |
 | --paper | #F9F8F6 | Törtfehér fő felület, hero, műhely, világos kártyák, gombszöveg |
 | --ink | #2D2A26 | Grafit törzsszöveg, H2/H3, navigáció, link, ikon és funkcionális keret |
-| --clay | #A65B32 | Terrakotta H1, elsődleges gomb, évszám, idővonaltengely és visszafogott kerámiamotívum |
+| --clay | #A65B32 | Terrakotta H1, elsődleges gomb, évszám és idővonaltengely |
 | --earth | #8C4A27 | Az elsődleges gomb sötétebb hover állapota |
 | --sand | #D9C3B0 | Tanfolyami és kapcsolati szakasz, tudnivalóblokk meleg bézs alapja |
-| --teal | #1B4D4F | Kizárólag a kicker feliratok, beleértve a kártyák felvezetőit |
+| --teal | #1B4D4F | Kicker feliratok, eltolt képkeretek, koronggyűrű-motívum és tudnivalóikonok |
 
 Új bézs-, homok-, grafit- vagy türkiz-hover árnyalat nincs. A korábban felvetett #F3EFEA, #EFE8E1 és #123C3E nem része az aktuális rendszernek. A fényképek természetes színei nem UI-tokenek.
 
@@ -78,11 +78,11 @@ Merriweather a címsorokhoz, Inter a szöveghez és kezelőelemekhez. Helyi WOFF
 
 ## Programkártyák
 
-Sorrend: normál kicker → programnév → rövid élményleírás → alkalomszám és időtartam → Részletek és árak → link.
+Sorrend: normál kicker → programnév → rövid élményleírás → alkalomszám és időtartam → „Részletek és árak” link, nyíl nélkül.
 
 - Főoldalon nincs konkrét ár és külön árcímke.
 - Korongozó kóstoló: 1 alkalom, 3 óra.
-- Négyhetes kezdő kurzus: 4 alkalom, 4 × 2,5 óra.
+- Négyhetes kurzus (főoldali rövid név): 4 alkalom, 4 × 2,5 óra.
 - Céges csapatépítő: egyeztetett időpont, egyedi időtartam; új adatot nem találunk ki.
 - A meglévő tanfolyamok.html megfelelő programhorgonyaira mutató linkek megmaradnak; részletes árakat ott talál a látogató.
 - Törtfehér kártya, 16 px sugár, nincs árnyék. Belső tér mobil/tablet 24 px, asztalon 32 px.
@@ -90,7 +90,7 @@ Sorrend: normál kicker → programnév → rövid élményleírás → alkaloms
 ## Gombok és űrlap
 
 - Elsődleges: terrakotta háttér, törtfehér szöveg, 1 px grafit keret, 999 px kapszula. Hover: #8C4A27.
-- Másodlagos: átlátszó háttér, grafit felirat és keret; hover meglévő homokszín.
+- A hero másodlagos gombja: átlátszó háttér, terrakotta felirat és keret; hover terrakotta háttér és törtfehér felirat (4,75:1). A többi meglévő másodlagos gomb grafit feliratú és keretű.
 - Legalább 48 px magas kezelőelemek, több sorba törhető felirat, látható grafit fókusz.
 - Név, e-mail és program kötelező; üzenet opcionális. Mezőcímkék külön láthatók, nem placeholderbe rejtve.
 - Mező: törtfehér, grafit szöveg, 1 px grafit keret, 12 px sugár.
@@ -99,7 +99,7 @@ Sorrend: normál kicker → programnév → rövid élményleírás → alkaloms
 
 ## Tudnivalóblokk
 
-Meleg bézs (#D9C3B0), grafit szöveg és egységes, 24 px-es grafit kör-pipa ikonok. 768 px-től két oszlop, mobilon egy. A hat pont rövid kiemelt állítással kezdődik, és megőrzi az előképzettség, anyagok/égetések, hatfős csoport, két héttel későbbi átvétel, végeredmény-korlátok és időpont-egyeztetés információját. A dekoratív ikonok aria-hidden jelölésűek.
+A teljes műhelyszakasz után, a kapcsolat előtt helyezkedik el. Meleg bézs (#D9C3B0), grafit szöveg és egységes, 24 px-es türkiz kör-pipa ikonok. 768 px-től két oszlop, mobilon egy. A hat pont rövid kiemelt állítással kezdődik, és megőrzi az előképzettség, anyagok/égetések, hatfős csoport, két héttel későbbi átvétel, végeredmény-korlátok és időpont-egyeztetés információját. A dekoratív ikonok aria-hidden jelölésűek. A végeredményről szóló pontban a „vagy hibátlan végeredményt nem garantálunk.” új sorban kezdődik.
 
 ## Idővonal
 
@@ -114,9 +114,10 @@ Meleg bézs (#D9C3B0), grafit szöveg és egységes, 24 px-es grafit kör-pipa i
 
 - Átlátszó logó: images/logo/Agyagpad-logo-transparent.svg; PNG-párja ugyanott. Nincs külön doboz, keret vagy színezett háttér.
 - Tartalmi fotók: images/webp, reszponzív srcset/sizes, 16 px lekerekítés, helyes méretattribútumok és tartalomhoz illő alt.
+- A hero képaláírása idézőjeles és dőlt: „Az alkotás az első mozdulattal kezdődik.”
 - Hero: reszletfoto2, agyagot formáló kezek. A bemutatkozásban másik, munka közbeni kép, hero1; a hangsúlyos portré nem ismétlődik.
-- Főoldali kerámiakompozíció: muhelybolt (kész bögrék) és reszletfoto4 (megformált váza a műhelyben). A fotókat a ténylegesen megtekintett tartalom alapján választottuk ki.
-- Kevés, terrakotta eltolt képkeret és koronggyűrű-vonalgrafika. Nincs botanikai minta, erős háttértextúra vagy folyamatos animáció.
+- A főoldali műhelyboltnál egyetlen fotó marad: muhelybolt (kész bögrék), 4:3 képaránnyal. A korábbi második, vázás kép lekerült; az eredeti fájlt megőrizzük. A tárgyak bemutatásáról szóló második mondat külön bekezdés.
+- Kevés, türkiz eltolt képkeret és koronggyűrű-vonalgrafika. Nincs botanikai minta, erős háttértextúra vagy folyamatos animáció.
 - A nyitókép eager, a lejjebb lévő képek lazy betöltésűek; eredeti fotók megőrizve.
 
 ## Közös tájékoztatás

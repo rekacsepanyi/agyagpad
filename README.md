@@ -4,7 +4,7 @@ Az Agyagpad kitalált szentendrei kerámiaműhely bemutatóprojektje.
 
 ## A három elkészült weboldal-koncepció
 
-**Kiválasztott és továbbfejlesztett irány:** [Udvari műhely](koncepcio-1-udvari-muhely.html). Aktuális főoldal: terrakotta H1 és gombok, grafit alcímek, normál türkiz kickerek előtagvonal nélkül, ár nélküli programkártyák, kétképes kerámiakompozíció. A fejlécben nincs Koncepciók hivatkozás. Az aloldalak további tartalmi fejlesztése a főoldal lezárása után következik.
+**Kiválasztott és továbbfejlesztett irány:** [Udvari műhely](koncepcio-1-udvari-muhely.html). Aktuális főoldal: terrakotta H1 és gombok, grafit alcímek, normál türkiz kickerek előtagvonal nélkül, ár nélküli programkártyák, egyetlen bögrés műhelyboltfotó, türkiz képmotívumok és tudnivalóikonok. A fejlécben nincs Koncepciók hivatkozás. Az aloldalak további tartalmi fejlesztése a főoldal lezárása után következik.
 
 Nyisd meg az [index.html koncepcióválasztót](index.html) a böngészőben, akár dupla kattintással. A fotók, betűk, stílusok és interakciók helyi fájlokból működnek, nem igényelnek internetkapcsolatot vagy telepítést.
 
@@ -80,7 +80,7 @@ Az `eszkozok/helyi-szerver.cjs` opcionális helyi előnézetet indít (`node esz
 Beadási határidő: 2026. november 24. A kiírás szerint kérhető haladékkal december 1.
 
 
-A kiválasztott változat aktuális megjelenési forrása assets/udvari-muhely.css, dokumentációja tervezes/design-system.md 4.0 és tervezes/szovegek.md 2.1. Az aktuális hét futásos ellenőrzés: ellenorzes/fo-ellenorzes.json; kontrasztok: ellenorzes/fo-kontrasztok.json. Öt normál nézetszélesség és két 200%-os szövegméret-próba sikeres. A régebbi koncepcióellenőrzések történeti anyagok, a főoldal aktuális elrendezését a fooldal-ellenorzes.cjs ellenőrzi.
+A kiválasztott változat aktuális megjelenési forrása assets/udvari-muhely.css, dokumentációja tervezes/design-system.md 4.1 és tervezes/szovegek.md 2.2. Az aktuális hét futásos ellenőrzés: ellenorzes/fo-ellenorzes.json; kontrasztok: ellenorzes/fo-kontrasztok.json. Öt normál nézetszélesség és két 200%-os szövegméret-próba sikeres. A régebbi koncepcióellenőrzések történeti anyagok, a főoldal aktuális elrendezését a fooldal-ellenorzes.cjs ellenőrzi.
 
 Az archivum/udvari-muhely-turkiz-migracio.cjs egyszeri átalakítási segédlet, nem aktuális buildparancs. A kész HTML- és CSS-fájlokat kell tovább szerkeszteni; a migrációt nem kell újrafuttatni.
 

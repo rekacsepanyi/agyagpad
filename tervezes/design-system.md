@@ -136,6 +136,3 @@ Az éles űrlap, adatkezelési tájékoztató, tételes képkreditek, végleges 
 Favicon: images/logo/Agyagpad-favicon-transparent.svg, 256 px-es átlátszó PNG-tartalékkal; a korábbi WebP ikon is átlátszó változatra frissült. Az eredeti háttérrel rendelkező forrásfájlok megmaradnak, az oldal a háttér nélküli változatokat használja.
 
 A műhelybolt blokk tartalmi és vizuális sorrendje szöveg, majd fotó: asztalon szöveg balra, fotó jobbra; mobilon szöveg felül és fotó alatta. A kép jobb oldali türkiz kerete és koronggyűrűi megmaradnak.
-
-
-Aktuális fotómotívum: mindhárom korábban díszített fotó (hero, bemutatkozás, műhelybolt) jobb alsó sarkától egyetlen türkiz vonal indul lefelé, és háromfordulatú, korongozott agyagot idéző spirálban végződik. A külön ellipszisek, a fotó előtti/mögötti összefonódó ívek és az eltolt téglalapkeretek kikerültek. A motívum a fotó alatt kap helyet; mobilon kisebb, a környező tartalomtól megfelelő távolságra. A meglévő #1B4D4F színt használja.

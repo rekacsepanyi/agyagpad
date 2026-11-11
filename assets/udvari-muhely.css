@@ -139,10 +139,3 @@ p,.detail-link,.button,.notes-grid li,figcaption{overflow-wrap:anywhere}
 .hero .portrait-caption::before{content:none}
 .hero .photo-surround::before{inset:18px -14px -14px 14px}
 @media(max-width:47.999rem){.hero .portrait-caption{left:1rem;bottom:1rem;padding:.875rem 1rem}.hero .photo-surround::before{inset:14px -6px -10px 12px}}
-.hero .portrait-caption{z-index:2}
-
-/* Egyetlen levezetett vonal, háromfordulatú korongspirállal. */
-.photo-surround{margin-bottom:2.5rem}
-.photo-surround::before{content:none}
-.photo-surround .pottery-spiral{top:auto;right:-6px;bottom:-92px;width:168px;height:103px;z-index:1}
-@media(max-width:47.999rem){.photo-surround .pottery-spiral{right:-4px;bottom:-76px;width:140px;height:86px}}

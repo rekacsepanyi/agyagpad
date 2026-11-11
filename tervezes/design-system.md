@@ -115,7 +115,7 @@ Közvetlenül a három programkártya alatt, a tanfolyamos szakasz közös tarta
 
 - Átlátszó logó: images/logo/Agyagpad-logo-transparent.svg; PNG-párja ugyanott. Nincs külön doboz, keret vagy színezett háttér.
 - Tartalmi fotók: images/webp, reszponzív srcset/sizes, 16 px lekerekítés, helyes méretattribútumok és tartalomhoz illő alt.
-- A hero képaláírása idézőjeles és dőlt: „Az alkotás az első mozdulattal kezdődik.” A fotó bal alsó részére helyezett törtfehér kártyán jelenik meg, grafit Merriweather szöveggel, bevezető díszvonal nélkül, homokszínű kerettel és 14 px-esen lecsapott jobb felső sarokkal. Mobilon a kártya a fotó szélein belül marad.
+- A hero képaláírása idézőjeles és dőlt: „Az alkotás az első mozdulattal kezdődik.” A fotó bal alsó részére helyezett törtfehér kártyán jelenik meg, 15 px-es türkiz Merriweather szöveggel, bevezető díszvonal nélkül, homokszínű kerettel, 4/36/4/4 px-es aszimmetrikus lekerekítéssel és a meglévő grafit 10%-os átlátszóságából képzett finom árnyékkal. Mobilon a kártya a fotó szélein belül marad.
 - Hero: agyagpad-hero.jpg alapján optimalizált agyagpad-hero WebP, agyagedényt formáló kezek; 480, 800, 1200 és 1600 px széles változatok. A bemutatkozásban másik, munka közbeni kép, hero1; a hangsúlyos portré nem ismétlődik.
 - A főoldali műhelyboltnál egyetlen fotó marad: muhelybolt (kész bögrék), 4:3 képaránnyal. A korábbi második, vázás kép lekerült; az eredeti fájlt megőrizzük. A tárgyak bemutatásáról szóló második mondat külön bekezdés.
 - Kevés, türkiz eltolt képkeret és koronggyűrű-vonalgrafika, 1,5 px-es keretvonallal. A bemutatkozó és a műhelybolti fotó jobb oldalán is visszafogott koronggyűrűk látszanak. Nincs botanikai minta, erős háttértextúra vagy folyamatos animáció.

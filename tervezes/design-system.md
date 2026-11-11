@@ -44,7 +44,7 @@ A homokszínű felületen az elsődleges gomb grafit kerete ad egyértelmű hat�
 
 ## Tipográfia
 
-Merriweather a címsorokhoz, Inter a szöveghez és kezelőelemekhez. Helyi WOFF2, magyar karakteres készlet, font-display: swap. A logó saját betűrajzát nem szedjük újra.
+Merriweather a címsorokhoz, Inter a szöveghez és kezelőelemekhez. Helyi WOFF2, magyar karakteres készlet, font-display: swap. A logó saját betűrajzát nem szedjük újra. A bögre jobb oldali kontúrja és füle türkiz, P-szerű hangsúllyal; a többi bögrevonal terrakotta.
 
 | Elem | Betű / súly | Asztal | Mobil | Sorköz |
 | --- | --- | --- | --- | --- |
@@ -61,7 +61,7 @@ Merriweather a címsorokhoz, Inter a szöveghez és kezelőelemekhez. Helyi WOFF
 
 - H1 terrakotta; H2 és H3 grafit a világos felületeken.
 - A kickerek normál, mondatkezdő nagybetűs írásmódúak. Nincs text-transform: uppercase, ritkítás, bevezető em dash vagy dekoratív előtagvonal.
-- A gombok nagybetűs megjelenése megmarad; ez a szabály nem terjed át a kickerekre.
+- A többi gomb nagybetűs megjelenése megmarad; a fejléc „Jelentkezés” gombja mondatkezdő nagybetűs, normál betűközzel. Ez a szabály nem terjed át a kickerekre.
 - Folyó szöveg max. min(680 px, 65ch). Balra zárt, nem sorkizárt.
 - Egy H1, a fő szekciók H2, a programnevek H3.
 - A nagyított szöveg nem vágódhat le. Szűk helyen a hosszú szavak törhetnek; a tartalmat nem rejtjük el vízszintes overflow-val.
@@ -115,10 +115,10 @@ Közvetlenül a három programkártya alatt, a tanfolyamos szakasz közös tarta
 
 - Átlátszó logó: images/logo/Agyagpad-logo-transparent.svg; PNG-párja ugyanott. Nincs külön doboz, keret vagy színezett háttér.
 - Tartalmi fotók: images/webp, reszponzív srcset/sizes, 16 px lekerekítés, helyes méretattribútumok és tartalomhoz illő alt.
-- A hero képaláírása idézőjeles és dőlt: „Az alkotás az első mozdulattal kezdődik.”
+- A hero képaláírása idézőjeles és dőlt: „Az alkotás az első mozdulattal kezdődik.” A fotó bal alsó részére helyezett törtfehér kártyán jelenik meg, grafit Merriweather szöveggel, finom türkiz vonaldísszel és homokszínű kerettel. Mobilon a kártya a fotó szélein belül marad.
 - Hero: agyagpad-hero.jpg alapján optimalizált agyagpad-hero WebP, agyagedényt formáló kezek; 480, 800, 1200 és 1600 px széles változatok. A bemutatkozásban másik, munka közbeni kép, hero1; a hangsúlyos portré nem ismétlődik.
 - A főoldali műhelyboltnál egyetlen fotó marad: muhelybolt (kész bögrék), 4:3 képaránnyal. A korábbi második, vázás kép lekerült; az eredeti fájlt megőrizzük. A tárgyak bemutatásáról szóló második mondat külön bekezdés.
-- Kevés, türkiz eltolt képkeret és koronggyűrű-vonalgrafika. Nincs botanikai minta, erős háttértextúra vagy folyamatos animáció.
+- Kevés, türkiz eltolt képkeret és koronggyűrű-vonalgrafika, 1,5 px-es keretvonallal. A bemutatkozó és a műhelybolti fotó jobb oldalán is visszafogott koronggyűrűk látszanak. Nincs botanikai minta, erős háttértextúra vagy folyamatos animáció.
 - A nyitókép eager, a lejjebb lévő képek lazy betöltésűek; eredeti fotók megőrizve.
 
 ## Közös tájékoztatás
@@ -132,3 +132,7 @@ Aktuális teszt: eszkozok/fooldal-ellenorzes.cjs; eredmény: ellenorzes/fo-ellen
 A főoldal lezárása után következik az aloldalak tartalmi finomítása. A kért muhely.html még nem készül el ebben a körben; oda 4–6 változatos, tartalom alapján kiválasztott fotó kerülhet: portré, munkafolyamat, műhelyrészlet és kész tárgyak. Addig a főoldali Műhely hivatkozás működő #muhely célra mutat.
 
 Az éles űrlap, adatkezelési tájékoztató, tételes képkreditek, végleges SEO, publikálás és az AI-használat leírása továbbra is külön lezárandó munka.
+
+Favicon: images/logo/Agyagpad-favicon-transparent.svg, 256 px-es átlátszó PNG-tartalékkal; a korábbi WebP ikon is átlátszó változatra frissült. Az eredeti háttérrel rendelkező forrásfájlok megmaradnak, az oldal a háttér nélküli változatokat használja.
+
+A műhelybolt blokk tartalmi és vizuális sorrendje szöveg, majd fotó: asztalon szöveg balra, fotó jobbra; mobilon szöveg felül és fotó alatta. A kép jobb oldali türkiz kerete és koronggyűrűi megmaradnak.

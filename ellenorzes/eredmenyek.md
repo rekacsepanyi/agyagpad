@@ -99,3 +99,11 @@ Az egyetlen tudnivalóblokk közvetlenül a három programkártya alatt helyezke
 A főoldal és a két meglévő aloldal fejlécében a navigáció jobb szélén elsődleges „Érdeklődöm” gomb jelenik meg. Célja a főoldali kapcsolat szakasz; a Tanfolyamok menüpont megmaradt. A korábbi aloldali Koncepciók hivatkozást a CTA váltotta. Mobilon a lenyíló menü része. A terrakotta, törtfehér, sötétebb terrakotta hover és grafit fókusz a meglévő tokeneket használja.
 
 A fejlec-ellenorzes.cjs 30 sikeres fejlécpróbája: három oldal 320, 390, 768, 1023, 1024, 1100, 1200 és 1440 px-en; további 390 és 1024 px-es próbák 200%-os szövegmérettel. Ellenőrzött: fejlécen belüli átfedés és túlcsordulás, gombszínek és lekerekítés, hover, Tab-fókusz, Enter-navigáció a főoldali űrlaphoz, mobilmenü nyitás és bezárás. Eredmény: ellenorzes/fejlec-ellenorzes.json; fejléc-képernyőképek 390, 1024 és 1100 px-en. Ez a jelentés a fejlécet vizsgálja, nem helyettesíti az aloldalak teljes tartalmi és elrendezési ellenőrzését.
+
+### Logó, favicon, képkeretek és idézetkártya
+
+A Jelentkezés fejlécgomb text-transform: none beállítást kapott. A bögre meglévő vektoros körvonalának jobb oldala és füle türkiz, P-szerű kiemeléssel. A favicon átlátszó SVG és PNG; a régi WebP-változat is háttér nélkül frissült. Az ikon PNG mind a négy sarokpontjának alfája 0.
+
+A türkiz fotókeretek 1,5 px-es vonalat kaptak; a bemutatkozó és műhelybolti fotó mellett jobb oldali koronggyűrű-motívum jelenik meg. A műhelybolt tartalmi sorrendje szöveg, fotó: asztalon bal/jobb, mobilon fent/lent. A hero idézete olvasható törtfehér kártyán a fotó bal alsó részére került, grafit dőlt Merriweather szöveggel és rövid türkiz vonallal. Új szín nincs.
+
+A legutóbbi főoldalellenőrzés hét futása sikeres (320, 390, 768, 1024, 1440 px, valamint mobil és asztal 200%-os szöveggel). Külön vizsgálja az idézet fotón belüli függőleges elhelyezését, a műhelybolt sorrendjét, a gomb normál betűhasználatát és az SVG-favicon hivatkozását. A 30 fejlécpróba a gomb és az új logó mellett is sikeres volt.

@@ -325,3 +325,8 @@ A sorrend: tanfolyamok (programkártyák, majd közvetlenül a tudnivalóblokk),
 ### Közös fejléc CTA
 
 A navigáció végén kiemelt „Jelentkezés” gomb szerepel a főoldalon, a Tanfolyamok és az Adatkezelés aloldalon. A Tanfolyamok menüpont megmarad; Koncepciók menüpont nincs. A CTA minden esetben a főoldali #kapcsolat szakaszhoz vezet, az aloldalakról a főoldalfájlt is megadva. A lenyíló mobilmenüben ugyanez a gomb szerepel.
+
+
+### Hero-idézet és műhelybolt elrendezése
+
+A „Jelentkezés” fejlécgomb mondatkezdő nagybetűs. A hero idézete változatlan szöveggel, dőlt betűvel a fotóra helyezett törtfehér kártyán jelenik meg, finom türkiz vonaldísszel. A műhelyboltban asztalon bal oldalt a szöveg, jobb oldalt a fotó szerepel; mobilon szöveg után fotó következik.

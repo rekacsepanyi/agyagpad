@@ -1,6 +1,6 @@
 # Agyagpad – három weboldal-koncepció terve
 
-Állapot: konkrét irányjavaslatok az építés előtti jóváhagyáshoz. Még nem elkészült honlapverziók.
+Állapot: a felhasználó jóváhagyta mindhárom irányt; a három helyi HTML-prototípus, WebP-assetek és böngészős ellenőrzések elkészültek. Belépési pont: a projekt index.html fájlja.
 
 ## Közös alap
 
@@ -116,3 +116,4 @@ Ez a kör helyi, böngészhető koncepciókészítés. Az élesítés a kiválas
 ## Jóváhagyási pont
 
 A generalas skill az irányok bemutatása után kifejezett jóváhagyást kér a prototípusépítés előtt. A terv jóváhagyása mindhárom fenti helyi koncepció, a hozzájuk szükséges WebP-képek és az ellenőrzés elkészítésére vonatkozik. Nem kell közülük előre egyetlen nyertest választani.
+

@@ -1,0 +1,561 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agyagpad – Kerámiaműhely Szentendrén | Bemutatóprojekt</title>
+  <meta name="description" content="Kezdőbarát korongozás, kis csoportos tanfolyamok és kézzel készült kerámiák egy kitalált szentendrei műhely bemutatóoldalán. AI webdesigner vizsgamunka.">
+  <link rel="icon" type="image/webp" href="images/webp/agyagpad-favicon.webp">
+  <style>
+@font-face {
+  font-family: "Inter";
+  src: url("assets/fonts/inter-latin-ext.woff2") format("woff2");
+  font-weight: 400 600;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0100-02FF,U+1E00-1EFF,U+20A0-20AB,U+20AD-20C0,U+2C60-2C7F,U+A720-A7FF;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("assets/fonts/inter-latin.woff2") format("woff2");
+  font-weight: 400 600;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url("assets/fonts/merriweather-latin-ext.woff2") format("woff2");
+  font-weight: 600 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0100-02FF,U+1E00-1EFF,U+20A0-20AB,U+20AD-20C0,U+2C60-2C7F,U+A720-A7FF;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url("assets/fonts/merriweather-latin.woff2") format("woff2");
+  font-weight: 600 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+:root {
+  --paper:#F9F8F6;
+  --ink:#2D2A26;
+  --clay:#A65B32;
+  --sand:#D9C3B0;
+  --earth:#8C4A27;
+  --serif:"Merriweather", Georgia, serif;
+  --sans:"Inter", Arial, sans-serif;
+  --gutter:1.25rem;
+  --section:4rem;
+  --hero:4rem;
+  --h1:2.5rem;
+  --h2:2rem;
+  --h3:1.5rem;
+  --body:1rem;
+  --small:.875rem;
+}
+* { box-sizing:border-box }
+html { scroll-padding-top:1.25rem }
+body { margin:0; background:var(--paper); color:var(--ink); font:400 var(--body)/1.6 var(--sans) }
+.wrap { width:min(75rem, calc(100% - var(--gutter) * 2)); margin-inline:auto }
+h1,h2,h3,h4,p,figure,ol,ul { margin:0 }
+h1,h2,h3,h4 { font-family:var(--serif); line-height:1.3; overflow-wrap:break-word }
+h1 { font-size:var(--h1) }
+h2 { font-size:var(--h2) }
+h3 { font-size:var(--h3) }
+h4 { font-size:1.25rem; font-weight:600 }
+p { max-width:min(42.5rem,65ch) }
+a { color:var(--clay); text-underline-offset:.22em }
+a:hover { text-decoration-thickness:2px }
+a,button,input,textarea,select { transition:color 150ms ease-out,background-color 150ms ease-out,border-color 150ms ease-out }
+button,input,textarea,select { font:inherit; color:inherit }
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible {
+  outline:3px solid var(--ink); outline-offset:3px; box-shadow:0 0 0 3px var(--paper)
+}
+img { display:block; max-width:100% }
+.skip { position:absolute; left:1rem; top:1rem; transform:translateY(-200%); z-index:5; padding:1rem; color:var(--ink); background:var(--paper) }
+.skip:focus { transform:none }
+.masthead { border-bottom:1px solid var(--sand) }
+.mast-row { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:8px 16px; padding-block:16px }
+.logo { display:flex; align-items:center; min-height:48px; max-width:65%; width:184px }
+.logo img { width:100%; height:auto; object-fit:contain }
+.menu-toggle { display:none; align-items:center; justify-content:center; gap:8px; cursor:pointer; min-height:48px; padding:0; background:transparent; border:0; font-size:1rem; font-weight:600 }
+.menu-toggle svg { width:22px; height:22px; flex:none }
+.menu-close,.menu-toggle[aria-expanded="true"] .menu-open { display:none }
+.menu-toggle[aria-expanded="true"] .menu-close { display:block }
+.nav-wrap { display:flex; gap:0 24px; flex-wrap:wrap; align-items:center; width:100% }
+.nav-wrap nav { display:flex; gap:0 24px; flex-wrap:wrap }
+.nav-wrap a { display:inline-flex; align-items:center; min-height:48px; text-decoration:none; font-weight:600; font-size:1rem; color:var(--ink) }
+.nav-wrap a:hover,.nav-wrap a[aria-current] { color:var(--earth); text-decoration:underline; text-underline-offset:6px }
+.nav-wrap .concepts { font-size:var(--small); font-weight:400; color:var(--earth) }
+.kicker { display:flex; align-items:center; gap:12px; color:var(--earth); font-size:.8125rem; font-weight:600; line-height:1.4; letter-spacing:.04em; text-transform:uppercase; margin-bottom:16px }
+.kicker::before { content:""; width:32px; border-top:2px solid currentColor; flex:none }
+.hero { padding-block:var(--hero) var(--section) }
+.hero h1 { max-width:59rem; text-wrap:balance }
+.hero-intro { margin-top:16px; font:600 1.125rem/1.5 var(--serif); max-width:42rem }
+.actions { display:flex; gap:16px; flex-wrap:wrap; margin-top:32px }
+.button { display:inline-flex; justify-content:center; align-items:center; padding:16px 24px; border:1px solid var(--clay); border-radius:999px; min-height:48px; background:var(--clay); color:var(--paper); text-decoration:none; text-align:center; text-transform:uppercase; letter-spacing:.04em; font:600 .9375rem/1.3 var(--sans); cursor:pointer; max-width:100%; overflow-wrap:anywhere }
+.button:hover,.button:active { background:var(--earth); border-color:var(--earth); color:var(--paper) }
+.button.secondary { background:transparent; color:var(--clay) }
+.button.secondary:hover,.button.secondary:active { background:var(--clay); color:var(--paper) }
+.photo { width:100%; height:auto; object-fit:cover; border-radius:16px }
+.hero-pair { margin-top:48px; display:grid; grid-template-columns:minmax(0,2fr) minmax(0,1fr); gap:16px; align-items:end }
+.hero-pair img { height:100% }
+.hero-main .frame { aspect-ratio:1.57 }
+.hero-tools .frame { aspect-ratio:.92 }
+.hero-main img { object-position:50% 43% }
+.hero-tools img { object-position:50% 65% }
+figcaption { margin-top:8px; font-size:var(--small); line-height:1.5 }
+.ruled { border-top:1px solid var(--sand); padding-block:var(--section) }
+.section-head { margin-bottom:32px }
+.cards { display:grid; gap:24px }
+.course { display:flex; flex-direction:column; border:1px solid var(--sand); border-radius:16px; min-width:0 }
+.course img { height:auto; aspect-ratio:1.8; object-position:50% 50% }
+.course:last-child img { object-position:50% 52% }
+.course-body { padding:24px; flex:1; display:flex; flex-direction:column; align-items:start }
+.course .description { font-size:var(--small); color:var(--earth); margin-top:8px }
+.course .schedule { margin:24px 0; font-size:1rem }
+.schedule span { display:block }
+.course .price { margin-top:auto; padding-top:16px; border-top:1px solid var(--sand); width:100%; font-size:1rem; font-weight:600 }
+.course .button { margin-top:16px; align-self:stretch }
+.notes { margin-top:48px; display:grid; gap:24px; padding-top:32px; border-top:1px solid var(--sand) }
+.notes ul { padding-left:1.15em; max-width:65ch }
+.notes li { padding-left:.35em }
+.notes li + li { margin-top:8px }
+.notes li::marker { color:var(--clay) }
+.story { display:grid; gap:32px; align-items:start }
+.story-copy p + p { margin-top:16px }
+.timeline { list-style:none; padding:0; margin-top:32px }
+.timeline li { display:grid; grid-template-columns:auto minmax(0,1fr); gap:16px; position:relative; padding:0 0 24px 16px; border-left:1px solid var(--clay) }
+.timeline li:last-child { padding-bottom:0; border-color:transparent }
+.timeline li::before { content:""; position:absolute; width:7px; height:7px; border-radius:50%; background:var(--clay); left:-4px; top:.6em }
+.timeline time { font:600 1.125rem/1.6 var(--serif); color:var(--earth) }
+.timeline strong { display:block }
+.timeline p { font-size:var(--small); margin-top:4px }
+.story-figure img { aspect-ratio:4/3; object-position:50% 58% }
+.shop { display:grid; align-items:center; gap:24px; margin-top:64px }
+.shop img { aspect-ratio:4/3 }
+.shop p { margin-top:16px }
+.small { font-size:var(--small); line-height:1.5 }
+.shop .small { margin-top:4px }
+.contact { background:var(--sand); padding-block:var(--section) }
+.contact .kicker { color:var(--ink) }
+.contact .section-head > p:last-child { margin-top:16px }
+.contact-grid { display:grid; gap:32px; align-items:start }
+.form-paper { background:var(--paper); border-radius:16px; padding:24px; min-width:0 }
+.form-note { border-left:2px solid var(--clay); padding-left:16px; font-size:var(--small) }
+.form-paper > .small { margin-top:24px }
+.fields { display:grid; gap:24px; margin-block:24px }
+.field { min-width:0 }
+.field label { display:block; font-size:1rem; font-weight:600; margin-bottom:8px }
+input,select,textarea { display:block; width:100%; min-width:0; padding:16px; min-height:48px; border:1px solid var(--ink); border-radius:12px; background:var(--paper); font-size:1rem; line-height:1.45 }
+input::placeholder { color:var(--ink) }
+textarea { min-height:144px; resize:vertical }
+.field .small { margin-top:8px }
+.field [aria-invalid="true"] { box-shadow:inset 0 0 0 1px var(--ink) }
+.field-error { margin-top:8px; font-size:var(--small); font-weight:600 }
+.field-error:empty,.feedback:empty { display:none }
+.feedback { margin-top:16px; border:1px solid var(--ink); padding:16px; border-radius:12px }
+.form-paper > .button { margin-top:16px }
+.location { padding-block:8px }
+.location p { margin-top:16px }
+.location .small { margin-top:4px }
+.location .hours { padding-block:16px; border-block:1px solid var(--ink); font-weight:600 }
+.footer { background:var(--sand); padding-block:0 32px }
+.footer-grid { display:grid; gap:32px; border-top:1px solid var(--ink); padding-top:48px }
+.footer-brand img { width:190px; max-width:100%; height:auto; object-fit:contain }
+.footer p { font-size:var(--small); line-height:1.5 }
+.footer-brand p,.footer-group > p:first-of-type { margin-top:16px }
+.footer-group p + p { margin-top:8px }
+.footer a { color:var(--ink) }
+.footer nav { display:flex; flex-direction:column; align-items:start }
+.footer nav a { display:flex; align-items:center; min-height:48px }
+.footer-bottom { display:grid; gap:16px; margin-top:32px; padding-top:24px; border-top:1px solid var(--ink); font-size:var(--small) }
+.footer-bottom p + p { margin-top:8px }
+.footer-bottom a { display:inline-flex; align-items:center; min-height:48px }
+@media (max-width:47.99rem) {
+  .actions { flex-direction:column }
+  .actions .button,.form-paper > .button { width:100% }
+  .hero-pair { gap:10px; align-items:start; margin-top:32px }
+  .hero-main .frame { aspect-ratio:1.02 }
+  .hero-tools { padding-top:24px }
+  .hero-tools .frame { aspect-ratio:.63 }
+  .hero-pair figcaption { font-size:.875rem }
+  .story-figure { order:-1 }
+}
+@media (max-width:63.99rem) {
+  .js .menu-toggle { display:inline-flex }
+  .js .nav-wrap:not(.is-open) { display:none }
+  .nav-wrap { border-top:1px solid var(--sand); padding-top:8px }
+  .nav-wrap nav { width:100% }
+  .menu-toggle[aria-expanded="true"] { flex-wrap:wrap; max-width:7rem; line-height:1.25 }
+}
+@media (max-width:25rem) {
+  .menu-toggle[aria-expanded="true"] { max-width:5.2rem }
+  .menu-toggle[aria-expanded="true"] svg { display:none }
+  .form-paper { padding:24px 16px }
+}
+@media (min-width:48rem) {
+  :root { --gutter:2rem; --h1:clamp(2.5rem,calc(-1.25rem + 7.8125vw),3.75rem); --h2:clamp(2rem,calc(.5rem + 3.125vw),2.5rem) }
+  .logo { width:220px }
+  .hero-pair { grid-template-columns:minmax(0,2.15fr) minmax(0,1fr); gap:32px }
+  .hero-main .frame { aspect-ratio:1.9 }
+  .hero-tools .frame { aspect-ratio:1.1 }
+  .hero h1 span { display:block }
+  .shop,.story { grid-template-columns:minmax(0,1.5fr) minmax(0,1fr); gap:32px }
+  .story-figure img { aspect-ratio:2/3 }
+  .fields { grid-template-columns:repeat(2,minmax(0,1fr)) }
+  .field-wide { grid-column:1 / -1 }
+  .notes { grid-template-columns:minmax(0,1fr) minmax(0,1.6fr) }
+  .footer-grid { grid-template-columns:1fr 1.1fr .65fr }
+  .footer-bottom { grid-template-columns:minmax(0,1fr) auto; align-items:start }
+}
+@media (min-width:48rem) and (max-width:63.99rem) {
+  .course { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.4fr) }
+  .course img { height:100%; min-height:100%; aspect-ratio:auto }
+}
+@media (min-width:64rem) {
+  :root { --gutter:3rem; --section:6rem; --hero:8rem; --h1:3.75rem; --h2:2.5rem; --h3:1.75rem; --body:1.125rem; --small:.9375rem }
+  h4 { font-size:1.5rem }
+  .mast-row { flex-wrap:nowrap }
+  .logo { width:224px }
+  .nav-wrap { width:auto; gap:32px }
+  .nav-wrap nav { gap:32px }
+  .nav-wrap .concepts { padding-left:24px; border-left:1px solid var(--sand) }
+  .kicker { font-size:.875rem }
+  .hero-intro { font-size:1.25rem; line-height:1.3 }
+  .hero-pair { gap:48px }
+  .button { padding-inline:32px }
+  .section-head { margin-bottom:48px }
+  .cards { grid-template-columns:repeat(3,minmax(0,1fr)); gap:32px }
+  .course img { aspect-ratio:1.7 }
+  .course:nth-child(2) img { aspect-ratio:2.1 }
+  .course:last-child img { aspect-ratio:1.5 }
+  .course-body { padding:32px }
+  .course .price { min-height:4.2rem }
+  .course .button { padding-inline:24px; min-height:4.5rem }
+  .story { grid-template-columns:minmax(0,1.65fr) minmax(0,1fr); column-gap:clamp(48px,8vw,128px) }
+  .story-figure { max-width:365px; justify-self:end; width:100%; margin-top:64px }
+  .shop { grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:64px }
+  .contact-grid { grid-template-columns:minmax(0,1.6fr) minmax(0,.9fr); gap:64px }
+  .form-paper { padding:48px }
+  .footer-grid { gap:48px }
+}
+@media (prefers-reduced-motion:reduce) {
+  *,*::before,*::after { transition:none !important; scroll-behavior:auto !important }
+}
+  </style>
+</head>
+<body>
+  <a class="skip" href="#tartalom">Ugrás a tartalomra</a>
+  <header class="masthead">
+    <div class="wrap mast-row">
+      <a class="logo" href="#kezdo" aria-label="Agyagpad – kezdőlap"><img src="images/webp/agyagpad-logo.webp" width="1040" height="300" alt=""></a>
+      <button class="menu-toggle" type="button" aria-controls="fo-navigacio" aria-expanded="false">
+        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <path class="menu-open" d="M3 6h18M3 12h18M3 18h18"/><path class="menu-close" d="m6 6 12 12M18 6 6 18"/>
+        </svg>
+        <span>Menü</span>
+      </button>
+      <div class="nav-wrap" id="fo-navigacio">
+        <nav aria-label="Főmenü">
+          <a href="#kezdo">Kezdőlap</a>
+          <a href="#tanfolyamok">Tanfolyamok</a>
+          <a href="#muhely">Műhely</a>
+          <a href="#kapcsolat">Kapcsolat</a>
+        </nav>
+        <a class="concepts" href="index.html">Koncepciók</a>
+      </div>
+    </div>
+  </header>
+  <main id="tartalom">
+    <section id="kezdo" class="wrap hero" aria-labelledby="focim">
+      <p class="kicker">Szentendrei kézműves műhely</p>
+      <h1 id="focim">Alkoss agyagból, <span>kapcsolódj ki Szentendrén.</span></h1>
+      <p class="hero-intro">Kezdőbarát korongozás kis csoportban, egy hangulatos szentendrei kerámiaműhelyben.</p>
+      <div class="actions">
+        <a class="button" href="#kapcsolat" data-program-reset>Érdeklődöm a tanfolyamról</a>
+        <a class="button secondary" href="#muhely">Megnézem a műhelyt</a>
+      </div>
+      <div class="hero-pair">
+        <figure class="hero-main">
+          <div class="frame"><img class="photo" src="images/webp/hero1-800.webp"
+          srcset="images/webp/hero1-480.webp 480w, images/webp/hero1-800.webp 800w, images/webp/hero1-1200.webp 1200w, images/webp/hero1-1600.webp 1600w"
+          sizes="(min-width: 1296px) 786px, (min-width: 768px) 63vw, 64vw" width="4784" height="3193" alt="Szalmakalapos keramikus egy edényt formáz az udvari korongnál."
+          loading="eager" fetchpriority="high" decoding="async"></div>
+          <figcaption>Fehér Dóra a korongnál</figcaption>
+        </figure>
+        <figure class="hero-tools">
+          <div class="frame"><img class="photo" src="images/webp/reszletfoto3-800.webp"
+          srcset="images/webp/reszletfoto3-480.webp 480w, images/webp/reszletfoto3-800.webp 800w, images/webp/reszletfoto3-1200.webp 1200w, images/webp/reszletfoto3-1600.webp 1600w"
+          sizes="(min-width: 1296px) 366px, 30vw" width="5267" height="7900" alt="Mintázóeszközök és szivacs egy fa munkaasztalon."
+          loading="lazy" decoding="async"></div>
+          <figcaption>A korongozás eszközei</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section id="tanfolyamok" class="wrap ruled" aria-labelledby="tanfolyam-cim">
+      <div class="section-head">
+        <p class="kicker">Programok és árak</p>
+        <h2 id="tanfolyam-cim">Válaszd ki a neked való alkotást</h2>
+      </div>
+      <div class="cards">
+        <article class="course">
+          <img class="photo" src="images/webp/korongozo-kostolo-800.webp"
+          srcset="images/webp/korongozo-kostolo-480.webp 480w, images/webp/korongozo-kostolo-800.webp 800w, images/webp/korongozo-kostolo-1200.webp 1200w, images/webp/korongozo-kostolo-1600.webp 1600w"
+          sizes="(min-width: 1296px) 379px, (min-width: 1024px) 29vw, (min-width: 768px) 38vw, calc(100vw - 40px)" width="6000" height="4000" alt="Két kéz formálja az agyagot a fazekaskorongon."
+          loading="lazy" decoding="async">
+          <div class="course-body">
+            <h3>Korongozó kóstoló</h3>
+            <p class="description">Első találkozás az agyaggal</p>
+            <p class="schedule"><span>1 alkalom · 3 óra</span><span>Szombat 14:00–17:00</span></p>
+            <p class="price">18 500 Ft / fő</p>
+            <a class="button" href="#kapcsolat" data-program="kostolo">Érdeklődöm a tanfolyamról</a>
+          </div>
+        </article>
+        <article class="course">
+          <img class="photo" src="images/webp/4-hetes-kezdo-kurzus-800.webp"
+          srcset="images/webp/4-hetes-kezdo-kurzus-480.webp 480w, images/webp/4-hetes-kezdo-kurzus-800.webp 800w, images/webp/4-hetes-kezdo-kurzus-1200.webp 1200w, images/webp/4-hetes-kezdo-kurzus-1600.webp 1600w"
+          sizes="(min-width: 1296px) 379px, (min-width: 1024px) 29vw, (min-width: 768px) 38vw, calc(100vw - 40px)" width="7999" height="5340" alt="Agyagedény alját igazítják egy szerszámmal a korongon."
+          loading="lazy" decoding="async">
+          <div class="course-body">
+            <h3>Négyhetes kezdő kurzus</h3>
+            <p class="description">Alapok négy alkalom alatt</p>
+            <p class="schedule"><span>Négy egymást követő alkalom · 4 × 2,5 óra</span><span>Szerda 17:00–19:30</span></p>
+            <p class="price">65 000 Ft / fő, a teljes kurzusra</p>
+            <a class="button" href="#kapcsolat" data-program="kezdo-kurzus">Érdeklődöm a tanfolyamról</a>
+          </div>
+        </article>
+        <article class="course">
+          <img class="photo" src="images/webp/ceges-csapatepito-800.webp"
+          srcset="images/webp/ceges-csapatepito-480.webp 480w, images/webp/ceges-csapatepito-800.webp 800w, images/webp/ceges-csapatepito-1200.webp 1200w, images/webp/ceges-csapatepito-1600.webp 1600w"
+          sizes="(min-width: 1296px) 379px, (min-width: 1024px) 29vw, (min-width: 768px) 38vw, calc(100vw - 40px)" width="3624" height="5436" alt="Alakuló agyagedény a műhely szerszámai között."
+          loading="lazy" decoding="async">
+          <div class="course-body">
+            <h3>Céges csapatépítő</h3>
+            <p class="description">Közös élmény</p>
+            <p class="schedule"><span>Egyedi egyeztetés szerint</span></p>
+            <p class="price">Egyedi árajánlat alapján</p>
+            <a class="button" href="#kapcsolat" data-program="csapatepito">Érdeklődöm a tanfolyamról</a>
+          </div>
+        </article>
+      </div>
+      <div class="notes">
+        <h3>Amit érdemes tudnod</h3>
+        <ul>
+          <li>Legfeljebb hatfős csoportban dolgozunk, a kezdő programokhoz előképzettség nem szükséges.</li>
+          <li>A díj tartalmazza az agyagot, a mázat és a két égetést.</li>
+          <li>Az elkészült tárgyak az utolsó foglalkozás után két héttel vehetők át.</li>
+          <li>A tanfolyamon a tanulás és az alkotás élménye a fontos; meghatározott darabszámot vagy hibátlan végeredményt nem garantálunk.</li>
+          <li>Az időbeosztás tájékoztató jellegű. A bemutatott működés szerint a konkrét indulás és a szabad férőhely külön egyeztetéssel tisztázható.</li>
+        </ul>
+      </div>
+    </section>
+    <section id="muhely" class="wrap ruled" aria-labelledby="muhely-cim">
+      <div class="section-head">
+        <p class="kicker">Az alkotó és a helyszín</p>
+        <h2 id="muhely-cim">Ismerd meg az Agyagpadot</h2>
+      </div>
+      <div class="story">
+        <div class="story-copy">
+          <p>Fehér Dóra vagyok, az Agyagpad alapítója. Az első korongozó foglalkozásomon az fogott meg, hogy az agyag minden apró mozdulatra válaszol. Ebből a kíváncsiságból született meg később a saját szentendrei műhelyem.</p>
+          <p>Ma olyan bögréket, tálakat és tányérokat készítek, amelyeket jó kézbe venni a hétköznapokban. A foglalkozásokon pedig azt szeretném megmutatni, hogyan indulhatsz el te is. Kis csoportban dolgozunk, hogy mindenkinek jusson figyelem és segítség az első mozdulatokhoz.</p>
+          <ol class="timeline" aria-label="Az Agyagpad mérföldkövei">
+            <li><time datetime="2018">2018</time><div><strong>Az első találkozás az agyaggal.</strong><p>Egy korongozó foglalkozásból rendszeres alkotás születik.</p></div></li>
+            <li><time datetime="2022">2022</time><div><strong>Megnyílik az Agyagpad.</strong><p>Saját műhely egy régi szentendrei udvari helyiségben.</p></div></li>
+            <li><time datetime="2023">2023</time><div><strong>Az első saját kollekció.</strong><p>Kézzel készült bögrék, tálak és tányérok a mindennapokra.</p></div></li>
+            <li><time datetime="2024">2024</time><div><strong>Elindulnak a kezdő foglalkozások.</strong><p>Közös alkotás legfeljebb hatfős csoportokban.</p></div></li>
+          </ol>
+        </div>
+        <figure class="story-figure">
+          <img class="photo" src="images/webp/reszletfoto2-800.webp"
+          srcset="images/webp/reszletfoto2-480.webp 480w, images/webp/reszletfoto2-800.webp 800w, images/webp/reszletfoto2-1200.webp 1200w, images/webp/reszletfoto2-1600.webp 1600w"
+          sizes="(min-width: 1024px) 365px, (min-width: 768px) 38vw, calc(100vw - 40px)" width="4160" height="6240" alt="Agyagos kezek közelről, egy alakuló bögre peremének megmunkálása közben."
+          loading="lazy" decoding="async">
+        </figure>
+      </div>
+      <div class="shop">
+        <img class="photo" src="images/webp/muhelybolt-800.webp"
+          srcset="images/webp/muhelybolt-480.webp 480w, images/webp/muhelybolt-800.webp 800w, images/webp/muhelybolt-1200.webp 1200w, images/webp/muhelybolt-1600.webp 1600w"
+          sizes="(min-width: 1296px) 568px, (min-width: 768px) 49vw, calc(100vw - 40px)" width="5410" height="3607" alt="Két kézzel készített bögre, az egyiken festett szív látható."
+          loading="lazy" decoding="async">
+        <div>
+          <h3>Műhelybolt és kerámiák</h3>
+          <p>Kézzel készült használati kerámiák: bögrék, tálak és tányérok. A tárgyakat az oldalon bemutatjuk; online vásárlásra nincs lehetőség.</p>
+          <p><strong>Csütörtök–vasárnap: 10:00–18:00</strong></p>
+          <p>2000 Szentendre, Agyagliget köz 4.</p>
+          <p class="small">Kitalált bemutatócím, nem látogatható műhelyhelyszín.</p>
+        </div>
+      </div>
+    </section>
+    <section id="kapcsolat" class="contact" aria-labelledby="kapcsolat-cim">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="kicker">Érdeklődés és kapcsolat</p>
+          <h2 id="kapcsolat-cim">Melyik program érdekel?</h2>
+          <p>Válassz programot, vagy írd meg, mi érdekel az Agyagpaddal kapcsolatban. Ajándékozásról és a kerámiákról is kérdezhetsz.</p>
+        </div>
+        <div class="contact-grid">
+          <form class="form-paper" data-demo-form onsubmit="return false" aria-labelledby="kapcsolat-cim">
+            <p class="form-note">Az űrlapon a bemutatóprojekt működését próbálhatod ki. Beküldésével nem foglalsz valódi tanfolyami helyet. A prototípus nem küld üzenetet.</p>
+            <p class="small">A csillaggal (*) jelölt mezők kitöltése kötelező.</p>
+            <div class="fields">
+              <div class="field">
+                <label for="name">Név *</label>
+                <input id="name" type="text" required autocomplete="name" placeholder="A neved" aria-describedby="name-error">
+                <p class="field-error" id="name-error"></p>
+              </div>
+              <div class="field">
+                <label for="email">E-mail-cím *</label>
+                <input id="email" type="email" required autocomplete="email" placeholder="E-mail-cím, amelyen elérhető vagy" aria-describedby="email-error">
+                <p class="field-error" id="email-error"></p>
+              </div>
+              <div class="field field-wide">
+                <label for="program">Program *</label>
+                <select id="program" required aria-describedby="program-error">
+                  <option value="">Válassz programot</option>
+                  <option value="kostolo">Korongozó kóstoló</option>
+                  <option value="kezdo-kurzus">Négyhetes kezdő kurzus</option>
+                  <option value="csapatepito">Céges csapatépítő</option>
+                  <option value="egyeb">Ajándékozás vagy egyéb érdeklődés</option>
+                </select>
+                <p class="field-error" id="program-error"></p>
+              </div>
+              <div class="field field-wide">
+                <label for="message">Üzenet</label>
+                <textarea id="message" rows="4" aria-describedby="message-hint"></textarea>
+                <p id="message-hint" class="small">Írd meg, mire vagy kíváncsi. Ne adj meg érzékeny személyes adatot.</p>
+              </div>
+            </div>
+            <p class="small">Az üzenet elküldése előtt olvasd el az <a href="adatkezeles.html?v=2">Adatkezelési tájékoztatót</a>.</p>
+            <button type="submit" class="button" disabled>Érdeklődés elküldése</button>
+            <noscript><p>A helyi bemutató kipróbálásához engedélyezd a JavaScriptet.</p></noscript>
+            <p class="feedback" role="status" aria-live="polite"></p>
+          </form>
+          <aside class="location" aria-labelledby="hely-cim">
+            <h3 id="hely-cim">A bemutatott műhely</h3>
+            <p>2000 Szentendre, Agyagliget köz 4.</p>
+            <p class="small">Kitalált bemutatócím, nem látogatható műhelyhelyszín.</p>
+            <p class="hours">Csütörtök–vasárnap: 10:00–18:00</p>
+            <p>Egy valódi műhelynél az érdeklődést időpont- és férőhely-egyeztetés követné. Ezen az oldalon ezt a működést szemléltetjük; valódi tanfolyamra nem lehet jelentkezni.</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#kezdo" class="logo" aria-label="Agyagpad – kezdőlap"><img src="images/webp/agyagpad-logo.webp" width="1040" height="300" alt=""></a>
+          <p>Kézzel készült kerámiák és kezdőbarát korongozás Szentendrén. Bögrék, tálak és közös alkotóélmények, kis csoportban.</p>
+        </div>
+        <div class="footer-group">
+          <h4>Műhely és nyitvatartás</h4>
+          <p>2000 Szentendre, Agyagliget köz 4.<br>Kitalált bemutatócím, nem látogatható műhelyhelyszín.</p>
+          <p>Csütörtök–vasárnap: 10:00–18:00</p>
+          <p>A programok időbeosztását a <a href="#tanfolyamok">Tanfolyamok</a> résznél találod.</p>
+        </div>
+        <div class="footer-group">
+          <h4>Fedezd fel</h4>
+          <nav aria-label="Lábléc">
+            <a href="#kezdo">Kezdőlap</a>
+          <a href="#tanfolyamok">Tanfolyamok</a>
+          <a href="#muhely">Műhely</a>
+          <a href="#kapcsolat">Kapcsolat</a>
+            <a href="#kapcsolat">Írj az űrlapon</a>
+          </nav>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>
+          <p>© 2026 Agyagpad · AI webdesigner vizsgamunka</p>
+          <p>Az Agyagpad kitalált vállalkozás, az oldal bemutatóprojekt. Az űrlap nem foglal valódi tanfolyami helyet.</p>
+          <p>A fotók a kitalált műhely és szereplő illusztrációi.</p>
+        </div>
+        <a href="adatkezeles.html?v=2">Adatkezelési tájékoztató</a>
+      </div>
+    </div>
+  </footer>
+  <script>
+    (() => {
+      const nav = document.getElementById('fo-navigacio');
+      const menu = document.querySelector('.menu-toggle');
+      const menuLabel = menu.querySelector('span');
+      const desktop = window.matchMedia('(min-width:64rem)');
+      function setMenu(open) {
+        menu.setAttribute('aria-expanded', String(open));
+        menuLabel.textContent = open ? 'Menü bezárása' : 'Menü';
+        nav.classList.toggle('is-open', open);
+      }
+      menu.addEventListener('click', () => setMenu(menu.getAttribute('aria-expanded') === 'false'));
+      nav.addEventListener('click', event => {
+        if (event.target.closest('a')) setMenu(false);
+      });
+      document.addEventListener('keydown', event => {
+        if (event.key === 'Escape' && menu.getAttribute('aria-expanded') === 'true') {
+          setMenu(false);
+          menu.focus();
+        }
+      });
+      desktop.addEventListener('change', () => setMenu(false));
+      document.documentElement.classList.add('js');
+
+      const navLinks = Array.from(nav.querySelectorAll('nav a'));
+      function updateCurrentLink() {
+        const current = location.hash || '#kezdo';
+        for (const link of navLinks) {
+          if (link.hash === current) link.setAttribute('aria-current', 'location');
+          else link.removeAttribute('aria-current');
+        }
+      }
+      window.addEventListener('hashchange', updateCurrentLink);
+      updateCurrentLink();
+
+      const form = document.querySelector('[data-demo-form]');
+      const program = document.getElementById('program');
+      const status = form.querySelector('[role="status"]');
+      const missingText = {
+        name:'Add meg a neved.',
+        email:'Add meg az e-mail-címed.',
+        program:'Válassz a Program mező lehetőségei közül. Ha nem tanfolyamról kérdezel, válaszd az „Ajándékozás vagy egyéb érdeklődés” lehetőséget.'
+      };
+      function showValidity(field) {
+        const message = document.getElementById(field.id + '-error');
+        if (!message) return;
+        if (field.validity.valid) {
+          field.removeAttribute('aria-invalid');
+          message.textContent = '';
+        } else {
+          field.setAttribute('aria-invalid', 'true');
+          message.textContent = 'Hiba: ' + (field.validity.typeMismatch ? 'Adj meg egy érvényes e-mail-címet.' : missingText[field.id]);
+        }
+      }
+      form.addEventListener('invalid', event => {
+        showValidity(event.target);
+        status.textContent = 'Ellenőrizd a megjelölt mezőket.';
+      }, true);
+      form.addEventListener('input', event => {
+        if (event.target.hasAttribute('aria-invalid')) showValidity(event.target);
+        status.textContent = '';
+      });
+      for (const link of document.querySelectorAll('[data-program], [data-program-reset]')) {
+        link.addEventListener('click', () => {
+          program.value = link.dataset.program || '';
+          program.removeAttribute('aria-invalid');
+          document.getElementById('program-error').textContent = '';
+          status.textContent = '';
+        });
+      }
+      form.addEventListener('submit', event => {
+        event.preventDefault();
+        status.textContent = 'Ez helyi bemutató: az adatok nem kerültek elküldésre. A valódi üzenetküldést a kiválasztott változat véglegesítésekor állítjuk be.';
+      });
+      form.querySelector('[type="submit"]').disabled = false;
+    })();
+  </script>
+</body>
+</html>

@@ -1,362 +1,132 @@
 # Agyagpad – design system
 
-Verzió: 3.0 · 2026. november 11.  
-Állapot: a kiválasztott Udvari műhely türkiz változata, részletes tanfolyamaloldallal. A 15. szakasz a felhasználó legújabb szöveg- és elrendezési döntéseit rögzíti; ezek felülírják a korábbi koncepciószabályokat.
+Verzió: 4.0 · 2026. november 11.
+Állapot: a kiválasztott Udvari műhely főoldalának aktuális specifikációja. A korábbi türkiz gombos irányt ez a dokumentum felülírja.
 
-## 1. Források és az adatok státusza
+## Források és hatókör
 
-| Forrás | Szerepe |
+- A felhasználó legutóbbi főoldali módosításai az elsődlegesek.
+- A meglévő brief és a szovegek.md rögzíti a projektadatokat; az eredeti arculat, Figma és iskolai méretskála adja az alapokat.
+- Aktuális főoldal: koncepcio-1-udvari-muhely.html. Az index.html külön koncepcióválasztó, a főoldal fejlécéből nincs hozzá hivatkozás.
+- Megjelenési forrás: assets/udvari-muhely.css. A betűfájlok és a licencek az assets/fonts mappában elérhetők.
+- Ebben a munkakörben kizárólag a főoldal készült tovább. A közös CSS a meglévő aloldalakon is érvényesül, azok HTML-tartalmát nem bővítettük.
+
+## Hangulat
+
+Meleg, földközeli, kézműves, rendezett és olvasható. A nyitókép az agyag formálását mutatja. A műhelyt egyetlen hangsúlyos munka közbeni portré és visszafogott tárgyfotók személyesítik meg. Nincs review-szekció, kitalált statisztika vagy új elismerés.
+
+## Színek
+
+| Token a CSS-ben | HEX | Használat |
+| --- | --- | --- |
+| --paper | #F9F8F6 | Törtfehér fő felület, hero, műhely, világos kártyák, gombszöveg |
+| --ink | #2D2A26 | Grafit törzsszöveg, H2/H3, navigáció, link, ikon és funkcionális keret |
+| --clay | #A65B32 | Terrakotta H1, elsődleges gomb, évszám, idővonaltengely és visszafogott kerámiamotívum |
+| --earth | #8C4A27 | Az elsődleges gomb sötétebb hover állapota |
+| --sand | #D9C3B0 | Tanfolyami és kapcsolati szakasz, tudnivalóblokk meleg bézs alapja |
+| --teal | #1B4D4F | Kizárólag a kicker feliratok, beleértve a kártyák felvezetőit |
+
+Új bézs-, homok-, grafit- vagy türkiz-hover árnyalat nincs. A korábban felvetett #F3EFEA, #EFE8E1 és #123C3E nem része az aktuális rendszernek. A fényképek természetes színei nem UI-tokenek.
+
+### Ellenőrzött kontrasztok
+
+| Előtér / háttér | Arány |
 | --- | --- |
-| `C:/Users/jolci/Documents/ChatGPT/ElizaBeauty - AI Webdesign/forrasok/design-system.md` | Méretskála, 8 px-es térközrendszer és komponensformák forrása; csak ezek kerülnek át, az Eliza-arculat nem |
-| `agyagpad-projektbrief.md` | Célcsoport, célok, tartalom, működés |
-| `C:/Users/jolci/Desktop/Agyagpad-színkódok.docx` | Az öt pontos HEX-kód és eredeti szerepük; kiolvasva |
-| `tervezes/arculat/Arculati-tabla.png` | Friss arculati referencia, betűcsaládok és képi hangulat |
-| `images/logo/Agyagpad-logo-jo.svg` | Elsődleges, bögrés logó; a vázaemblémás korábbi irányt felváltja |
-| `images/logo/Agyagpad-Favicon-jo.svg` | Kapcsolódó bögrés favicon forrása |
-| `tervezes/oldalterkep-es-drotvaz.md` és `tervezes/drotvaz/02-drotvaz.png` | Négy szekció és reszponzív tartalmi sorrend |
-| [Figma-terv](https://www.figma.com/design/JBJUoyS0OdRW9q4lMgWJhc/Agyagpad---designterv?node-id=0-1) | Közvetlen Figma-kapcsolattal beolvasva: Page 1 (0:1), arculati tábla (2:25); a tipográfiai előírások és a minták tényleges szövegbeállításai is ellenőrizve |
+| Grafit / törtfehér | 13,45:1 |
+| Grafit / homok | 8,42:1 |
+| Türkiz / törtfehér | 8,91:1 |
+| Türkiz / homok | 5,58:1 |
+| Terrakotta / törtfehér | 4,75:1 |
+| Törtfehér / terrakotta gomb | 4,75:1 |
+| Törtfehér / sötétebb terrakotta hover | 6,33:1 |
 
-**Rögzített döntési sorrend:** az Agyagpad briefje adja a hangulatot és a tartalmi célokat; a felhasználó adja az öt színt, a Merriweather–Inter párost és a bögrés logót. A javított Figma-tábla az Agyagpad asztali tipográfiai alapja. Az Eliza Beauty dokumentumból a mobilméreteket, térközrendszert és komponensformákat vesszük át, az Agyagpadhoz igazított szabályokkal.
+A homokszínű felületen az elsődleges gomb grafit kerete ad egyértelmű határt; nem támaszkodunk a terrakotta/homok pár gyengébb határkontrasztjára. A linkek sötétek és aláhúzottak. A fókusz grafit, törtfehér elválasztással. Szövegszínhez nem használunk halványító átlátszóságot.
 
-Az alábbi méretek az aktuális megvalósítási előírások, nem függőben lévő javaslatok. Ahol a forrásból módosítottunk, az okot rögzítjük. A valódi oldal felépítése után a tördelést és a képkivágásokat vizuálisan ellenőrizni kell; ez nem jelenti a méretrendszer hiányát.
+## Tipográfia
 
-## 2. Arculati alapelvek
+Merriweather a címsorokhoz, Inter a szöveghez és kezelőelemekhez. Helyi WOFF2, magyar karakteres készlet, font-display: swap. A logó saját betűrajzát nem szedjük újra.
 
-- Meleg, földközeli, kézműves, közvetlen; a szíves bögre adja a játékos részletet.
-- Levegős elrendezés, anyagközeli fotók, jól olvasható magyar szövegek.
-- A mély sötéttürkiz irányítja a figyelmet a programokra és az érdeklődésre; a terrakotta az évszámok és a finom részletek színe; a sötét szöveg és a törtfehér háttér biztosítja a nyugalmat.
-- A kézműves hangulatot a meglévő logó, a képek és a betűk adják. Nincs szükség minden felületre textúrára, szabálytalan keretre vagy dekorációra.
-- Nincs külön GYIK, blog, webshop vagy automatikus foglalás. A terv számozott szekciójelölései tervezési címkék, az éles oldalon nem kötelező megjeleníteni őket.
-
-## 3. Színrendszer – pontos forrásadatok
-
-| Token | HEX | Szerep |
-| --- | --- | --- |
-| `--color-bg` | `#F9F8F6` | Meleg törtfehér fő háttér; elsődleges gomb felirata |
-| `--color-text` | `#2D2A26` | Törzsszöveg, címsorok, címkék, ikonok |
-| `--color-primary` | `#1B4D4F` | Sötéttürkiz CTA, fontos kiemelés, hivatkozás, tudnivalóblokk |
-| `--color-clay` | `#A65B32` | Terrakotta évszámok, kis jelölések, dekoráció és a logó PAD része |
-| `--color-sand` | `#D9C3B0` | Homokszínű kiegészítő felület, dekoratív elválasztó |
-| `--color-primary-hover` | `#123C3E` | A türkiz gomb sötétebb hover és aktív árnyalata |
-| `--color-earth` | `#8C4A27` | Kis terrakotta címkék sötétebb változata |
-
-### Használat és ellenőrzött kontraszt
-
-Az arányok a dokumentumban rögzített HEX-értékekből, sRGB relatív fénysűrűséggel számítva, két tizedesre kerekítve:
-
-| Előtér / háttér | Kontraszt | Használat |
-| --- | --- | --- |
-| Sötét / törtfehér | 13,45:1 | Alap szöveg és címsor |
-| Törtfehér / sötéttürkiz | 8,91:1 | Elsődleges gomb és tudnivalóblokk szövege |
-| Törtfehér / türkiz hover | 11,36:1 | Gomb hover felirata |
-| Sötéttürkiz / törtfehér | 8,91:1 | Hivatkozás, fő kiemelés |
-| Terrakotta / törtfehér | 4,75:1 | Évszám és kis jelölés |
-| Homok / sötéttürkiz | 5,58:1 | Tudnivalóikonok |
-| Sötét / homok | 8,42:1 | Kártya és információs blokk szövege |
-| Terrakotta / homok | 2,97:1 | Szöveghez és lényeges ikonhoz ne használjuk |
-| Homok / törtfehér | 1,60:1 | Dekorációhoz jó; önálló mezőhatárnak nem elég erős |
-
-Homokszínű felületen sötét szöveg és sötéttürkiz link használható; a türkiz/homok kontrasztja 5,58:1. Az elsődleges gomb sötéttürkiz, törtfehér szöveggel. Nem csökkentjük a gombszöveg átlátszatlanságát. Fotóra közvetlenül nem helyezünk szöveget: külön, egyszínű szövegblokkot használunk.
-
-Hiba és siker jelzéséhez ebben a változatban nem vezetünk be új márkaszínt: sötét szöveg, egyértelmű ikon és állapotszöveg jelöl. A hiba nem pusztán színváltozás.
-
-## 4. Tipográfia
-
-Merriweather a címsorok és az alcím betűje; Inter a törzsszövegé és a kezelőelemeké. A logó betűrajza változatlan.
-
-| Szerep | Betű / súly | Asztali méret / sorköz | Mobil méret / sorköz | Eredet, finomítás |
+| Elem | Betű / súly | Asztal | Mobil | Sorköz |
 | --- | --- | --- | --- | --- |
-| H1 | Merriweather 700 | 60 / 78 px | 40 / 52 px | Asztal: Agyagpad; mobilméret: Eliza, Agyagpad 130% sorközzel |
-| H2 | Merriweather 700 | 40 / 52 px | 32 / 41,6 px | Asztal: Agyagpad; mobilméret: Eliza, 130% sorközzel |
-| H3 | Merriweather 700 | 28 / 36,4 px | 24 / 31,2 px | Mindkét méretskálával egyezik; Agyagpad-sorköz |
-| H4, ha szükséges | Merriweather 600 | 24 / 31,2 px | 20 / 26 px | Agyagpad; mobil adaptáció |
-| Alcím / kiemelt bevezető | Merriweather 600 | 20 / 26 px | 18 / 27 px | Javított Agyagpad-Figma; mobil adaptáció |
-| Törzsszöveg | Inter 400 | 18 / 28,8 px | 16 / 25,6 px | Méret: Eliza; 160% sorköz: Agyagpad |
-| Kis szöveg | Inter 400 | 15 / 22,5 px | 14 / 21 px | Eliza |
-| Gomb, nagybetűs | Inter 600 | 15 / 19,5 px | 15 / 19,5 px | Eliza-méret; javított Agyagpad-súly és 130% sorköz |
-| Navigáció | Inter 600 | 16 / 24 px | 16 / 24 px | Webes alkalmazás |
-| Ár, mezőcímke | Inter 600 | 16 / 24 px | 16 / 24 px | Webes alkalmazás |
-| Opcionális rövid szakaszcímke | Inter 600 | 14 / 19,6 px | 13 / 18,2 px | Eliza; csak ha tartalmi szerepe van |
+| H1 | Merriweather 700 | 60 px | 40 px | 130% |
+| H2 | Merriweather 700 | 40 px | 32 px | 130% |
+| H3 | Merriweather 700 | 28 px | 24 px | 130% |
+| Törzsszöveg | Inter 400 | 18 px | 16 px | 165% |
+| Kártya- és tudnivalószöveg | Inter 400/600 | 16 px | 16 px | 165% |
+| Kicker / kártyafelvezetés | Inter 400 | 15 px | 15 px | 150% |
+| Navigáció / mezőcímke | Inter 600 | 16 px | 16 px | 150% |
+| Kis leírás, űrlapsegédlet | Inter 400 | 15 px | 15 px | 165% |
+| Elsődleges gomb | Inter 600 | 15 px | 15 px | 130% |
+| Idővonal évszáma | Merriweather 700 | 36 px | 28 px | 130% |
 
-**Indokolt finomítások:** az Eliza 64/44 px-es asztali H1/H2 értékei helyett az Agyagpad saját 60/40 px-es méretei maradnak. A Merriweatherhez a saját Figma 130%-os címsorsorközét használjuk az Eliza tömörebb 110–120%-a helyett. A törzsszöveg desktopon 18 px-re nő; a 160%-os sorköz megmarad. A javított Figma törzsszöveg-felirata Inter SemiBold 16/160%; az itt rögzített hosszú bekezdések súlya tudatosan Regular 400, hogy a címkék és kiemelések 600-as súlya elkülönüljön. A rövid alcím és a gomb SemiBold 600.
+- H1 terrakotta; H2 és H3 grafit a világos felületeken.
+- A kickerek normál, mondatkezdő nagybetűs írásmódúak. Nincs text-transform: uppercase, ritkítás, bevezető em dash vagy dekoratív előtagvonal.
+- A gombok nagybetűs megjelenése megmarad; ez a szabály nem terjed át a kickerekre.
+- Folyó szöveg max. min(680 px, 65ch). Balra zárt, nem sorkizárt.
+- Egy H1, a fő szekciók H2, a programnevek H3.
+- A nagyított szöveg nem vágódhat le. Szűk helyen a hosszú szavak törhetnek; a tartalmat nem rejtjük el vízszintes overflow-val.
 
-- Alapméret 16 px; a méretek rem egységre váltva követik a böngésző beállításait.
-- Egy H1; a fő szekciók H2, a programok H3 címet kapnak.
-- Balra zárt szöveg, sorkizárás nélkül. Folyó szöveg legfeljebb 680 px, és legfeljebb 65ch széles; a kettő közül a kisebb érvényesül.
-- Normál betűköz a címsorokon és a bekezdéseken. A nagybetűs gomb és az opcionális rövid címke 0,04em ritkítást kap: az Eliza 0,08em értékét a hosszú magyar CTA miatt csökkentjük.
-- A gomb forrásszövege mondatkezdő írásmódú, a nagybetűs megjelenést CSS biztosítja. A navigáció és a bekezdés nem nagybetűs.
-- A mobilértékek 767 px-ig, az asztali értékek 1024 px-től érvényesek; közte a H1/H2 folytonosan növekedhet. Kisebb képernyőn a több soros címsor megengedett; nem vágjuk le.
-- Helyi WOFF2, magyar ő/ű készlettel, font-display: swap. Szükséges súlyok: Merriweather 600/700, Inter 400/600. Tartalékok: Georgia, serif és Arial, sans-serif.
-- A betűfájlok beszerzése még hátravan; a család, súly és méret már meghatározott.
+## Elrendezés és szakaszhátterek
 
-## 5. Logó és favicon
+- Tartalom max. 1200 px. Oldalsó tér mobilon 20 px, tableten 32 px, asztalon 48 px.
+- Térközskála: 8, 16, 24, 32, 48, 64, 96, 128 px. A 20 px-es mobilmargó tudatos kivétel.
+- Szekciók függőleges belső tere mobil/tablet 64 px, asztal 96 px; hero asztalon 128 px.
+- Hero: #F9F8F6. Tanfolyamok: #D9C3B0, törtfehér programkártyákkal. Műhely: #F9F8F6. Kapcsolat: #D9C3B0, világos mezőkkel és információs kártyával.
+- Nincs dekoratív határvonal a szakaszok között vagy a műhelybolt blokkja körül. A funkcionális mezőkeretek és fókuszjelzések megmaradnak.
+- 1024 px alatt mobilmenü; 768 px alatt egyoszlopos tartalmi blokkok. A programkártyák tabletméretben egymás alatt, asztalon három oszlopban látszanak.
+- A fejléc: átlátszó logó, Kezdőlap, Tanfolyamok, Műhely, Kapcsolat. Koncepciók link nincs.
 
-### Meglévő fájlok
+## Programkártyák
 
-- Logó: `images/logo/Agyagpad-logo-jo.svg` és `images/logo/Agyagpad-logo.png`.
-- Favicon: `images/logo/Agyagpad-Favicon-jo.svg` és `images/logo/Agyagpad-Favicon.png`.
-- Elsődleges az új, szíves bögrés változat. A régi vázaemblémát és az arculati táblán látható egyszerű szöveges próbákat nem keverjük hozzá.
+Sorrend: normál kicker → programnév → rövid élményleírás → alkalomszám és időtartam → Részletek és árak → link.
 
-### Webes alkalmazási szabályok – javaslat
+- Főoldalon nincs konkrét ár és külön árcímke.
+- Korongozó kóstoló: 1 alkalom, 3 óra.
+- Négyhetes kezdő kurzus: 4 alkalom, 4 × 2,5 óra.
+- Céges csapatépítő: egyeztetett időpont, egyedi időtartam; új adatot nem találunk ki.
+- A meglévő tanfolyamok.html megfelelő programhorgonyaira mutató linkek megmaradnak; részletes árakat ott talál a látogató.
+- Törtfehér kártya, 16 px sugár, nincs árnyék. Belső tér mobil/tablet 24 px, asztalon 32 px.
 
-- A logó arányai, színei és felirata megmaradnak. Nyújtás, forgatás, utólagos árnyék vagy újraszedett felirat nincs.
-- Törtfehér vagy a tényleges logóháttérhez igazított világos befoglaló. Átlátszó hátteret nem feltételezünk: az exportok beágyazott képet is tartalmaznak.
-- A jelenlegi SVG-k 2000 × 2000 méretű, négyzetes exportok, `viewBox="0 0 1500 1499.999933"` értékkel; mindkettőben van egy `<image>` elem. Nem tekintjük őket teljes egészében tiszta vektoros exportnak.
-- Webes példányon szűkíteni kell a fölösleges vásznat. Az eredetiket megőrizzük; a fejlécben nem a teljes négyzetes fájlt kicsinyítjük le.
-- A vágott teljes logó javasolt szélessége asztalon 220–260 px, mobilon 180–210 px; legfeljebb a rendelkezésre álló szélesség 65%-a. Méretét a „Kerámiaműhely” alcím tényleges olvashatósága alapján véglegesítjük.
-- Védőtávolság: legalább a bögre rajzolt magasságának negyede, minden oldalon. Ez a logón kívüli tér, nem a fölösleges exportvászon.
-- A honlap tetejére vezető logóhivatkozás hozzáférhető neve: „Agyagpad – kezdőlap”. Egyetlen név legyen, ne ismétlődő kép- és linkfelirat.
-- Faviconhoz a bögrejel önálló, szorosan vágott változata szükséges. A 16 × 16 és 32 × 32 px olvashatóság, illetve egy 180 × 180 px érintőikon külön ellenőrizendő. A jelenlegi nagy export nem bizonyítja a kis méretű megfelelést.
+## Gombok és űrlap
 
-## 6. Rács, méretezés, térközök
+- Elsődleges: terrakotta háttér, törtfehér szöveg, 1 px grafit keret, 999 px kapszula. Hover: #8C4A27.
+- Másodlagos: átlátszó háttér, grafit felirat és keret; hover meglévő homokszín.
+- Legalább 48 px magas kezelőelemek, több sorba törhető felirat, látható grafit fókusz.
+- Név, e-mail és program kötelező; üzenet opcionális. Mezőcímkék külön láthatók, nem placeholderbe rejtve.
+- Mező: törtfehér, grafit szöveg, 1 px grafit keret, 12 px sugár.
+- A prototípus nem küld és nem tárol adatot. Érthető helyi visszajelzés, nincs valótlan kézbesítési állítás. JavaScript nélkül a küldés letiltott.
+- Hibaüzenet szöveggel és aria-invalid kapcsolattal jelenik meg; az adatok megmaradnak.
 
-Alap: az Eliza dokumentum 8 px-es térközrendszere. A rögzített Agyagpad-értékek:
+## Tudnivalóblokk
 
-| Elem | Érték |
-| --- | --- |
-| Tartalom maximális szélessége | 1200 px |
-| Folyó szöveg maximális szélessége | min(680 px, 65ch) |
-| Oldalsó belső tér | Mobil 20 px; tablet 32 px; asztal 48 px |
-| Térközskála | 8, 16, 24, 32, 48, 64, 96, 128 px |
-| Szekció függőleges belső tere | Mobil/tablet 64 px; asztal 96 px |
-| Nyitó szekció asztali függőleges belső tere | 128 px; mobilon 64 px |
-| Kétoszlopos blokk oszlopköze | Mobil 24 px; tablet 32 px; asztal 48 px |
-| Tanfolyamkártyák közti tér | Mobil 24 px; asztal 32 px |
-| Címsor → bevezető | 16 px |
-| Szekcióbevezető → tartalom | Mobil 32 px; asztal 48 px |
-| Bekezdések közti tér | 16 px |
-| Szöveg → CTA | 32 px |
-| Egymás melletti CTA-k közti tér | 16 px |
-| Kártya belső tere | Mobil 24 px; asztal 32 px |
-| Űrlapmezők csoportjai közti tér | 24 px |
-| Mezőcímke → mező | 8 px |
-| Gomb lekerekítése | 999 px, kapszula |
-| Űrlapmező lekerekítése | 12 px |
-| Kártya és fotó lekerekítése | 16 px |
-| Kezelőelem minimális magassága | 48 px |
+Meleg bézs (#D9C3B0), grafit szöveg és egységes, 24 px-es grafit kör-pipa ikonok. 768 px-től két oszlop, mobilon egy. A hat pont rövid kiemelt állítással kezdődik, és megőrzi az előképzettség, anyagok/égetések, hatfős csoport, két héttel későbbi átvétel, végeredmény-korlátok és időpont-egyeztetés információját. A dekoratív ikonok aria-hidden jelölésűek.
 
-A 20 px-es mobil oldalmargó a forrásban is szereplő tudatos kivétel a 8 px-es térközrendszerből. A tipográfia, vonalvastagság és sugár nem térköz, nem kell 8 többszörösének lennie. Egymás mellé kerülő szekcióknál a fenti belső tereket használjuk, nem adunk hozzájuk még egy külön, azonos méretű külső margót.
+## Idővonal
 
-Töréspontok: 0–767 px mobil; 768–1023 px tablet; 1024 px-től asztal. 320 px szélességen sem lehet vízszintes görgetés. A töréspontokat az Eliza nem rögzíti: ezek az Agyagpad megvalósítási szabályai.
+- Állomások: 2018, 2022, 2023, 2024. Új évszám vagy esemény nincs.
+- Normál asztali nézet: évszám felül, terrakotta pont és összekötő középen, rövid eseményszöveg alul.
+- Szűkebb tartalmi térben: függőleges tengely bal oldalon; évszám és eseményszöveg jobb oldalon.
+- A vízszintes elrendezést a műhely tartalmi konténerének legalább 44rem szélessége engedi. Nagyított szövegnél ezért korábban függőlegesre vált.
+- A szöveg CSS Gridben marad; csak a dekoratív tengely kap abszolút pozicionálást.
+- Az év, a pont és a szöveg nem fedheti egymást. 200%-os szövegmérettel is ellenőrizendő.
 
-- Nyitó szekció: asztalon szöveg és kép két oszlopban; 1024 px alatt szöveg, két CTA, majd kép egy oszlopban.
-- Tanfolyamok: 1024 px-től három azonos szélességű kártya; alatta egy oszlop. A hosszú címek és CTA-k törhetnek.
-- Műhely: asztalon kép és szöveg; alatta kép, majd szöveg. Dóra története ebben a szekcióban marad.
-- Kapcsolat: asztalon űrlap és tudnivalók; mobilon először űrlap, utána cím és információ. Név és e-mail 768 px alatt külön sor.
-- Lábléc: mobilon egy oszlop; desktopon a tartalmak csoportosítva, 32 px-es közökkel.
+## Képek, logó és dekoráció
 
-## 7. Komponensek és állapotok – rögzített szabályok
+- Átlátszó logó: images/logo/Agyagpad-logo-transparent.svg; PNG-párja ugyanott. Nincs külön doboz, keret vagy színezett háttér.
+- Tartalmi fotók: images/webp, reszponzív srcset/sizes, 16 px lekerekítés, helyes méretattribútumok és tartalomhoz illő alt.
+- Hero: reszletfoto2, agyagot formáló kezek. A bemutatkozásban másik, munka közbeni kép, hero1; a hangsúlyos portré nem ismétlődik.
+- Főoldali kerámiakompozíció: muhelybolt (kész bögrék) és reszletfoto4 (megformált váza a műhelyben). A fotókat a ténylegesen megtekintett tartalom alapján választottuk ki.
+- Kevés, terrakotta eltolt képkeret és koronggyűrű-vonalgrafika. Nincs botanikai minta, erős háttértextúra vagy folyamatos animáció.
+- A nyitókép eager, a lejjebb lévő képek lazy betöltésűek; eredeti fotók megőrizve.
 
-### Fejléc és navigáció
+## Közös tájékoztatás
 
-Világos háttér, bal oldali logó; asztalon jobb oldalt Kezdőlap, Tanfolyamok, Műhely, Kapcsolat hivatkozások. Mobil/tablet nézetben 1024 px alatt „Menü” gomb, látható szöveggel és ikonnal. Javasolt, nem rögzített fejléc, hogy ne takarja a tartalmat.
+A bemutatott műhelybolt nyitvatartása csütörtök–vasárnap 10:00–18:00. A tanfolyamok ettől külön programbeosztásúak. A cím 2000 Szentendre, Agyagliget köz 4., egyértelműen kitalált, nem látogatható bemutatócímként feltüntetve. A vizsgamunka- és fikciójelzés a láblécben megmarad. Nincs kitalált működő telefon, e-mail vagy közösségi profil.
 
-A mobil menü a fejléc alatt nyílik; nem teljes képernyős modal. A gomb `aria-expanded` és `aria-controls` állapota követi a nyitást. Escape bezárja, és a fókusz a menügombra kerül. Hivatkozás választásakor bezárul. JavaScript nélkül is hozzáférhetőek maradnak a navigációs linkek.
+## Ellenőrzés és későbbi feladatok
 
-### Elsődleges CTA
+Aktuális teszt: eszkozok/fooldal-ellenorzes.cjs; eredmény: ellenorzes/fo-ellenorzes.json. Öt nézetszélesség: 320, 390, 768, 1024, 1440 px. További két futás 200%-os szövegmérettel: mobil és asztal. Ellenőrzött billentyűzetes ugrólink, menü/Escape, linkcélok, színek, űrlap és túlcsordulás.
 
-- Normál: sötéttürkiz háttér, törtfehér szöveg, 1 px sötéttürkiz keret, 999 px kapszulaforma.
-- Felirat: Inter SemiBold 600, 15 px, 130% sorköz, nagybetű, 0,04em ritkítás. A súly a javított Figma, a méret az Eliza skálája. A hosszú magyar felirat több sorba törhet.
-- Belső tér: asztalon 16 px függőlegesen és 32 px vízszintesen az Eliza alapján; mobilon és tanfolyamkártyán 16 × 24 px a hosszú CTA miatt. A gomb legalább 48 px magas, a tényleges szöveg és padding miatt egysoros formában körülbelül 54 px; több sorral nőhet.
-- Hover és lenyomott állapot: #123C3E; a lenyomást enyhe belső keret is jelezheti. Nincs ugráló méret vagy elmozdítás.
-- Fókusz: 3 px sötét kontúr, 3 px törtfehér elválasztóval. Nem támaszkodik kizárólag színváltásra.
-- Küldés: „Küldés…” szöveg, foglaltságjelzés, ismételt beküldés blokkolása.
-- Letiltott gomb: homok háttér, sötét szöveg, egyértelmű ok/szöveg; nem csökkentett átlátszatlanság.
-- Mobilon teljes szélességű; asztalon tartalomhoz igazodó. Nem rögzített szélességbe préseljük a magyar feliratot.
+A főoldal lezárása után következik az aloldalak tartalmi finomítása. A kért muhely.html még nem készül el ebben a körben; oda 4–6 változatos, tartalom alapján kiválasztott fotó kerülhet: portré, munkafolyamat, műhelyrészlet és kész tárgyak. Addig a főoldali Műhely hivatkozás működő #muhely célra mutat.
 
-Pontos fő CTA: **„Érdeklődöm a tanfolyamról”**. Nyitó szekcióból az űrlaphoz vezet; kártyáról a kapcsolódó programot előre kiválasztja. Navigációra hivatkozást, beküldésre gombot használunk.
-
-### Másodlagos CTA és szöveges link
-
-Másodlagos CTA: **„Megnézem a műhelyt”**. Átlátszó háttér, terrakotta szöveg és 1 px terrakotta keret, az Eliza másodlagos gombjának mintájára. Hoverben terrakotta háttér és törtfehér szöveg. Homok felületen a normál szöveg és keret sötét, a kontraszt megőrzéséért. Ugyanaz a méret, fókusz és lekerekítés, mint az elsődleges gombnál.
-
-Szöveges hivatkozás: törtfehéren terrakotta és aláhúzott; homokszínű felületen sötét és aláhúzott. Hoverben az aláhúzás vastagodik. A fókusz jól látható kontúr.
-
-### Tanfolyamkártya
-
-Törtfehér felület, 1 px homokszínű dekoratív keret, 16 px sugár az Eliza kártyaszabálya szerint. A kártya nem teljes egészében kattintható: külön CTA a vezérlő. Alapállapotban nincs árnyék, hoverben nem emelkedik.
-
-Sorrend: H3 programnév → rövid leírás → időtartam → heti időbeosztás → ár és egység → CTA. Az árnál nem maradhat el a „/ fő”, illetve „a teljes kurzusra” jelentés. Asztalon a CTA-k a kártyák aljára igazodnak, de a tartalom soha nem vágódik le. A közös részvételi tudnivalók a kártyák alatt egyszer szerepelnek.
-
-### Űrlap
-
-- Név, e-mail, program: kötelező; üzenet: opcionális. A csillag magyarázata az űrlap előtt jelenjen meg.
-- Címke minden mező felett, Inter 600; a placeholder nem helyettesíti a címkét.
-- Mező: törtfehér háttér, sötét szöveg, 1 px sötét keret, 12 px sugár és 16 px belső tér. A sugár az Eliza komponensszabálya; a keret az Agyagpad sötét színére módosított. A sötét keret biztosítja a homokszínűnél erősebb láthatóságot.
-- Mezőmagasság legalább 48 px; üzenetmező legalább 144 px, függőlegesen átméretezhető.
-- Fókusz: 3 px sötét terrakotta kontúr, 3 px törtfehér elválasztóval; a mező nem változtat méretet.
-- Hiba: 2 px sötét keret és „Hiba:” kezdetű segítő szöveg, `aria-invalid`, programozott kapcsolat a mezővel. Példák: „Add meg a neved.”, „Adj meg egy érvényes e-mail-címet.”, „Válassz programot.”
-- Programlista: a három program és „Ajándékozás / egyéb érdeklődés”. Kezdetben „Válassz programot”; a kártyáról érkezés kiválaszt, de a választás módosítható.
-- Gomb: **„Érdeklődés elküldése”**.
-- Beküldés előtt adatkezelési hivatkozás, az olvasási sorrend részeként.
-- Siker: sötét szövegű, keretezett visszajelzés, képernyőolvasónak is jelezve: „Köszönjük az érdeklődést! Az üzenetet megkaptuk. A beküldés nem jelent helyfoglalást.” Csak valóban sikeres fogadás után.
-- Hálózati hiba: „Az üzenet nem ment el. Próbáld újra.” A mezők tartalma megmarad. Hiba esetén nem ürül ki az űrlap.
-
-### Lábléc
-
-Homok háttér és sötét szöveg; az adatkezelési link aláhúzott. Megjelenő cím: **2000 Szentendre, Agyagliget köz 4.**, közvetlen mellette **„Kitalált bemutatócím”**. Nincs hozzá valós helyszínt jelölő térképtű vagy útvonaltervezés.
-
-Kötelező projektjelzés: „Az Agyagpad kitalált vállalkozás, az oldal bemutatóprojekt. Az űrlap nem foglal valódi tanfolyami helyet.” Képhasználati megjegyzés: „A fotók a kitalált műhely és szereplő illusztrációi.” A szükséges fotóforrás-jelölések helye itt biztosított; pontos szövegük a licencadatoktól függ.
-
-## 8. Képek és ikonok
-
-- Meglévő fotókönyvtár: `images/fotók/`. A könyvtár Freepik-jellegű és Unsplash-nevű fájlokat egyaránt tartalmaz; a konkrét forrást nem vezetjük le pusztán a fájlnévből.
-- A felhasználó megerősítette a választott Freepik-fotók ingyenes felhasználhatóságát, és a stock portré használatát Dóra kitalált karakteréhez. A pontos forrás- és licencnyilvántartás még hiányzik.
-- Fotóhangulat: természetes fény, agyag, kéz, korongozás, műhely és használati kerámiák. Nincs eltúlzott színfilter vagy újabb képre égetett szöveg.
-- A fotók lekerekítése 16 px az Eliza alapján; a fotók színvilága az Agyagpad anyagközeli iránya. Nyitókép aránya 4:3; portré 4:5; műhely/kerámiakép 4:3. `object-fit: cover`; a fontos kézmozdulat és az arc ne vágódjon le. Képenkénti fókuszpont a végleges kiválasztás után.
-- Webes képpéldányok: WebP vagy AVIF, a források megőrzésével; reszponzív méretváltozatok. Tájékoztató cél: nyitókép legfeljebb kb. 250 KB, további kép kb. 150 KB, amennyiben a minőség engedi.
-- A nyitókép nem késleltetve töltődik; az oldal alatti képek igen. Minden kép kap szélességet/magasságot a betöltés közbeni elmozdulás elkerülésére.
-- Tartalmi fotóhoz rövid, tényleges képtartalmat leíró magyar alt; dekorációhoz üres alt. A stockképet nem nevezzük dokumentált valós műhelyfotónak.
-- UI-ikonok: egyszerű vonalas, 24 px-es, 1,5–2 px vonalvastagságú készlet; az ikon a közeli szöveg színét követi. Ikonkészlet: Lucide, normál vonalas változat, 24 px-es névleges mérettel és 2 px vonallal. Az Eliza példái közül ezt rögzítjük; a fájlok és licencpéldány beszerzése az építés feladata. A márka bögrerajzát nem használjuk általános kezelőikonként.
-
-## 9. Mozgás, használhatóság
-
-- Szín- és keretváltás: 150 ms ease-out. Nincs folyamatos animáció vagy automatikusan mozgó dekoráció.
-- A csökkentett mozgás beállítását követjük; ilyenkor nincs animált görgetés vagy átmenet.
-- Minden funkció használható billentyűzettel; a fókuszt nem rejtjük el. „Ugrás a tartalomra” hivatkozás fókuszkor látható.
-- Menü, CTA, űrlapmező és link érintési területe lehetőleg legalább 44 × 44 px; a fő vezérlők 48 px magasak.
-- 200%-os nagyításnál sincs szöveglevágás. A menü és a több soros CTA sem fedheti a szomszédos elemeket.
-- A háttértextúra csak dekoratív képfelületen használható; szöveg és űrlap alatt egyszínű háttér marad.
-
-## 10. CSS-alaptokenek
-
-A rögzített szabályok kódolható alapja. A komponensek és a reszponzív viselkedés részleteit az előző szakaszok egészítik ki.
-
-```css
-:root {
-  --color-bg: #F9F8F6;
-  --color-text: #2D2A26;
-  --color-primary: #1B4D4F;
-  --color-clay: #A65B32;
-  --color-sand: #D9C3B0;
-  --color-primary-hover: #123C3E;
-  --color-earth: #8C4A27;
-  --font-heading: "Merriweather", Georgia, serif;
-  --font-body: "Inter", Arial, sans-serif;
-  --space-8: .5rem;
-  --space-16: 1rem;
-  --space-24: 1.5rem;
-  --space-32: 2rem;
-  --space-48: 3rem;
-  --space-64: 4rem;
-  --space-96: 6rem;
-  --space-128: 8rem;
-  --radius-button: 999px;
-  --radius-field: .75rem;
-  --radius-card: 1rem;
-  --radius-image: 1rem;
-  --content-max: 75rem;
-  --prose-max: min(42.5rem, 65ch);
-  --control-min-height: 3rem;
-  --page-gutter: 1.25rem;
-  --section-space: 4rem;
-  --hero-space: 4rem;
-  --text-h1: 2.5rem;
-  --text-h2: 2rem;
-  --text-h3: 1.5rem;
-  --text-body: 1rem;
-  --text-small: .875rem;
-  --text-button: .9375rem;
-  --line-heading: 1.3;
-  --line-body: 1.6;
-  --weight-body: 400;
-  --weight-ui: 600;
-  --weight-heading: 700;
-  --button-tracking: .04em;
-  --button-padding-inline: 1.5rem;
-  --button-padding-block: 1rem;
-  --motion-fast: 150ms;
-}
-@media (min-width: 48rem) {
-  :root {
-    --page-gutter: 2rem;
-    --text-h1: clamp(2.5rem, calc(-1.25rem + 7.8125vw), 3.75rem);
-    --text-h2: clamp(2rem, calc(.5rem + 3.125vw), 2.5rem);
-  }
-}
-@media (min-width: 64rem) {
-  :root {
-    --page-gutter: 3rem;
-    --section-space: 6rem;
-    --hero-space: 8rem;
-    --text-h1: 3.75rem;
-    --text-h2: 2.5rem;
-    --text-h3: 1.75rem;
-    --text-body: 1.125rem;
-    --text-small: .9375rem;
-    --button-padding-inline: 2rem;
-  }
-}
-/* A kártya CTA-ja asztalon is 24 px oldalsó belső térrel készül. */
-@media (prefers-reduced-motion: reduce) {
-  :root { --motion-fast: 0ms; }
-}
-```
-
-## 11. Hiányzó vagy pontosításra váró adatok
-
-| Adat | Jelenlegi helyzet | Következő teendő |
-| --- | --- | --- |
-| Mobil tipográfiai skála | Rögzítve az Eliza-alapból, Merriweather–Inter adaptációval | Nem hiányzó adat; a kész oldalon tördelési ellenőrzés szükséges |
-| Webes komponensek és térközök | Rögzítve az Eliza-alapból, Agyagpad-kontraszttal és tartalommal | Nem hiányzó adat; alkalmazás és vizuális ellenőrzés szükséges |
-| WOFF2 betűk és licencfájlok | Nincsenek helyben | Magyar karakteres készlet beszerzése az építéskor |
-| Szűkre vágott logó, kis favicon | Nagy, beágyazott képet is tartalmazó exportok vannak | Webes másolatok és kis méretű ellenőrzés készítése |
-| Végleges fotó-hozzárendelés | Képfájlok vannak, szekciónkénti végleges választás nincs | Nyitókép, Dóra-portré és műhelykép kiválasztása |
-| Fotóforrások, licencadatok, kreditigény | Felhasználói megerősítés van, tételes nyilvántartás nincs | Forráslink és licencadat képenkénti rögzítése |
-| Ikonfájlok | Lucide kijelölve; helyi fájlok még nincsenek | A szükséges ikonok és licencpéldány előkészítése |
-
-Kapcsolódó tartalmi/működési nyitott pontok, amelyek nem akadályozzák az arculati rendszer használatát: az űrlap fogadó e-mail-címe, a tényleges üzemeltető adatai és az adatkezelési tájékoztató végleges tartalma. Dóra története és a megjelenő szövegek a szomszédos szovegek.md fájlban rögzítve. Nyilvános telefonszám és e-mail-cím nincs megadva: nem találunk ki működő elérhetőséget. A bemutatócím már rögzített projektadat.
-
-## 12. Átadás előtti ellenőrzési lista
-
-- [x] Pontos öt szín kiolvasva a megadott dokumentumból.
-- [x] Fő színpárok kontrasztja számszerűen ellenőrizve.
-- [x] A friss logó- és faviconfájlok azonosítva.
-- [x] Eliza méretezési alap átvéve, az Agyagpadhoz igazított eltérések dokumentálva.
-- [x] Figma-tábla tipográfiai feliratainak kiolvasása és átvezetése (H1–H4, alcím, törzsszöveg, gomb).
-- [ ] Betűfájlok, vágott logó, favicon és végleges fotók előkészítése.
-- [ ] Komponensek és állapotok ellenőrzése a megépített oldalon, mobilon és asztalon.
-
-A kontrasztszámítás az itt megadott egyszínű párokra vonatkozik. Nem helyettesíti a később elkészülő oldal teljes vizuális és használhatósági ellenőrzését.
-
-## 13. Forrásellenőrzés és lezárt finomítások
-
-A 2026. november 11-én újra beolvasott Figma-tábla feliratai: H1 (2:40) Merriweather Bold 60/130%; H2 (2:45) Bold 40/130%; H3 (2:50) Bold 28/130%; H4 (2:55) SemiBold 24/130%; alcím (2:60) SemiBold 20/130%; törzsszöveg (2:63) Inter SemiBold 16/160%; gomb (2:66) Inter SemiBold 16/130%, nagybetűs.
-
-A felhasználó javított SemiBold-előírásait az alcímnél és a gombnál átvettük. A hosszú törzsszövegnél az Eliza Regular 400 súlya és 18/16 px mérete a dokumentált finomítás. A gomb az Eliza 15 px-es méretét, kapszulaformáját és 16 × 32 px alap belső terét kapja; a Figma 130% sorközét megtartja. A hosszú magyar CTA miatt a betűritkítás 0,04em és mobilon/kártyán 24 px az oldalsó padding.
-
-Az Eliza világos halvány mezőkeretét sötét Agyagpad-keretre cseréljük, mert a homok/törtfehér pár kontrasztja csak 1,60:1. Színt, betűcsaládot, szalonhangulatot vagy Eliza-logót nem emelünk át. Az eredeti referenciafájl és a Figma-terv változatlan marad.
-
-A korábbi archivum/figma-arculat-ellenorzes.json a javítás előtti minták vizsgálatának történeti pillanatképe. Az aktuális tipográfiai döntések forrása a mostani Figma-előírás és e dokumentum 4. szakasza; a régi pillanatkép nem írja felül őket.
-
-## Szövegek alkalmazása
-
-A megjelenő szövegek aktuális forrása a szomszédos szovegek.md. A korábbi komponenspéldákkal való szöveges eltéréskor ezt kövessük, különösen az űrlap siker- és hibajelzéseinél. A megjelenési szabályok továbbra is e design-system szerintiek. Az Agyagpad egyoldalas: a teljes kapcsolati űrlap egyszer jelenik meg, a kiegészítő tájékoztató és visszajelző oldalak csak a közös fejlécet és láblécet öröklik.
-
-
-
-## 14. Kiválasztott irány: Udvari műhely – első finomítás
-
-A felhasználó az Udvari műhely koncepciót választotta. Az alábbi szabályok ezt a változatot pontosítják, és az esetleg eltérő korábbi komponensleírásoknál elsőbbséget élveznek:
-
-- **Logó:** images/logo/Agyagpad-logo-transparent.svg a fejlécben és láblécben; átlátszó PNG-változat ugyanott Agyagpad-logo-transparent.png néven. A meglévő SVG vektoros előtérgrafikáját megőriztük, a fehér téglalapokat és a beágyazott háttérképet eltávolítottuk. A webes SVG nem tartalmaz raszteres képet. Nincs befoglaló háttér, keret vagy árnyék. Színek: #2D2A26 és #A65B32; a háttér mögötte #F9F8F6.
-- **Mérföldkövek:** 768 px-től négy állomásos vízszintes idővonal, 1 px terrakotta összekötő, 13 px-es terrakotta csomópont az évszám felett. Az évszám Merriweather 700, #A65B32; desktopon 28 px. Mobilon bal oldali függőleges vonal, egymás alatti állomások és 24 px-es évszám, vízszintes görgetés nélkül.
-- **Tudnivalók:** #D9C3B0 háttér, 16 px sugár. Öt tudnivaló kétoszlopos rácsban, 768 px alatt egy oszlopban. 24 px-es, dekoratív kör-pipa ikonok #8C4A27 színnel; a szöveg #2D2A26. A HTML-lista szemantikája megmarad, látható alap bullet nincs.
-- **Fotók:** 16 px lekerekítés. A nyitó portré mögött visszafogott homokszínű amorf folt; a bemutatkozó fotó mögött a terrakotta 18%-os, fő háttérrel kevert árnyalata. A dekoráció nem mozog, nem takarja a szöveget, és mobilon kisebb eltéréssel követi a képet. Új márkaszínt nem vezetünk be.
-- **Lábléc:** az alsó sáv kisméretű, olvasható sora: „© 2026 Agyagpad · AI webdesigner vizsgamunka. Az Agyagpad kitalált vállalkozás, az oldal bemutatóprojekt.” Az adatkezelési hivatkozás, a fotóillusztrációs megjegyzés és a valódi helyfoglalás kizárása megmarad. Az űrlap továbbra is helyi bemutató.
-
-## 15. Aktuális főoldal és tanfolyamaloldal – türkiz finomítás
-
-- **Színhierarchia:** elsődleges #1B4D4F; hover #123C3E. A #A65B32 a logó, évszámok és dekoráció terrakottája marad. Törtfehér és homok alapok változatlanok. A részletes kontrasztszámítás: ellenorzes/turkiz-kontrasztok.json.
-- **Megosztott megjelenés:** a kiválasztott főoldal, a tanfolyamok.html és az adatkezeles.html az assets/udvari-muhely.css fájlt és azonos fejléc/lábléc elemeket használja. A betűútvonalak a CSS mappájából fonts/... alakúak.
-- **Főoldali nyitás:** reszletfoto2 WebP-sorozat, kezek és agyag közelről. A bemutatkozásban a hero1 munka közbeni fotó marad, így nincs kétszer hangsúlyos portré.
-- **Hero CTA-k:** „Megnézem a tanfolyamokat” → #tanfolyamok; „Megismerem a műhelyt” → #muhely. Nem változtatják meg az űrlap programválasztását.
-- **Kártyák:** rövid élményleírás, alkalomszám és időtartam, a két fix programnál változatlan ár és egység. Céges program: „Egyedi ajánlat”. A „Részletek és árak →” szöveges link a tanfolyamok.html megfelelő programhorgonyára vezet, nem az űrlaphoz.
-- **Részletes kínálat:** a tanfolyamok.html három programot, pontos heti időbeosztást, árakat, közös feltételeket és a bemutatott érdeklődési folyamatot tartalmazza. Nem találunk ki fizetési vagy lemondási feltételeket. Az érdeklődési gomb a főoldal ?program=...#kapcsolat címére vezet, validált programválasztással.
-- **Tudnivalók:** sötéttürkiz háttér, törtfehér szöveg, homokszínű 24 px-es kör-pipa ikonok. Hat rövid kiemelt állítás: kezdőbarát, anyagok/égetések, kis csoport, átvétel, végeredmény korlátai, időpont-egyeztetés. 768 px-től két oszlop, alatta egy. A két hét a meglévő brief szerinti átvételi idő.
-- **Idővonal:** az évszámok és a meglévő négy mérföldkő változatlan. Mobilon 28 px, tablettől 36 px Merriweather 700 terrakotta évszámok. Vízszintes / függőleges viselkedés megmarad, leírások rövidítve.
-- **Olvashatóság:** kis leírások, címkék és űrlapsegédletek legalább 15 px, mezőszöveg legalább 16 px; levegős sorköz. A dekoráció eltolt vékony képkeret és egy visszafogott, koronggyűrűket idéző vonalgrafika; levélminta és állandó animáció nincs.
-- **Logó:** változatlan átlátszó SVG, doboz és keret nélkül.
-- **Közös adatok:** csütörtök–vasárnap 10:00–18:00 a bemutatott műhelybolt nyitvatartása; a tanfolyamoknak külön programbeosztása van. A cím kitalált és nem látogatható. A projektjelzés és az üzenetküldés nélküli prototípusjelzés megmarad.
-
-A korábbi 14. szakasz homokszínű tudnivalókártyája és a 7. szakasz régi fő CTA-ja történeti előzmény: a kiválasztott oldalon ezek helyett a fenti türkiz blokk és új navigáció érvényes. Az eredeti 2.1-es dokumentum az archivum/design-system-2.1.md fájlban megmarad.
+Az éles űrlap, adatkezelési tájékoztató, tételes képkreditek, végleges SEO, publikálás és az AI-használat leírása továbbra is külön lezárandó munka.

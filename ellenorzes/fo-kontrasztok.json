@@ -1,0 +1,56 @@
+{
+  "palette": {
+    "paper": "#F9F8F6",
+    "ink": "#2D2A26",
+    "clay": "#A65B32",
+    "earth": "#8C4A27",
+    "sand": "#D9C3B0",
+    "teal": "#1B4D4F"
+  },
+  "colorsInCSS": [
+    "#F9F8F6",
+    "#2D2A26",
+    "#A65B32",
+    "#8C4A27",
+    "#D9C3B0",
+    "#1B4D4F"
+  ],
+  "pairs": [
+    {
+      "foreground": "#2D2A26",
+      "background": "#F9F8F6",
+      "ratio": 13.45
+    },
+    {
+      "foreground": "#2D2A26",
+      "background": "#D9C3B0",
+      "ratio": 8.42
+    },
+    {
+      "foreground": "#1B4D4F",
+      "background": "#F9F8F6",
+      "ratio": 8.91
+    },
+    {
+      "foreground": "#1B4D4F",
+      "background": "#D9C3B0",
+      "ratio": 5.58
+    },
+    {
+      "foreground": "#A65B32",
+      "background": "#F9F8F6",
+      "ratio": 4.75
+    },
+    {
+      "foreground": "#F9F8F6",
+      "background": "#A65B32",
+      "ratio": 4.75
+    },
+    {
+      "foreground": "#F9F8F6",
+      "background": "#8C4A27",
+      "ratio": 6.33
+    }
+  ],
+  "passed": true
+}

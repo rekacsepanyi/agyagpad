@@ -88,7 +88,7 @@ Külön GYIK, blog, galéria-aloldal és részletes folyamatbemutató nem kész�
 - Arculati referencia: tervezes/arculat/Arculati-tabla.png. Az új változat felülírja a korábbi vázaemblémás irányt.
 - Kerülendő: steril, hideg, luxusüzletre emlékeztető megjelenés és túlzsúfoltság.
 - Szöveghang: magyar nyelvű, tegező, közvetlen, bátorító, túlzó ígéretek nélkül.
-- A konkrét színek, Merriweather–Inter tipográfia, mobilméretek, térközök és komponensszabályok a tervezes/design-system.md 3.0 dokumentumban rögzítve. Az építés ezt a specifikációt kövesse.
+- A konkrét színek, Merriweather–Inter tipográfia, mobilméretek, térközök és komponensszabályok a tervezes/design-system.md 4.0 dokumentumban rögzítve. Az építés ezt a specifikációt kövesse.
 
 ## 8. Tartalmak és képek
 
@@ -112,5 +112,9 @@ Külön GYIK, blog, galéria-aloldal és részletes folyamatbemutató nem kész�
 
 
 
-A kiválasztott Udvari műhely aktuális színhierarchiája sötéttürkiz (#1B4D4F) elsődleges gombokat és kiemeléseket használ; a terrakotta a logó, az évszámok és a dekoráció színe marad. A részletes feltételek és a főoldali rövid kártyák tartalma a szovegek.md 2.0 frissítésében található.
+A kiválasztott Udvari műhely aktuális színhierarchiája kizárólag a mondatkezdő nagybetűs kicker feliratokon használ sötéttürkizt (#1B4D4F). A H1 és az elsődleges gomb terrakotta; a H2/H3 grafit. A főoldali kártyák árat nem mutatnak, az időtartam és az alkalomszám látható marad. A részletes feltételek és a főoldali rövid kártyák tartalma a szovegek.md 2.1 frissítésében található.
+
+
+Az aloldalak új tartalmi fejlesztése a főoldal lezárása után következik. A kért 4–6 képes műhelygyűjtemény a későbbi muhely.html feladata; ebben a körben nem készült új aloldal. A fejlécből a koncepcióválasztó linkje eltávolítva.
+
 

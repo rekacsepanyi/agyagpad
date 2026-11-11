@@ -1,0 +1,38 @@
+const fs=require('fs'),path=require('path'),{createRequire}=require('module');
+const r=createRequire('C:/Users/jolci/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/package.json');
+const {chromium}=r('playwright'),sharp=r('sharp');
+const root=path.resolve(__dirname,'..'),shots=path.join(root,'ellenorzes/kepernyokepek');
+const file='koncepcio-1-udvari-muhely.html';
+const results=[];const assert=(ok,msg)=>{if(!ok)throw Error(msg)};
+(async()=>{const browser=await chromium.launch({headless:true,executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe'});try{
+for(const [width,textZoom] of [[320,1],[390,1],[768,1],[1024,1],[1440,1],[390,2],[1440,2]]){
+ const context=await browser.newContext({viewport:{width,height:1000},reducedMotion:'reduce'}),page=await context.newPage();const issues=[];let posts=0;
+ page.on('pageerror',e=>issues.push(e.message));page.on('response',r=>{if(r.status()>=400)issues.push(r.status()+' '+r.url())});page.on('request',r=>{if(r.method()==='POST')posts++;if(!r.url().startsWith('http://127.0.0.1:4173/'))issues.push('Külső kérés: '+r.url())});
+ const result={width,textZoom,passed:false,checks:[]};
+ try{
+ await page.goto('http://127.0.0.1:4173/'+file,{waitUntil:'networkidle'});await page.evaluate(()=>document.fonts.ready);
+ if(textZoom===2)await page.evaluate(()=>document.documentElement.style.fontSize='200%');
+ const info=await page.evaluate(()=>{
+  const rect=e=>{const r=e.getBoundingClientRect();return {x:r.x,y:r.y,right:r.right,bottom:r.bottom}};
+  const get=e=>({tag:e.tagName,color:getComputedStyle(e).color,background:getComputedStyle(e).backgroundColor,text:e.textContent.trim(),isKicker:e.matches('.eyebrow,.course-tag'),isSvg:e instanceof SVGElement});
+  return {overflow:document.documentElement.scrollWidth>innerWidth,h1:getComputedStyle(document.querySelector('h1')).color,heads:[...document.querySelectorAll('h2,h3')].map(e=>getComputedStyle(e).color),teal:[...document.querySelectorAll('body *')].map(get).filter(x=>x.color==='rgb(27, 77, 79)'&&!x.isKicker),kick:[...document.querySelectorAll('.eyebrow,.course-tag')].map(e=>({text:e.textContent,transform:getComputedStyle(e).textTransform,weight:getComputedStyle(e).fontWeight,before:getComputedStyle(e,'::before').content})),backgrounds:[...document.querySelectorAll('main>section')].map(e=>({id:e.id,color:getComputedStyle(e).backgroundColor,border:getComputedStyle(e).borderTopWidth})),notes:get(document.querySelector('.notes')),prices:document.querySelectorAll('.cards .price').length,shopImages:document.querySelectorAll('.shop-composition img').length,concept:[...document.querySelectorAll('header.site-header a')].some(e=>e.textContent.includes('Koncepciók')),timeline:[...document.querySelectorAll('.timeline li')].map(e=>({time:rect(e.querySelector('time')),marker:rect(e.querySelector('.timeline-marker')),copy:rect(e.querySelector('.timeline-copy')),textPositions:[getComputedStyle(e.querySelector('time')).position,getComputedStyle(e.querySelector('.timeline-copy')).position]})),years:[...document.querySelectorAll('.timeline time')].map(e=>e.textContent),missingImages:[...document.images].filter(e=>e.complete&&!e.naturalWidth).map(e=>e.src)};
+ });
+ assert(!info.overflow,'Vízszintes túlcsordulás');assert(info.h1==='rgb(166, 91, 50)','H1 nem terrakotta');assert(info.heads.every(c=>c==='rgb(45, 42, 38)'),'H2/H3 nem grafit');assert(info.teal.length===0,'Türkiz nem kicker elemen: '+JSON.stringify(info.teal));
+ assert(info.kick.every(k=>k.transform==='none'&&k.weight==='400'&&!k.text.match(/^[—–]/)&&k.before==='none'),'Kicker formázás');assert(info.prices===0,'Főoldali ár maradt');assert(info.shopImages===2,'Nem két kerámiakép');assert(!info.concept,'Koncepciók link maradt');assert(info.notes.background==='rgb(217, 195, 176)'&&info.notes.color==='rgb(45, 42, 38)','Tudnivalók színe');
+ assert(info.years.join(',')==='2018,2022,2023,2024','Mérföldkő változott');
+ for(const t of info.timeline){assert(t.textPositions.every(p=>p!=='absolute'),'Abszolút idővonalszöveg');assert(t.time.bottom<=t.copy.y+1,'Idővonal-szövegek ütköznek');if(width>=768&&textZoom===1)assert(t.time.bottom<=t.marker.y+1&&t.marker.bottom<=t.copy.y+1,'Év/pont/leírás sorrend');}
+ assert(info.backgrounds.every(s=>s.border==='0px'),'Dekoratív szakaszvonal');assert(info.missingImages.length===0,'Hiányzó kép');result.checks.push('színek, normál kicker vonal nélkül, ár nélküli kártyák, két kerámiakép, reszponzív idővonal');
+ if(width<1024){const toggle=page.locator('.menu');await toggle.click();assert(await toggle.getAttribute('aria-expanded')==='true','Menü nem nyílik');await page.keyboard.press('Escape');assert(await toggle.getAttribute('aria-expanded')==='false','Menü nem zár');}
+ await page.getByRole('link',{name:'Megnézem a tanfolyamokat',exact:true}).click();assert(new URL(page.url()).hash==='#tanfolyamok','Hero link');
+ const links=await page.locator('.course .detail-link').evaluateAll(es=>es.map(e=>e.getAttribute('href')));assert(links.length===3&&links.every(h=>h.startsWith('tanfolyamok.html#')),'Kártyalink');
+ for(const href of links){const [p,id]=href.split('#');const content=fs.readFileSync(path.join(root,p),'utf8');assert(content.includes('id="'+id+'"'),'Hiányzó programcél');}
+ await page.locator('#name').fill('Teszt Elek');await page.locator('#email').fill('teszt@example.com');await page.locator('#program').selectOption('kostolo');await page.locator('form button[type="submit"]').click();assert(posts===0,'Váratlan adatküldés');assert((await page.locator('[role="status"]').textContent()).includes('nem kerültek elküldésre'),'Helyi űrlap-visszajelzés');assert(issues.length===0,'Erőforrás vagy JS-hiba: '+issues.join(';'));result.checks.push('menü, linkcélok és helyi űrlap');
+ // Billentyűzetes belépés és látható fókusz.
+ await page.goto('http://127.0.0.1:4173/'+file,{waitUntil:'networkidle'});if(textZoom===2)await page.evaluate(()=>document.documentElement.style.fontSize='200%');await page.keyboard.press('Tab');assert(await page.locator('.skip').evaluate(e=>e===document.activeElement),'Ugrólink nem fókuszálható');await page.keyboard.press('Enter');assert(await page.locator('#tartalom').evaluate(e=>e===document.activeElement),'Ugrólink célja');result.checks.push('billentyűzetes ugrólink');
+ if((width===390||width===1440)&&textZoom===1){await page.goto('http://127.0.0.1:4173/'+file,{waitUntil:'networkidle'});await page.screenshot({path:path.join(shots,`udvari-aktualis-${width}-nyito.png`)});await page.screenshot({path:path.join(shots,`udvari-aktualis-${width}-teljes.png`),fullPage:true});for(const [selector,name]of[['.timeline','idovonal'],['.shop','keramiak'],['#tanfolyamok','programok'],['#kapcsolat','kapcsolat']])await page.locator(selector).screenshot({path:path.join(shots,`udvari-aktualis-${width}-${name}.png`)});if(width===1440)await sharp(path.join(shots,'udvari-aktualis-1440-nyito.png')).resize({width:720}).webp({quality:82}).toFile(path.join(root,'images/webp/koncepcio-1-elozetes.webp'));}
+ if(textZoom===2)await page.locator('.timeline').screenshot({path:path.join(shots,`udvari-aktualis-${width}-idovonal-200.png`)});
+ result.passed=true;
+ }catch(e){result.error=e.message;await page.screenshot({path:path.join(shots,`fo-hiba-${width}-${textZoom}.png`),fullPage:true}).catch(()=>{});}
+ results.push(result);console.log(JSON.stringify(result));await context.close();
+}
+}finally{await browser.close();fs.writeFileSync(path.join(root,'ellenorzes/fo-ellenorzes.json'),JSON.stringify({results,passed:results.length===7&&results.every(r=>r.passed)},null,2));}if(results.some(r=>!r.passed))process.exitCode=1;})().catch(e=>{console.error(e);process.exitCode=1});

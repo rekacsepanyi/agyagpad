@@ -1,5 +1,23 @@
 # Agyagpad – a három prototípus ellenőrzése
 
+## Legfrissebb főoldali ellenőrzés
+
+A jelenlegi főoldal elsődleges eredménye: **fo-ellenorzes.json**, kontrasztok: **fo-kontrasztok.json**. Az alábbi régebbi türkiz és koncepciótesztek történeti ellenőrzések.
+
+- Öt normál szélesség: 320, 390, 768, 1024, 1440 px.
+- Két nagyított szövegű próba: 390 és 1440 px, 200%-os betűmérettel.
+- Mind a hét sikeres: nincs vízszintes túlcsordulás vagy idővonal-szövegütközés.
+- A türkiz kizárólag a kickereken jelenik meg, a H1 terrakotta, a H2/H3 grafit.
+- A kickerek normál 400-as súlyúak, mondatkezdő nagybetűsek, nincs uppercase transzformáció vagy előtagvonal.
+- A fejlécből eltűnt a Koncepciók link.
+- A főoldali kártyákon nincs ár; az időtartam és alkalomszám, az élményleírás és a részletlink megmarad.
+- A két kerámiakép tényleges tartalma megtekintve: kész bögrék és egy megformált váza a műhelyben.
+- Az idővonal szövege gridben, nem abszolút pozicionálva helyezkedik el. Asztalon évszám, pont és vonal, eseményleírás a sorrend. Nagyított vagy keskeny nézetben függőleges tengelyre vált.
+- Menügomb, Escape-zárás, billentyűzetes ugrólink, kártyalink-célok és helyi, adatot nem küldő űrlap ellenőrizve.
+- A CSS-ben kizárólag az öt eredeti arculati szín és #1B4D4F szerepel. Kisebb feliratok kontrasztja legalább 5,58:1; az elsődleges gomb feliratáé 4,75:1, hoverben 6,33:1.
+
+Képernyőképek: kepernyokepek/udvari-aktualis-... fájlok. Az aloldalak HTML-tartalma ebben a körben nem változott, új muhely.html és galéria nem készült; a felhasználó kérésére ez a főoldal lezárása utáni feladat.
+
 ## Aktuális kiválasztott változat: türkiz Udvari műhely
 
 A felhasználó új kérése alapján elkészült a #1B4D4F elsődleges színű főoldal és a tanfolyamok.html részletező aloldal. Az új, öt nézetes ellenőrzés eredménye a turkiz-ellenorzes.json fájlban, a számított színkontrasztok a turkiz-kontrasztok.json fájlban találhatók. Az alábbi korábbi koncepcióellenőrzés a projekt előzménye; a régi hero-reset és közvetlen kártyaválasztás helyett most a kártya → részletes program → érdeklődés útvonal az érvényes.

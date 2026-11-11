@@ -1,0 +1,109 @@
+const fs=require('fs'),path=require('path');
+const root=path.resolve(__dirname,'..');
+const cssPath=path.join(root,'assets/udvari-muhely.css');
+const oldCSS=fs.readFileSync(cssPath,'utf8');
+const fonts=oldCSS.slice(0,oldCSS.indexOf(':root'));
+const css=`
+:root {
+ --paper:#F9F8F6; --ink:#2D2A26; --clay:#A65B32; --earth:#8C4A27; --sand:#D9C3B0; --teal:#1B4D4F;
+ --heading:'Merriweather',Georgia,serif; --body:'Inter',Arial,sans-serif;
+ --gutter:1.25rem; --section:4rem; --small:.9375rem; --h1:2.5rem; --h2:2rem; --h3:1.5rem;
+}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 1rem/1.65 var(--body)}
+img{display:block;max-width:100%}a{color:var(--ink);text-underline-offset:.25em}a:hover{text-decoration-thickness:2px}
+:focus-visible{outline:3px solid var(--ink);outline-offset:4px;box-shadow:0 0 0 3px var(--paper)}
+button,input,select,textarea{font:inherit;color:inherit}
+h1,h2,h3,h4,p,blockquote,figure,ul,ol{margin:0}
+h1,h2,h3,h4{font-family:var(--heading);line-height:1.3;text-wrap:pretty}
+h1{font-size:var(--h1);color:var(--clay)}h2{font-size:var(--h2);color:var(--ink)}h3{font-size:var(--h3);color:var(--ink)}
+p{max-width:min(42.5rem,65ch)}p+p{margin-top:1rem}
+.wrap{width:min(75rem,calc(100% - var(--gutter)*2));margin-inline:auto}
+.skip{position:absolute;top:.5rem;left:.5rem;transform:translateY(-180%);z-index:3;padding:.75rem 1rem;background:var(--paper)}.skip:focus{transform:none}
+.site-header{background:var(--paper)}
+.header-row{display:flex;align-items:center;flex-wrap:wrap;justify-content:space-between;gap:0 1rem;padding-block:1rem}
+.brand{display:inline-flex;align-items:center;width:min(12rem,65%);min-height:3rem}.brand img{width:100%;height:auto;background:transparent}
+.menu{display:none}.menu-icon{display:grid;align-content:center;gap:4px;width:20px;height:20px}.menu-icon::before,.menu-icon::after{content:'';width:20px;height:2px;background:currentColor}
+.nav-group{display:flex;align-items:center;justify-content:space-between}.site-nav{display:flex;gap:2rem;align-items:center}
+.site-nav a,.concept-link{display:inline-flex;align-items:center;min-height:3rem;color:var(--ink);text-decoration:none;font:600 1rem/1.5 var(--body)}
+.site-nav a:hover,.site-nav [aria-current],.concept-link:hover{text-decoration:underline;text-underline-offset:.42em}
+.concept-link{margin-left:2rem;font-size:var(--small);font-weight:400}
+/* A türkiz kizárólag a mondatkezdő nagybetűs kicker feliratoké. */
+.eyebrow,.course-tag{color:var(--teal);font:400 .9375rem/1.5 var(--body);letter-spacing:normal;text-transform:none}
+.eyebrow{margin-bottom:1rem}.eyebrow::before{content:none}.course-tag{margin-bottom:.5rem}
+.hero{display:grid;align-items:center;gap:2rem;padding-block:4rem;background:var(--paper)}.hero p.intro{margin-top:1rem;max-width:32rem}
+.actions{display:flex;gap:1rem;flex-wrap:wrap;margin-top:2rem}
+.button{display:inline-flex;justify-content:center;align-items:center;max-width:100%;min-height:3rem;padding:1rem 1.5rem;border:1px solid var(--ink);border-radius:999px;background:var(--clay);color:var(--paper);text-align:center;text-decoration:none;font:600 .9375rem/1.3 var(--body);letter-spacing:.04em;text-transform:uppercase;cursor:pointer;transition:background-color 150ms ease-out,color 150ms ease-out}
+.button:hover,.button:active{background:var(--earth)}.button.outline{color:var(--ink);background:transparent}.button.outline:hover{background:var(--sand);color:var(--ink)}
+.button:disabled{cursor:default;background:var(--sand);color:var(--ink)}
+.photo{width:100%;height:auto;object-fit:cover;border-radius:1rem}.hero-photo{aspect-ratio:4/5;object-position:50% 52%}
+.photo-surround{position:relative;isolation:isolate}.photo-surround::before{content:'';position:absolute;z-index:-1;pointer-events:none;border:1px solid var(--clay);border-radius:1rem}
+.hero .photo-surround::before{inset:18px -10px 36px 14px}.story .photo-surround::before{inset:14px 12px -10px -10px}
+.pottery-lines{position:absolute;top:-30px;right:12px;width:100px;height:67px;color:var(--clay);z-index:-1;pointer-events:none}
+.portrait-caption{margin-top:.75rem;font-size:var(--small)}
+.chapter{padding-block:var(--section)}#tanfolyamok,#kapcsolat{background:var(--sand)}#muhely{background:var(--paper)}.chapter-heading{margin-bottom:2rem}
+.cards{display:grid;gap:1.5rem}.course{display:flex;flex-direction:column;min-width:0;background:var(--paper);border-radius:1rem;overflow:hidden}
+.course-photo{aspect-ratio:3/2;border-radius:1rem 1rem 0 0}.course-body{flex:1;display:flex;flex-direction:column;padding:1.5rem}
+.course-description{font-size:1rem;line-height:1.65;margin-top:1rem}.course-data{font-size:1rem;line-height:1.65;margin:1.5rem 0}.course-data>*+*{margin-top:.25rem}
+.course-bottom{margin-top:auto;padding-top:.5rem}.price{font-size:1rem;line-height:1.5;font-weight:600;color:var(--ink)}.price-detail{display:block;font-size:.9375rem;font-weight:400;margin-top:.25rem}
+.detail-link{display:inline-flex;gap:.5rem;align-items:center;min-height:3rem;font:600 1rem/1.5 var(--body);text-underline-offset:.25em}
+.detail-link span{transition:transform 150ms ease-out}.detail-link:hover span{transform:translateX(3px)}
+.notes{margin-top:2rem;border-radius:1rem;background:var(--sand);color:var(--ink);padding:1.5rem 0}.notes h2,.notes h3,.notes strong{color:var(--ink)}.notes h3{margin-bottom:1.5rem}
+.notes-grid{display:grid;gap:1.5rem 2rem;list-style:none;padding:0;font-size:1rem;line-height:1.65}.notes-grid li{display:grid;grid-template-columns:1.5rem minmax(0,1fr);gap:.75rem;align-items:start}.notes-grid strong{font-weight:600}.note-icon{width:1.5rem;height:1.5rem;margin-top:.1rem;color:var(--ink)}
+.story,.shop,.contact-grid{display:grid;gap:2rem;align-items:center}.story-photo{aspect-ratio:4/5;object-position:42% 50%}.story-text h2{margin-bottom:1.5rem}
+/* A szöveg gridben marad; csak a dekoratív tengely pszeudoelem. */
+.timeline{display:grid;gap:2rem;list-style:none;padding:0;margin-block:3rem}
+.timeline li{display:grid;grid-template-columns:1.5rem minmax(0,1fr);grid-template-rows:auto auto;column-gap:1rem;row-gap:.5rem;min-width:0;line-height:1.65;font-size:var(--small)}
+.timeline time{grid-column:2;grid-row:1;display:block;font:700 1.75rem/1.3 var(--heading);color:var(--clay)}
+.timeline-marker{grid-column:1;grid-row:1 / span 2;position:relative;display:flex;align-items:flex-start;padding-top:.55rem}
+.timeline-marker::before{content:'';position:relative;z-index:1;display:block;width:13px;height:13px;flex:none;border-radius:50%;background:var(--clay)}
+.timeline-marker::after{content:'';position:absolute;top:.55rem;bottom:-2.55rem;left:6px;width:1px;background:var(--clay)}.timeline li:last-child .timeline-marker::after{display:none}
+.timeline-copy{grid-column:2;grid-row:2;min-width:0}.timeline-copy strong{display:block;font-weight:600;margin-bottom:.25rem}.timeline-copy p{margin:0}
+.shop{padding-block:2rem}.shop h3{margin-bottom:1rem}.shop-details{margin-top:1.5rem;font-size:var(--small)}.shop-details p+p{margin-top:.25rem}
+.shop-composition{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,.8fr);gap:1rem;align-items:start}.shop-composition figure:nth-child(2){padding-top:2.5rem}.shop-composition img{aspect-ratio:4/5;object-fit:cover}.shop-composition figure:first-child img{object-position:44% 50%}.shop-composition figure:nth-child(2) img{object-position:55% 45%}
+.contact-grid{align-items:start}.contact-intro{margin-top:1rem}.form-note{font-size:var(--small);line-height:1.65;margin-bottom:1.5rem}.small{font-size:var(--small)}
+.fields{display:grid;gap:1.5rem 1rem;margin:1.5rem 0}.field{min-width:0}label{display:block;font-size:1rem;font-weight:600;margin-bottom:.5rem}
+input,select,textarea{display:block;width:100%;min-width:0;min-height:3rem;border-radius:.75rem;border:1px solid var(--ink);background:var(--paper);padding:.875rem 1rem;font-size:1rem;line-height:1.5}
+input::placeholder,textarea::placeholder{color:var(--ink);opacity:1}select{padding-right:.5rem}textarea{min-height:9rem;resize:vertical}
+.field-error,.form-status{font-size:var(--small);font-weight:600}.field-error:not(:empty){margin-top:.5rem}[aria-invalid='true']{border-width:2px}.form-status:not(:empty){border:1px solid var(--ink);border-radius:.75rem;padding:1rem;margin-top:1.5rem}.send{margin-top:1rem}
+.contact-aside{border-radius:1rem;background:var(--paper)}.contact-aside .photo{border-radius:1rem 1rem 0 0;aspect-ratio:2/1}.aside-text{padding:1.5rem}.aside-text h3{margin-bottom:1rem}.address-note{font-size:var(--small);line-height:1.65}.aside-text .address-note{margin-top:.25rem}
+footer{background:var(--paper);padding-block:3rem 2rem;font-size:var(--small)}.footer-grid{display:grid;gap:2rem;margin-bottom:2rem}footer h3{font:600 1.125rem/1.5 var(--heading);margin-bottom:1rem}footer .brand{margin-bottom:1rem;padding:0;background:transparent;border:0}footer a{color:var(--ink)}.footer-links a{display:flex;align-items:center;width:fit-content;min-height:3rem}.footer-grid .address-note{margin-top:.25rem}.footer-bottom{padding-top:1.5rem}.footer-bottom div{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.5rem 2rem;margin-bottom:.5rem}.footer-bottom a{display:inline-flex;align-items:center;min-height:3rem}.footer-bottom p+p{margin-top:.25rem}
+/* A meglévő aloldalak közös komponensei; új aloldal ebben a körben nem készül. */
+.course-page-intro{padding-block:3rem 4rem}.course-page-intro h1{max-width:22ch}.course-page-intro p{margin-top:1.5rem;max-width:62ch}.breadcrumb{display:flex;flex-wrap:wrap;gap:.5rem;font-size:.9375rem;margin-bottom:2rem}
+.program-nav{display:flex;flex-wrap:wrap;gap:1rem;margin-top:2rem}.program-nav a{display:inline-flex;align-items:center;min-height:3rem;padding:.625rem 1rem;border:1px solid var(--ink);border-radius:999px;text-decoration:none}
+.program-detail{padding-block:3rem;scroll-margin-top:1rem}.program-layout{display:grid;gap:2rem;align-items:start}.program-layout .photo{aspect-ratio:4/3}.program-copy h2{margin-bottom:1rem}.program-copy>.course-description{font-size:1.125rem;margin-bottom:1.5rem}.program-facts{display:grid;gap:1rem;margin:0 0 1.5rem}.program-facts div{display:grid;grid-template-columns:7rem minmax(0,1fr);gap:1rem;padding-bottom:.75rem}.program-facts dt{font-weight:600}.program-facts dd{margin:0}.program-copy .price{font-size:1.25rem;margin-bottom:1.5rem}
+.conditions{margin-block:3rem}.conditions h2{font-size:var(--h3);margin-bottom:1.5rem}.conditions h3{font:600 1rem/1.5 var(--body);margin-top:1.5rem;margin-bottom:.5rem}.conditions p,.conditions li{font-size:1rem;line-height:1.65}.conditions ul{padding-left:1.25rem}.conditions ul.notes-grid{padding-left:0}.conditions li+li{margin-top:.75rem}.conditions .notes-grid li+li{margin-top:0}
+.privacy-main{padding-block:4rem;min-height:55vh}.privacy-main h1{max-width:24ch}.privacy-main p{margin-top:1.5rem}.privacy-main .button{margin-top:2rem}
+@media(max-width:63.999rem){.nav-group{width:100%;align-items:flex-start;flex-wrap:wrap;margin-top:1rem}.site-nav{flex-wrap:wrap;gap:0 1rem}.concept-link{margin:0}.enhanced .menu{display:flex;align-items:center;gap:.5rem;justify-content:center;min-height:3rem;padding:.5rem;border:0;background:none;cursor:pointer;font:600 1rem/1.5 var(--body)}.enhanced .menu[aria-expanded='false']+.nav-group{display:none}.menu[aria-expanded='true'] .menu-icon::before{transform:translateY(3px) rotate(45deg)}.menu[aria-expanded='true'] .menu-icon::after{transform:translateY(-3px) rotate(-45deg)}}
+@media(max-width:47.999rem){.hero .photo-surround::before{inset:14px -6px 35px 12px}.story .photo-surround::before{inset:12px 10px -8px -6px}.pottery-lines{width:80px;right:10px}.nav-group{display:block}.site-nav{align-items:stretch;flex-direction:column}.concept-link{display:flex}.actions .button,.send{width:100%}.form-block{min-width:0}.program-facts div{grid-template-columns:6rem minmax(0,1fr)}.program-copy>.course-description{font-size:1rem}.program-nav{gap:.5rem}.program-nav a{font-size:.9375rem}}
+@media(min-width:48rem){:root{--gutter:2rem;--h1:clamp(2.5rem,calc(-1.25rem + 7.8125vw),3.75rem);--h2:clamp(2rem,calc(.5rem + 3.125vw),2.5rem)}.hero{grid-template-columns:minmax(0,1.12fr) minmax(0,.88fr)}.hero figure{width:100%;max-width:29rem;justify-self:end}.cards{grid-template-columns:repeat(3,minmax(0,1fr));gap:1.5rem}.course-body{padding:1.5rem}.notes{padding:2rem 0}.notes h3{margin-bottom:2rem}.notes-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.story{grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr)}.story figure{grid-row:1}.story-photo{max-height:32rem}.timeline{grid-template-columns:repeat(4,minmax(0,1fr));gap:0}.timeline li{grid-template-columns:minmax(0,1fr);grid-template-rows:auto 1.5rem auto;row-gap:1rem;padding-right:1.25rem}.timeline time{grid-column:1;grid-row:1;font-size:2.25rem}.timeline-marker{grid-column:1;grid-row:2;padding:0;align-items:center;min-height:1.5rem;margin-right:-1.25rem}.timeline-marker::after{left:6px;right:-6px;top:50%;bottom:auto;width:auto;height:1px}.timeline-copy{grid-column:1;grid-row:3}.shop{grid-template-columns:1fr 1fr}.contact-grid{grid-template-columns:minmax(0,1.25fr) minmax(0,.75fr)}.fields{grid-template-columns:repeat(2,minmax(0,1fr))}.field-wide{grid-column:1/-1}.footer-grid{grid-template-columns:1.2fr 1fr .7fr}.program-layout{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:3rem}.course-page-intro{padding-block:4rem}}
+@media(min-width:64rem){:root{--gutter:3rem;--section:6rem;--h1:3.75rem;--h2:2.5rem;--h3:1.75rem}body{font-size:1.125rem}.brand{width:13.75rem}.hero{gap:3rem;padding-block:8rem}.hero .button,.send{padding-inline:2rem}.chapter-heading{margin-bottom:3rem}.cards{gap:2rem}.course-body,.aside-text{padding:2rem}.notes{margin-top:3rem}.story,.shop,.contact-grid{gap:3rem}.timeline{margin-block:4rem}.footer-grid{gap:4rem}.course-page-intro{padding-block:4rem 6rem}.program-detail{padding-block:4rem}}
+@media(min-width:48rem) and (max-width:63.999rem){.cards{grid-template-columns:1fr}.course{display:grid;grid-template-columns:.85fr 1.15fr}.course-photo{height:100%;aspect-ratio:auto;border-radius:1rem 0 0 1rem}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{transition-duration:0s!important}.detail-link:hover span{transform:none}}
+`;
+const horizontalStart=css.indexOf('.timeline{grid-template-columns:repeat(4');
+const horizontalEnd=css.indexOf('.shop{grid-template-columns:1fr 1fr}',horizontalStart);
+if(horizontalStart<0||horizontalEnd<0)throw Error('Idővonal-rács hiányzik.');
+const horizontalRules=css.slice(horizontalStart,horizontalEnd);
+const responsiveCSS=css.slice(0,horizontalStart)+css.slice(horizontalEnd)+`\n#muhely > .wrap{container-name:workshop;container-type:inline-size}\n@container workshop (min-width:44rem){${horizontalRules}}\nh1,h2,h3,h4{overflow-wrap:break-word}.timeline-copy{overflow-wrap:anywhere}.nav-group{min-width:0;max-width:100%;flex-wrap:wrap}.site-nav{flex-wrap:wrap}\n`;
+fs.writeFileSync(cssPath,fonts+responsiveCSS);
+const homePath=path.join(root,'koncepcio-1-udvari-muhely.html');
+let html=fs.readFileSync(homePath,'utf8');
+html=html.replace(/<p class="price">[\s\S]*?<\/p>/g,'');
+html=html.replace('<p class="eyebrow">Programok és árak</p>','<p class="eyebrow">Programok és alkotóélmények</p>');
+html=html.replace(/<ol class="timeline"[^>]*>[\s\S]*?<\/ol>/,`<ol class="timeline" aria-label="Fehér Dóra és az Agyagpad történetének mérföldkövei">${[
+ ['2018','Az első találkozás az agyaggal.','Első korongozóélmény.'],['2022','Megnyílik az Agyagpad.','Saját műhely Szentendrén.'],['2023','Az első saját kollekció.','Bögrék, tálak, tányérok.'],['2024','Elindulnak a kezdő foglalkozások.','Alkotás legfeljebb hatfős csoportban.']
+].map(([year,title,description])=>`<li><time datetime="${year}">${year}</time><span class="timeline-marker" aria-hidden="true"></span><div class="timeline-copy"><strong>${title}</strong><p>${description}</p></div></li>`).join('\n')}</ol>`);
+const shopStart=html.indexOf('        <div class="shop">');
+const imageStart=html.indexOf('          <img ',shopStart);
+const shopCopyStart=html.indexOf('          <div>',imageStart);
+if(shopStart<0||imageStart<0||shopCopyStart<0)throw Error('Műhelykompozíció nem található.');
+const shopPhoto=(name,width,height,alt)=>`<figure><img class="photo" src="images/webp/${name}-800.webp" srcset="${[480,800,1200,1600].map(w=>`images/webp/${name}-${w}.webp ${w}w`).join(', ')}" sizes="(min-width:1024px) 340px, (min-width:768px) 30vw, 58vw" width="${width}" height="${height}" loading="lazy" decoding="async" alt="${alt}"></figure>`;
+const composition='<div class="shop-composition" aria-label="Kerámiák a műhelyben">'+shopPhoto('muhelybolt',5410,3607,'Kész kerámiabögrék, az előtérben szívmintás bögre fa alátéten.')+shopPhoto('reszletfoto4',5333,8000,'Megformált agyagváza a műhely állványán, mellette mázas üvegek és ecsetek.')+'</div>\n';
+html=html.slice(0,imageStart)+composition+html.slice(shopCopyStart);
+// A vizuális kickerekben nincs gondolatjel, nagybetűs transzformáció vagy bevezető vonal.
+html=html.replace(/(<(?:p|span) class="(?:eyebrow|course-tag)">)\s*[—–]\s*/g,'$1');
+html=html.replace('aria-label="Agyagpad – kezdőlap"','aria-label="Agyagpad kezdőlap"');
+html=html.replace('<a class="concept-link" href="index.html">Koncepciók</a>','');
+fs.writeFileSync(homePath,html);
+console.log('Főoldal és megosztott szín-/tipográfiai szabályok frissítve. Aloldali HTML nem változott.');

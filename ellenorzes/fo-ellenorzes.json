@@ -1,0 +1,75 @@
+{
+  "results": [
+    {
+      "width": 320,
+      "textZoom": 1,
+      "passed": true,
+      "checks": [
+        "színek, normál kicker vonal nélkül, ár nélküli kártyák, két kerámiakép, reszponzív idővonal",
+        "menü, linkcélok és helyi űrlap",
+        "billentyűzetes ugrólink"
+      ]
+    },
+    {
+      "width": 390,
+      "textZoom": 1,
+      "passed": true,
+      "checks": [
+        "színek, normál kicker vonal nélkül, ár nélküli kártyák, két kerámiakép, reszponzív idővonal",
+        "menü, linkcélok és helyi űrlap",
+        "billentyűzetes ugrólink"
+      ]
+    },
+    {
+      "width": 768,
+      "textZoom": 1,
+      "passed": true,
+      "checks": [
+        "színek, normál kicker vonal nélkül, ár nélküli kártyák, két kerámiakép, reszponzív idővonal",
+        "menü, linkcélok és helyi űrlap",
+        "billentyűzetes ugrólink"
+      ]
+    },
+    {
+      "width": 1024,
+      "textZoom": 1,
+      "passed": true,
+      "checks": [
+        "színek, normál kicker vonal nélkül, ár nélküli kártyák, két kerámiakép, reszponzív idővonal",
+        "menü, linkcélok és helyi űrlap",
+        "billentyűzetes ugrólink"
+      ]
+    },
+    {
+      "width": 1440,
+      "textZoom": 1,
+      "passed": true,
+      "checks": [
+        "színek, normál kicker vonal nélkül, ár nélküli kártyák, két kerámiakép, reszponzív idővonal",
+        "menü, linkcélok és helyi űrlap",
+        "billentyűzetes ugrólink"
+      ]
+    },
+    {
+      "width": 390,
+      "textZoom": 2,
+      "passed": true,
+      "checks": [
+        "színek, normál kicker vonal nélkül, ár nélküli kártyák, két kerámiakép, reszponzív idővonal",
+        "menü, linkcélok és helyi űrlap",
+        "billentyűzetes ugrólink"
+      ]
+    },
+    {
+      "width": 1440,
+      "textZoom": 2,
+      "passed": true,
+      "checks": [
+        "színek, normál kicker vonal nélkül, ár nélküli kártyák, két kerámiakép, reszponzív idővonal",
+        "menü, linkcélok és helyi űrlap",
+        "billentyűzetes ugrólink"
+      ]
+    }
+  ],
+  "passed": true
+}

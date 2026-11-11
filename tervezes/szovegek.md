@@ -1,6 +1,6 @@
 # Agyagpad – a weboldal szövegei
 
-Verzió: 2.0 · 2026. november 11.  
+Verzió: 2.1 · 2026. november 11.  
 Állapot: az építéshez rögzített weboldalszövegek; az adatkezelési tájékoztató és a képkreditek külön, még előkészítendő tartalmak.
 
 Az Agyagpad főoldala négy görgethető szekciót tartalmaz; a részletes programokat a tanfolyamok.html aloldal mutatja be. Az aktuális főoldalfájl koncepcio-1-udvari-muhely.html; az index.html továbbra is a három korábbi koncepció választója. Ez a dokumentum a felhasználó szövegtervének javított, kiegészített változata. A szerkezeti minta az iskolai Eliza Beauty `forrasok/szovegek.md` fájlja; a vállalkozás, a programok, a történet és a megjelenő szövegek az Agyagpad saját projektanyagából származnak.
@@ -77,7 +77,7 @@ A szükséges képkreditek e megjegyzés alatt kapnak helyet, a ténylegesen fel
 
 ### 01 / Nyitó szekció (`#kezdo`)
 
-- **Kicker:** SZENTENDREI KÉZMŰVES MŰHELY
+- **Kicker:** Szentendrei kézműves műhely
 - **Főcím (H1):** Alkoss agyagból, kapcsolódj ki Szentendrén.
 - **Leírás:** Kezdőbarát korongozás kis csoportban, egy hangulatos szentendrei kerámiaműhelyben.
 - **Fő CTA:** Megnézem a tanfolyamokat → `#tanfolyamok`
@@ -87,7 +87,7 @@ A nyitó CTA a főoldali programáttekintéshez vezet; nem foglalási gomb és n
 
 ### 02 / Tanfolyamok (`#tanfolyamok`)
 
-- **Kicker:** PROGRAMOK ÉS ÁRAK
+- **Kicker:** Programok és alkotóélmények
 - **Címsor (H2):** Válaszd ki a neked való alkotást
 
 #### Korongozó kóstoló
@@ -95,7 +95,7 @@ A nyitó CTA a főoldali programáttekintéshez vezet; nem foglalási gomb és n
 - **Kártyakicker:** Első találkozás az agyaggal
 - **Címsor (H3):** Korongozó kóstoló
 - **Leírás:** Próbáld ki, hogyan formálódik az agyag a kezed alatt. Kezdőként is csatlakozhatsz.
-- **Összefoglaló:** 1 alkalom · 3 óra · 18 500 Ft / fő
+- **Összefoglaló:** 1 alkalom · 3 óra
 - **Link:** Részletek és árak → `tanfolyamok.html#korongozo-kostolo`
 
 #### Négyhetes kezdő kurzus
@@ -103,7 +103,7 @@ A nyitó CTA a főoldali programáttekintéshez vezet; nem foglalási gomb és n
 - **Kártyakicker:** Alapok négy alkalom alatt
 - **Címsor (H3):** Négyhetes kezdő kurzus
 - **Leírás:** Adj időt az alkotásnak: négy alkalmon át ismerkedhetsz a korongozás alapjaival.
-- **Összefoglaló:** 4 alkalom · 4 × 2,5 óra · 65 000 Ft / fő, a teljes kurzusra
+- **Összefoglaló:** 4 alkalom · 4 × 2,5 óra
 - **Link:** Részletek és árak → `tanfolyamok.html#kezdo-kurzus`
 
 #### Céges csapatépítő
@@ -111,7 +111,7 @@ A nyitó CTA a főoldali programáttekintéshez vezet; nem foglalási gomb és n
 - **Kártyakicker:** Közös élmény
 - **Címsor (H3):** Céges csapatépítő
 - **Leírás:** Közös kikapcsolódás a korong mellett, ahol a csapat együtt próbálhatja ki az agyagformálást.
-- **Összefoglaló:** Egyeztetett időpont · Egyedi időtartam · Egyedi ajánlat
+- **Összefoglaló:** Egyeztetett időpont · Egyedi időtartam
 - **Link:** Részletek és árak → `tanfolyamok.html#ceges-csapatepito`
 
 #### Közös részvételi tudnivalók
@@ -127,7 +127,7 @@ A kártyák és ez a blokk a kitalált vállalkozás kínálatát szemléltetik.
 
 ### 03 / Műhely és alkotó (`#muhely`)
 
-- **Kicker:** AZ ALKOTÓ ÉS A HELYSZÍN
+- **Kicker:** Az alkotó és a helyszín
 - **Címsor (H2):** Ismerd meg az Agyagpadot
 
 #### Bemutatkozás
@@ -154,7 +154,7 @@ Mind a négy rövid mérföldkő használható, a bemutatkozással egy szekción
 
 ### 04 / Kapcsolat és érdeklődés (`#kapcsolat`)
 
-- **Kicker:** ÉRDEKLŐDÉS ÉS KAPCSOLAT
+- **Kicker:** Érdeklődés és kapcsolat
 - **Címsor (H2):** Melyik program érdekel?
 - **Bevezető:** Válassz programot, vagy írd meg, mi érdekel az Agyagpaddal kapcsolatban. Ajándékozásról és a kerámiákról is kérdezhetsz.
 - **Jól látható űrlapmegjegyzés:** Az űrlapon a bemutatóprojekt működését próbálhatod ki. Beküldésével nem foglalsz valódi tanfolyami helyet.
@@ -310,3 +310,8 @@ A négy fő szekció, a közös fejléc és lábléc, a CTA-k és az űrlap áll
 ### Következetes helyszíni tájékoztatás
 
 A csütörtök–vasárnap 10:00–18:00 nyitvatartás a kitalált műhelyboltra vonatkozik. A tanfolyamoknak ettől elkülönített programbeosztása van. 2000 Szentendre, Agyagliget köz 4. kitalált bemutatócím, nem látogatható műhelyhelyszín. A bemutatóprojekt nem fogad valódi tanfolyami jelentkezést; az űrlap nem küld üzenetet. Új fizetési, lemondási vagy visszatérítési feltételeket nem találtunk ki.
+
+## Aktuális főoldali megjelenés
+
+A kickerek normál, mondatkezdő nagybetűs szövegek, Inter Regular 400 betűvel, bevezető vonal vagy em dash nélkül. Csak a kickerek türkizek. H1 terrakotta, H2/H3 grafit. A főoldali kártyák nem mutatnak konkrét árat; a részletes árak a meglévő tanfolyamok.html oldalon maradnak. A fejlécből a Koncepciók hivatkozás kikerült. A kétképes kerámiakompozíció kész bögréket és műhelyben álló, megformált vázát mutat. Az idővonal szövege és a kitalált adatok változatlanok. Az aloldalak további tartalmi munkája, így a muhely.html galériája a főoldal lezárása után következik.
+

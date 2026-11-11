@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="880" viewBox="0 0 1440 880"><rect width="100%" height="100%" fill="#f3f3f1"/>
+<text x="60" y="68" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#30302e">AGYAGPAD / OLDALTÉRKÉP</text>
+<text x="60" y="105" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#30302e">Tervezési dokumentáció • 2026. november 6. • A végleges projektbrief alapján</text>
+<rect x="470" y="150" width="500" height="84" rx="8" fill="#41413e" stroke="#41413e"/>
+<text x="500" y="186" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#fff">Egyoldalas, görgethető weboldal</text>
+<text x="500" y="215" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#fff">Főoldal / index.html</text>
+<path d="M720 234 V270 M210 270 H1230 M210 270 V310 M550 270 V310 M890 270 V310 M1230 270 V310" fill="none" stroke="#777770" stroke-width="2"/>
+<rect x="60" y="310" width="300" height="200" rx="8" fill="#fff" stroke="#b5b5b0"/>
+<text x="78" y="347" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#30302e">01 / NYITÓ SZEKCIÓ</text>
+<text x="78" y="377" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#30302e">#kezdo</text>
+<text x="78" y="419" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#30302e">Bemutatkozás, helyszín</text>
+<text x="78" y="446" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#30302e">Hangulatkép</text>
+<text x="78" y="473" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#30302e">Két egyértelmű CTA</text>
+<rect x="400" y="310" width="300" height="200" rx="8" fill="#fff" stroke="#b5b5b0"/>
+<text x="418" y="347" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#30302e">02 / TANFOLYAMOK</text>
+<text x="418" y="377" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#30302e">#tanfolyamok</text>
+<text x="418" y="419" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#30302e">Három program és árak</text>
+<text x="418" y="446" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#30302e">Részvételi tudnivalók</text>
+<text x="418" y="473" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#30302e">Érdeklődési gombok</text>
+<rect x="740" y="310" width="300" height="200" rx="8" fill="#fff" stroke="#b5b5b0"/>
+<text x="758" y="347" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#30302e">03 / MŰHELY ÉS ALKOTÓ</text>
+<text x="758" y="377" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#30302e">#muhely</text>
+<text x="758" y="419" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#30302e">Fehér Dóra bemutatása</text>
+<text x="758" y="446" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#30302e">Kerámiák és műhelyhangulat</text>
+<text x="758" y="473" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#30302e">Nyitvatartási információ</text>
+<rect x="1080" y="310" width="300" height="200" rx="8" fill="#fff" stroke="#b5b5b0"/>
+<text x="1098" y="347" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#30302e">04 / KAPCSOLAT</text>
+<text x="1098" y="377" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#30302e">#kapcsolat</text>
+<text x="1098" y="419" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#30302e">Érdeklődő űrlap</text>
+<text x="1098" y="446" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#30302e">Helyszín és egyeztetés</text>
+<text x="1098" y="473" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#30302e">Beküldési visszajelzés</text>
+<rect x="60" y="550" width="1320" height="152" rx="8" fill="#fff" stroke="#b5b5b0"/>
+<text x="85" y="587" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#30302e">FŐ LÁTOGATÓI ÚTVONAL</text>
+<text x="85" y="626" font-family="Arial, sans-serif" font-size="23" font-weight="600" fill="#30302e">Program megismerése → „Érdeklődöm a tanfolyamról” → Űrlap → Visszajelzés</text>
+<text x="85" y="667" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#30302e">A tanfolyamkártya gombja előre kiválasztja a programot. A beküldés nem jelent helyfoglalást.</text>
+<rect x="60" y="728" width="1320" height="100" rx="8" fill="#e8e8e4" stroke="#b5b5b0"/>
+<text x="85" y="765" font-family="Arial, sans-serif" font-size="19" font-weight="600" fill="#30302e">Kiegészítő elem: láblécből elérhető adatkezelési tájékoztató.</text>
+<text x="85" y="800" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#30302e">Ez támogató dokumentum; a főoldal továbbra is a briefben rögzített négy szekcióból áll.</text>
+</svg>

@@ -1,0 +1,438 @@
+{
+  "photos": [
+    {
+      "source": "images/fotók/hero.jpg",
+      "originalBytes": 7155353,
+      "width": 3193,
+      "height": 4784,
+      "variants": [
+        {
+          "path": "images/webp/hero-480.webp",
+          "width": 480,
+          "height": 719,
+          "bytes": 46322,
+          "quality": 80
+        },
+        {
+          "path": "images/webp/hero-800.webp",
+          "width": 800,
+          "height": 1199,
+          "bytes": 98298,
+          "quality": 80
+        },
+        {
+          "path": "images/webp/hero-1200.webp",
+          "width": 1200,
+          "height": 1798,
+          "bytes": 154664,
+          "quality": 76
+        },
+        {
+          "path": "images/webp/hero-1600.webp",
+          "width": 1600,
+          "height": 2397,
+          "bytes": 249364,
+          "quality": 76
+        }
+      ]
+    },
+    {
+      "source": "images/fotók/hero1.jpg",
+      "originalBytes": 6827506,
+      "width": 4784,
+      "height": 3193,
+      "variants": [
+        {
+          "path": "images/webp/hero1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 22582,
+          "quality": 80
+        },
+        {
+          "path": "images/webp/hero1-800.webp",
+          "width": 800,
+          "height": 534,
+          "bytes": 45252,
+          "quality": 80
+        },
+        {
+          "path": "images/webp/hero1-1200.webp",
+          "width": 1200,
+          "height": 801,
+          "bytes": 80404,
+          "quality": 80
+        },
+        {
+          "path": "images/webp/hero1-1600.webp",
+          "width": 1600,
+          "height": 1068,
+          "bytes": 120576,
+          "quality": 80
+        }
+      ]
+    },
+    {
+      "source": "images/fotók/korongozo-kostolo.jpg",
+      "originalBytes": 15937624,
+      "width": 6000,
+      "height": 4000,
+      "variants": [
+        {
+          "path": "images/webp/korongozo-kostolo-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 9394,
+          "quality": 80
+        },
+        {
+          "path": "images/webp/korongozo-kostolo-800.webp",
+          "width": 800,
+          "height": 533,
+          "bytes": 18748,
+          "quality": 80
+        },
+        {
+          "path": "images/webp/korongozo-kostolo-1200.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 31260,
+          "quality": 80
+        },
+        {
+          "path": "images/webp/korongozo-kostolo-1600.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 47850,
+          "quality": 80
+        }
+      ]
+    },
+    {
+      "source": "images/fotók/4-hetes-kezdo-kurzus.jpg",
+      "originalBytes": 22728941,
+      "width": 7999,
+      "height": 5340,
+      "variants": [
+        {
+          "path": "images/webp/4-hetes-kezdo-kurzus-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 10164,
+          "quality": 80
+        },
+        {
+          "path": "images/webp/4-hetes-kezdo-kurzus-800.webp",
+          "width": 800,
+          "height": 534,
+          "bytes": 18948,
+          "quality": 80
+        },
+        {
+          "path": "images/webp/4-hetes-kezdo-kurzus-1200.webp",
+          "width": 1200,
+          "height": 801,
+          "bytes": 31264,
+          "quality": 80
+        },
+        {
+          "path": "images/webp/4-hetes-kezdo-kurzus-1600.webp",
+          "width": 1600,
+          "height": 1068,
+          "bytes": 45670,
+          "quality": 80
+        }
+      ]
+    },
+    {
+      "source": "images/fotók/ceges-csapatepito.jpg",
+      "originalBytes": 3414527,
+      "width": 3624,
+      "height": 5436,
+      "variants": [
+        {
+          "path": "images/webp/ceges-csapatepito-480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 30362,
+          "quality": 80
+        },
+        {
+          "path": "images/webp/ceges-csapatepito-800.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 60326,
+          "quality": 80
+        },
+        {
+          "path": "images/webp/ceges-csapatepito-1200.webp",
+          "width": 1200,
+          "height": 1800,
+          "bytes": 109300,
+          "quality": 80
+        },
+        {
+          "path": "images/webp/ceges-csapatepito-1600.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 193314,
+          "quality": 80
+        }
+      ]
+    },
+    {
+      "source": "images/fotók/kapcsolat.jpg",
+      "originalBytes": 3246499,
+      "width": 6240,
+      "height": 4160,
+      "variants": [
+        {
+          "path": "images/webp/kapcsolat-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 19260,
+          "quality": 80
+        },
+        {
+          "path": "images/webp/kapcsolat-800.webp",
+          "width": 800,
+          "height": 533,
+          "bytes": 40090,
+          "quality": 80
+        },
+        {
+          "path": "images/webp/kapcsolat-1200.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 69384,
+          "quality": 80
+        },
+        {
+          "path": "images/webp/kapcsolat-1600.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 105970,
+          "quality": 80
+        }
+      ]
+    },
+    {
+      "source": "images/fotók/muhelybolt.jpg",
+      "originalBytes": 4999273,
+      "width": 5410,
+      "height": 3607,
+      "variants": [
+        {
+          "path": "images/webp/muhelybolt-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 18422,
+          "quality": 80
+        },
+        {
+          "path": "images/webp/muhelybolt-800.webp",
+          "width": 800,
+          "height": 533,
+          "bytes": 36164,
+          "quality": 80
+        },
+        {
+          "path": "images/webp/muhelybolt-1200.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 62738,
+          "quality": 80
+        },
+        {
+          "path": "images/webp/muhelybolt-1600.webp",
+          "width": 1600,
+          "height": 1066,
+          "bytes": 88674,
+          "quality": 80
+        }
+      ]
+    },
+    {
+      "source": "images/fotók/reszletfoto.jpg",
+      "originalBytes": 11480846,
+      "width": 4000,
+      "height": 6000,
+      "variants": [
+        {
+          "path": "images/webp/reszletfoto-480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 45078,
+          "quality": 80
+        },
+        {
+          "path": "images/webp/reszletfoto-800.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 103376,
+          "quality": 76
+        },
+        {
+          "path": "images/webp/reszletfoto-1200.webp",
+          "width": 1200,
+          "height": 1800,
+          "bytes": 172206,
+          "quality": 48
+        },
+        {
+          "path": "images/webp/reszletfoto-1600.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 438042,
+          "quality": 48
+        }
+      ]
+    },
+    {
+      "source": "images/fotók/reszletfoto1.jpg",
+      "originalBytes": 3421498,
+      "width": 5760,
+      "height": 3840,
+      "variants": [
+        {
+          "path": "images/webp/reszletfoto1-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 26120,
+          "quality": 80
+        },
+        {
+          "path": "images/webp/reszletfoto1-800.webp",
+          "width": 800,
+          "height": 533,
+          "bytes": 56358,
+          "quality": 80
+        },
+        {
+          "path": "images/webp/reszletfoto1-1200.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 101620,
+          "quality": 80
+        },
+        {
+          "path": "images/webp/reszletfoto1-1600.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 158312,
+          "quality": 80
+        }
+      ]
+    },
+    {
+      "source": "images/fotók/reszletfoto2.jpg",
+      "originalBytes": 3736122,
+      "width": 4160,
+      "height": 6240,
+      "variants": [
+        {
+          "path": "images/webp/reszletfoto2-480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 21408,
+          "quality": 80
+        },
+        {
+          "path": "images/webp/reszletfoto2-800.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 44672,
+          "quality": 80
+        },
+        {
+          "path": "images/webp/reszletfoto2-1200.webp",
+          "width": 1200,
+          "height": 1800,
+          "bytes": 82874,
+          "quality": 80
+        },
+        {
+          "path": "images/webp/reszletfoto2-1600.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 136020,
+          "quality": 80
+        }
+      ]
+    },
+    {
+      "source": "images/fotók/reszletfoto3.jpg",
+      "originalBytes": 25807299,
+      "width": 5267,
+      "height": 7900,
+      "variants": [
+        {
+          "path": "images/webp/reszletfoto3-480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 67886,
+          "quality": 80
+        },
+        {
+          "path": "images/webp/reszletfoto3-800.webp",
+          "width": 800,
+          "height": 1201,
+          "bytes": 109456,
+          "quality": 56
+        },
+        {
+          "path": "images/webp/reszletfoto3-1200.webp",
+          "width": 1200,
+          "height": 1800,
+          "bytes": 219984,
+          "quality": 48
+        },
+        {
+          "path": "images/webp/reszletfoto3-1600.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 370506,
+          "quality": 48
+        }
+      ]
+    },
+    {
+      "source": "images/fotók/reszletfoto4.jpg",
+      "originalBytes": 27821884,
+      "width": 5333,
+      "height": 8000,
+      "variants": [
+        {
+          "path": "images/webp/reszletfoto4-480.webp",
+          "width": 480,
+          "height": 721,
+          "bytes": 18772,
+          "quality": 80
+        },
+        {
+          "path": "images/webp/reszletfoto4-800.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 39672,
+          "quality": 80
+        },
+        {
+          "path": "images/webp/reszletfoto4-1200.webp",
+          "width": 1200,
+          "height": 1800,
+          "bytes": 82732,
+          "quality": 80
+        },
+        {
+          "path": "images/webp/reszletfoto4-1600.webp",
+          "width": 1600,
+          "height": 2401,
+          "bytes": 132048,
+          "quality": 80
+        }
+      ]
+    }
+  ],
+  "originalBytes": 136577372,
+  "webpBytes": 4291906
+}

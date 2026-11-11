@@ -1,0 +1,6 @@
+# Eredeti nagy felbontású fotók helyi munkaanyagok; a webes WebP-k követve vannak.
+images/fotók/
+node_modules/
+.DS_Store
+Thumbs.db
+ellenorzes/kepernyokepek/

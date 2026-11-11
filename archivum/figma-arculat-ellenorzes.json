@@ -1,0 +1,405 @@
+{
+  "checkedAt": "2026-11-11",
+  "fileKey": "JBJUoyS0OdRW9q4lMgWJhc",
+  "nodes": [
+    {
+      "id": "2:29",
+      "name": "Ellipse 14",
+      "type": "ELLIPSE",
+      "fills": [
+        {
+          "color": {
+            "r": 0.6509804129600525,
+            "g": 0.35686275362968445,
+            "b": 0.19607843458652496
+          },
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "id": "2:30",
+      "name": "Ellipse 15",
+      "type": "ELLIPSE",
+      "fills": [
+        {
+          "color": {
+            "r": 0.9764705896377563,
+            "g": 0.9725490212440491,
+            "b": 0.9647058844566345
+          },
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "id": "2:31",
+      "name": "Ellipse 16",
+      "type": "ELLIPSE",
+      "fills": [
+        {
+          "color": {
+            "r": 0.5490196347236633,
+            "g": 0.29019609093666077,
+            "b": 0.15294118225574493
+          },
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "id": "2:32",
+      "name": "Ellipse 17",
+      "type": "ELLIPSE",
+      "fills": [
+        {
+          "color": {
+            "r": 0.1764705926179886,
+            "g": 0.16470588743686676,
+            "b": 0.14901961386203766
+          },
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "id": "2:33",
+      "name": "Ellipse 18",
+      "type": "ELLIPSE",
+      "fills": [
+        {
+          "color": {
+            "r": 0.8509804010391235,
+            "g": 0.7647058963775635,
+            "b": 0.6901960968971252
+          },
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "id": "2:39",
+      "name": "Meggyőző címsor, röviden leírva",
+      "type": "TEXT",
+      "fills": [
+        {
+          "color": {
+            "r": 0.003921568859368563,
+            "g": 0.06666667014360428,
+            "b": 0.06666667014360428
+          },
+          "opacity": 1
+        }
+      ],
+      "characters": "Meggyőző címsor, röviden leírva",
+      "segments": [
+        {
+          "start": 0,
+          "end": 31,
+          "fontName": {
+            "family": "Merriweather",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "wdth": 100
+            }
+          },
+          "fontSize": 60,
+          "lineHeight": {
+            "unit": "PERCENT",
+            "value": 129.99999523162842
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL"
+        }
+      ]
+    },
+    {
+      "id": "2:44",
+      "name": "Meggyőző címsor, röviden leírva",
+      "type": "TEXT",
+      "fills": [
+        {
+          "color": {
+            "r": 0.003921568859368563,
+            "g": 0.06666667014360428,
+            "b": 0.06666667014360428
+          },
+          "opacity": 1
+        }
+      ],
+      "characters": "Meggyőző címsor, röviden leírva",
+      "segments": [
+        {
+          "start": 0,
+          "end": 31,
+          "fontName": {
+            "family": "Merriweather",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "wdth": 100
+            }
+          },
+          "fontSize": 40,
+          "lineHeight": {
+            "unit": "PERCENT",
+            "value": 129.99999523162842
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL"
+        }
+      ]
+    },
+    {
+      "id": "2:49",
+      "name": "Meggyőző címsor, röviden leírva",
+      "type": "TEXT",
+      "fills": [
+        {
+          "color": {
+            "r": 0.003921568859368563,
+            "g": 0.06666667014360428,
+            "b": 0.06666667014360428
+          },
+          "opacity": 1
+        }
+      ],
+      "characters": "Meggyőző címsor, röviden leírva",
+      "segments": [
+        {
+          "start": 0,
+          "end": 31,
+          "fontName": {
+            "family": "Merriweather",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "wdth": 100
+            }
+          },
+          "fontSize": 28,
+          "lineHeight": {
+            "unit": "PERCENT",
+            "value": 129.99999523162842
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL"
+        }
+      ]
+    },
+    {
+      "id": "2:54",
+      "name": "Meggyőző címsor, röviden leírva",
+      "type": "TEXT",
+      "fills": [
+        {
+          "color": {
+            "r": 0.003921568859368563,
+            "g": 0.06666667014360428,
+            "b": 0.06666667014360428
+          },
+          "opacity": 1
+        }
+      ],
+      "characters": "Meggyőző címsor, röviden leírva",
+      "segments": [
+        {
+          "start": 0,
+          "end": 31,
+          "fontName": {
+            "family": "Merriweather",
+            "style": "SemiBold",
+            "variationSettings": {
+              "wght": 600,
+              "wdth": 100
+            }
+          },
+          "fontSize": 24,
+          "lineHeight": {
+            "unit": "PERCENT",
+            "value": 129.99999523162842
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL"
+        }
+      ]
+    },
+    {
+      "id": "2:59",
+      "name": "Alcím, a segíti a címsorodat",
+      "type": "TEXT",
+      "fills": [
+        {
+          "color": {
+            "r": 0.24313725531101227,
+            "g": 0.32156863808631897,
+            "b": 0.2666666805744171
+          },
+          "opacity": 1
+        }
+      ],
+      "characters": "Alcím, a segíti a címsorodat",
+      "segments": [
+        {
+          "start": 0,
+          "end": 28,
+          "fontName": {
+            "family": "Merriweather",
+            "style": "SemiBold",
+            "variationSettings": {
+              "wght": 600,
+              "wdth": 100
+            }
+          },
+          "fontSize": 20,
+          "lineHeight": {
+            "unit": "PERCENT",
+            "value": 129.99999523162842
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL"
+        }
+      ]
+    },
+    {
+      "id": "2:62",
+      "name": "Leírás",
+      "type": "TEXT",
+      "fills": [
+        {
+          "color": {
+            "r": 0.3862529993057251,
+            "g": 0.3867383599281311,
+            "b": 0.41537460684776306
+          },
+          "opacity": 1
+        }
+      ],
+      "characters": "Body Mutasd be a problémát, amit megoldasz, emeld ki a célközönséget, bizonyítékaidat vagy egy előnyöd, funkciód.",
+      "segments": [
+        {
+          "start": 0,
+          "end": 4,
+          "fontName": {
+            "family": "Inter",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "slnt": 0
+            }
+          },
+          "fontSize": 16,
+          "lineHeight": {
+            "unit": "PERCENT",
+            "value": 160.0000023841858
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL"
+        },
+        {
+          "start": 4,
+          "end": 113,
+          "fontName": {
+            "family": "Inter",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "slnt": 0
+            }
+          },
+          "fontSize": 16,
+          "lineHeight": {
+            "unit": "PERCENT",
+            "value": 160.0000023841858
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL"
+        }
+      ]
+    },
+    {
+      "id": "2:65",
+      "name": "Leírás",
+      "type": "TEXT",
+      "fills": [
+        {
+          "color": {
+            "r": 0.3862529993057251,
+            "g": 0.3867383599281311,
+            "b": 0.41537460684776306
+          },
+          "opacity": 1
+        }
+      ],
+      "characters": "Gomb EZ KERÜL RÁ A GOMBRA",
+      "segments": [
+        {
+          "start": 0,
+          "end": 4,
+          "fontName": {
+            "family": "Inter",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "slnt": 0
+            }
+          },
+          "fontSize": 16,
+          "lineHeight": {
+            "unit": "PERCENT",
+            "value": 160.0000023841858
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL"
+        },
+        {
+          "start": 4,
+          "end": 25,
+          "fontName": {
+            "family": "Inter",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "slnt": 0
+            }
+          },
+          "fontSize": 16,
+          "lineHeight": {
+            "unit": "PERCENT",
+            "value": 160.0000023841858
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textCase": "ORIGINAL"
+        }
+      ]
+    }
+  ]
+}

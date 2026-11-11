@@ -1,0 +1,81 @@
+{
+  "directions": [
+    {
+      "fonts": {
+        "body": {
+          "fallback": "Arial, sans-serif",
+          "family": "Inter"
+        },
+        "heading": {
+          "fallback": "Georgia, serif",
+          "family": "Merriweather"
+        }
+      },
+      "description": "Személyes, portréhangsúlyos osztott nyitás, kiegyensúlyozott kártyák.",
+      "slug": "udvari-muhely",
+      "palette": {
+        "muted": "#2D2A26",
+        "primary": "#A65B32",
+        "bg": "#F9F8F6",
+        "secondary": "#D9C3B0",
+        "text": "#2D2A26",
+        "surface": "#F9F8F6",
+        "accent": "#8C4A27"
+      },
+      "name": "Udvari műhely",
+      "id": 1
+    },
+    {
+      "fonts": {
+        "body": {
+          "fallback": "Arial, sans-serif",
+          "family": "Inter"
+        },
+        "heading": {
+          "fallback": "Georgia, serif",
+          "family": "Merriweather"
+        }
+      },
+      "description": "Levegős tipografikus nyitás, aszimmetrikus fotópár, történeti ritmus.",
+      "slug": "agyagnaplo",
+      "palette": {
+        "muted": "#2D2A26",
+        "primary": "#A65B32",
+        "bg": "#F9F8F6",
+        "secondary": "#D9C3B0",
+        "text": "#2D2A26",
+        "surface": "#F9F8F6",
+        "accent": "#8C4A27"
+      },
+      "name": "Agyagnapló",
+      "id": 2
+    },
+    {
+      "fonts": {
+        "body": {
+          "fallback": "Arial, sans-serif",
+          "family": "Inter"
+        },
+        "heading": {
+          "fallback": "Georgia, serif",
+          "family": "Merriweather"
+        }
+      },
+      "description": "Széles anyagközeli korongozásfotóval nyitó változat.",
+      "slug": "az-alkotas-kozelrol",
+      "palette": {
+        "muted": "#2D2A26",
+        "primary": "#A65B32",
+        "bg": "#F9F8F6",
+        "secondary": "#D9C3B0",
+        "text": "#2D2A26",
+        "surface": "#F9F8F6",
+        "accent": "#8C4A27"
+      },
+      "name": "Az alkotás közelről",
+      "id": 3
+    }
+  ],
+  "total": 3,
+  "approved": true
+}

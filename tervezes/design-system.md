@@ -136,3 +136,5 @@ Az éles űrlap, adatkezelési tájékoztató, tételes képkreditek, végleges 
 Favicon: images/logo/Agyagpad-favicon-transparent.svg, 256 px-es átlátszó PNG-tartalékkal; a korábbi WebP ikon is átlátszó változatra frissült. Az eredeti háttérrel rendelkező forrásfájlok megmaradnak, az oldal a háttér nélküli változatokat használja.
 
 A műhelybolt blokk tartalmi és vizuális sorrendje szöveg, majd fotó: asztalon szöveg balra, fotó jobbra; mobilon szöveg felül és fotó alatta. A kép jobb oldali türkiz kerete és koronggyűrűi megmaradnak.
+
+A hero jobb felső korongmotívuma három megdöntött, egymásba simuló türkiz ív. Két SVG-rétegben jelenik meg: a hátsó ívrész a fotó mögött, a maszkolt első ívrész a fotó előtt fut, így a vonalak a képszélnél összefonódó hatást keltenek. A dísz nem fedi a kezeket vagy az edényt. Mobilon kisebb, vízszintes túlcsordulás nélkül; nem interaktív és akadálymentesítésből kizárt.

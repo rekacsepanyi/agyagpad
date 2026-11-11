@@ -115,7 +115,7 @@ Közvetlenül a három programkártya alatt, a tanfolyamos szakasz közös tarta
 - Átlátszó logó: images/logo/Agyagpad-logo-transparent.svg; PNG-párja ugyanott. Nincs külön doboz, keret vagy színezett háttér.
 - Tartalmi fotók: images/webp, reszponzív srcset/sizes, 16 px lekerekítés, helyes méretattribútumok és tartalomhoz illő alt.
 - A hero képaláírása idézőjeles és dőlt: „Az alkotás az első mozdulattal kezdődik.”
-- Hero: reszletfoto2, agyagot formáló kezek. A bemutatkozásban másik, munka közbeni kép, hero1; a hangsúlyos portré nem ismétlődik.
+- Hero: agyagpad-hero.jpg alapján optimalizált agyagpad-hero WebP, agyagedényt formáló kezek; 480, 800, 1200 és 1600 px széles változatok. A bemutatkozásban másik, munka közbeni kép, hero1; a hangsúlyos portré nem ismétlődik.
 - A főoldali műhelyboltnál egyetlen fotó marad: muhelybolt (kész bögrék), 4:3 képaránnyal. A korábbi második, vázás kép lekerült; az eredeti fájlt megőrizzük. A tárgyak bemutatásáról szóló második mondat külön bekezdés.
 - Kevés, türkiz eltolt képkeret és koronggyűrű-vonalgrafika. Nincs botanikai minta, erős háttértextúra vagy folyamatos animáció.
 - A nyitókép eager, a lejjebb lévő képek lazy betöltésűek; eredeti fotók megőrizve.

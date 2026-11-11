@@ -134,7 +134,7 @@ A kártyák és ez a blokk a kitalált vállalkozás kínálatát szemléltetik.
 
 Fehér Dóra vagyok, az Agyagpad alapítója. Az első korongozó foglalkozásomon az fogott meg, hogy az agyag minden apró mozdulatra válaszol. Ebből a kíváncsiságból született meg később a saját szentendrei műhelyem.
 
-Ma olyan bögréket, tálakat és tányérokat készítek, amelyeket jó kézbe venni a hétköznapokban. A foglalkozásokon pedig azt szeretném megmutatni, hogyan indulhatsz el te is. Kis csoportban dolgozunk, hogy mindenkinek jusson figyelem és segítség az első mozdulatokhoz.
+Ma olyan bögréket, tálakat és vázákat készítek, amelyeket jó kézbe venni a hétköznapokban. A foglalkozásokon pedig azt szeretném megmutatni, hogyan indulhatsz el te is. Kis csoportban dolgozunk, hogy mindenkinek jusson figyelem és segítség az első mozdulatokhoz.
 
 #### Rövid mérföldkövek
 

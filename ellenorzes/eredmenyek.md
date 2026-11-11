@@ -89,3 +89,7 @@ Az Udvari műhely további finomhangolása; valódi üzemeltetői adatok és űr
 Türkiz képkeretek, kerámiamotívum és kör-pipa ikonok; idézőjeles, dőlt hero-képaláírás; terrakotta másodlagos gomb; módosított programcímek és nyíl nélküli kártyalinkek. A sorrend tanfolyamok → műhely → tudnivalók → kapcsolat. A műhelyboltban egy bögrés fotó maradt, a második mondat külön bekezdés.
 
 A fooldal-ellenorzes.cjs mind a hét futása sikeres: 320, 390, 768, 1024 és 1440 px, valamint 390 és 1440 px 200%-os szövegmérettel. Nincs vízszintes túlcsordulás, hiányzó kép, külső kérés vagy JavaScript-hiba. Ellenőrzött sorrend, színek, linkcélok, menü/Escape, billentyűzetes ugrólink és helyi űrlap. A másodlagos gomb normál és hover szövegkontrasztja 4,75:1; a türkiz ikonok kontrasztja homokon 5,58:1. Az aktuális mobil- és asztali képernyőképek az ellenorzes/kepernyokepek mappába kerültek.
+
+### Tudnivalóblokk visszahelyezése a tanfolyamokhoz
+
+Az egyetlen tudnivalóblokk közvetlenül a három programkártya alatt helyezkedik el, velük azonos szélességgel. Háttér #1B4D4F; cím, szöveg és ikonok #F9F8F6 (8,91:1). Belső tér mobilon 24 px, asztalon 32 px; két/egy oszlop. Új szín nincs. A korábbi különálló hely és üres konténere megszűnt. A böngészős ellenőrzés az elhelyezést, egyszeri előfordulást, igazítást, színeket és oszlopszámot is vizsgálja.

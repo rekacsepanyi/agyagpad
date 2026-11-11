@@ -1,6 +1,6 @@
 # Agyagpad – design system
 
-Verzió: 4.1 · 2026. november 11.
+Verzió: 4.2 · 2026. november 11.
 Állapot: a kiválasztott Udvari műhely főoldalának aktuális specifikációja. A korábbi türkiz gombos irányt ez a dokumentum felülírja.
 
 ## Források és hatókör
@@ -24,7 +24,7 @@ Meleg, földközeli, kézműves, rendezett és olvasható. A nyitókép az agyag
 | --clay | #A65B32 | Terrakotta H1, elsődleges gomb, évszám és idővonaltengely |
 | --earth | #8C4A27 | Az elsődleges gomb sötétebb hover állapota |
 | --sand | #D9C3B0 | Tanfolyami és kapcsolati szakasz, tudnivalóblokk meleg bézs alapja |
-| --teal | #1B4D4F | Kicker feliratok, eltolt képkeretek, koronggyűrű-motívum és tudnivalóikonok |
+| --teal | #1B4D4F | Kicker feliratok, eltolt képkeretek, koronggyűrű-motívum és a tudnivalóblokk háttere |
 
 Új bézs-, homok-, grafit- vagy türkiz-hover árnyalat nincs. A korábban felvetett #F3EFEA, #EFE8E1 és #123C3E nem része az aktuális rendszernek. A fényképek természetes színei nem UI-tokenek.
 
@@ -99,7 +99,7 @@ Sorrend: normál kicker → programnév → rövid élményleírás → alkaloms
 
 ## Tudnivalóblokk
 
-A teljes műhelyszakasz után, a kapcsolat előtt helyezkedik el. Meleg bézs (#D9C3B0), grafit szöveg és egységes, 24 px-es türkiz kör-pipa ikonok. 768 px-től két oszlop, mobilon egy. A hat pont rövid kiemelt állítással kezdődik, és megőrzi az előképzettség, anyagok/égetések, hatfős csoport, két héttel későbbi átvétel, végeredmény-korlátok és időpont-egyeztetés információját. A dekoratív ikonok aria-hidden jelölésűek. A végeredményről szóló pontban a „vagy hibátlan végeredményt nem garantálunk.” új sorban kezdődik.
+Közvetlenül a három programkártya alatt, a tanfolyamos szakasz közös tartalmi konténerében helyezkedik el. Sötéttürkiz (#1B4D4F) háttér, törtfehér (#F9F8F6) cím, szöveg és egységes, 24 px-es kör-pipa ikonok. A kártyák együttes szélességéhez igazodik; belső tere mobilon 24 px, asztalon 32 px. A korábbi különálló blokk megszűnt. A törtfehér/türkiz kontraszt 8,91:1. 768 px-től két oszlop, mobilon egy. A hat pont rövid kiemelt állítással kezdődik, és megőrzi az előképzettség, anyagok/égetések, hatfős csoport, két héttel későbbi átvétel, végeredmény-korlátok és időpont-egyeztetés információját. A dekoratív ikonok aria-hidden jelölésűek. A végeredményről szóló pontban a „vagy hibátlan végeredményt nem garantálunk.” új sorban kezdődik.
 
 ## Idővonal
 

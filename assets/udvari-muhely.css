@@ -122,7 +122,7 @@ p,.detail-link,.button,.notes-grid li,figcaption{overflow-wrap:anywhere}
 /* A főoldali böngészőmegjegyzések alapján pontosított elemek. */
 .hero .button.outline{color:var(--clay);border-color:var(--clay)}
 .hero .button.outline:hover{color:var(--paper);background:var(--clay)}
-.practical{padding-bottom:var(--section)}
-.practical .notes{margin:0;padding:1.5rem}
 .notes-linebreak{display:block}
-@media(min-width:48rem){.practical .notes{padding:2rem}}
+#tanfolyamok .notes{background:var(--teal);color:var(--paper);padding:1.5rem}
+#tanfolyamok .notes h3,#tanfolyamok .notes strong,#tanfolyamok .notes .note-icon{color:var(--paper)}
+@media(min-width:48rem){#tanfolyamok .notes{padding:2rem}}

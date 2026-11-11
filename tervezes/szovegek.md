@@ -1,6 +1,6 @@
 # Agyagpad – a weboldal szövegei
 
-Verzió: 2.2 · 2026. november 11.
+Verzió: 2.3 · 2026. november 11.
 Állapot: az építéshez rögzített weboldalszövegek; az adatkezelési tájékoztató és a képkreditek külön, még előkészítendő tartalmak.
 
 Az Agyagpad főoldala négy görgethető szekciót tartalmaz; a részletes programokat a tanfolyamok.html aloldal mutatja be. Az aktuális főoldalfájl koncepcio-1-udvari-muhely.html; az index.html továbbra is a három korábbi koncepció választója. Ez a dokumentum a felhasználó szövegtervének javított, kiegészített változata. A szerkezeti minta az iskolai Eliza Beauty `forrasok/szovegek.md` fájlja; a vállalkozás, a programok, a történet és a megjelenő szövegek az Agyagpad saját projektanyagából származnak.
@@ -313,10 +313,10 @@ A csütörtök–vasárnap 10:00–18:00 nyitvatartás a kitalált műhelyboltra
 
 ## Aktuális főoldali megjelenés
 
-A kickerek normál, mondatkezdő nagybetűs szövegek, Inter Regular 400 betűvel, bevezető vonal vagy em dash nélkül. A kickerek, a két eltolt képkeret, a koronggyűrű-motívum és a tudnivalók kör-pipa ikonjai türkizek. H1 terrakotta, H2/H3 grafit. A főoldali kártyák nem mutatnak konkrét árat; a részletes árak a meglévő tanfolyamok.html oldalon maradnak. A fejlécből a Koncepciók hivatkozás kikerült. A műhelyboltban csak a kész bögréket mutató fotó marad. A tárgyak bemutatásáról szóló második mondat új bekezdésben kezdődik. Az idővonal szövege és a kitalált adatok változatlanok. Az aloldalak további tartalmi munkája, így a muhely.html galériája a főoldal lezárása után következik.
+A kickerek normál, mondatkezdő nagybetűs szövegek, Inter Regular 400 betűvel, bevezető vonal vagy em dash nélkül. A kickerek, a két eltolt képkeret, a koronggyűrű-motívum és a tudnivalóblokk háttere türkizek. A tudnivalóblokk címe, szövege és ikonjai törtfehérek. H1 terrakotta, H2/H3 grafit. A főoldali kártyák nem mutatnak konkrét árat; a részletes árak a meglévő tanfolyamok.html oldalon maradnak. A fejlécből a Koncepciók hivatkozás kikerült. A műhelyboltban csak a kész bögréket mutató fotó marad. A tárgyak bemutatásáról szóló második mondat új bekezdésben kezdődik. Az idővonal szövege és a kitalált adatok változatlanok. Az aloldalak további tartalmi munkája, így a muhely.html galériája a főoldal lezárása után következik.
 
 
 
 ### Böngészőmegjegyzések alapján pontosítva
 
-A sorrend: tanfolyamok, alkotó és műhely (idővonal, műhelybolt), tudnivalóblokk, kapcsolat. A hero képaláírása dőlt és idézőjeles: „Az alkotás az első mozdulattal kezdődik.” A főoldali második programkártya rövid neve Négyhetes kurzus; az űrlap és az aloldal teljes programneve megmarad. A három „Részletek és árak” linkhez nem tartozik nyíl. A végeredményről szóló tudnivalónál a „vagy” új sort kezd.
+A sorrend: tanfolyamok (programkártyák, majd közvetlenül a tudnivalóblokk), alkotó és műhely (idővonal, műhelybolt), kapcsolat. A hero képaláírása dőlt és idézőjeles: „Az alkotás az első mozdulattal kezdődik.” A főoldali második programkártya rövid neve Négyhetes kurzus; az űrlap és az aloldal teljes programneve megmarad. A három „Részletek és árak” linkhez nem tartozik nyíl. A végeredményről szóló tudnivalónál a „vagy” új sort kezd.

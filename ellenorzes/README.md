@@ -1,6 +1,6 @@
 # Ellenőrzési anyagok
 
-Aktuális megjelenési alap: a megtartott `16527e0` változat. A mostani dokumentációfrissítés nem módosította a főoldal HTML- vagy CSS-forrását.
+Kiinduló megjelenési alap: `16527e0`. Aktuális revízió: 2026-11-12-rounded-sections; a főoldal váltakozó szakaszsarkokkal, portrécserével és erősebb motívumokkal finomodott. A főoldaljelentés november 12-i, a változatlan fejléc jelentése november 11-i.
 
 ## Aktuális bizonyítékok
 

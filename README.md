@@ -80,7 +80,7 @@ Az `eszkozok/helyi-szerver.cjs` opcionális helyi előnézetet indít (`node esz
 Beadási határidő: 2026. november 24. A kiírás szerint kérhető haladékkal december 1.
 
 
-A kiválasztott változat aktuális megjelenési forrása assets/udvari-muhely.css, dokumentációja tervezes/design-system.md 4.3 és tervezes/szovegek.md 2.4. Az aktuális hét futásos ellenőrzés: ellenorzes/fo-ellenorzes.json; kontrasztok: ellenorzes/fo-kontrasztok.json. Öt normál nézetszélesség és két 200%-os szövegméret-próba sikeres. A régebbi koncepcióellenőrzések történeti anyagok, a főoldal aktuális elrendezését a fooldal-ellenorzes.cjs ellenőrzi.
+A kiválasztott változat aktuális megjelenési forrása assets/udvari-muhely.css, dokumentációja tervezes/design-system.md 4.4 és tervezes/szovegek.md 2.4. Az aktuális hét futásos ellenőrzés: ellenorzes/fo-ellenorzes.json; kontrasztok: ellenorzes/fo-kontrasztok.json. Öt normál nézetszélesség és két 200%-os szövegméret-próba sikeres. A régebbi koncepcióellenőrzések történeti anyagok, a főoldal aktuális elrendezését a fooldal-ellenorzes.cjs ellenőrzi.
 
 Az archivum/udvari-muhely-turkiz-migracio.cjs egyszeri átalakítási segédlet, nem aktuális buildparancs. A kész HTML- és CSS-fájlokat kell tovább szerkeszteni; a migrációt nem kell újrafuttatni.
 
@@ -88,7 +88,7 @@ Az archivum/udvari-muhely-turkiz-migracio.cjs egyszeri átalakítási segédlet,
 
 ## Megtartott verzió és beadási dokumentáció
 
-A honlap megjelenési alapja az utoljára jóváhagyott 16527e0. A későbbi összefonódó és lefelé vezetett spirálos motívumkísérleteket visszavontuk; a HTML, CSS és a webes assetek megtartott állapota az irányadó. A dokumentáció erre az állapotra frissült, a weboldal újratervezése nélkül. A fejléc CTA „Jelentkezés”, csak kezdő nagybetűvel.
+A honlap kiindulási alapja a jóváhagyott 16527e0, amelyet november 12-én váltakozó szakaszsarkokkal, Dóra csatolt portréjával és erősebb fotómotívumokkal finomítottunk. A későbbi összefonódó és lefelé vezetett spirálos motívumkísérleteket visszavontuk; a HTML, CSS és a webes assetek megtartott állapota az irányadó. A dokumentáció és a friss felvételek a november 12-i továbbfejlesztést követik. A fejléc CTA „Jelentkezés”, csak kezdő nagybetűvel.
 
 A beadási csomag és a kötelező/ajánlott tételek szétválasztása: [beadas/README.md](beadas/README.md). Itt található az AI-leírás, az eredeti tervezési képek másolata, az aktuális oldaltérkép és a visszaállított oldal friss képernyőképei. A csomag élő URL hiányában még nem végleges beadás.
 

@@ -1,17 +1,18 @@
 {
-  "date": "2026-11-11",
-  "savedDesignCommit": "16527e0b05fc1b8faa251a54e96c16770f523ab7",
+  "date": "2026-11-12",
+  "designRevision": "2026-11-12-rounded-sections",
+  "baseDesignCommit": "16527e0b05fc1b8faa251a54e96c16770f523ab7",
   "liveUrl": null,
-  "designSystem": "4.3",
+  "designSystem": "4.4",
   "copy": "2.4",
   "sourceFiles": [
     {
       "file": "koncepcio-1-udvari-muhely.html",
-      "sha256": "11b289dd7d3d3f962f8f57b4b32301f7b4534e3d6b3e312c4d0a2dbaf16879b0"
+      "sha256": "88d56453671b7879834e2c6585c348e1435cb1974e5eca704599b4a0141927bd"
     },
     {
       "file": "assets/udvari-muhely.css",
-      "sha256": "515d30e482714e7172f6e282e5a1bdc0b791075018035f9021d53ca41a6c290c"
+      "sha256": "8f113812b1bb831b36d293a8721a638484e808b83b9b1b4e38d3f16cf0db5053"
     },
     {
       "file": "tanfolyamok.html",
@@ -40,7 +41,9 @@
     "fooldal-mobil.png",
     "hero-asztali.png",
     "muhelybolt-asztali.png",
+    "bemutatkozas-asztali.png",
+    "muhely-szakasz-asztali.png",
     "tudnivalok-asztali.png"
   ],
-  "note": "A megjelenési források a megtartott verziót követik; a dokumentumok és felvételek újra egyeztetve."
+  "note": "A jóváhagyott kiinduló változat november 12-i továbbfejlesztése: szakaszlekerekítés, portrécsere és erősebb motívumok."
 }

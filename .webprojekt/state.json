@@ -1,12 +1,11 @@
 {
   "direction_count": 3,
-  "phase": "selected_homepage_documented",
+  "phase": "homepage_refinement",
   "source_url": null,
   "approval": "Felhasználó: igen, mehet.",
   "is_redesign": false,
   "selected_direction": 1,
   "selected_name": "Udvari műhely",
-  "saved_design_commit": "16527e0b05fc1b8faa251a54e96c16770f523ab7",
   "entry_page": "koncepcio-1-udvari-muhely.html",
   "structure_document": "tervezes/aktualis-oldalterkep.md",
   "submission_checklist": "beadas/README.md",
@@ -16,6 +15,10 @@
     "élő URL és publikálás",
     "végső oldal- és aloldalellenőrzés",
     "fotóforrások és szükséges kreditek",
-    "AI-leírás publikálási lépésének lezárása"
-  ]
+    "AI-leírás publikálási lépésének lezárása",
+    "a briefben ígért kerámiaválaszték változatos képi bemutatása vagy a szöveges ígéret pontosítása"
+  ],
+  "base_design_commit": "16527e0b05fc1b8faa251a54e96c16770f523ab7",
+  "design_revision": "2026-11-12-rounded-sections",
+  "updated": "2026-11-12"
 }

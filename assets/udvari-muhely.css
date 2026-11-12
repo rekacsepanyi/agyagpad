@@ -139,3 +139,14 @@ p,.detail-link,.button,.notes-grid li,figcaption{overflow-wrap:anywhere}
 .hero .portrait-caption::before{content:none}
 .hero .photo-surround::before{inset:18px -14px -14px 14px}
 @media(max-width:47.999rem){.hero .portrait-caption{left:1rem;bottom:1rem;padding:.875rem 1rem}.hero .photo-surround::before{inset:14px -6px -10px 12px}}
+/* A szakaszfelületek sarka váltakozva balra és jobbra lágyul. */
+#tanfolyamok,#muhely,#kapcsolat{position:relative;isolation:isolate;--chapter-corner:clamp(2rem,6vw,5rem)}
+#tanfolyamok,#kapcsolat{background:var(--paper)}
+#muhely{background:var(--sand)}
+#tanfolyamok::before,#muhely::before,#kapcsolat::before{content:'';position:absolute;inset:0;z-index:-1;pointer-events:none}
+#tanfolyamok::before,#kapcsolat::before{background:var(--sand);border-top-left-radius:var(--chapter-corner)}
+#muhely::before{background:var(--paper);border-top-right-radius:var(--chapter-corner)}
+.story-photo{aspect-ratio:3/4;max-height:40rem;object-position:50% 35%}
+.story .photo-surround::before,.shop .photo-surround::before{inset:16px -16px -16px 16px;border-width:2px}
+.story .pottery-lines,.shop .pottery-lines{top:-42px;right:-8px;width:148px;height:99px;stroke-width:1.75}
+@media(max-width:47.999rem){.story .photo-surround::before,.shop .photo-surround::before{inset:12px -8px -10px 10px}.story .pottery-lines,.shop .pottery-lines{top:-30px;right:0;width:112px;height:75px}}

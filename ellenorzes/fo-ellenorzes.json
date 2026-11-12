@@ -6,6 +6,7 @@
       "passed": true,
       "checks": [
         "tudnivalók a kártyák alatt, azonos szélességgel, türkiz háttéren törtfehér elemekkel, két/egy oszlopban; korábbi finomítások",
+        "váltakozó szakaszsarkok, új Dóra-portré, diszkréten erősebb portré- és műhelyboltmotívum",
         "színek, normál kicker vonal nélkül, ár nélküli kártyák, egy kerámiakép, reszponzív idővonal",
         "menü, linkcélok és helyi űrlap",
         "billentyűzetes ugrólink"
@@ -17,6 +18,7 @@
       "passed": true,
       "checks": [
         "tudnivalók a kártyák alatt, azonos szélességgel, türkiz háttéren törtfehér elemekkel, két/egy oszlopban; korábbi finomítások",
+        "váltakozó szakaszsarkok, új Dóra-portré, diszkréten erősebb portré- és műhelyboltmotívum",
         "színek, normál kicker vonal nélkül, ár nélküli kártyák, egy kerámiakép, reszponzív idővonal",
         "menü, linkcélok és helyi űrlap",
         "billentyűzetes ugrólink"
@@ -28,6 +30,7 @@
       "passed": true,
       "checks": [
         "tudnivalók a kártyák alatt, azonos szélességgel, türkiz háttéren törtfehér elemekkel, két/egy oszlopban; korábbi finomítások",
+        "váltakozó szakaszsarkok, új Dóra-portré, diszkréten erősebb portré- és műhelyboltmotívum",
         "színek, normál kicker vonal nélkül, ár nélküli kártyák, egy kerámiakép, reszponzív idővonal",
         "menü, linkcélok és helyi űrlap",
         "billentyűzetes ugrólink"
@@ -39,6 +42,7 @@
       "passed": true,
       "checks": [
         "tudnivalók a kártyák alatt, azonos szélességgel, türkiz háttéren törtfehér elemekkel, két/egy oszlopban; korábbi finomítások",
+        "váltakozó szakaszsarkok, új Dóra-portré, diszkréten erősebb portré- és műhelyboltmotívum",
         "színek, normál kicker vonal nélkül, ár nélküli kártyák, egy kerámiakép, reszponzív idővonal",
         "menü, linkcélok és helyi űrlap",
         "billentyűzetes ugrólink"
@@ -50,6 +54,7 @@
       "passed": true,
       "checks": [
         "tudnivalók a kártyák alatt, azonos szélességgel, türkiz háttéren törtfehér elemekkel, két/egy oszlopban; korábbi finomítások",
+        "váltakozó szakaszsarkok, új Dóra-portré, diszkréten erősebb portré- és műhelyboltmotívum",
         "színek, normál kicker vonal nélkül, ár nélküli kártyák, egy kerámiakép, reszponzív idővonal",
         "menü, linkcélok és helyi űrlap",
         "billentyűzetes ugrólink"
@@ -61,6 +66,7 @@
       "passed": true,
       "checks": [
         "tudnivalók a kártyák alatt, azonos szélességgel, türkiz háttéren törtfehér elemekkel, két/egy oszlopban; korábbi finomítások",
+        "váltakozó szakaszsarkok, új Dóra-portré, diszkréten erősebb portré- és műhelyboltmotívum",
         "színek, normál kicker vonal nélkül, ár nélküli kártyák, egy kerámiakép, reszponzív idővonal",
         "menü, linkcélok és helyi űrlap",
         "billentyűzetes ugrólink"
@@ -72,6 +78,7 @@
       "passed": true,
       "checks": [
         "tudnivalók a kártyák alatt, azonos szélességgel, türkiz háttéren törtfehér elemekkel, két/egy oszlopban; korábbi finomítások",
+        "váltakozó szakaszsarkok, új Dóra-portré, diszkréten erősebb portré- és műhelyboltmotívum",
         "színek, normál kicker vonal nélkül, ár nélküli kártyák, egy kerámiakép, reszponzív idővonal",
         "menü, linkcélok és helyi űrlap",
         "billentyűzetes ugrólink"
@@ -79,6 +86,7 @@
     }
   ],
   "passed": true,
-  "savedDesignCommit": "16527e0b05fc1b8faa251a54e96c16770f523ab7",
-  "documentationRefreshDate": "2026-11-11"
+  "baseDesignCommit": "16527e0b05fc1b8faa251a54e96c16770f523ab7",
+  "designRevision": "2026-11-12-rounded-sections",
+  "checkedDate": "2026-11-12"
 }

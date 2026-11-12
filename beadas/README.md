@@ -1,6 +1,6 @@
 # Agyagpad – beadási ellenőrzőlap
 
-Frissítve: 2026. november 11. Megtartott weboldal: `16527e0` (visszaállító helyi commit: `6125a95`). Ez a csomag a fejlesztési állapotot dokumentálja; az élesítés még hátravan.
+Frissítve: 2026. november 12. Kiinduló jóváhagyott weboldal: `16527e0`, aktuális továbbfejlesztés: váltakozó szakaszlekerekítés, portrécsere és erősebb fotómotívumok. Ez a csomag a fejlesztési állapotot dokumentálja; az élesítés még hátravan.
 
 ## A kiírás szerint beadandó három tétel
 
@@ -10,7 +10,7 @@ Frissítve: 2026. november 11. Megtartott weboldal: `16527e0` (visszaállító h
 | Egy vagy több kép a tervezésről | Elkészült | `tervezesi-folyamat/01-eredeti-oldalterkep.png`, `02-eredeti-drotvaz.png`, `03-aktualis-oldalterkep.png` |
 | AI-használat, legfeljebb egy oldal | Elkészült az eddigi munkához | [AI-hasznalat.md](AI-hasznalat.md); élesítés után a publikálási lépéssel frissítendő. |
 
-A két eredeti kép korábbi tervezési állapotot bizonyít, nem az aktuális képernyő pontos másolata. A harmadik kép a megtartott változat szerkezetét foglalja össze. A `jelenlegi-oldal/` képei a visszaállított főoldal új felvételei.
+A két eredeti kép korábbi tervezési állapotot bizonyít, nem az aktuális képernyő pontos másolata. A harmadik kép a megtartott változat szerkezetét foglalja össze. A `jelenlegi-oldal/` képei az aktuális továbbfejlesztés új felvételei.
 
 ## Kötelező feltételek
 
@@ -41,3 +41,5 @@ A két eredeti kép korábbi tervezési állapotot bizonyít, nem az aktuális k
 4. Az AI-leírás utolsó bekezdésének frissítése, az élő URL és a tervezési képek beadása.
 
 Határidő: 2026. november 24.; kérhető haladékkal december 1. Forrás: a felhasználó által megadott vizsgakiírás.
+
+Tartalmi feladat: a saját briefben és a szövegben ígért kerámiaválaszték bemutatása jelenleg egy bögrés termékfotóra támaszkodik. További kész tál-/tányér-/vázafotóval bővítendő, vagy a szöveges ígéret pontosítandó. Ez nem külön, általános vizsgakiírásbeli galériakötelezettség.

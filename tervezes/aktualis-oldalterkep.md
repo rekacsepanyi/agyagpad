@@ -1,6 +1,6 @@
 # Agyagpad – aktuális oldaltérkép és szekciószerkezet
 
-Frissítve: 2026. november 11. Alap: a megtartott `16527e0` weboldalváltozat.
+Frissítve: 2026. november 12. Kiindulás: a megtartott `16527e0`, azóta szakaszlekerekítéssel, portrécserével és erősebb képdekorációval finomítva.
 
 ## Belépési pontok
 
@@ -42,7 +42,7 @@ Közvetlenül alattuk azonos teljes szélességgel az „Amit érdemes tudnod”
 
 ### 3. Műhely és alkotó – `#muhely`
 
-Fehér Dóra munka közbeni képe és bemutatkozása: asztalon kép balra, szöveg jobbra. A bemutatkozásban bögrék, tálak és vázák szerepelnek. Ezután a 2018, 2022, 2023 és 2024 állomású idővonal következik: asztalon vízszintesen, szűk helyen függőlegesen.
+Fehér Dóra csatolt hero.jpg portréjának WebP-változata és bemutatkozása: asztalon kép balra, szöveg jobbra. A bemutatkozásban bögrék, tálak és vázák szerepelnek. Ezután a 2018, 2022, 2023 és 2024 állomású idővonal következik: asztalon vízszintesen, szűk helyen függőlegesen.
 
 A műhelyboltban asztalon szöveg balra, egyetlen bögrés fotó jobbra kerül; mobilon szöveg után fotó következik. Nyitvatartás: csütörtök–vasárnap 10:00–18:00. Cím: 2000 Szentendre, Agyagliget köz 4., kitalált, nem látogatható bemutatócímként jelölve. Nincs webshop vagy térképes útvonaltervezés.
 
@@ -60,6 +60,10 @@ Márka és rövid bemutatkozás; bemutatócím és nyitvatartás; navigáció; a
 
 - `tervezes/drotvaz/01-oldalterkep.png` és `02-drotvaz.png`: megőrzött eredeti folyamatképek; nem a végleges felület pontos rajzai.
 - `beadas/tervezesi-folyamat/03-aktualis-oldalterkep.png`: az aktuális szerkezet áttekintése.
-- `beadas/jelenlegi-oldal/`: a visszaállított főoldal új mobil- és asztali felvételei.
+- `beadas/jelenlegi-oldal/`: az aktuális továbbfejlesztés új mobil- és asztali felvételei.
 
 A kiírás legalább három oldalt **vagy** szekciót kér; a négy főoldali szekció ezt teljesíti. Az eredeti képek a folyamatot, a friss képernyőképek az eredményt dokumentálják.
+
+A szakaszhátterek felső sarka bal–jobb–bal sorrendben lekerekített. A bemutatkozó és a műhelybolti fotó felső jobb részén hangsúlyosabb, de visszafogott türkiz koronggyűrűk és eltolt keret jelennek meg.
+
+Tartalmi pontosítás: az általános vizsgakiírás nem kér külön kerámiagalériát. A saját brief és a műhelybolt szövege viszont többféle használati kerámiát ígér. Jelenleg egy bögrés fotó mutat kész tárgyakat; tálak, tányérok és vázák változatos bemutatása még kiegészítendő tartalmi feladat.

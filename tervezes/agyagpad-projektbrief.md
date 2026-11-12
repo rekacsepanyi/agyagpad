@@ -1,6 +1,6 @@
 # Projektbrief: Agyagpad kerámiaműhely
 
-Frissítve: 2026. november 11. · Aktuális alap: a megtartott 16527e0 oldalváltozat. Az arculat és a karakterbemutatás pontosítva; a kitalált bemutatócím rögzítve; a karaktertörténet és a megjelenő szövegek a tervezes/szovegek.md dokumentumban rögzítve.
+Frissítve: 2026. november 12. · Kiinduló mentés: 16527e0; aktuális irány: november 12-i továbbfejlesztés. Az arculat és a karakterbemutatás pontosítva; a kitalált bemutatócím rögzítve; a karaktertörténet és a megjelenő szövegek a tervezes/szovegek.md dokumentumban rögzítve.
 
 ## 1. Az ügyfél és a vállalkozás
 
@@ -88,7 +88,7 @@ Külön GYIK, blog, galéria-aloldal és részletes folyamatbemutató nem kész�
 - Arculati referencia: tervezes/arculat/Arculati-tabla.png. Az új változat felülírja a korábbi vázaemblémás irányt.
 - Kerülendő: steril, hideg, luxusüzletre emlékeztető megjelenés és túlzsúfoltság.
 - Szöveghang: magyar nyelvű, tegező, közvetlen, bátorító, túlzó ígéretek nélkül.
-- A konkrét színek, Merriweather–Inter tipográfia, mobilméretek, térközök és komponensszabályok a tervezes/design-system.md 4.3 dokumentumban rögzítve. Az építés ezt a specifikációt kövesse.
+- A konkrét színek, Merriweather–Inter tipográfia, mobilméretek, térközök és komponensszabályok a tervezes/design-system.md 4.4 dokumentumban rögzítve. Az építés ezt a specifikációt kövesse.
 
 ## 8. Tartalmak és képek
 
@@ -118,3 +118,5 @@ A kiválasztott Udvari műhely sötéttürkizt használ a kickereken, a képmot�
 Az aloldalak új tartalmi fejlesztése a főoldal lezárása után következik. A kért 4–6 képes műhelygyűjtemény a későbbi muhely.html feladata; ebben a körben nem készült új aloldal. A fejlécből a koncepcióválasztó linkje eltávolítva.
 
 
+
+Aktuális formai finomítás: váltakozó oldali szakaszlekerekítés; Dóra portréja a csatolt hero.jpg WebP-készletéből; kissé erősebb türkiz motívum a bemutatkozó és a műhelybolti fotónál. A kerámiák változatos bemutatása a saját brief vállalása; az általános vizsgakiírás külön galériát nem ír elő. A jelenlegi egyetlen bögrés termékfotó mellé később további releváns kész tárgyfotó illik, vagy a bemutatási ígéret szövegét kell pontosítani.

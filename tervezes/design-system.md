@@ -1,7 +1,7 @@
 # Agyagpad – design system
 
-Verzió: 4.3 · 2026. november 11.
-Állapot: a megtartott 16527e0 Udvari műhely főoldalának aktuális specifikációja. Dokumentációegyeztetés, az oldal megjelenésének módosítása nélkül. A korábbi türkiz gombos irányt ez a dokumentum felülírja.
+Verzió: 4.4 · 2026. november 12.
+Állapot: az Udvari műhely aktuális specifikációja. Kiindulás: a jóváhagyott 16527e0 változat; november 12-i továbbfejlesztés szakaszlekerekítésekkel, portrécserével és hangsúlyosabb fotómotívumokkal. A korábbi türkiz gombos irányt ez a dokumentum felülírja.
 
 ## Források és hatókör
 
@@ -116,9 +116,9 @@ Közvetlenül a három programkártya alatt, a tanfolyamos szakasz közös tarta
 - Átlátszó logó: images/logo/Agyagpad-logo-transparent.svg; PNG-párja ugyanott. Nincs külön doboz, keret vagy színezett háttér.
 - Tartalmi fotók: images/webp, reszponzív srcset/sizes, 16 px lekerekítés, helyes méretattribútumok és tartalomhoz illő alt.
 - A hero képaláírása idézőjeles és dőlt: „Az alkotás az első mozdulattal kezdődik.” A fotó bal alsó részére helyezett törtfehér kártyán jelenik meg, 15 px-es türkiz Merriweather szöveggel, bevezető díszvonal nélkül, homokszínű kerettel, 4/36/4/4 px-es aszimmetrikus lekerekítéssel és a meglévő grafit 10%-os átlátszóságából képzett finom árnyékkal. Mobilon a kártya a fotó szélein belül marad.
-- Hero: agyagpad-hero.jpg alapján optimalizált agyagpad-hero WebP, agyagedényt formáló kezek; 480, 800, 1200 és 1600 px széles változatok. A bemutatkozásban másik, munka közbeni kép, hero1; a hangsúlyos portré nem ismétlődik.
+- Hero: agyagpad-hero.jpg alapján optimalizált agyagpad-hero WebP, agyagedényt formáló kezek; 480, 800, 1200 és 1600 px széles változatok. A bemutatkozásban a csatolt hero.jpg álló portréjának hero WebP-készlete, 3:4 képkivágással, 50% 35% fókuszponttal; a hangsúlyos portré nem ismétlődik.
 - A főoldali műhelyboltnál egyetlen fotó marad: muhelybolt (kész bögrék), 4:3 képaránnyal. A korábbi második, vázás kép lekerült; az eredeti fájlt megőrizzük. A tárgyak bemutatásáról szóló második mondat külön bekezdés.
-- Kevés, türkiz eltolt képkeret és koronggyűrű-vonalgrafika, 1,5 px-es keretvonallal. A bemutatkozó és a műhelybolti fotó jobb oldalán is visszafogott koronggyűrűk látszanak. Nincs botanikai minta, erős háttértextúra vagy folyamatos animáció.
+- Kevés, türkiz eltolt képkeret és koronggyűrű-vonalgrafika. A hero keretvonala 1,5 px; a bemutatkozó és műhelybolti képé 2 px, 16 px-es asztali és 8 px-es mobilos jobb oldali eltolással. A két kép jobb felső részén a fotó mögül három gyűrű látszik ki: asztalon 148 × 99 px, mobilon 112 × 75 px, 1,75 px-es vonallal. Nincs botanikai minta, erős háttértextúra vagy folyamatos animáció.
 - A nyitókép eager, a lejjebb lévő képek lazy betöltésűek; eredeti fotók megőrizve.
 
 ## Közös tájékoztatás
@@ -136,3 +136,7 @@ Az éles űrlap, adatkezelési tájékoztató, tételes képkreditek, végleges 
 Favicon: images/logo/Agyagpad-favicon-transparent.svg, 256 px-es átlátszó PNG-tartalékkal; a korábbi WebP ikon is átlátszó változatra frissült. Az eredeti háttérrel rendelkező forrásfájlok megmaradnak, az oldal a háttér nélküli változatokat használja.
 
 A műhelybolt blokk tartalmi és vizuális sorrendje szöveg, majd fotó: asztalon szöveg balra, fotó jobbra; mobilon szöveg felül és fotó alatta. A kép jobb oldali türkiz kerete és koronggyűrűi megmaradnak.
+
+## November 12-i szakaszritmus
+
+A Tanfolyamok szakasz bal felső, a Műhely szakasz jobb felső, a Kapcsolat szakasz bal felső sarka lekerekített. A sugár clamp(2rem, 6vw, 5rem), normál asztalon legfeljebb 80 px. A meglévő törtfehér és homok színek rétegzett szakaszhátterei teszik láthatóvá a sarkokat. Nincs új szín, és a szakaszok nem vágják le a képmotívumokat vagy a fókuszjelzéseket.

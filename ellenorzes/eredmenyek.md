@@ -46,3 +46,7 @@ A friss képernyőképek a kepernyokepek mappában, kiválasztott másolataik a 
 ## Hátralévő éles lépések
 
 Netlify-projekt és élő URL; form detection; értesítési cím; valódi üzemeltetői adatkezelési tájékoztató; explicit engedélyezett tárhelynév és a küldés bekapcsolása; éles próba a szolgáltató listájában és a postaládában. A végleges képkreditek, domainhez kötött SEO és publikálás is hátravan. A működő küldés a felhasználó külön projektkövetelménye, amelyet a fogadó későbbi beállítása után lehet teljesítettnek jelölni.
+
+## Bemutatkozó számadatok és CTA – későbbi finomítás
+
+A három számadat a bemutatkozó szövegoszlopba, a két bekezdés alá került. Alatta az Ismerkedjünk meg személyesen gomb a #kapcsolat szakaszhoz navigál. A Felfedezem a kerámiákat gomb nyila kikerült. Hét célzott nézetben ellenőrizve: 320, 390, 768, 1024 és 1440 px, valamint 390 és 1440 px 200%-os szöveggel. A számadatok és a CTA sorrendje, a valódi horgonyugrás és a túlcsordulás-mentesség sikeres. A friss képernyőképek és a szövegforrás is ezt az elrendezést követik.

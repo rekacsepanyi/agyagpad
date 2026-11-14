@@ -142,3 +142,5 @@ A Tanfolyamok szakasz bal felső, a Műhely szakasz jobb felső, a Kapcsolat sza
 ## November 14-i szöveg és közös elemek
 
 A hero főcíme „Alkoss agyagból, bontakozz ki Szentendrén.”, hosszabb, kezdőbarát bevezetővel. A kapcsolat szakaszban nincs állandó demó- vagy prototípusmegjegyzés; a foglalás nélküli érdeklődés tájékoztatása megmarad. A lábléc minden aktív oldalon az új közös szöveget, négy navigációs linket és a rövid fiktív vizsgamunka-jelzést használja. Az „Írj az űrlapon” link kikerült.
+
+A bemutatkozás három számadata a jobb oldali szövegoszlopban, a két bekezdés alatt marad. Közvetlenül alattuk terrakotta „Ismerkedjünk meg személyesen” CTA vezet a #kapcsolat szakaszhoz, normál betűközzel és csak kezdő nagybetűvel. A „Felfedezem a kerámiákat” gomb feliratához nem tartozik nyíl.

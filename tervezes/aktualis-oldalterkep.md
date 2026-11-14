@@ -34,3 +34,5 @@ Az adatkezelési oldal a még inaktív fogadót és a tényleges üzemeltetői a
 ## Beadási képek
 
 Az eredeti drótvázak történeti folyamatképek maradnak. A beadas/tervezesi-folyamat/03-aktualis-oldalterkep.png az aktuális szerkezetet mutatja; a beadas/jelenlegi-oldal mappában friss mobil- és asztali felvételek vannak. A vizsgakiírás legalább három oldalt vagy szekciót kér; a négy főoldali szekció ezt teljesíti. A valódi űrlapot a felhasználó külön projektkövetelménnyé tette; az éles próbája még hátravan.
+
+Bemutatkozó elrendezés finomítása: a három számadat a bemutatkozó szövegoszlopba került, a két bekezdés alá; alattuk az Ismerkedjünk meg személyesen gomb a #kapcsolat szakaszhoz vezet. A műhelybolt kerámiagombjáról a nyíl lekerült.

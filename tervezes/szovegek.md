@@ -74,6 +74,8 @@ A legnagyobb öröm számomra, amikor másokkal is megoszthatom az agyagozás é
 - 1500+ tanítvány
 - 7000+ alkotás
 
+A számadatok a bemutatkozó szövegoszlopban, a két bekezdés alatt szerepelnek. Alattuk: Ismerkedjünk meg személyesen → #kapcsolat.
+
 ## Műhelybolt és kerámiák
 
 Műhelybolt és kerámiák
@@ -84,7 +86,7 @@ Csütörtök–vasárnap: 10:00–18:00
 
 2000 Szentendre, Agyagliget köz 4.
 
-- Felfedezem a kerámiákat →: `muhely.html#keramiak`
+- Felfedezem a kerámiákat: `muhely.html#keramiak`
 
 A muhely.html#keramiak már létező galériaszakasz. Kész bögréket, készülő vázát, korongozási munkafolyamatot és műhelyeszközöket mutat. A feliratok megkülönböztetik a kész tárgyat a munkafázistól; webshop nincs.
 

@@ -1,0 +1,74 @@
+/* A Műhely aloldal saját elrendezése, a közös arculati változókkal. */
+.workshop-page .breadcrumb{margin-top:1.5rem;margin-bottom:0}
+.workshop-page .workshop-hero{padding-block:3rem 5rem;gap:3rem}
+.workshop-page .workshop-hero h1{max-width:18ch}
+.workshop-page .workshop-hero .photo-surround{width:min(100%,29rem);justify-self:center}
+.workshop-page .workshop-hero .hero-photo{aspect-ratio:4/5;object-position:30% 50%}
+.workshop-page .workshop-section{padding-block:var(--section)}
+.workshop-page .split-layout{display:grid;grid-template-columns:minmax(0,1fr);align-items:center;gap:2.5rem}
+.workshop-page .split-layout>*{min-width:0}
+.workshop-page .workshop-copy h2{margin-bottom:1.5rem}
+.workshop-page .workshop-copy>p:not(.eyebrow){font-size:1rem;line-height:1.75}
+.workshop-page .workshop-story{background:var(--sand);border-top-left-radius:clamp(2rem,6vw,5rem)}
+.workshop-page .story-bowl{aspect-ratio:1/1;object-position:50% 50%}
+.workshop-page .studio-stats{margin:1.5rem 0 0}
+.workshop-page .room-photos{display:grid;grid-template-columns:minmax(0,1fr);gap:1rem}
+.workshop-page .room-photos img{aspect-ratio:3/2;object-fit:cover}
+.workshop-page .room-main img{object-position:50% 50%}
+.workshop-page .room-detail img{object-position:50% 45%}
+.workshop-page .workshop-attention{padding-block:0}
+.workshop-page .attention-panel{padding:1.5rem;background:var(--teal);color:var(--paper);border-radius:1rem}
+.workshop-page .attention-panel h2,.workshop-page .attention-panel h3,.workshop-page .attention-panel .eyebrow{color:var(--paper)}
+.workshop-page .attention-panel h2{max-width:27ch}
+.workshop-page .title-line{display:block}
+.workshop-page .desktop-line{display:inline}
+.workshop-page .attention-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:2rem;margin-top:2rem}
+.workshop-page .attention-grid h3{font-size:1.25rem;margin-bottom:.75rem}
+.workshop-page .attention-grid p{font-size:1rem;line-height:1.75}
+.workshop-page .gallery-heading{margin-bottom:2.5rem}
+.workshop-page .gallery-heading h2{max-width:25ch}
+.workshop-page .ceramics-gallery{grid-template-columns:minmax(0,1fr);gap:2rem}
+.workshop-page .ceramics-gallery img{width:100%;aspect-ratio:4/3;object-fit:cover;object-position:50% 50%}
+.workshop-page .ceramics-gallery .gallery-bowl{object-fit:contain;background:var(--paper)}
+.workshop-page .ceramics-gallery figcaption{margin-top:.875rem;font-size:1rem;text-align:center}
+.workshop-page .gallery-open{display:block;border-radius:1rem;cursor:zoom-in}
+.workshop-page .gallery-open:hover{outline:2px solid var(--clay);outline-offset:4px}
+.workshop-page .gallery-open:focus-visible{outline:3px solid var(--ink);outline-offset:4px}
+.workshop-page .workshop-gallery{scroll-margin-top:1.5rem}
+.workshop-page .workshop-ending{background:var(--sand);border-top-right-radius:clamp(2rem,6vw,5rem)}
+.workshop-page .ending-layout{display:grid;gap:2rem;align-items:center}
+.workshop-page .ending-layout>.button{justify-self:start;text-transform:none;letter-spacing:normal}
+.workshop-page .gallery-dialog{width:min(75rem,calc(100% - 2rem));max-height:calc(100dvh - 2rem);padding:1rem;border:1px solid var(--sand);border-radius:1rem;background:var(--paper);color:var(--ink);overflow:auto}
+.workshop-page .gallery-dialog::backdrop{background:rgb(45 42 38 / 80%)}
+.workshop-page .gallery-dialog[open]{display:grid;gap:1rem}
+.workshop-page .lightbox-header{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem}
+.workshop-page .lightbox-header h2{font-size:1.25rem}
+.workshop-page .lightbox-close{text-transform:none;letter-spacing:normal;padding:.75rem 1.25rem}
+.workshop-page .lightbox-image{display:block;width:100%;height:auto;max-height:calc(100dvh - 13rem);object-fit:contain}
+.workshop-page .gallery-dialog figcaption{margin-top:1rem;font-size:var(--small)}
+.workshop-page .lightbox-status{font-size:var(--small)}
+.workshop-page .lightbox-status:empty{display:none}
+.workshop-page.lightbox-active{overflow:hidden}
+@media(min-width:37.5rem){.workshop-page .ceramics-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(min-width:56.25rem){
+ .workshop-page .desktop-line{display:block}
+ .workshop-page .workshop-hero{grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr)}
+ .workshop-page .workshop-hero .photo-surround{justify-self:end}
+ .workshop-page .split-layout{grid-template-columns:repeat(2,minmax(0,1fr));gap:3rem}
+ .workshop-page .room-photos{grid-template-columns:.7fr 1fr}
+ .workshop-page .room-main{grid-column:1 / -1}
+ .workshop-page .room-detail{grid-column:2}
+ .workshop-page .attention-panel{padding:3rem}
+ .workshop-page .attention-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:2rem;margin-top:2.5rem}
+ .workshop-page .ending-layout{grid-template-columns:minmax(0,1fr) auto;gap:3rem}
+}
+@media(min-width:64rem){.workshop-page .ceramics-gallery{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:56.249rem){
+ .workshop-page .workshop-hero{grid-template-columns:minmax(0,1fr)}
+ .workshop-page .split-layout>figure{width:min(100%,36rem);justify-self:center}
+}
+@media(max-width:47.999rem){
+ .workshop-page .workshop-hero{padding-block:2rem 3rem;gap:3rem}
+ .workshop-page .studio-stats{gap:1rem}
+ .workshop-page .attention-panel{padding:1.5rem}
+}

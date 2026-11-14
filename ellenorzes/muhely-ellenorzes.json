@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-14",
+  "passed": true,
+  "protectedSourcesUnchanged": true,
+  "results": [
+    {
+      "width": 320,
+      "textZoom": 1,
+      "passed": true,
+      "galleryOpenCloseChecks": 6
+    },
+    {
+      "width": 390,
+      "textZoom": 1,
+      "passed": true,
+      "galleryOpenCloseChecks": 6
+    },
+    {
+      "width": 600,
+      "textZoom": 1,
+      "passed": true,
+      "galleryOpenCloseChecks": 6
+    },
+    {
+      "width": 768,
+      "textZoom": 1,
+      "passed": true,
+      "galleryOpenCloseChecks": 6
+    },
+    {
+      "width": 900,
+      "textZoom": 1,
+      "passed": true,
+      "galleryOpenCloseChecks": 6
+    },
+    {
+      "width": 1024,
+      "textZoom": 1,
+      "passed": true,
+      "galleryOpenCloseChecks": 6
+    },
+    {
+      "width": 1200,
+      "textZoom": 1,
+      "passed": true,
+      "galleryOpenCloseChecks": 6
+    },
+    {
+      "width": 1440,
+      "textZoom": 1,
+      "passed": true,
+      "galleryOpenCloseChecks": 6
+    },
+    {
+      "width": 390,
+      "textZoom": 2,
+      "passed": true,
+      "galleryOpenCloseChecks": 6
+    },
+    {
+      "width": 1440,
+      "textZoom": 2,
+      "passed": true,
+      "galleryOpenCloseChecks": 6
+    }
+  ]
+}

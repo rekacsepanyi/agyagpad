@@ -1,0 +1,358 @@
+[
+  {
+    "source": "images/fotók/hero1.jpg",
+    "target": "muhely-hero",
+    "width": 4784,
+    "height": 3193,
+    "outputs": [
+      {
+        "file": "images/webp/muhely-hero-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 23890
+      },
+      {
+        "file": "images/webp/muhely-hero-800.webp",
+        "width": 800,
+        "height": 534,
+        "bytes": 47650
+      },
+      {
+        "file": "images/webp/muhely-hero-1200.webp",
+        "width": 1200,
+        "height": 801,
+        "bytes": 84078
+      },
+      {
+        "file": "images/webp/muhely-hero-1600.webp",
+        "width": 1600,
+        "height": 1068,
+        "bytes": 128544
+      }
+    ]
+  },
+  {
+    "source": "images/fotók/muhely/handmade-pottery-bowl.jpg",
+    "target": "muhely-kezben-tal",
+    "width": 3925,
+    "height": 2685,
+    "outputs": [
+      {
+        "file": "images/webp/muhely-kezben-tal-480.webp",
+        "width": 480,
+        "height": 328,
+        "bytes": 13438
+      },
+      {
+        "file": "images/webp/muhely-kezben-tal-800.webp",
+        "width": 800,
+        "height": 547,
+        "bytes": 26886
+      },
+      {
+        "file": "images/webp/muhely-kezben-tal-1200.webp",
+        "width": 1200,
+        "height": 821,
+        "bytes": 47546
+      },
+      {
+        "file": "images/webp/muhely-kezben-tal-1600.webp",
+        "width": 1600,
+        "height": 1095,
+        "bytes": 73622
+      }
+    ]
+  },
+  {
+    "source": "images/fotók/side-view-clay-pots-arrangement.jpg",
+    "target": "muhely-polc",
+    "width": 5348,
+    "height": 3565,
+    "outputs": [
+      {
+        "file": "images/webp/muhely-polc-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 11316
+      },
+      {
+        "file": "images/webp/muhely-polc-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 20852
+      },
+      {
+        "file": "images/webp/muhely-polc-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 33154
+      },
+      {
+        "file": "images/webp/muhely-polc-1600.webp",
+        "width": 1600,
+        "height": 1066,
+        "bytes": 48874
+      }
+    ]
+  },
+  {
+    "source": "images/fotók/muhely/close-up-female-potter-s-hand-giving-shape-clay-bowl-pottery-wheel.jpg",
+    "target": "muhely-korongozas",
+    "width": 6014,
+    "height": 4010,
+    "outputs": [
+      {
+        "file": "images/webp/muhely-korongozas-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 13178
+      },
+      {
+        "file": "images/webp/muhely-korongozas-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 24294
+      },
+      {
+        "file": "images/webp/muhely-korongozas-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 39298
+      },
+      {
+        "file": "images/webp/muhely-korongozas-1600.webp",
+        "width": 1600,
+        "height": 1067,
+        "bytes": 56482
+      }
+    ]
+  },
+  {
+    "source": "images/fotók/muhely/different-ceramic-empty-plates-bowls.jpg",
+    "target": "muhely-talak-tanyerok",
+    "width": 5838,
+    "height": 3893,
+    "outputs": [
+      {
+        "file": "images/webp/muhely-talak-tanyerok-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 40870
+      },
+      {
+        "file": "images/webp/muhely-talak-tanyerok-800.webp",
+        "width": 800,
+        "height": 534,
+        "bytes": 123748
+      },
+      {
+        "file": "images/webp/muhely-talak-tanyerok-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 293890
+      },
+      {
+        "file": "images/webp/muhely-talak-tanyerok-1600.webp",
+        "width": 1600,
+        "height": 1067,
+        "bytes": 519786
+      },
+      {
+        "file": "images/webp/muhely-talak-tanyerok-1920.webp",
+        "width": 1920,
+        "height": 1280,
+        "bytes": 723500
+      }
+    ]
+  },
+  {
+    "source": "images/fotók/muhely/rustic-speckled-mug-design-resource.jpg",
+    "target": "muhely-pettyes-bogre",
+    "width": 6517,
+    "height": 4344,
+    "outputs": [
+      {
+        "file": "images/webp/muhely-pettyes-bogre-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 20126
+      },
+      {
+        "file": "images/webp/muhely-pettyes-bogre-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 51998
+      },
+      {
+        "file": "images/webp/muhely-pettyes-bogre-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 97432
+      },
+      {
+        "file": "images/webp/muhely-pettyes-bogre-1600.webp",
+        "width": 1600,
+        "height": 1067,
+        "bytes": 153544
+      },
+      {
+        "file": "images/webp/muhely-pettyes-bogre-1920.webp",
+        "width": 1920,
+        "height": 1280,
+        "bytes": 196004
+      }
+    ]
+  },
+  {
+    "source": "images/fotók/muhely/close-up-arrangement-modern-vases (1).jpg",
+    "target": "muhely-vazak",
+    "width": 5374,
+    "height": 3583,
+    "outputs": [
+      {
+        "file": "images/webp/muhely-vazak-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 9968
+      },
+      {
+        "file": "images/webp/muhely-vazak-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 20644
+      },
+      {
+        "file": "images/webp/muhely-vazak-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 36796
+      },
+      {
+        "file": "images/webp/muhely-vazak-1600.webp",
+        "width": 1600,
+        "height": 1066,
+        "bytes": 56726
+      },
+      {
+        "file": "images/webp/muhely-vazak-1920.webp",
+        "width": 1920,
+        "height": 1280,
+        "bytes": 76904
+      }
+    ]
+  },
+  {
+    "source": "images/fotók/muhely/top-view-table-arrangement-with-empty-dishes-tableware.jpg",
+    "target": "muhely-teritek",
+    "width": 6144,
+    "height": 4096,
+    "outputs": [
+      {
+        "file": "images/webp/muhely-teritek-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 20332
+      },
+      {
+        "file": "images/webp/muhely-teritek-800.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 43960
+      },
+      {
+        "file": "images/webp/muhely-teritek-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 74596
+      },
+      {
+        "file": "images/webp/muhely-teritek-1600.webp",
+        "width": 1600,
+        "height": 1067,
+        "bytes": 114620
+      },
+      {
+        "file": "images/webp/muhely-teritek-1920.webp",
+        "width": 1920,
+        "height": 1280,
+        "bytes": 149382
+      }
+    ]
+  },
+  {
+    "source": "images/fotók/muhely/ceramic-bowl-linen-cloth.jpg",
+    "target": "muhely-mintazott-tal",
+    "width": 2866,
+    "height": 4096,
+    "outputs": [
+      {
+        "file": "images/webp/muhely-mintazott-tal-480.webp",
+        "width": 480,
+        "height": 686,
+        "bytes": 28302
+      },
+      {
+        "file": "images/webp/muhely-mintazott-tal-800.webp",
+        "width": 800,
+        "height": 1143,
+        "bytes": 62360
+      },
+      {
+        "file": "images/webp/muhely-mintazott-tal-1200.webp",
+        "width": 1200,
+        "height": 1715,
+        "bytes": 123924
+      },
+      {
+        "file": "images/webp/muhely-mintazott-tal-1600.webp",
+        "width": 1600,
+        "height": 2287,
+        "bytes": 195652
+      },
+      {
+        "file": "images/webp/muhely-mintazott-tal-1920.webp",
+        "width": 1920,
+        "height": 2744,
+        "bytes": 260792
+      }
+    ]
+  },
+  {
+    "source": "images/fotók/muhely/bottom-view-round-platters-black-table.jpg",
+    "target": "muhely-turkiz-tanyerok",
+    "width": 5600,
+    "height": 3737,
+    "outputs": [
+      {
+        "file": "images/webp/muhely-turkiz-tanyerok-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 24808
+      },
+      {
+        "file": "images/webp/muhely-turkiz-tanyerok-800.webp",
+        "width": 800,
+        "height": 534,
+        "bytes": 66860
+      },
+      {
+        "file": "images/webp/muhely-turkiz-tanyerok-1200.webp",
+        "width": 1200,
+        "height": 801,
+        "bytes": 145632
+      },
+      {
+        "file": "images/webp/muhely-turkiz-tanyerok-1600.webp",
+        "width": 1600,
+        "height": 1067,
+        "bytes": 245808
+      },
+      {
+        "file": "images/webp/muhely-turkiz-tanyerok-1920.webp",
+        "width": 1920,
+        "height": 1281,
+        "bytes": 350114
+      }
+    ]
+  }
+]

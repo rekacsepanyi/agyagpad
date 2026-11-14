@@ -1,6 +1,6 @@
 # Projektbrief: Agyagpad kerámiaműhely
 
-Frissítve: 2026. november 14. Aktuális tartalmi forrás: szovegek.md 3.5; arculat: design-system.md 4.11.
+Frissítve: 2026. november 14. Aktuális tartalmi forrás: szovegek.md 3.6; arculat: design-system.md 4.12.
 
 ## Ügyfél és keret
 
@@ -40,7 +40,7 @@ A felhasználó november 14-én felülírta a korábbi 2018–2024-es idővonala
 
 ## Kerámiák és képek
 
-Bögrék, tálak, tányérok és vázák bemutatása, online vásárlás nélkül. A muhely.html négy meglévő, optimalizált WebP-képet használ: kész bögrék, formálódó váza, korongozási folyamat, műhelyeszközök. A kész és készülő tárgyakat a feliratok megkülönböztetik. További kész tál-, tányér- és vázafotó később bővítheti a termékbemutatást; ilyen képeket nem találunk ki.
+Bögrék, tálak, tányérok és vázák bemutatása, online vásárlás nélkül. A muhely.html személyes hero, Dóra története, műhelybemutató, személyes figyelem, hatképes Alkotások galéria és lezáró CTA szerkezetben készült újra. Mind a tíz kért forrásfotó rendelkezésre áll, külön helyettesítő kép nélkül. A #keramiak horgony megmaradt; a hat kész tárgyfotó teljes képe natív, billentyűzettel kezelhető nagyítóban nyílik. Szövegek: muhely-szovegek.md; terv és fotólista: muhely-terv.md.
 
 A felhasználó Freepik stock fotókat adott, felhasználási jogukról ő tájékoztatott. A tételes forrás- és licencadatokat élesítés előtt rögzíteni kell. Minden felhasznált tartalmi fotó többméretű WebP, tartalomhoz illő alt szöveggel. A logó és favicon átlátszó, a bögre jobb oldala türkiz.
 

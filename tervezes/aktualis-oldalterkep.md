@@ -23,7 +23,7 @@ A pontos alkalomszámok, heti időbeosztások és árak maradnak. A négyhetes k
 
 ## Műhelyoldal – #keramiak
 
-A főoldali gomb létező horgonyra vezet. A négyképes galéria kész bögréket, készülő vázát, korongozási folyamatot és műhelyeszközöket mutat. A képaláírások megkülönböztetik a kész tárgyakat és a munkafázisokat. Online vásárlás nincs. A tálak, tányérok és vázák kész termékfotói később bővíthetik a választék bemutatását; ilyen képeket nem helyettesítünk kitalált látvánnyal.
+Hat szakasz: személyes hero a hero1 fotóval; Dóra története és egyszer szereplő számhármasa; műhelybemutató két fotóval; türkiz személyes figyelemblokk; Alkotások; rövid bézs lezáró CTA. A #keramiak horgony a hat kész tárgyfotós galériára vezet. Asztalon három, tableten kettő, mobilon egy oszlop; mindegyik fotó teljes méretben nagyítható, Escape- és fókuszkezeléssel. Az oldalon nincs külön űrlap, galéria-aloldal vagy új menüpont. A két tanfolyamos CTA a tanfolyamok.html-re, a fejléc Érdeklődöm gombja a főoldali űrlapra vezet. Mind a tíz kért fotó megtalálható; optimalizált WebP-ként használjuk. Részletes terv: muhely-terv.md. A főoldal és a Tanfolyamok forrásai változatlanok.
 
 ## Lábléc és adatkezelés
 

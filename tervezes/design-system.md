@@ -1,6 +1,6 @@
 # Agyagpad – design system
 
-Verzió: 4.11 · 2026. november 14.
+Verzió: 4.12 · 2026. november 14.
 Állapot: az Udvari műhely aktuális specifikációja. Kiindulás: a jóváhagyott 16527e0 változat; november 14-i tartalmi továbbfejlesztés, kártyaélménysorok, Dóra-számadatok és előkészített valódi űrlapküldés. A korábbi türkiz gombos irányt ez a dokumentum felülírja.
 
 ## Források és hatókör
@@ -180,3 +180,9 @@ A díjazás 22 px/600, a gyakorlati adatértékek 16 px-esek; ár mellett nincs 
 ### Lezárt programbemutatók
 
 Az asztali programsorok közös, a leghosszabb szöveghez növekvő rácssormagasságot kapnak (grid-auto-rows:1fr); a három fotó szélessége és magassága megegyezik. Nincs merev szövegmagasság vagy programonkénti margó. A gombok alsó éle a fotóval egyezik, a fotótól távolabbi oldalon. Mobilon a fotó 6:5 arányú önálló elem, a gomb a tartalom után balra kerül. A két új programleírás a szovegek.md 3.5-ben szerepel. A közös tudnivalók szolgáltatói megszólalásai egyes számúak; a főoldalnak csak ez a négy mondata változott. A céges ajánlat tartalmazza az agyagot, a mázat és a két égetést, létszáma egyeztetett. Az űrlapopciók változatlanok, az ajándékozás és egyéb érdeklődés továbbra is egy közös opció. Ellenőrzési összegzés: ellenorzes/tanfolyamok-lezaras.md. További designmódosítás nem része ennek a lezárásnak.
+
+## Műhely aloldal – az új oldal specifikációja
+
+A személyes Műhely oldal megtartja az arculati hat színt, a Merriweather–Inter betűpárt, 1200 px tartalmi maximumot és a közös fejlécet/láblécet. Saját stíluslapja assets/muhely.css; a főoldal és a Tanfolyamok stílusai változatlanok. Hat szakasz, változatos kép–szöveg sorrend, bézs történet és lezárás, türkiz személyes figyelemblokk. Szakasztérköz: a meglévő 64/96 px változó; hasábköz: 40/48 px. A Dóra-számhármas egyszer szerepel. A türkiz hero-keret és motívum csak a herónál jelenik meg.
+
+Galéria: 4:3 keretek, 32 px rések, 1024 px-től három, 600 px-től kettő, alatta egy oszlop. A mintázott álló tálfotó contain kitöltéssel teljes egészében megmarad; a többi fotó ellenőrzött cover kivágású. Nincs statikus dekoratív galériakeret. A natív dialog a teljes, 1920 px-es WebP-ket mutatja vágás nélkül, bezárógombbal, Escape-kezeléssel és visszaadott fókusszal. A háttér ugyanannak a grafitszínnek az áttetsző változata. Részletes terv és pontos forráslista: muhely-terv.md. Szövegek: muhely-szovegek.md.

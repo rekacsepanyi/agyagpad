@@ -1,6 +1,6 @@
 # Agyagpad – aktuális weboldalszövegek
 
-Verzió: 3.5 · 2026. november 14.
+Verzió: 3.6 · 2026. november 14.
 Forrás: a főoldal és a tanfolyamok aloldal tényleges HTML-tartalma, a felhasználó november 14-i szövegei alapján. Az előző változatot ez a dokumentum váltja fel.
 
 Az Agyagpad és Fehér Dóra fiktív. A 2009-es indulás, a népi iparművész megjelölés és a három számadat a felhasználó által újonnan megadott karakteradat; nem valós személy ellenőrzött szakmai referenciája. Az idővonal kikerült.
@@ -88,7 +88,7 @@ Csütörtök–vasárnap: 10:00–18:00
 
 - Felfedezem a kerámiákat: `muhely.html#keramiak`
 
-A muhely.html#keramiak már létező galériaszakasz. Kész bögréket, készülő vázát, korongozási munkafolyamatot és műhelyeszközöket mutat. A feliratok megkülönböztetik a kész tárgyat a munkafázistól; webshop nincs.
+A muhely.html#keramiak hatképes galéria kész tálakat, tányérokat, bögrét és vázákat mutat, nagyítóval. A munkafolyamat és műhelyfotók külön bemutatkozó szakaszokban szerepelnek. Webshop nincs.
 
 ## Kapcsolat és űrlap
 
@@ -201,3 +201,7 @@ A pontos alkalomszám és időtartam az aloldalon megmarad; a négyhetes kurzus 
 - Hiányzó program: Válassz programot vagy érdeklődési témát.
 - Siker kizárólag pozitív fogadói válasz után: Köszönöm, az érdeklődésed megérkezett! A részletekről e-mailben egyeztetünk.
 - Sikertelen küldés: Az üzenetet nem sikerült elküldeni. Kérjük, próbáld meg újra. A megadott adataid megmaradtak.
+
+## Műhely aloldal
+
+Az új hat szakaszos bemutatkozó oldal teljes szövege: muhely-szovegek.md. A hatképes, kész kerámiákat bemutató galéria megőrzött horgonya muhely.html#keramiak. A műhelybemutató külön munkafolyamatfotókat használ. A főoldali és tanfolyamos megjelenés ezzel az átalakítással nem változott.

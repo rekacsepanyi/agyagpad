@@ -46,7 +46,7 @@ for(const[file,title,description,image]of records){
  `<meta property="og:image" content="${esc(ogImage)}">`,`<meta property="og:image:type" content="image/jpeg">`,`<meta property="og:image:width" content="1200">`,`<meta property="og:image:height" content="630">`,`<meta property="og:image:alt" content="${image==='fooldal'?'Agyagot formáló kezek a fazekaskorongon.':image==='tanfolyamok'?'Korongozás közben formálódó agyagedény.':image==='kapcsolat'?'Mázazott kerámiatálca és tányér.':'Türkiz és földszínű kerámiatálak, tányérok.'}">`,
  '<meta name="twitter:card" content="summary_large_image">',`<meta name="twitter:title" content="${esc(title)}">`,`<meta name="twitter:description" content="${esc(description)}">`,`<meta name="twitter:image" content="${esc(ogImage)}">`,
  `<script type="application/ld+json">\n${JSON.stringify(schema,null,2).replaceAll('<','\\u003c')}\n</script>`,'<!-- SEO:END -->'];
- html=html.replace('</head>',tags.join('\n')+'\n</head>').replace(/^[ \t]+$/gm,'');fs.writeFileSync(target,html);
+ html=html.replace('</head>',tags.join('\n')+'\n</head>').replace(/^[ \t]+$/gm,'');fs.writeFileSync(target,html.trimEnd()+'\n');
 }
 // Domain nélkül nem találunk ki keresőknek elküldött URL-t: érvényes, üres XML + egyértelmű TODO.
 const urls=origin?records.map(([f])=>`  <url><loc>${esc(origin+(f==='index.html'?'/':'/'+f))}</loc></url>`).join('\n'):'  <!-- TODO: a webcím megadása után öt abszolút HTTPS URL generálódik. -->';

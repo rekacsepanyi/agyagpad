@@ -114,9 +114,9 @@ A számadatok szemantikus dl-listában, három oszlopban, levegős térközzel j
 - Átlátszó logó: images/logo/Agyagpad-logo-transparent.svg; PNG-párja ugyanott. Nincs külön doboz, keret vagy színezett háttér.
 - Tartalmi fotók: images/webp, reszponzív srcset/sizes, 16 px lekerekítés, helyes méretattribútumok és tartalomhoz illő alt.
 - A hero képaláírása idézőjeles és dőlt: „Az alkotás az első mozdulattal kezdődik.” A fotó bal alsó részére helyezett törtfehér kártyán jelenik meg, 15 px-es türkiz Merriweather szöveggel, bevezető díszvonal nélkül, homokszínű kerettel, 4/36/4/4 px-es aszimmetrikus lekerekítéssel és a meglévő grafit 10%-os átlátszóságából képzett finom árnyékkal. Mobilon a kártya a fotó szélein belül marad.
-- Hero: agyagpad-hero.jpg alapján optimalizált agyagpad-hero WebP, agyagedényt formáló kezek; 480, 800, 1200 és 1600 px széles változatok. A bemutatkozásban a csatolt hero.jpg álló portréjának hero WebP-készlete, 3:4 képkivágással, 50% 35% fókuszponttal; a hangsúlyos portré nem ismétlődik.
+- Hero: agyagpad-hero.jpg alapján optimalizált agyagpad-hero WebP, agyagedényt formáló kezek; 480, 800, 1200 és 1600 px széles változatok. A bemutatkozásban a csatolt hero.jpg álló portréjának hero WebP-készlete, eredeti, közel 2:3 képaránnyal, nyújtás és kényszerített kivágás nélkül, legfeljebb 360 px szélességgel; a hangsúlyos portré nem ismétlődik.
 - A főoldali műhelyboltnál egyetlen fotó marad: muhelybolt (kész bögrék), 4:3 képaránnyal. A korábbi második, vázás kép lekerült; az eredeti fájlt megőrizzük. A tárgyak bemutatásáról szóló második mondat külön bekezdés.
-- Kevés, türkiz eltolt képkeret és koronggyűrű-vonalgrafika. A hero keretvonala 1,5 px; a bemutatkozó és műhelybolti képé 2 px, 16 px-es asztali és 8 px-es mobilos jobb oldali eltolással. A két kép jobb felső részén a fotó mögül három gyűrű látszik ki: asztalon 148 × 99 px, mobilon 112 × 75 px, 1,75 px-es vonallal. Nincs botanikai minta, erős háttértextúra vagy folyamatos animáció.
+- Kevés, türkiz eltolt képkeret és koronggyűrű-vonalgrafika. A hero keretvonala 1,5 px; a bemutatkozó és műhelybolti képé 2 px, 16 px-es asztali és 8 px-es mobilos jobb oldali eltolással. Köríves motívum a műhelyszakaszon belül csak a portré jobb felső részén marad; a műhelybolti képről eltávolítottuk. A portrénál a fotó mögül három gyűrű látszik ki: asztalon 148 × 99 px, mobilon 112 × 75 px, 1,75 px-es vonallal. Nincs botanikai minta, erős háttértextúra vagy folyamatos animáció.
 - A nyitókép eager, a lejjebb lévő képek lazy betöltésűek; eredeti fotók megőrizve.
 
 ## Közös tájékoztatás
@@ -133,7 +133,7 @@ Az éles űrlap, adatkezelési tájékoztató, tételes képkreditek, végleges 
 
 Favicon: images/logo/Agyagpad-favicon-transparent.svg, 256 px-es átlátszó PNG-tartalékkal; a korábbi WebP ikon is átlátszó változatra frissült. Az eredeti háttérrel rendelkező forrásfájlok megmaradnak, az oldal a háttér nélküli változatokat használja.
 
-A műhelybolt blokk tartalmi és vizuális sorrendje szöveg, majd fotó: asztalon szöveg balra, fotó jobbra; mobilon szöveg felül és fotó alatta. A kép jobb oldali türkiz kerete és koronggyűrűi megmaradnak.
+A műhelybolt blokk tartalmi és vizuális sorrendje szöveg, majd fotó: asztalon szöveg balra, fotó jobbra; mobilon szöveg felül és fotó alatta. A kép jobb oldali türkiz eltolt kerete megmarad, koronggyűrűk nélkül.
 
 ## November 12-i szakaszritmus
 
@@ -143,4 +143,4 @@ A Tanfolyamok szakasz bal felső, a Műhely szakasz jobb felső, a Kapcsolat sza
 
 A hero főcíme „Alkoss agyagból, bontakozz ki Szentendrén.”, hosszabb, kezdőbarát bevezetővel. A kapcsolat szakaszban nincs állandó demó- vagy prototípusmegjegyzés; a foglalás nélküli érdeklődés tájékoztatása megmarad. A lábléc minden aktív oldalon az új közös szöveget, négy navigációs linket és a rövid fiktív vizsgamunka-jelzést használja. Az „Írj az űrlapon” link kikerült.
 
-A bemutatkozás három számadata a jobb oldali szövegoszlopban, a két bekezdés alatt marad. Közvetlenül alattuk terrakotta „Ismerkedjünk meg személyesen” CTA vezet a #kapcsolat szakaszhoz, normál betűközzel és csak kezdő nagybetűvel. A „Felfedezem a kerámiákat” gomb feliratához nem tartozik nyíl.
+A bemutatkozás a három számadattal zárul, a két bekezdés után 24 px (1,5rem) térközzel; külön bemutatkozó CTA nincs. A bemutatkozó és a műhelybolt blokk közötti távolság asztalon 80 px (5rem), mobilon 48 px (3rem). A portré eredeti arányú, legfeljebb 360 px széles, természetes magassággal. A köríves motívum csak a portrénál marad, a műhelybolti képnél csak az eltolt keret. A Felfedezem a kerámiákat gomb megmarad, nyíl nélkül, muhely.html#keramiak céllal.

@@ -35,4 +35,4 @@ Az adatkezelési oldal a még inaktív fogadót és a tényleges üzemeltetői a
 
 Az eredeti drótvázak történeti folyamatképek maradnak. A beadas/tervezesi-folyamat/03-aktualis-oldalterkep.png az aktuális szerkezetet mutatja; a beadas/jelenlegi-oldal mappában friss mobil- és asztali felvételek vannak. A vizsgakiírás legalább három oldalt vagy szekciót kér; a négy főoldali szekció ezt teljesíti. A valódi űrlapot a felhasználó külön projektkövetelménnyé tette; az éles próbája még hátravan.
 
-Bemutatkozó elrendezés finomítása: a három számadat a bemutatkozó szövegoszlopba került, a két bekezdés alá; alattuk az Ismerkedjünk meg személyesen gomb a #kapcsolat szakaszhoz vezet. A műhelybolt kerámiagombjáról a nyíl lekerült.
+Bemutatkozó elrendezés finomítása: a két bekezdés alatt 24 px-re a három számadat zárja a szövegoszlopot; külön CTA nincs. A műhelyboltig asztalon 80 px, mobilon 48 px térköz van. A portré eredeti arányú és a tartalomhoz méretezett. A körív csak a portrénál marad, a kerámiás képnél eltolt keret szerepel. A műhelybolt kerámiagombja továbbra is nyíl nélkül a muhely.html#keramiak célra mutat.

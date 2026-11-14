@@ -50,3 +50,9 @@ Netlify-projekt és élő URL; form detection; értesítési cím; valódi üzem
 ## Bemutatkozó számadatok és CTA – későbbi finomítás
 
 A három számadat a bemutatkozó szövegoszlopba, a két bekezdés alá került. Alatta az Ismerkedjünk meg személyesen gomb a #kapcsolat szakaszhoz navigál. A Felfedezem a kerámiákat gomb nyila kikerült. Hét célzott nézetben ellenőrizve: 320, 390, 768, 1024 és 1440 px, valamint 390 és 1440 px 200%-os szöveggel. A számadatok és a CTA sorrendje, a valódi horgonyugrás és a túlcsordulás-mentesség sikeres. A friss képernyőképek és a szövegforrás is ezt az elrendezést követik.
+
+## Szellősebb bemutatkozás és műhelybolt
+
+A későbbi kérés felülírja az előző CTA-elrendezést: a bemutatkozó gomb kikerült, a szöveg a három számadattal zárul. Szöveg–számadat távolság: 24 px; blokkok között asztalon 80 px, mobilon 48 px. A portré nyújtás és kényszerített képkivágás nélkül, eredeti közel 2:3 aránnyal, maximum 360 px szélességgel jelenik meg. Körív a műhelyszakaszon belül csak a portrénál van; mindkét kép eltolt kerete megmarad.
+
+A bemutatkozas-ellenorzes.cjs hét célzott próbája sikeres: 320, 390, 768, 1024 és 1440 px, valamint mobil és asztal 200%-os szöveggel. Mértük a térközöket, a természetes képarányt, a számadatok végső pozícióját, a dekorációk számát, a váltakozó kép–szöveg sorrendet és a túlcsordulás-mentességet. A kerámiagomb célja változatlan. Az eredmény a bemutatkozas-ellenorzes.json fájlban van.

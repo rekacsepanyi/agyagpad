@@ -69,7 +69,7 @@ p{max-width:min(42.5rem,65ch)}p+p{margin-top:1rem}
 .photo-surround{position:relative;isolation:isolate}.photo-surround::before{content:'';position:absolute;z-index:-1;pointer-events:none;border:1.5px solid var(--teal);border-radius:1rem}
 .hero .photo-surround::before{inset:18px -14px 36px 14px}.story .photo-surround::before{inset:14px 12px -14px -14px}
 .pottery-lines{position:absolute;top:-40px;right:0;width:124px;height:83px;color:var(--teal);z-index:-1;pointer-events:none}
-.story .pottery-lines,.shop .pottery-lines{top:1.5rem;right:-24px}
+.story .pottery-lines{top:1.5rem;right:-24px}
 .shop .photo-surround::before{inset:14px -14px -14px 14px}
 .portrait-caption{margin-top:.75rem;font-size:var(--small)}
 .chapter{padding-block:var(--section)}#tanfolyamok,#kapcsolat{background:var(--sand)}#muhely{background:var(--paper)}.chapter-heading{margin-bottom:2rem}
@@ -132,7 +132,7 @@ p,.detail-link,.button,.notes-grid li,figcaption{overflow-wrap:anywhere}
 @media(min-width:64rem) and (max-width:74.999rem){.site-header .brand{width:12rem}.site-nav{gap:1rem}.header-cta{margin-left:1rem;padding-inline:1.25rem}}
 @media(max-width:63.999rem){.header-cta{margin:1rem 0 0}.nav-group{flex-direction:column}.site-nav{width:100%}}
 @media(max-width:47.999rem){.header-cta{width:100%}}
-@media(max-width:47.999rem){.story .pottery-lines,.shop .pottery-lines{right:-16px}}
+@media(max-width:47.999rem){.story .pottery-lines{right:-16px}}
 /* A képaláírás a fotóra helyezett, olvasható idézetkártya. */
 .hero .portrait-caption{position:absolute;left:-1.5rem;bottom:1.5rem;z-index:1;margin:0;width:min(16rem,calc(100% - 2rem));padding:1rem 1.25rem;background:var(--paper);color:var(--teal);border:1px solid var(--sand);border-radius:4px 36px 4px 4px;font:400 .9375rem/1.55 var(--heading)}
 .hero .portrait-caption{clip-path:none;box-shadow:0 8px 24px rgb(45 42 38 / 10%)}
@@ -148,8 +148,8 @@ p,.detail-link,.button,.notes-grid li,figcaption{overflow-wrap:anywhere}
 #muhely::before{background:var(--paper);border-top-right-radius:var(--chapter-corner)}
 .story-photo{aspect-ratio:3/4;max-height:40rem;object-position:50% 35%}
 .story .photo-surround::before,.shop .photo-surround::before{inset:16px -16px -16px 16px;border-width:2px}
-.story .pottery-lines,.shop .pottery-lines{top:-42px;right:-8px;width:148px;height:99px;stroke-width:1.75}
-@media(max-width:47.999rem){.story .photo-surround::before,.shop .photo-surround::before{inset:12px -8px -10px 10px}.story .pottery-lines,.shop .pottery-lines{top:-30px;right:0;width:112px;height:75px}}
+.story .pottery-lines{top:-42px;right:-8px;width:148px;height:99px;stroke-width:1.75}
+@media(max-width:47.999rem){.story .photo-surround::before,.shop .photo-surround::before{inset:12px -8px -10px 10px}.story .pottery-lines{top:-30px;right:0;width:112px;height:75px}}
 /* Élményjelölések a kártyákban, a meglévő vonalas ikonrendszerrel. */
 .course-data{display:grid;grid-template-columns:1.5rem minmax(0,1fr);gap:.625rem;align-items:start;color:var(--ink);font-weight:600}
 .course-data p{margin:0;min-width:0;overflow-wrap:anywhere}
@@ -159,8 +159,7 @@ p,.detail-link,.button,.notes-grid li,figcaption{overflow-wrap:anywhere}
 .studio-stats>div{display:flex;flex-direction:column-reverse;justify-content:flex-end;gap:.5rem;min-width:0}
 .studio-stats dt{font-size:var(--small);font-weight:600;overflow-wrap:anywhere}
 .studio-stats dd{margin:0;font:700 clamp(1.75rem,3vw,2.5rem)/1.3 var(--heading);color:var(--clay);overflow-wrap:anywhere}
-.story-text .studio-stats{margin:2rem 0 1.5rem}
-.story-cta{text-transform:none;letter-spacing:normal}
+.story-text .studio-stats{margin:1.5rem 0 0}
 .shop-cta{margin-top:1.5rem;text-transform:none;letter-spacing:normal;gap:.5rem}
 .gallery-section{padding-block:2rem 4rem;scroll-margin-top:2rem}
 .gallery-section h2{margin-bottom:1rem}.gallery-intro{margin-bottom:2.5rem}
@@ -171,3 +170,10 @@ p,.detail-link,.button,.notes-grid li,figcaption{overflow-wrap:anywhere}
 .workshop-visit{padding-block:2rem 4rem}.workshop-visit h2{margin-bottom:1rem}.workshop-visit .button{margin-top:1.5rem}
 .privacy-main h2{font-size:var(--h3);margin-top:2rem}
 @media(max-width:47.999rem){.ceramics-gallery{grid-template-columns:minmax(0,1fr)}.studio-stats{gap:1rem;margin-block:3rem}}
+
+/* Szellős bemutatkozó és műhelybolt, természetes portréaránnyal. */
+.story .photo-surround{width:100%;max-width:22.5rem;justify-self:start}
+.story-photo{aspect-ratio:auto;width:100%;height:auto;max-height:none}
+.shop{margin-top:5rem;padding-block:0}
+@media(min-width:64rem){.story{grid-template-columns:minmax(0,22.5rem) minmax(0,1fr)}}
+@media(max-width:47.999rem){.shop{margin-top:3rem}.story .photo-surround::before{bottom:-8px}}

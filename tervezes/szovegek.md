@@ -74,7 +74,7 @@ A legnagyobb öröm számomra, amikor másokkal is megoszthatom az agyagozás é
 - 1500+ tanítvány
 - 7000+ alkotás
 
-A számadatok a bemutatkozó szövegoszlopban, a két bekezdés alatt szerepelnek. Alattuk: Ismerkedjünk meg személyesen → #kapcsolat.
+A számadatok a bemutatkozó szövegoszlopban, a két bekezdés alatt, 24 px térközzel szerepelnek. A bemutatkozás ezekkel zárul, külön CTA nincs.
 
 ## Műhelybolt és kerámiák
 

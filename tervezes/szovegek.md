@@ -9,7 +9,7 @@ Az Agyagpad és Fehér Dóra fiktív. A 2009-es indulás, a népi iparművész m
 
 - Kezdőlap: `#kezdo`
 - Tanfolyamok: `tanfolyamok.html`
-- Műhely: `#muhely`
+- Műhely: `muhely.html`
 - Kapcsolat: `#kapcsolat`
 - Érdeklődöm: `#kapcsolat`
 

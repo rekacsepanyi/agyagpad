@@ -1,6 +1,6 @@
 # Projektbrief: Agyagpad kerámiaműhely
 
-Frissítve: 2026. november 14. Aktuális tartalmi forrás: szovegek.md 3.6; arculat: design-system.md 4.12.
+Frissítve: 2026. november 14. Aktuális tartalmi forrás: szovegek.md 3.6; arculat: design-system.md 4.13.
 
 ## Ügyfél és keret
 

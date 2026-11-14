@@ -16,12 +16,16 @@
 .workshop-page .room-photos img{aspect-ratio:3/2;object-fit:cover}
 .workshop-page .room-main img{object-position:50% 50%}
 .workshop-page .room-detail img{object-position:50% 45%}
+.workshop-page .room-detail{border:4px solid var(--paper);border-radius:calc(1rem + 4px)}
 .workshop-page .workshop-attention{padding-block:0}
 .workshop-page .attention-panel{padding:1.5rem;background:var(--teal);color:var(--paper);border-radius:1rem}
 .workshop-page .attention-panel h2,.workshop-page .attention-panel h3,.workshop-page .attention-panel .eyebrow{color:var(--paper)}
 .workshop-page .attention-panel h2{max-width:27ch}
 .workshop-page .title-line{display:block}
 .workshop-page .desktop-line{display:inline}
+.workshop-page .attention-grid>div{container-type:inline-size}
+.workshop-page .keep-together{white-space:normal}
+@container(min-width:11rem){.workshop-page .keep-together{white-space:nowrap}}
 .workshop-page .attention-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:2rem;margin-top:2rem}
 .workshop-page .attention-grid h3{font-size:1.25rem;margin-bottom:.75rem}
 .workshop-page .attention-grid p{font-size:1rem;line-height:1.75}
@@ -29,7 +33,7 @@
 .workshop-page .gallery-heading h2{max-width:25ch}
 .workshop-page .ceramics-gallery{grid-template-columns:minmax(0,1fr);gap:2rem}
 .workshop-page .ceramics-gallery img{width:100%;aspect-ratio:4/3;object-fit:cover;object-position:50% 50%}
-.workshop-page .ceramics-gallery .gallery-bowl{object-fit:contain;background:var(--paper)}
+.workshop-page .ceramics-gallery .gallery-bowl{object-fit:cover;object-position:50% 30%}
 .workshop-page .ceramics-gallery figcaption{margin-top:.875rem;font-size:1rem;text-align:center}
 .workshop-page .gallery-open{display:block;border-radius:1rem;cursor:zoom-in}
 .workshop-page .gallery-open:hover{outline:2px solid var(--clay);outline-offset:4px}
@@ -55,9 +59,9 @@
  .workshop-page .workshop-hero{grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr)}
  .workshop-page .workshop-hero .photo-surround{justify-self:end}
  .workshop-page .split-layout{grid-template-columns:repeat(2,minmax(0,1fr));gap:3rem}
- .workshop-page .room-photos{grid-template-columns:.7fr 1fr}
+ .workshop-page .room-photos{grid-template-columns:.7fr 1fr;gap:0}
  .workshop-page .room-main{grid-column:1 / -1}
- .workshop-page .room-detail{grid-column:2}
+ .workshop-page .room-detail{grid-column:1 / -1;justify-self:start;width:58%;margin-top:-2.5rem;z-index:1}
  .workshop-page .attention-panel{padding:3rem}
  .workshop-page .attention-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:2rem;margin-top:2.5rem}
  .workshop-page .ending-layout{grid-template-columns:minmax(0,1fr) auto;gap:3rem}

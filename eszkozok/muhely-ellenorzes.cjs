@@ -27,6 +27,12 @@ const captions=['Türkiz és földszínű tálak, tányérok','Karakteres bögre
    const gallery=await page.locator('.ceramics-gallery').evaluate(e=>({columns:getComputedStyle(e).gridTemplateColumns.split(' ').length}));
    assert(gallery.columns===(width>=1024?3:width>=600?2:1),'Galéria 3/2/1 oszlopa');
    assert(JSON.stringify(await page.locator('.ceramics-gallery figcaption').allTextContents())===JSON.stringify(captions),'Galéria sorrend és feliratok');
+   const frames=await page.locator('.ceramics-gallery img').evaluateAll(es=>es.map(e=>{const b=e.getBoundingClientRect();return {width:b.width,height:b.height,fit:getComputedStyle(e).objectFit}}));
+   assert(frames.every(f=>f.fit==='cover'&&Math.abs(f.width/ f.height-4/3)<.01)&&Math.max(...frames.map(f=>f.width))-Math.min(...frames.map(f=>f.width))<1,'Egységes kitöltött galériakeretek');
+   assert(await page.locator('.story-bowl').getAttribute('alt')==='Kézben tartott, világos mázas kerámiatál.','Hangulatkép alt szövege');
+   const pair=await page.locator('.room-photos').evaluate(e=>{const main=e.querySelector('.room-main').getBoundingClientRect(),detail=e.querySelector('.room-detail').getBoundingClientRect(),box=e.getBoundingClientRect();return {overlap:main.bottom-detail.top,inside:detail.left>=box.left-1&&detail.right<=box.right+1,border:getComputedStyle(e.querySelector('.room-detail')).borderTopColor}});
+   assert(pair.inside&&pair.border==='rgb(249, 248, 246)'&&(width>=900?pair.overlap>0:pair.overlap<0),'Képpár átfedése, kerete és határai');
+
    const colors=await page.locator('.attention-panel').evaluate(e=>[e,e.querySelector('h2'),e.querySelector('.eyebrow')].map(n=>({color:getComputedStyle(n).color,background:getComputedStyle(n).backgroundColor})));
    assert(colors[0].background==='rgb(27, 77, 79)'&&colors.every(c=>c.color==='rgb(249, 248, 246)'),'Türkiz figyelemblokk színei');
    const links=await page.locator('a[href]').evaluateAll(es=>es.map(e=>e.getAttribute('href')));

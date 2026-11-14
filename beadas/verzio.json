@@ -1,16 +1,16 @@
 {
   "date": "2026-11-14",
-  "designRevision": "2026-11-14-workshop-typography",
+  "designRevision": "2026-11-14-workshop-photo-refinement",
   "baseDesignCommit": "7064af8cb996f8d2fe00c5f4ecadf482048045c1",
   "liveUrl": null,
-  "designSystem": "4.12",
+  "designSystem": "4.13",
   "copy": "3.6",
   "formEnabled": false,
   "realDeliveryVerified": false,
   "sourceFiles": [
     {
       "file": "koncepcio-1-udvari-muhely.html",
-      "sha256": "0909fcb046e23cdf58768c662f9bf48929f7fff09bd304c5551244798b679e22"
+      "sha256": "29dd2fe738e885bcf9fa7acdb0c5b968fd359218d55c8322a7047b823804342b"
     },
     {
       "file": "assets/udvari-muhely.css",
@@ -18,15 +18,15 @@
     },
     {
       "file": "tanfolyamok.html",
-      "sha256": "98a1ddf2c059457dc5571c7f322d2bd0056c980fbbbcb03ebff55386bf76bae4"
+      "sha256": "459eb5fbeaeff2517106fa923a5b56b01223b6df2702724e5891d63ded053d62"
     },
     {
       "file": "muhely.html",
-      "sha256": "89461ab9d1bf42920f36cfcad002bd0d264b86cf1bb7148413b79c74c30c123a"
+      "sha256": "e48f7f518dfc9a24d2d10d507ccb2223d00516e5a25ad08da9a0c2a559f36661"
     },
     {
       "file": "adatkezeles.html",
-      "sha256": "58b700072791da8d8952f9dd434500fe9cd2d3793840a113c87e6d0dba4fddbf"
+      "sha256": "5b17c3d6b0d2d5571a8b375a9065c5c50fbe9275d92a6d0a1f110df7f83a4f41"
     },
     {
       "file": "assets/erdeklodes.js",
@@ -66,7 +66,7 @@
     },
     {
       "file": "assets/muhely.css",
-      "sha256": "ced3411b5670f116e93cf7ed4c47c71cb61795bab40069a651f22773c850305a"
+      "sha256": "f671513ea8bd6bd833b0cf37622e570bed615277b2b9d8f21885df1b9c54daaa"
     },
     {
       "file": "assets/muhely-galeria.js",
@@ -275,7 +275,9 @@
     "tanfolyamok-mobil.png",
     "tanfolyamok-asztali.png",
     "muhely-asztali.png",
-    "muhely-mobil.png"
+    "muhely-mobil.png",
+    "muhely-tablet-allo.png",
+    "muhely-tablet-fekvo.png"
   ],
-  "note": "Műhely újraépítve a hat kért szakasszal és tíz pontosan azonosított fotóval, hatképes készkerámia-galériával és natív nagyítóval. Tíz nézetben ellenőrizve, mind a hat fotó nyitása/bezárása és fókusz-visszaadása tesztelve. A főoldal és a Tanfolyamok forrásai változatlanok. A korábbi összesített oldaltérképkép történeti folyamatkép; az aktuális szerkezet a tervezes/aktualis-oldalterkep.md és tervezes/muhely-terv.md fájlban, a beadási mobil- és asztali képeken látható. Az űrlapfogadó továbbra is inaktív; ezen az oldalon nincs űrlap. A böngészőmegjegyzések szerinti tipográfiai finomítás elkészült: a figyelemblokk és lezárás kért sortörései, középre igazított galériafeliratok; 900 px alatt a bekezdések szabadon törnek. Ellenőrizve 390, 768, 1254 és 1440 px-en, 390 px-en kétszeres szövegmérettel is."
+  "note": "Műhely újraépítve a hat kért szakasszal és tíz pontosan azonosított fotóval, hatképes készkerámia-galériával és natív nagyítóval. Tíz nézetben ellenőrizve, mind a hat fotó nyitása/bezárása és fókusz-visszaadása tesztelve. A főoldal és a Tanfolyamok forrásai változatlanok. A korábbi összesített oldaltérképkép történeti folyamatkép; az aktuális szerkezet a tervezes/aktualis-oldalterkep.md és tervezes/muhely-terv.md fájlban, a beadási mobil- és asztali képeken látható. Az űrlapfogadó továbbra is inaktív; ezen az oldalon nincs űrlap. A böngészőmegjegyzések szerinti tipográfiai finomítás elkészült: a figyelemblokk és lezárás kért sortörései, középre igazított galériafeliratok; 900 px alatt a bekezdések szabadon törnek. Ellenőrizve 390, 768, 1254 és 1440 px-en, 390 px-en kétszeres szövegmérettel is. A közös fejléc Műhely linkje az új muhely.html-re frissítve; file:// címről 390 és 1254 px-en ellenőrizve. Célzott képfinomítás: a mintázott tál cover kivágást kapott (50% 30%); a kisebb műhelyfotó asztalon finoman ráfed a polcfotó alsó bal előterére, keskeny nézetben külön sorba kerül; a hangulatkép alt szövege javítva. Hero változatlan. Tíz nézet és mind a hat nagyítható fotó ellenőrizve. Végső arányellenőrzés: a mobil-, álló (768 px) és fekvő (1024 px) tabletmegjelenés vizuálisan is rendben; tíz nézet és a galéria működése ismét ellenőrizve. A tabletképek a beadási mappában is mentve."
 }

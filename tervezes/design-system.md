@@ -1,6 +1,6 @@
 # Agyagpad – design system
 
-Verzió: 4.12 · 2026. november 14.
+Verzió: 4.13 · 2026. november 14.
 Állapot: az Udvari műhely aktuális specifikációja. Kiindulás: a jóváhagyott 16527e0 változat; november 14-i tartalmi továbbfejlesztés, kártyaélménysorok, Dóra-számadatok és előkészített valódi űrlapküldés. A korábbi türkiz gombos irányt ez a dokumentum felülírja.
 
 ## Források és hatókör
@@ -185,4 +185,6 @@ Az asztali programsorok közös, a leghosszabb szöveghez növekvő rácssormaga
 
 A személyes Műhely oldal megtartja az arculati hat színt, a Merriweather–Inter betűpárt, 1200 px tartalmi maximumot és a közös fejlécet/láblécet. Saját stíluslapja assets/muhely.css; a főoldal és a Tanfolyamok stílusai változatlanok. Hat szakasz, változatos kép–szöveg sorrend, bézs történet és lezárás, türkiz személyes figyelemblokk. Szakasztérköz: a meglévő 64/96 px változó; hasábköz: 40/48 px. A Dóra-számhármas egyszer szerepel. A türkiz hero-keret és motívum csak a herónál jelenik meg.
 
-Galéria: 4:3 keretek, 32 px rések, 1024 px-től három, 600 px-től kettő, alatta egy oszlop. A mintázott álló tálfotó contain kitöltéssel teljes egészében megmarad; a többi fotó ellenőrzött cover kivágású. Nincs statikus dekoratív galériakeret. A natív dialog a teljes, 1920 px-es WebP-ket mutatja vágás nélkül, bezárógombbal, Escape-kezeléssel és visszaadott fókusszal. A háttér ugyanannak a grafitszínnek az áttetsző változata. Részletes terv és pontos forráslista: muhely-terv.md. Szövegek: muhely-szovegek.md.
+Galéria: 4:3 keretek, 32 px rések, 1024 px-től három, 600 px-től kettő, alatta egy oszlop. A mintázott álló tálfotó is cover kitöltésű, 50% 30% tárgypozícióval; nagyítóban változatlanul teljes képaránnyal látható. Nincs statikus dekoratív galériakeret. A natív dialog a teljes, 1920 px-es WebP-ket mutatja vágás nélkül, bezárógombbal, Escape-kezeléssel és visszaadott fókusszal. A háttér ugyanannak a grafitszínnek az áttetsző változata. Részletes terv és pontos forráslista: muhely-terv.md. Szövegek: muhely-szovegek.md.
+
+Műhelyfotók célzott finomítása: a kisebb korongozós kép 900 px-től 40 px átfedést kap a nagy polcfotó alsó bal előterén, 58%-os szélességgel és 4 px-es törtfehér kerettel. A képpár a képoszlopon belül marad; keskenyebb nézetben átfedés nélkül, 16 px közökkel követik egymást. A herót és a többi szakaszt ez a módosítás nem érinti.

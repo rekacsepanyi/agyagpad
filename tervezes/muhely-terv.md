@@ -13,7 +13,7 @@ Az új elrendezés az assets/muhely.css fájlba került. A nagyító működése
 1. Közös fejléc, aktív Műhely menüpont. Érdeklődöm → koncepcio-1-udvari-muhely.html#kapcsolat. Diszkrét Kezdőlap / Műhely morzsamenü.
 2. Személyes hero: szöveg balra, hero1 fotó jobbra; terrakotta H1, türkiz kicker, egyetlen türkiz keret és köríves motívum. CTA → tanfolyamok.html.
 3. Dóra története: bézs felületen balra a kézben tartott tál, jobbra a három bekezdés. A 15+ év, 1500+, 7000+ számhármas a szöveg alatt, ezen az oldalon egyszer szerepel.
-4. Műhelybemutató: törtfehér felület, balra szöveg, jobbra domináns polcfotó és kisebb korongozási részlet. A két kép egymást és a szöveget nem takarja; mobilon egymás alá kerülnek.
+4. Műhelybemutató: törtfehér felület, balra szöveg, jobbra domináns polcfotó és kisebb korongozási részlet. Asztalon a kisebb kép 40 px-rel ráfed a polcfotó alsó bal előterére, a képoszlopon belül, a hangsúlyos tárgyakat szabadon hagyva. Törtfehér, 4 px-es keretet kap; 900 px alatt a képek átfedés nélkül követik egymást.
 5. Személyes figyelem: közös türkiz blokk törtfehér tipográfiával, három állítás, képek és belső kártyák nélkül. Asztalon három, kisebb kijelzőn egy oszlop.
 6. Alkotások: megőrzött #keramiak horgony. Hat kész tárgyfotó a kért sorrendben, képaláírásokkal, árak és vásárlási gombok nélkül. 1024 px-től három, 600 px-től kettő, alatta egy oszlop.
 7. Most rajtad a sor: rövid, bézs hátterű lezárás; CTA → tanfolyamok.html.
@@ -40,7 +40,7 @@ Mindegyikhez 480, 800, 1200 és 1600 px széles, teljes eredeti képarányú Web
 
 A hero 4:5 képhelyet használ, teljes forrásmagassággal, 30%-os vízszintes tárgypozícióval. Csak oldalt vágunk; a kalapból az eredeti fotón látható rész, az arc, mindkét kéz és a váza megmarad. A képfelbontás kiválasztása a portréhely kitöltéséhez szükséges forrásszélességgel számol. Nincs sötétítés.
 
-A galéria keretei egységesen 4:3 arányúak. A bögre és vázák természetesen elférnek a kivágásban. A mintázott tál álló fotóját contain kitöltés tartja teljes egészében láthatóan, a meglévő törtfehér háttéren. Nincs további türkiz galériadekoráció.
+A galéria keretei egységesen 4:3 arányúak. A bögre és vázák természetesen elférnek a kivágásban. A mintázott tál álló fotója is cover kitöltéssel tölti ki a 4:3 keretet, 50% 30% tárgypozícióval. A kivágás a peremet, az ívelt falat és a jellegzetes mintázatot emeli ki; nagyításkor a teljes álló fotó jelenik meg. Nincs további türkiz galériadekoráció.
 
 ## Nagyító és billentyűzet
 
@@ -55,3 +55,13 @@ Friss képek: beadas/jelenlegi-oldal/muhely-asztali.png, muhely-mobil.png, muhel
 ## Böngészőmegjegyzések szerinti tipográfiai pontosítás
 
 A figyelemblokk címében a „melletted vagyok.” új sorban indul. Asztalon az „és segítek”, a „hatan” és a „személyes” szintén új sorban kezdődik; a lezárásban a második, kisbetűs „akár” került új sorba. A bekezdések célzott sortörései 900 px alatt inline-ra váltanak, így mobilon természetes marad a tördelés. A galéria mind a hat képaláírása középre igazított. Szöveg, kép, navigáció és nagyítóműködés nem változott. A módosítás az eredeti 1254 px-es nézetben és kisebb kijelzőkön is ellenőrzött.
+
+A közös fejléc Műhely menüpontja minden aktív oldalon a muhely.html aloldalra vezet. A főoldali #muhely rövid bemutatkozó szakasz és a hozzá tartozó belső hivatkozások megmaradnak.
+
+## Célzott képfinomítás
+
+A történetnél használt hangulatkép alternatív szövege: „Kézben tartott, világos mázas kerámiatál.” A hero címe, fotója és elrendezése változatlan. A tálfotó kitöltő kivágása és a műhelyfotók kompaktabb, átfedő elrendezése 390, 768, 1024 és 1440 px-en vizuálisan is ellenőrzött; a nagyító változatlanul a teljes, eredeti képarányú WebP-t mutatja.
+
+A figyelemblokkban a Megmutatom az alapokat új sorban indul asztalon; a mérned a munkádat kifejezés egy sorban marad, ha a rendelkezésre álló szélesség engedi. Erősen nagyított mobilnézetben szabadon törhet a túlcsordulás elkerülésére.
+
+Végső reszponzív arányellenőrzés: tíz nézet sikeres, az álló és fekvő tabletelrendezés vizuálisan is ellenőrizve. A 768 és 1024 px-es teljes oldalképek a beadas/jelenlegi-oldal/muhely-tablet-allo.png és muhely-tablet-fekvo.png fájlokba kerültek. További designmódosítás nem volt szükséges.

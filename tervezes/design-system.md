@@ -1,6 +1,6 @@
 # Agyagpad – design system
 
-Verzió: 4.5 · 2026. november 14.
+Verzió: 4.10 · 2026. november 14.
 Állapot: az Udvari műhely aktuális specifikációja. Kiindulás: a jóváhagyott 16527e0 változat; november 14-i tartalmi továbbfejlesztés, kártyaélménysorok, Dóra-számadatok és előkészített valódi űrlapküldés. A korábbi türkiz gombos irányt ez a dokumentum felülírja.
 
 ## Források és hatókör
@@ -9,7 +9,7 @@ Verzió: 4.5 · 2026. november 14.
 - A meglévő brief és a szovegek.md rögzíti a projektadatokat; az eredeti arculat, Figma és iskolai méretskála adja az alapokat.
 - Aktuális főoldal: koncepcio-1-udvari-muhely.html. Az index.html külön koncepcióválasztó, a főoldal fejlécéből nincs hozzá hivatkozás.
 - Megjelenési forrás: assets/udvari-muhely.css. A betűfájlok és a licencek az assets/fonts mappában elérhetők.
-- Ebben a munkakörben kizárólag a főoldal készült tovább. A közös CSS a meglévő aloldalakon is érvényesül, azok HTML-tartalmát nem bővítettük.
+- A Tanfolyamok aloldal a főoldali arculatra épülő önálló elrendezést kapott. Az aloldali felülírásokat az assets/tanfolyamok.css tartalmazza; a főoldal HTML-je és közös CSS-e változatlan.
 
 ## Hangulat
 
@@ -144,3 +144,35 @@ A Tanfolyamok szakasz bal felső, a Műhely szakasz jobb felső, a Kapcsolat sza
 A hero főcíme „Alkoss agyagból, bontakozz ki Szentendrén.”, hosszabb, kezdőbarát bevezetővel. A kapcsolat szakaszban nincs állandó demó- vagy prototípusmegjegyzés; a foglalás nélküli érdeklődés tájékoztatása megmarad. A lábléc minden aktív oldalon az új közös szöveget, négy navigációs linket és a rövid fiktív vizsgamunka-jelzést használja. Az „Írj az űrlapon” link kikerült.
 
 A bemutatkozás a három számadattal zárul, a két bekezdés után 24 px (1,5rem) térközzel; külön bemutatkozó CTA nincs. A bemutatkozó és a műhelybolt blokk közötti távolság asztalon 80 px (5rem), mobilon 48 px (3rem). A portré eredeti arányú, legfeljebb 360 px széles, természetes magassággal. A köríves motívum csak a portrénál marad, a műhelybolti képnél csak az eltolt keret. A Felfedezem a kerámiákat gomb megmarad, nyíl nélkül, muhely.html#keramiak céllal.
+
+## Tanfolyamok aloldal – november 14-i kiegészítés
+
+A színpaletta és a betűkészlet változatlan. A részletes terv a tanfolyamok-terv.md fájlban található. A hero fotó 4:5 arányú, legfeljebb 464 px széles, felülre igazított képkivágással; az arc, a két kéz és az edény látható. A hero3.jpg szereplője résztvevői illusztráció, nem Dóra. A türkiz keret és körívek a főoldali stílust követik.
+
+A kompakt programválasztó asztalon három oszlop, mobilon egy. A részletes programok 900 px-től váltakozó kép–szöveg sorrendű, kétoszlopos rácsok, kisebb kijelzőn egy oszlopba rendeződnek. Szakasztérköz 48 px, 900 px-től 64 px; kép–szöveg köz 32/48 px. A gyakorlati adatok 24 px-es, terrakotta, 1,5 vonalvastagságú meglévő ikonokat kapnak. Gombok: meglévő terrakotta alapstílus, a programgombokon mondatkezdő nagybetű.
+
+A türkiz tudnivalóblokk a főoldali hat pontot és ikonokat használja; belső térköz 24/32 px, mobilon egy, asztalon két oszlop. A helyi érdeklődési szakasz és műhelykártya a főoldal azonos komponense.
+
+### Tanfolyamok finomítása
+
+A programválasztó törtfehér, kontúr nélküli, 24 px belső térközű navigációs kártyákat használ bézs háttéren, a meglévő terrakotta ikonokkal és nyíllal. Hover: terrakotta belső keret; billentyűzetes fókusz: a közös grafit körvonal. A programválasztó és a folyamat címe ugyanazt a H2-méretet használja. A programok 900 px-től két egyforma szélességű oszlopot használnak 48 px oszlopközzel, felülre igazított kép–szöveggel. Minden programfotó 4:3 arányú, egyedi tárgypozícióval. Mobilon kép után szöveg következik.
+
+Az ár és gomb közös lezáró egység: 24–28 px-es, 600-as ár, kisebb Inter magyarázó sor; a gomb előtt 18 px térköz. A közös űrlap adatkezelési mondata és a küldés gomb között minden érintett oldalon 24 px térköz van. A főoldalon csak ez az űrlaptérköz változott.
+
+### Programválasztó és programelrendezés – aktuális pontosítás
+
+A programválasztó 16 px belső térközű, minimum-magasság nélküli kártyákat használ. Balra saját készítésű, dekoratív bögre-, váza- és tányér-SVG (32 px, terrakotta, 1,5-ös vonal, kitöltés nélkül, lekerekített végek), középen a két szövegsor, jobbra navigációs nyíl. A személyes felvezetés 15 px/400, a programnév 18 px/600. A kerámiaikon csak hangulati jelölés, nem garantált tanfolyami eredmény. Az adatlistákban a korábbi óra-, csoport- és naptárikon marad.
+
+A részletes programok fotókerete most 6:5 alaparányú. Asztalon az időtartam és csoport két oszlopba kerül, az időpont teljes szélességre. A céges adatlista természetes, kétpontos felsorolás marad üres helyek nélkül. Az ár és a gomb flex zárósorba kerül, lehetőség szerint ár balra, gomb jobbra, 24 px vízszintes köz; szűkebb helyen 18 px függőleges köz. A szöveg rugalmas, a zárósor alulra igazodik; magasabb tartalomnál a fotókeret is nőhet. Mobilon a 6:5 kép önálló magasságú, kép után szöveg és CTA következik. Ez felülírja a korábbi 4:3 képarányt és a minden nézetben egymás alatti ár–gomb elrendezést.
+
+### Aktuális programbemutatók: gyakorlati adatok és díjazás
+
+A program szövegsorrendje: kicker, cím, élményleírás, közös adatrész, majd külön balra igazított CTA. Az adatrész bal oszlopában egymás alatt vannak a gyakorlati adatok a megmaradó óra-, csoport- és naptárikonokkal; jobb oldalon a díjazás és magyarázata. Az ár és a Díjazás felirat egyaránt 20 px/600, Merriweather. A magyarázat 15 px-es Inter. A teljes adatrész után 18 px térközzel jön a gomb. Az előző ár–gomb zárósoros elrendezést ez felülírja; nincs automatikus alsó igazítás vagy kitöltő üres tér.
+
+A cikkcakkos, kétoszlopos programelrendezés 1200 px-től jelenik meg, egyforma oszlopszélességgel és 48 px közzel. Ez alatt kép után szöveg következik; a kép legfeljebb 576 px, a szöveg legfeljebb 680 px széles, középre rendezett. Mindhárom programfotó önálló 6:5 képarányú, a szöveg magassága nem nyújtja meg. Az adatrész a saját szövegoszlop legalább 28 rem-es szélességénél két oszlop, alatta egy; nagyított betűnél ehhez is alkalmazkodik. A programválasztó ikonrendje most tányér, váza, bögre. A többi szakasz és a főoldal változatlan.
+
+### Aktuális gombigazítás és árhierarchia
+
+Asztalon (1200 px-től) a program szövegoszlopa flexoszlop, a CTA a fennmaradó térrel alulra kerül. A kóstoló és a céges program gombja a jobb szélre, a fordított kurzusblokk gombja balra igazodik, így mindig a fotótól távolabbi szélen zár. A grid sorához a fotó és a szöveg egyaránt nyúlik; a 6:5 alapkeret magasabb szöveghez alkalmazkodhat. Az adatrész után legalább 18 px marad, külön programonkénti margó nélkül. Ez felülírja az előző, minden nézetben balra igazított, fotótól független gombelrendezést.
+
+A díjazás 22 px/600, a gyakorlati adatértékek 16 px-esek; ár mellett nincs ikon. Az időpont Szerdánként, 17:00–19:30; a leírás rögzíti a négy egymást követő hetet. 1200 px alatt nincs alsó fotóigazítás, a gomb a tartalom után balra, a feliratához igazodó szélességgel jelenik meg.

@@ -1,0 +1,91 @@
+/* Az aloldal saját elrendezése; a főoldal közös stílusait nem módosítja. */
+.courses-page .breadcrumb{margin-top:1.5rem;margin-bottom:0}
+.courses-page .courses-hero{padding-block:3rem 4rem;gap:3rem}
+.courses-page .courses-hero h1{max-width:18ch}
+.courses-page .courses-hero .hero-photo{aspect-ratio:4/5;object-position:50% 0%;height:auto;filter:none}
+.courses-page .courses-hero .photo-surround{max-width:29rem;justify-self:center}
+.courses-page .program-selector{padding-block:3rem;background:var(--sand);border-top-left-radius:clamp(2rem,6vw,5rem)}
+.courses-page .program-selector h2{font-size:var(--h2)}
+.courses-page .selector-intro{margin-top:1rem;max-width:65ch}
+.courses-page .program-nav{display:grid;gap:1rem;margin-top:1.5rem}
+.courses-page .program-nav a{display:grid;grid-template-columns:2rem minmax(0,1fr) auto;align-items:center;gap:.75rem;border:0;border-radius:1rem;padding:1rem;min-width:0;min-height:0;background:var(--paper);transition:box-shadow 150ms ease-out}
+.courses-page .program-nav a:hover{box-shadow:inset 0 0 0 2px var(--clay)}
+.courses-page .program-nav a:focus-visible{outline:3px solid var(--ink);outline-offset:4px}
+.courses-page .ceramic-icon{width:2rem;height:2rem;color:var(--clay)}
+.courses-page .selector-copy{display:grid;gap:.25rem;min-width:0}
+.courses-page .selector-intro-label{font-size:var(--small);font-weight:400;line-height:1.5}
+.courses-page .selector-arrow{color:var(--clay);font-size:1.25rem}
+.courses-page .program-nav strong{font-size:1.125rem;font-weight:600;line-height:1.5}
+.courses-page .program-detail{padding-block:3rem}
+.courses-page .program-layout{gap:2rem;align-items:start}
+.courses-page .program-layout>*{min-width:0}
+.courses-page .program-layout .detail-photo{position:relative;align-self:start}
+.courses-page .program-layout .detail-photo::before{content:'';display:block;padding-top:calc(100% * 5 / 6)}
+.courses-page .program-layout .photo{position:absolute;inset:0;width:100%;height:100%;aspect-ratio:auto;object-fit:cover;object-position:center}
+.courses-page #korongozo-kostolo .photo{object-position:50% 50%}
+.courses-page #kezdo-kurzus .photo{object-position:50% 45%}
+.courses-page #ceges-csapatepito .photo{object-position:50% 55%}
+.courses-page .program-copy .eyebrow{margin-bottom:1rem}
+.courses-page .program-copy h2{margin-bottom:1rem}
+.courses-page .program-copy>.course-description{font-size:1rem}
+.courses-page .program-copy{display:block;align-self:start;container-type:inline-size}
+.courses-page .program-information{display:grid;grid-template-columns:minmax(0,1fr);gap:1.5rem;align-items:start}
+.courses-page .program-information>*{min-width:0}
+.courses-page .program-facts{grid-template-columns:minmax(0,1fr);gap:1rem;margin:0}
+.courses-page .program-facts>div{display:grid;grid-template-columns:1.5rem minmax(0,1fr);gap:0 .75rem;padding:0}
+.courses-page .program-facts dt{display:grid;grid-template-columns:1.5rem minmax(0,1fr);gap:.75rem;grid-column:1 / -1}
+.courses-page .program-facts .course-icon{margin-top:.1rem}
+.courses-page .program-facts dt,.courses-page .program-facts dd{grid-column:2;min-width:0;overflow-wrap:anywhere;font-size:1rem}
+.courses-page .program-facts dt{grid-column:1 / -1;font-weight:600}
+.courses-page .program-copy .price{margin:0;font-family:var(--heading);font-size:1.375rem;font-weight:600}
+.courses-page .price-detail{font-family:var(--body);font-size:var(--small);line-height:1.65}
+.courses-page .program-cta{margin-top:1.125rem;text-transform:none;letter-spacing:normal}
+@container(min-width:28rem){.courses-page .program-information{grid-template-columns:minmax(0,1.2fr) minmax(0,1fr)}}
+.courses-page .courses-notes{padding-block:1rem 0}
+.courses-page .notes{margin:0;background:var(--teal);color:var(--paper);padding:1.5rem}
+.courses-page .notes h3,.courses-page .notes strong,.courses-page .notes .note-icon{color:var(--paper)}
+.courses-page .course-process{padding-block:4rem}
+.courses-page .course-process h2{margin-bottom:2rem}
+.courses-page .course-process ol{display:grid;gap:2rem;list-style:none;padding:0;counter-reset:steps}
+.courses-page .course-process li{counter-increment:steps;min-width:0}
+.courses-page .course-process li::before{content:counter(steps,decimal-leading-zero);display:block;color:var(--clay);font:700 1.5rem/1.3 var(--heading);margin-bottom:1rem}
+.courses-page .course-process h3{font-size:1.25rem;margin-bottom:.75rem}
+.courses-page .course-process p{font-size:1rem}
+.courses-page #programvalaszto,.courses-page #kapcsolat{scroll-margin-top:1rem}
+@media(min-width:48rem){
+ .courses-page .program-nav{grid-template-columns:repeat(3,minmax(0,1fr))}
+ .courses-page .notes{padding:2rem}
+ .courses-page .course-process ol{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media(min-width:56.25rem){
+ .courses-page .courses-hero{grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);padding-block:3rem 5rem}
+ .courses-page .courses-hero .photo-surround{justify-self:end}
+ .courses-page .program-detail{padding-block:4rem}
+ .courses-page .course-process{padding-block:5rem}
+}
+@media(min-width:75rem){
+ .courses-page .program-layout{grid-template-columns:repeat(2,minmax(0,1fr));gap:3rem;align-items:stretch}
+ .courses-page .program-layout .detail-photo{align-self:stretch}
+ .courses-page .program-copy{display:flex;flex-direction:column;align-self:stretch}
+ .courses-page .program-information{margin-bottom:1.125rem}
+ .courses-page .program-cta{margin-top:auto;align-self:flex-end}
+ .courses-page .program-reverse .program-cta{align-self:flex-start}
+ .courses-page .program-reverse .detail-photo{grid-column:2;grid-row:1}
+ .courses-page .program-reverse .program-copy{grid-column:1;grid-row:1}
+}
+@media(max-width:74.999rem){
+ .courses-page .program-layout{grid-template-columns:minmax(0,1fr)}
+ .courses-page .program-layout .detail-photo{width:100%;max-width:36rem;justify-self:center}
+ .courses-page .program-copy{width:100%;max-width:42.5rem;justify-self:center}
+}
+@media(max-width:56.249rem){
+ .courses-page .courses-hero,.courses-page .program-layout{grid-template-columns:minmax(0,1fr)}
+ .courses-page .courses-hero .photo-surround{width:min(100%,29rem);justify-self:center}
+ .courses-page .program-layout .detail-photo{width:100%;max-width:36rem;justify-self:center}
+}
+@media(max-width:47.999rem){
+ .courses-page .courses-hero{padding-block:2rem 3rem;gap:3rem}
+ .courses-page .courses-hero h1{font-size:var(--h1)}
+ .courses-page .program-selector{padding-block:2rem}
+ .courses-page .program-cta{width:auto}
+}

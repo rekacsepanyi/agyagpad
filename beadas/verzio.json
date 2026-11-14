@@ -1,10 +1,10 @@
 {
   "date": "2026-11-14",
-  "designRevision": "2026-11-14-content-and-form",
+  "designRevision": "2026-11-14-courses-outer-cta-alignment",
   "baseDesignCommit": "7064af8cb996f8d2fe00c5f4ecadf482048045c1",
   "liveUrl": null,
-  "designSystem": "4.5",
-  "copy": "3.0",
+  "designSystem": "4.10",
+  "copy": "3.4",
   "formEnabled": false,
   "realDeliveryVerified": false,
   "sourceFiles": [
@@ -14,11 +14,11 @@
     },
     {
       "file": "assets/udvari-muhely.css",
-      "sha256": "43097dad76447f993fc31e967c29b984c6b1596980ee130c39ec64d947fccf62"
+      "sha256": "9f51ba709c2861bdcd386efd16426be35ada16f34dd7e8bfeec34cdac572d3fe"
     },
     {
       "file": "tanfolyamok.html",
-      "sha256": "50b4e5044a066ee50001944735f9659e3283a1b77e4c273649fbc5b1d6847a75"
+      "sha256": "8405553550a0c20996b48a950577d1218042df62d51c2a4c1a62b675c86adddc"
     },
     {
       "file": "muhely.html",
@@ -30,7 +30,7 @@
     },
     {
       "file": "assets/erdeklodes.js",
-      "sha256": "6157071dd18fa3f68bf4e780d76ad32f2f0ecf66dc94dc277878cf82828443a0"
+      "sha256": "e41ea34c1cddf33062b36c2092ad1f2c7f640a9d1f9e5a9a8d9fa5f4ef168541"
     },
     {
       "file": "assets/form-config.js",
@@ -43,6 +43,26 @@
     {
       "file": "images/logo/Agyagpad-favicon-transparent.svg",
       "sha256": "307a8611389d2321b09ad54ccbc2cb8fb295426f5e7acf047b5e2583b15bbb17"
+    },
+    {
+      "file": "assets/tanfolyamok.css",
+      "sha256": "d666584d975fa65b966b233788b389f915d9ca978cd550b282fda6deaad32f6f"
+    },
+    {
+      "file": "images/webp/tanfolyam-resztvevo-480.webp",
+      "sha256": "a1d12ae53a23626e88e87200b89c0db32f0e869f2596035fa09926722c5a3629"
+    },
+    {
+      "file": "images/webp/tanfolyam-resztvevo-800.webp",
+      "sha256": "e3312784b38b5cef2fba58baf001663ab638ca0325c45b6e32fd81040e3a2377"
+    },
+    {
+      "file": "images/webp/tanfolyam-resztvevo-1200.webp",
+      "sha256": "eaa45a5ccca497be18692c25f417d145ec14700c508dedfd70314549a1158d87"
+    },
+    {
+      "file": "images/webp/tanfolyam-resztvevo-1600.webp",
+      "sha256": "3815c78912a54e365613987e15a805d663cbc5c0efc6def2c70e09e4504b08e1"
     }
   ],
   "planningImages": [
@@ -59,7 +79,9 @@
     "muhely-szakasz-asztali.png",
     "tudnivalok-asztali.png",
     "muhely-galeria-asztali.png",
-    "muhely-galeria-mobil.png"
+    "muhely-galeria-mobil.png",
+    "tanfolyamok-mobil.png",
+    "tanfolyamok-asztali.png"
   ],
-  "note": "November 14-i tartalom, galéria és valódi POST-ra előkészített űrlap. A fogadó inaktív, éles kézbesítés nem történt."
+  "note": "Programgombok asztalon a fotótól távolabbi szélen, alulra igazítva; a fotómagasság rugalmas. Mobilon balra, a tartalom után. Díjazás 22 px; kurzusidőpont Szerdánként, 17:00–19:30. Főoldal és űrlapkód változatlan. Fogadó inaktív, éles kézbesítés nem történt."
 }

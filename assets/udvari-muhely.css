@@ -172,6 +172,7 @@ p,.detail-link,.button,.notes-grid li,figcaption{overflow-wrap:anywhere}
 @media(max-width:47.999rem){.ceramics-gallery{grid-template-columns:minmax(0,1fr)}.studio-stats{gap:1rem;margin-block:3rem}}
 
 /* Szellős bemutatkozó és műhelybolt, természetes portréaránnyal. */
+[data-contact-form] .send{margin-top:1.5rem}
 .story .photo-surround{width:100%;max-width:22.5rem;justify-self:start}
 .story-photo{aspect-ratio:auto;width:100%;height:auto;max-height:none}
 .shop{margin-top:5rem;padding-block:0}

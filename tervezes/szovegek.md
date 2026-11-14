@@ -1,6 +1,6 @@
 # Agyagpad – aktuális weboldalszövegek
 
-Verzió: 3.0 · 2026. november 14.
+Verzió: 3.4 · 2026. november 14.
 Forrás: a főoldal és a tanfolyamok aloldal tényleges HTML-tartalma, a felhasználó november 14-i szövegei alapján. Az előző változatot ez a dokumentum váltja fel.
 
 Az Agyagpad és Fehér Dóra fiktív. A 2009-es indulás, a népi iparművész megjelölés és a három számadat a felhasználó által újonnan megadott karakteradat; nem valós személy ellenőrzött szakmai referenciája. Az idővonal kikerült.
@@ -13,7 +13,7 @@ Az Agyagpad és Fehér Dóra fiktív. A 2009-es indulás, a népi iparművész m
 - Kapcsolat: `#kapcsolat`
 - Érdeklődöm: `#kapcsolat`
 
-A CTA minden aktív aloldalról a főoldali #kapcsolat szakaszhoz vezet. A „Érdeklődöm” mondatkezdő nagybetűs; mobilon a lenyíló menü része.
+A Tanfolyamok oldalon a CTA a helyi #kapcsolat szakaszhoz vezet; a többi aloldalon a főoldali űrlaphoz. A „Érdeklődöm” mondatkezdő nagybetűs; mobilon a lenyíló menü része.
 
 ## Nyitó szekció
 
@@ -156,30 +156,40 @@ Mellette: Adatkezelési tájékoztató → adatkezeles.html.
 
 ### Korongozó kóstoló
 
-- Alkalmak 1 alkalom
-- Időtartam 3 óra
-- Időpont Szombat 14:00–17:00
-- Csoport Legfeljebb 6 fő
-- Ár: 18 500 Ft / fő
-- Érdeklődés: `koncepcio-1-udvari-muhely.html?program=kostolo#kapcsolat`
+Kicker: Első találkozás az agyaggal
+
+Ismerkedj meg az agyaggal, próbáld ki a korongot, és tapasztald meg, hogyan formálódik az anyag a kezed alatt. Végig segítek, így előképzettség nélkül is bátran belevághatsz.
+
+- Időtartam: 1 alkalom · 3 óra
+- Csoport: legfeljebb 6 fő
+- Tervezett időpont: szombat, 14:00–17:00
+- Ár: 18 500 Ft / főA program teljes díja.
+- Érdekel a kóstoló: `#kapcsolat`
 
 ### Négyhetes kezdő kurzus
 
-- Alkalmak 4 alkalom
-- Időtartam 4 × 2,5 óra
-- Időpont Négy egymást követő szerdán, 17:00–19:30
-- Csoport Legfeljebb 6 fő
-- Ár: 65 000 Ft / főa teljes kurzusra
-- Érdeklődés: `koncepcio-1-udvari-muhely.html?program=kezdo-kurzus#kapcsolat`
+Kicker: Alapok négy alkalom alatt
+
+Ha egyetlen alkalomnál többre vágysz, ezen a kurzuson lépésről lépésre ismerkedhetsz meg a korongozás alapjaival. A négy egymást követő héten tartott foglalkozásokon van időd gyakorolni, kérdezni és megtalálni a saját ritmusodat.
+
+- Időtartam: 4 alkalom × 2,5 óra
+- Csoport: legfeljebb 6 fő
+- Tervezett időpont: Szerdánként, 17:00–19:30
+- Ár: 65 000 Ft / főA teljes, négyalkalmas kurzus díja.
+- Érdekel a kurzus: `#kapcsolat`
 
 ### Céges csapatépítő
 
-- Alkalmak Egyeztetés szerint
-- Időtartam Egyedi egyeztetés szerint
-- Időpont Egyedi egyeztetés szerinti időpont és időtartam
-- Csoport Legfeljebb 6 fő
-- Ár: Egyedi ajánlat
-- Érdeklődés: `koncepcio-1-udvari-muhely.html?program=csapatepito#kapcsolat`
+Kicker: Közös élmény, közös alkotás
+
+Lépjetek ki a megszokott munkanapból, és próbáljátok ki együtt az agyagformálást! A közös alkotáshoz nem szükséges előképzettség; a program részleteit a csapat igényeihez igazítjuk.
+
+- Időpont és időtartam: egyéni egyeztetés szerint
+- Létszám: a csapat igényeihez igazítva, előzetes egyeztetéssel
+- Ár: DíjazásA létszám és a program alapján egyeztetjük.
+- Ajánlatot kérek: `#kapcsolat`
+
+A Tanfolyamok oldal önálló érdeklődési űrlapot kapott. A három programgomb helyben választja ki a programot, és megőrzi a kitöltött nevet, e-mailt és üzenetet. A hero résztvevői stock illusztráció, nem Fehér Dóra portréja. A teljes aloldali szerkezet és a fotókivágás: tanfolyamok-terv.md.
 
 A pontos alkalomszám és időtartam az aloldalon megmarad; a négyhetes kurzus 4 × 2,5 órás. A főoldali rövid élménysor nem helyettesíti ezt a tájékoztatást.
 

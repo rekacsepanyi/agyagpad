@@ -46,7 +46,7 @@ const expected=['3 óra alkotás és kikapcsolódás','4 hét, egymásra épül�
       await page.reload({waitUntil:'networkidle'});await page.evaluate(()=>document.fonts.ready);await page.evaluate(()=>Promise.all([...document.images].map(i=>{i.loading='eager';return i.decode()})));if(zoom===2)await page.evaluate(()=>document.documentElement.style.fontSize='200%');
      }
      if(file==='tanfolyamok.html'){
-      assert((await page.locator('#kezdo-kurzus .program-facts').textContent()).includes('4 × 2,5 óra'),'Hiányzó pontos kurzusidőtartam');assert((await page.locator('#kezdo-kurzus .program-facts').textContent()).includes('4 alkalom'),'Pontos alkalomszám');
+      assert((await page.locator('#kezdo-kurzus .program-facts').textContent()).includes('4 alkalom × 2,5 óra'),'Hiányzó pontos kurzusidőtartam');assert((await page.locator('#kezdo-kurzus .program-facts').textContent()).includes('4 alkalom'),'Pontos alkalomszám');
       const mainText=fs.readFileSync(path.join(root,home),'utf8').match(/<ul class="notes-grid">[\s\S]*?<\/ul>/)[0].replace(/\s+/g,' ');const subText=fs.readFileSync(path.join(root,file),'utf8').match(/<ul class="notes-grid">[\s\S]*?<\/ul>/)[0].replace(/\s+/g,' ');assert(mainText===subText,'Eltérő közös tudnivalók');
      }
      await page.goto('http://127.0.0.1:4173/'+file,{waitUntil:'networkidle'});await page.keyboard.press('Tab');assert(await page.locator('.skip').evaluate(e=>e===document.activeElement),'Ugrólink fókusz');await page.keyboard.press('Enter');assert(await page.locator('main').evaluate(e=>e===document.activeElement),'Ugrólink cél');

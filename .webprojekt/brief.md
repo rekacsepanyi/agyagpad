@@ -1,6 +1,6 @@
 # Projektbrief: Agyagpad kerámiaműhely
 
-Frissítve: 2026. november 14. Aktuális tartalmi forrás: szovegek.md 3.0; arculat: design-system.md 4.5.
+Frissítve: 2026. november 14. Aktuális tartalmi forrás: szovegek.md 3.4; arculat: design-system.md 4.10.
 
 ## Ügyfél és keret
 
@@ -20,7 +20,7 @@ Kezdők, kikapcsolódást kereső felnőttek, ajándékötletet keresők és kis
 
 A részletes programadatok a tanfolyamok.html oldalon maradnak. A főoldalon ár nélküli, élményalapú összefoglalók jelennek meg: „3 óra alkotás és kikapcsolódás”, „4 hét, egymásra épülő alkalmakkal”, „Közös alkotás, egyeztetett időpontban”. A link felirata Részletek és árak.
 
-A közös részvételi tudnivalók mindkét oldalon azonosak: kezdőként is lehet csatlakozni; az agyag, máz és két égetés az árban van; a kezdő foglalkozásokon legfeljebb hat fő; a szárítás és égetés után körülbelül két hét múlva vihetők haza a tárgyak; nincs garantált darabszám vagy hibátlan végeredmény; a konkrét kezdést és férőhelyet egyeztetjük. A céges program meglévő részletes csoportadata továbbra is legfeljebb hat fő.
+A közös részvételi tudnivalók mindkét oldalon azonosak: kezdőként is lehet csatlakozni; az agyag, máz és két égetés az árban van; a kezdő foglalkozásokon legfeljebb hat fő; a szárítás és égetés után körülbelül két hét múlva vihetők haza a tárgyak; nincs garantált darabszám vagy hibátlan végeredmény; a konkrét kezdést és férőhelyet egyeztetjük. A céges program résztvevőszámát külön egyeztetjük.
 
 ## Friss karaktertörténet
 
@@ -29,7 +29,7 @@ A felhasználó november 14-én felülírta a korábbi 2018–2024-es idővonala
 ## Oldalszerkezet és CTA-k
 
 - Főoldal: koncepcio-1-udvari-muhely.html, négy szekcióval: kezdo, tanfolyamok, muhely, kapcsolat.
-- Fejléc CTA: Érdeklődöm → főoldali #kapcsolat, aloldalakról is.
+- Fejléc CTA: Érdeklődöm → a Tanfolyamok oldalon helyi #kapcsolat, más aloldalakon a főoldali #kapcsolat.
 - Hero H1: Alkoss agyagból, bontakozz ki Szentendrén.
 - Hero CTA-k: Megnézem a tanfolyamokat és Megismerem a műhelyt.
 - Programkártyák: részletes tanfolyamoldali horgonyokra mutatnak.
@@ -63,3 +63,5 @@ Közös lábléc: rövid márkaszöveg, cím és nyitvatartás, négy navigáci�
 ## Vizsgakeret és hátralévő lépések
 
 Statikus HTML/CSS, reszponzív megjelenés, legalább három oldal vagy szekció, CTA, saját tartalom és egységes arculat. A tervezési képek, az aktuális felvételek és a rövid AI-leírás a beadas mappában vannak. Élő URL és publikálás még hiányzik; a valódi űrlapfogadást ezután ellenőrizni kell. Beadási határidő: 2026. november 24.; kérhető haladékkal december 1.
+
+A Tanfolyamok aloldal új szerkezete: résztvevői hero (hero3.jpg), kompakt programválasztó, három képes részletes programblokk, közös tudnivalók, háromlépéses folyamat, helyi űrlap és közös lábléc. A hero szereplője nem Fehér Dóra. Programgombok: helyi űrlap és automatikus programválasztás. Részletes terv: tervezes/tanfolyamok-terv.md.

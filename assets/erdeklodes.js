@@ -37,6 +37,16 @@
     field.addEventListener('change', update);
   });
   let pending = false;
+  document.querySelectorAll('a[data-program][href="#kapcsolat"]').forEach(link => {
+    link.addEventListener('click', event => {
+      if (pending) { event.preventDefault(); return; }
+      const selected = link.dataset.program;
+      if (!validPrograms.includes(selected)) return;
+      program.value = selected;
+      clear(program);
+      status.textContent = '';
+    });
+  });
   form.addEventListener('submit', async event => {
     event.preventDefault();
     if (pending) return;

@@ -1,6 +1,6 @@
 # Agyagpad – design system
 
-Verzió: 4.13 · 2026. november 14.
+Verzió: 4.15 · 2026. november 14.
 Állapot: az Udvari műhely aktuális specifikációja. Kiindulás: a jóváhagyott 16527e0 változat; november 14-i tartalmi továbbfejlesztés, kártyaélménysorok, Dóra-számadatok és előkészített valódi űrlapküldés. A korábbi türkiz gombos irányt ez a dokumentum felülírja.
 
 ## Források és hatókör
@@ -188,3 +188,13 @@ A személyes Műhely oldal megtartja az arculati hat színt, a Merriweather–In
 Galéria: 4:3 keretek, 32 px rések, 1024 px-től három, 600 px-től kettő, alatta egy oszlop. A mintázott álló tálfotó is cover kitöltésű, 50% 30% tárgypozícióval; nagyítóban változatlanul teljes képaránnyal látható. Nincs statikus dekoratív galériakeret. A natív dialog a teljes, 1920 px-es WebP-ket mutatja vágás nélkül, bezárógombbal, Escape-kezeléssel és visszaadott fókusszal. A háttér ugyanannak a grafitszínnek az áttetsző változata. Részletes terv és pontos forráslista: muhely-terv.md. Szövegek: muhely-szovegek.md.
 
 Műhelyfotók célzott finomítása: a kisebb korongozós kép 900 px-től 40 px átfedést kap a nagy polcfotó alsó bal előterén, 58%-os szélességgel és 4 px-es törtfehér kerettel. A képpár a képoszlopon belül marad; keskenyebb nézetben átfedés nélkül, 16 px közökkel követik egymást. A herót és a többi szakaszt ez a módosítás nem érinti.
+
+## Kapcsolat aloldal
+
+A kapcsolat.html a meglévő tipográfiát, hat arculati színt és 1200 px-es tartalmi szélességet használja. Külön stíluslapja assets/kapcsolat.css, kizárólag az új oldal külső elrendezésére és a natív FAQ-ra. Rövid, kép nélküli bevezető; 900 px-től 40–60%-os elérhetőség–űrlap rács 48 px közzel; kisebb nézetben egy oszlop, 48 px függőleges köz. A bézs kapcsolati szakasz asztali térköze 64 px; a FAQ a közös 64/96 px skálát követi. Az űrlap összes eredeti stílusa és HTML-je változatlan.
+
+FAQ: négy natív details/summary elem, 17 px/600 kérdésszöveg, 16 px válasz, 1,75-ös válaszsormagasság; homokszínű funkcionális elválasztó, terrakotta plusz/mínusz jel, közös grafit fókuszkörvonal. Nincs külön űrlapkártya, fotó, térkép vagy további CTA. Részletek: kapcsolat-terv.md.
+
+Kapcsolat későbbi pontosítása: 1100 px-től kétoszlopos bevezető, jobbra 3:2 arányú, kért tálcás fotó; balra két sorra tagolt H1 40–48 px-es mérettel. A 2. szakasz kickere kikerült. Az elérhetőségek alatti térkép 23:16 arányú, Szentendrét ábrázolja; a kitalált címhez nem tartozik helyjelölő. Az új fotó, a térkép és ezek megjelenése felülírja az eredeti kép/térkép nélküli bevezetőt; az űrlap belső stílusa nem változott.
+
+A közös fejléc Érdeklődöm gombjának egységes célja minden aktív oldalon: kapcsolat.html#erdeklodes. A Kapcsolat oldali contact-form-column önálló section, id=erdeklodes azonosítóval és 7 rem scroll-margin-top értékkel. A korábbi #kapcsolat horgony megmaradt. A gomb megjelenése, az űrlap HTML-je, a programgombok és az űrlapszkriptek változatlanok. 15 mobil/tablet/asztali navigáció és file:// használat ellenőrizve, tesztben rögzített fejléc mellett is látható címmel.

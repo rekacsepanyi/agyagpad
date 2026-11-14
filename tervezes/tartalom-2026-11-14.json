@@ -8,35 +8,20 @@
     "Közös alkotás, egyeztetett időpontban"
   ],
   "commonNotes": [
-    [
-      "Kezdőként is jöhetsz.",
-      "Nem szükséges előképzettség, az első mozdulatoktól segítünk."
-    ],
-    [
-      "Az alapanyag benne van az árban.",
-      "Az agyagot, a mázat és a két égetést is biztosítjuk."
-    ],
-    [
-      "Kis csoportban alkotunk.",
-      "A kezdő foglalkozásokon legfeljebb hat fővel dolgozunk, így mindenkire jut figyelem."
-    ],
-    [
-      "Az alkotásodra kicsit várni kell.",
-      "A szárítás és az égetések után, az utolsó alkalomtól számítva körülbelül két hét múlva viheted haza."
-    ],
-    [
-      "A kísérletezés is az élmény része.",
-      "Minden tárgy másképp sikerül; meghatározott darabszámot és hibátlan végeredményt nem tudunk garantálni."
-    ],
-    [
-      "Az időpontot veled egyeztetjük.",
-      "A feltüntetett időpontok tájékoztató jellegűek. A pontos kezdésről és a szabad helyekről érdeklődéskor adunk információt."
-    ]
+    "Kezdőként is jöhetsz. Nem szükséges előképzettség, az első mozdulatoktól segítek.",
+    "Az alapanyag benne van az árban. Az agyagot, a mázat és a két égetést is biztosítom.",
+    "Kis csoportban alkotunk. A kezdő foglalkozásokon legfeljebb hat fővel dolgozunk, így mindenkire jut figyelem.",
+    "Az alkotásodra kicsit várni kell. A szárítás és az égetések után, az utolsó alkalomtól számítva körülbelül két hét múlva viheted haza.",
+    "A kísérletezés is az élmény része. Minden tárgy másképp sikerül; meghatározott darabszámot és hibátlan végeredményt nem tudok garantálni.",
+    "Az időpontot veled egyeztetjük. A feltüntetett időpontok tájékoztató jellegűek. A pontos kezdésről és a szabad helyekről érdeklődéskor adok információt."
   ],
   "biography": {
-    "learningSince": 2009,
-    "designation": "Népi iparművész",
-    "statistics": [
+    "paragraphs": [
+      "Az alkotó és a helyszín",
+      "Fehér Dóra vagyok, az Agyagpad alapítója. 2009-ben sajátítottam el a korongozás alapjait, és azóta is folyamatosan tanulok, kísérletezem. Népi iparművészként olyan bögréket, tálakat és vázákat készítek, amelyeket öröm kézbe venni és nap mint nap használni.",
+      "A legnagyobb öröm számomra, amikor másokkal is megoszthatom az agyagozás élményét. Szentendrei műhelyemben kis csoportban, oldott hangulatban alkotunk, így mindenkire jut idő és figyelem. Akkor is bátran csatlakozz, ha most próbálod először: a saját tempódban haladhatsz, én pedig segítek az első mozdulatoktól."
+    ],
+    "stats": [
       [
         "15+ év",
         "szakmai tapasztalat"
@@ -51,5 +36,722 @@
       ]
     ]
   },
-  "formStatus": "Netlify Forms előkészítve; a felhasználó kérésére a fogadó később állítandó be."
+  "formStatus": "Netlify Forms előkészítve; fogadó inaktív, éles kézbesítés nem igazolt.",
+  "pages": [
+    {
+      "file": "koncepcio-1-udvari-muhely.html",
+      "title": "Agyagpad – Kerámiaműhely Szentendrén | Bemutatóprojekt",
+      "description": "Kezdőbarát korongozás, kis csoportos tanfolyamok és kézzel készült kerámiák egy kitalált szentendrei műhely bemutatóoldalán. AI webdesigner vizsgamunka.",
+      "headings": [
+        {
+          "level": "H1",
+          "id": "focim",
+          "text": "Alkoss agyagból, bontakozz ki Szentendrén."
+        },
+        {
+          "level": "H2",
+          "id": "programcim",
+          "text": "Válaszd ki a neked való alkotói élményt"
+        },
+        {
+          "level": "H3",
+          "id": "",
+          "text": "Korongozó kóstoló"
+        },
+        {
+          "level": "H3",
+          "id": "",
+          "text": "Négyhetes kurzus"
+        },
+        {
+          "level": "H3",
+          "id": "",
+          "text": "Céges csapatépítő"
+        },
+        {
+          "level": "H3",
+          "id": "tudnivalok",
+          "text": "Amit érdemes tudnod"
+        },
+        {
+          "level": "H2",
+          "id": "muhelycim",
+          "text": "Ismerd meg az Agyagpadot"
+        },
+        {
+          "level": "H3",
+          "id": "",
+          "text": "Műhelybolt és kerámiák"
+        },
+        {
+          "level": "H2",
+          "id": "kapcsolatcim",
+          "text": "Melyik program érdekel?"
+        },
+        {
+          "level": "H3",
+          "id": "",
+          "text": "Találkozzunk a műhelyben!"
+        }
+      ],
+      "navigation": [
+        {
+          "text": "",
+          "href": "#kezdo"
+        },
+        {
+          "text": "Kezdőlap",
+          "href": "#kezdo"
+        },
+        {
+          "text": "Tanfolyamok",
+          "href": "tanfolyamok.html"
+        },
+        {
+          "text": "Műhely",
+          "href": "muhely.html"
+        },
+        {
+          "text": "Kapcsolat",
+          "href": "kapcsolat.html"
+        },
+        {
+          "text": "Érdeklődöm",
+          "href": "kapcsolat.html#erdeklodes"
+        }
+      ],
+      "footer": [
+        {
+          "text": "Kezdőlap",
+          "href": "#kezdo"
+        },
+        {
+          "text": "Tanfolyamok",
+          "href": "tanfolyamok.html"
+        },
+        {
+          "text": "Műhely",
+          "href": "muhely.html"
+        },
+        {
+          "text": "Kapcsolat",
+          "href": "kapcsolat.html"
+        }
+      ],
+      "sections": [
+        {
+          "id": "kezdo",
+          "text": "Szentendrei kézműves műhely Alkoss agyagból, bontakozz ki Szentendrén. Próbáld ki a korongozást kis csoportban, egy hangulatos szentendrei kerámiaműhelyben. Előképzettség nélkül, a saját tempódban alkothatsz, miközben kiszakadsz a hétköznapokból. Megnézem a tanfolyamokat Megismerem a műhelyt „Az alkotás az első mozdulattal kezdődik.”"
+        },
+        {
+          "id": "tanfolyamok",
+          "text": "Programok és alkotóélmények Válaszd ki a neked való alkotói élményt Első találkozás az agyaggalKorongozó kóstolóPróbáld ki, hogyan formálódik az agyag a kezed alatt. Kezdőként is csatlakozhatsz.3 óra alkotás és kikapcsolódásRészletek és árak Alapok négy alkalom alattNégyhetes kurzusAdj időt az alkotásnak: négy alkalmon át ismerkedhetsz a korongozás alapjaival.4 hét, egymásra épülő alkalmakkalRészletek és árak Közös élményCéges csapatépítőKözös kikapcsolódás a korong mellett, ahol a csapat együtt próbálhatja ki az agyagformálást.Közös alkotás, egyeztetett időpontbanRészletek és árak Amit érdemes tudnod Kezdőként is jöhetsz. Nem szükséges előképzettség, az első mozdulatoktól segítek. Az alapanyag benne van az árban. Az agyagot, a mázat és a két égetést is biztosítom. Kis csoportban alkotunk. A kezdő foglalkozásokon legfeljebb hat fővel dolgozunk, így mindenkire jut figyelem. Az alkotásodra kicsit várni kell. A szárítás és az égetések után, az utolsó alkalomtól számítva körülbelül két hét múlva viheted haza. A kísérletezés is az élmény része. Minden tárgy másképp sikerül; meghatározott darabszámot és hibátlan végeredményt nem tudok garantálni. Az időpontot veled egyeztetjük. A feltüntetett időpontok tájékoztató jellegűek. A pontos kezdésről és a szabad helyekről érdeklődéskor adok információt."
+        },
+        {
+          "id": "muhely",
+          "text": "Az alkotó és a helyszín Ismerd meg az Agyagpadot Fehér Dóra vagyok, az Agyagpad alapítója. 2009-ben sajátítottam el a korongozás alapjait, és azóta is folyamatosan tanulok, kísérletezem. Népi iparművészként olyan bögréket, tálakat és vázákat készítek, amelyeket öröm kézbe venni és nap mint nap használni. A legnagyobb öröm számomra, amikor másokkal is megoszthatom az agyagozás élményét. Szentendrei műhelyemben kis csoportban, oldott hangulatban alkotunk, így mindenkire jut idő és figyelem. Akkor is bátran csatlakozz, ha most próbálod először: a saját tempódban haladhatsz, én pedig segítek az első mozdulatoktól. szakmai tapasztalat15+ évtanítvány1500+alkotás7000+ Műhelybolt és kerámiák Kézzel készült bögrék, tálak, tányérok és vázák, amelyek a hétköznapokba is becsempészik az alkotás örömét. Ismerd meg munkáimat, és nézz körül a műhelyben! Csütörtök–vasárnap: 10:00–18:002000 Szentendre, Agyagliget köz 4. Felfedezem a kerámiákat"
+        },
+        {
+          "id": "kapcsolat",
+          "text": "Érdeklődés és kapcsolat Melyik program érdekel? Kipróbálnád a korongozást, közös alkotást szerveznél, vagy ajándékötletet keresel? Válassz programot, és írd meg, miben segíthetek! A kerámiákról is bátran kérdezhetsz. Az érdeklődés elküldése még nem jelent helyfoglalást. A részleteket és a szabad időpontokat veled egyeztetjük. Hagyd üresen ezt a mezőt: A csillaggal (*) jelölt mezők kitöltése kötelező. Név * E-mail-cím * Program *Válassz programotKorongozó kóstolóNégyhetes kezdő kurzusCéges csapatépítőAjándékozás vagy egyéb érdeklődés Üzenet Az üzenet elküldése előtt olvasd el az Adatkezelési tájékoztatót. Érdeklődés elküldése <p class=\"small\">Az üzenetküldéshez engedélyezd a JavaScriptet.</p> Találkozzunk a műhelyben!2000 Szentendre, Agyagliget köz 4.Csütörtök–vasárnap: 10:00–18:00Kérdésed van a foglalkozásokról? Írj az űrlapon! Segítek kiválasztani a neked való programot, és egyeztetjük a szabad időpontokat.A foglalkozásokon előzetes egyeztetéssel vehetsz részt."
+        }
+      ],
+      "forms": [
+        {
+          "name": "agyagpad-erdeklodes",
+          "fields": [
+            {
+              "name": "form-name",
+              "type": "hidden",
+              "required": false
+            },
+            {
+              "name": "bot-field",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "email",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "program",
+              "type": "select-one",
+              "required": true,
+              "options": [
+                {
+                  "value": "",
+                  "text": "Válassz programot"
+                },
+                {
+                  "value": "kostolo",
+                  "text": "Korongozó kóstoló"
+                },
+                {
+                  "value": "kezdo-kurzus",
+                  "text": "Négyhetes kezdő kurzus"
+                },
+                {
+                  "value": "csapatepito",
+                  "text": "Céges csapatépítő"
+                },
+                {
+                  "value": "egyeb",
+                  "text": "Ajándékozás vagy egyéb érdeklődés"
+                }
+              ]
+            },
+            {
+              "name": "message",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "tanfolyamok.html",
+      "title": "Tanfolyamok és árak | Agyagpad – Bemutatóprojekt",
+      "description": "Korongozó kóstoló, négyhetes kezdő kurzus és céges alkotóprogram: árak, időbeosztás és részvételi tudnivalók az Agyagpad bemutatóprojektjében.",
+      "headings": [
+        {
+          "level": "H1",
+          "id": "tanfolyamok-cim",
+          "text": "Találd meg a neked való alkotóélményt."
+        },
+        {
+          "level": "H2",
+          "id": "programvalaszto-cim",
+          "text": "Hogyan alkotnál szívesen?"
+        },
+        {
+          "level": "H2",
+          "id": "korongozo-kostolo-cim",
+          "text": "Korongozó kóstoló"
+        },
+        {
+          "level": "H2",
+          "id": "kezdo-kurzus-cim",
+          "text": "Négyhetes kezdő kurzus"
+        },
+        {
+          "level": "H2",
+          "id": "ceges-csapatepito-cim",
+          "text": "Céges csapatépítő"
+        },
+        {
+          "level": "H3",
+          "id": "tudnivalok",
+          "text": "Amit érdemes tudnod"
+        },
+        {
+          "level": "H2",
+          "id": "folyamat-cim",
+          "text": "Így indul a közös alkotás"
+        },
+        {
+          "level": "H3",
+          "id": "",
+          "text": "Válassz programot!"
+        },
+        {
+          "level": "H3",
+          "id": "",
+          "text": "Egyeztessünk!"
+        },
+        {
+          "level": "H3",
+          "id": "",
+          "text": "Érkezz kíváncsian!"
+        },
+        {
+          "level": "H2",
+          "id": "kapcsolatcim",
+          "text": "Melyik program érdekel?"
+        },
+        {
+          "level": "H3",
+          "id": "",
+          "text": "Találkozzunk a műhelyben!"
+        }
+      ],
+      "navigation": [
+        {
+          "text": "",
+          "href": "koncepcio-1-udvari-muhely.html#kezdo"
+        },
+        {
+          "text": "Kezdőlap",
+          "href": "koncepcio-1-udvari-muhely.html#kezdo"
+        },
+        {
+          "text": "Tanfolyamok",
+          "href": "tanfolyamok.html"
+        },
+        {
+          "text": "Műhely",
+          "href": "muhely.html"
+        },
+        {
+          "text": "Kapcsolat",
+          "href": "kapcsolat.html"
+        },
+        {
+          "text": "Érdeklődöm",
+          "href": "kapcsolat.html#erdeklodes"
+        }
+      ],
+      "footer": [
+        {
+          "text": "Kezdőlap",
+          "href": "koncepcio-1-udvari-muhely.html#kezdo"
+        },
+        {
+          "text": "Tanfolyamok",
+          "href": "tanfolyamok.html"
+        },
+        {
+          "text": "Műhely",
+          "href": "muhely.html"
+        },
+        {
+          "text": "Kapcsolat",
+          "href": "kapcsolat.html"
+        }
+      ],
+      "sections": [
+        {
+          "id": "",
+          "text": "Egy kis kíváncsiságból új élmény születikTaláld meg a neked való alkotóélményt.Kipróbálnád a korongozást, elmélyülnél az alapokban, vagy közös élményt keresel a csapatodnak? Szentendrei műhelyemben kezdőként is megtapasztalhatod az agyaggal való alkotás örömét.Megnézem a programokat"
+        },
+        {
+          "id": "programvalaszto",
+          "text": "Hogyan alkotnál szívesen?Egyetlen alkalomra érkeznél, elmélyülnél az alapokban, vagy együtt alkotnátok? Válassz a programok közül!Csak kipróbálnámKorongozó kóstoló→Jobban elmélyülnék benneNégyhetes kezdő kurzus→A csapatommal érkeznékCéges csapatépítő→"
+        },
+        {
+          "id": "",
+          "text": "Amit érdemes tudnod Kezdőként is jöhetsz. Nem szükséges előképzettség, az első mozdulatoktól segítek. Az alapanyag benne van az árban. Az agyagot, a mázat és a két égetést is biztosítom. Kis csoportban alkotunk. A kezdő foglalkozásokon legfeljebb hat fővel dolgozunk, így mindenkire jut figyelem. Az alkotásodra kicsit várni kell. A szárítás és az égetések után, az utolsó alkalomtól számítva körülbelül két hét múlva viheted haza. A kísérletezés is az élmény része. Minden tárgy másképp sikerül; meghatározott darabszámot és hibátlan végeredményt nem tudok garantálni. Az időpontot veled egyeztetjük. A feltüntetett időpontok tájékoztató jellegűek. A pontos kezdésről és a szabad helyekről érdeklődéskor adok információt."
+        },
+        {
+          "id": "",
+          "text": "Így indul a közös alkotásVálassz programot!Nézd meg, melyik élmény áll hozzád közel.Egyeztessünk!Írj az űrlapon, és megbeszéljük a részleteket, valamint a szabad időpontokat.Érkezz kíváncsian!Az alapanyagokat és az eszközöket biztosítom."
+        },
+        {
+          "id": "kapcsolat",
+          "text": "Érdeklődés és kapcsolat Melyik program érdekel? Kipróbálnád a korongozást, közös alkotást szerveznél, vagy ajándékötletet keresel? Válassz programot, és írd meg, miben segíthetek! A kerámiákról is bátran kérdezhetsz. Az érdeklődés elküldése még nem jelent helyfoglalást. A részleteket és a szabad időpontokat veled egyeztetjük. Hagyd üresen ezt a mezőt: A csillaggal (*) jelölt mezők kitöltése kötelező. Név * E-mail-cím * Program *Válassz programotKorongozó kóstolóNégyhetes kezdő kurzusCéges csapatépítőAjándékozás vagy egyéb érdeklődés Üzenet Az üzenet elküldése előtt olvasd el az Adatkezelési tájékoztatót. Érdeklődés elküldése <p class=\"small\">Az üzenetküldéshez engedélyezd a JavaScriptet.</p> Találkozzunk a műhelyben!2000 Szentendre, Agyagliget köz 4.Csütörtök–vasárnap: 10:00–18:00Kérdésed van a foglalkozásokról? Írj az űrlapon! Segítek kiválasztani a neked való programot, és egyeztetjük a szabad időpontokat.A foglalkozásokon előzetes egyeztetéssel vehetsz részt."
+        }
+      ],
+      "forms": [
+        {
+          "name": "agyagpad-erdeklodes",
+          "fields": [
+            {
+              "name": "form-name",
+              "type": "hidden",
+              "required": false
+            },
+            {
+              "name": "bot-field",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "email",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "program",
+              "type": "select-one",
+              "required": true,
+              "options": [
+                {
+                  "value": "",
+                  "text": "Válassz programot"
+                },
+                {
+                  "value": "kostolo",
+                  "text": "Korongozó kóstoló"
+                },
+                {
+                  "value": "kezdo-kurzus",
+                  "text": "Négyhetes kezdő kurzus"
+                },
+                {
+                  "value": "csapatepito",
+                  "text": "Céges csapatépítő"
+                },
+                {
+                  "value": "egyeb",
+                  "text": "Ajándékozás vagy egyéb érdeklődés"
+                }
+              ]
+            },
+            {
+              "name": "message",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "muhely.html",
+      "title": "Műhely és kézzel készült kerámiák | Agyagpad",
+      "description": "Ismerd meg Fehér Dóra történetét, a szentendrei Agyagpad műhelyét és a kézzel készült bögrék, tálak, tányérok és vázák galériáját.",
+      "headings": [
+        {
+          "level": "H1",
+          "id": "muhely-cim",
+          "text": "Ismerd meg a műhelyt, ahol az alkotás öröme vár."
+        },
+        {
+          "level": "H2",
+          "id": "tortenet-cim",
+          "text": "Az alkotás szeretetét adom tovább."
+        },
+        {
+          "level": "H2",
+          "id": "korulnezes-cim",
+          "text": "Egy hely, ahol jó elidőzni."
+        },
+        {
+          "level": "H2",
+          "id": "figyelem-cim",
+          "text": "Az első mozdulatoktól melletted vagyok."
+        },
+        {
+          "level": "H3",
+          "id": "",
+          "text": "Bátran kezdhetsz bele."
+        },
+        {
+          "level": "H3",
+          "id": "",
+          "text": "Jut idő a kérdéseidre."
+        },
+        {
+          "level": "H3",
+          "id": "",
+          "text": "A saját tempódban haladhatsz."
+        },
+        {
+          "level": "H2",
+          "id": "keramiak-cim",
+          "text": "Kézzel készült, használatra szánt kerámiák."
+        },
+        {
+          "level": "H2",
+          "id": "lezaras-cim",
+          "text": "Most rajtad a sor."
+        }
+      ],
+      "navigation": [
+        {
+          "text": "",
+          "href": "koncepcio-1-udvari-muhely.html#kezdo"
+        },
+        {
+          "text": "Kezdőlap",
+          "href": "koncepcio-1-udvari-muhely.html#kezdo"
+        },
+        {
+          "text": "Tanfolyamok",
+          "href": "tanfolyamok.html"
+        },
+        {
+          "text": "Műhely",
+          "href": "muhely.html"
+        },
+        {
+          "text": "Kapcsolat",
+          "href": "kapcsolat.html"
+        },
+        {
+          "text": "Érdeklődöm",
+          "href": "kapcsolat.html#erdeklodes"
+        }
+      ],
+      "footer": [
+        {
+          "text": "Kezdőlap",
+          "href": "koncepcio-1-udvari-muhely.html#kezdo"
+        },
+        {
+          "text": "Tanfolyamok",
+          "href": "tanfolyamok.html"
+        },
+        {
+          "text": "Műhely",
+          "href": "muhely.html"
+        },
+        {
+          "text": "Kapcsolat",
+          "href": "kapcsolat.html"
+        }
+      ],
+      "sections": [
+        {
+          "id": "",
+          "text": "Ahol az ötleteid formát öltenekIsmerd meg a műhelyt, ahol az alkotás öröme vár.Fehér Dóra vagyok, az Agyagpad alapítója. Szentendrei műhelyemben megmutatom, hogyan válhat egy darab agyagból saját alkotás és személyes emlék. Barátságos környezetben, szakmai segítséggel, a saját tempódban ismerkedhetsz meg a kerámiakészítéssel.Megnézem a tanfolyamokat"
+        },
+        {
+          "id": "",
+          "text": "Kíváncsiságból hivatásAz alkotás szeretetét adom tovább.2009-ben sajátítottam el a korongozás alapjait. Már az első alkalmakon magával ragadott, ahogyan az agyag minden apró mozdulatra reagál. Azóta is folyamatosan képzem magam, új formákkal és mázakkal kísérletezem.Népi iparművészként olyan használati tárgyakat készítek, amelyeknek helyük van a mindennapokban. Egy kézbe simuló bögre vagy egy kedvenc tál számomra attól különleges, hogy használat közben válik igazán a történetünk részévé.Az Agyagpadot azért hoztam létre, hogy ezt az örömöt másokkal is megoszthassam. Szeretem látni, ahogy a kezdeti bizonytalanságot felváltja a kíváncsiság, majd megszületik az első saját forma.szakmai tapasztalat15+ évtanítvány1500+alkotás7000+"
+        },
+        {
+          "id": "",
+          "text": "Nézz körül az AgyagpadbanEgy hely, ahol jó elidőzni.Korongok, agyagos eszközök, száradó edények és kész kerámiák: a műhelyben minden az alkotás körül forog. Itt közelről is megismerheted, hogyan lesz a puha agyagból formázás, szárítás és égetés után használható tárgy.A foglalkozásokra előkészítem az alapanyagokat és az eszközöket. Érkezz kényelmes ruhában, amelyen egy kis agyagfolt sem gond, és engedd meg magadnak, hogy egy időre csak arra figyelj, ami a kezed alatt formálódik."
+        },
+        {
+          "id": "",
+          "text": "Nem kell elsőre tökéletesnek lennieAz első mozdulatoktól melletted vagyok.Bátran kezdhetsz bele.Nem szükséges előképzettség. Megmutatom az alapokat, és segítek, amikor elakadnál.Jut idő a kérdéseidre.A kezdő foglalkozásokon legfeljebb hatan alkotunk, így mindenkire jut személyes figyelem.A saját tempódban haladhatsz.Van helye a próbálkozásnak és az újrakezdésnek. Nem kell másokhoz mérned a munkádat."
+        },
+        {
+          "id": "keramiak",
+          "text": "A műhelyből a mindennapokbaKézzel készült, használatra szánt kerámiák.Bögrék, tálak, tányérok és vázák: olyan tárgyakat készítek, amelyek nemcsak a polcon mutatnak jól, hanem öröm használni őket. A formákon és a mázak apró eltérésein ott marad a kézi munka nyoma, ettől mindegyik darab egy kicsit más.Türkiz és földszínű tálak, tányérok Karakteres bögre, természetes árnyalatokkal Vázák meleg és hűvös mázakkal Összeillő formák a mindennapi terítékhez Mintázott felületű tál Türkiz mázas tányérok"
+        },
+        {
+          "id": "",
+          "text": "Most rajtad a sor.Kipróbálnád, milyen érzés agyagból alkotni? Akár egyetlen alkalomra érkeznél, akár hosszabban ismerkednél a korongozással, segítek megtenni az első lépéseket.Megnézem a tanfolyamokat"
+        }
+      ],
+      "forms": []
+    },
+    {
+      "file": "kapcsolat.html",
+      "title": "Kapcsolat és érdeklődés | Agyagpad",
+      "description": "Kérdezz az Agyagpad tanfolyamairól, a közös alkotásról vagy a kerámiákról. Kapcsolati űrlap, szentendrei műhelyadatok és gyakori kérdések.",
+      "headings": [
+        {
+          "level": "H1",
+          "id": "kapcsolat-oldalcim",
+          "text": "Beszéljük meg, mit alkotnál szívesen!"
+        },
+        {
+          "level": "H2",
+          "id": "elerhetosegek-cim",
+          "text": "Itt találsz meg"
+        },
+        {
+          "level": "H3",
+          "id": "",
+          "text": "Műhely és műhelybolt"
+        },
+        {
+          "level": "H2",
+          "id": "kapcsolatcim",
+          "text": "Melyik program érdekel?"
+        },
+        {
+          "level": "H2",
+          "id": "gyik-cim",
+          "text": "Talán benned is felmerült."
+        }
+      ],
+      "navigation": [
+        {
+          "text": "",
+          "href": "koncepcio-1-udvari-muhely.html#kezdo"
+        },
+        {
+          "text": "Kezdőlap",
+          "href": "koncepcio-1-udvari-muhely.html#kezdo"
+        },
+        {
+          "text": "Tanfolyamok",
+          "href": "tanfolyamok.html"
+        },
+        {
+          "text": "Műhely",
+          "href": "muhely.html"
+        },
+        {
+          "text": "Kapcsolat",
+          "href": "kapcsolat.html"
+        },
+        {
+          "text": "Érdeklődöm",
+          "href": "kapcsolat.html#erdeklodes"
+        }
+      ],
+      "footer": [
+        {
+          "text": "Kezdőlap",
+          "href": "koncepcio-1-udvari-muhely.html#kezdo"
+        },
+        {
+          "text": "Tanfolyamok",
+          "href": "tanfolyamok.html"
+        },
+        {
+          "text": "Műhely",
+          "href": "muhely.html"
+        },
+        {
+          "text": "Kapcsolat",
+          "href": "kapcsolat.html"
+        }
+      ],
+      "sections": [
+        {
+          "id": "",
+          "text": "Az első lépés egy üzenetBeszéljük meg, mit alkotnál szívesen!Kérdésed van a tanfolyamokról, közös programot szerveznél, vagy a kerámiák érdekelnek? Írj bátran! Segítek eligazodni a lehetőségek között, és egyeztetjük a részleteket."
+        },
+        {
+          "id": "kapcsolat",
+          "text": "Itt találsz megAgyagpad Kerámiaműhely2000 Szentendre, Agyagliget köz 4.Műhely és műhelyboltCsütörtök–vasárnap: 10:00–18:00A tanfolyamok külön, előzetesen egyeztetett időpontokban zajlanak.Szentendre várostérképe. Az Agyagliget köz 4. kitalált bemutatócím.Nagyobb térkép megnyitása Melyik program érdekel? Kipróbálnád a korongozást, közös alkotást szerveznél, vagy ajándékötletet keresel? Válassz programot, és írd meg, miben segíthetek! A kerámiákról is bátran kérdezhetsz. Az érdeklődés elküldése még nem jelent helyfoglalást. A részleteket és a szabad időpontokat veled egyeztetjük. Hagyd üresen ezt a mezőt: A csillaggal (*) jelölt mezők kitöltése kötelező. Név * E-mail-cím * Program *Válassz programotKorongozó kóstolóNégyhetes kezdő kurzusCéges csapatépítőAjándékozás vagy egyéb érdeklődés Üzenet Az üzenet elküldése előtt olvasd el az Adatkezelési tájékoztatót. Érdeklődés elküldése <p class=\"small\">Az üzenetküldéshez engedélyezd a JavaScriptet.</p>"
+        },
+        {
+          "id": "",
+          "text": "Jó tudni, mielőtt írszTalán benned is felmerült.Nem tudom, melyik programot válasszam. Így is írhatok?Persze! Írd meg, hogy egyszer próbálnád ki a korongozást, hosszabban tanulnál, vagy közös élményt keresel. Segítek megtalálni a hozzád illő programot. Előzetes egyeztetés nélkül is részt vehetek foglalkozáson?A foglalkozásokhoz előzetes egyeztetés szükséges, hogy biztosan legyen szabad helyed és előkészíthessem az eszközöket. Ajándékba is adhatok alkotóélményt?Igen, ajándékozással kapcsolatban is kereshetsz. Válaszd az űrlapon az „Ajándékozás vagy egyéb érdeklődés” lehetőséget, és írd meg az elképzelésedet! A bemutatott kerámiákról is érdeklődhetek?Igen! Válaszd az „Ajándékozás vagy egyéb érdeklődés” lehetőséget, és írd meg, melyik tárgy keltette fel a figyelmedet. Online vásárlásra nincs lehetőség."
+        }
+      ],
+      "forms": [
+        {
+          "name": "agyagpad-erdeklodes",
+          "fields": [
+            {
+              "name": "form-name",
+              "type": "hidden",
+              "required": false
+            },
+            {
+              "name": "bot-field",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "email",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "program",
+              "type": "select-one",
+              "required": true,
+              "options": [
+                {
+                  "value": "",
+                  "text": "Válassz programot"
+                },
+                {
+                  "value": "kostolo",
+                  "text": "Korongozó kóstoló"
+                },
+                {
+                  "value": "kezdo-kurzus",
+                  "text": "Négyhetes kezdő kurzus"
+                },
+                {
+                  "value": "csapatepito",
+                  "text": "Céges csapatépítő"
+                },
+                {
+                  "value": "egyeb",
+                  "text": "Ajándékozás vagy egyéb érdeklődés"
+                }
+              ]
+            },
+            {
+              "name": "message",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "adatkezeles.html",
+      "title": "Adatkezelési tájékoztató | Agyagpad",
+      "description": "Az Agyagpad érdeklődési űrlapjának adatkezeléséről és az üzemeltetői adatok előkészítéséről szóló tájékoztatás.",
+      "headings": [
+        {
+          "level": "H1",
+          "id": "",
+          "text": "Adatkezelési tájékoztató"
+        },
+        {
+          "level": "H2",
+          "id": "",
+          "text": "Az üzenetküldés jelenlegi állapota"
+        },
+        {
+          "level": "H2",
+          "id": "",
+          "text": "Beágyazott térkép"
+        },
+        {
+          "level": "H2",
+          "id": "",
+          "text": "Az élesítés előtt rögzítendő adatok"
+        }
+      ],
+      "navigation": [
+        {
+          "text": "",
+          "href": "koncepcio-1-udvari-muhely.html#kezdo"
+        },
+        {
+          "text": "Kezdőlap",
+          "href": "koncepcio-1-udvari-muhely.html#kezdo"
+        },
+        {
+          "text": "Tanfolyamok",
+          "href": "tanfolyamok.html"
+        },
+        {
+          "text": "Műhely",
+          "href": "muhely.html"
+        },
+        {
+          "text": "Kapcsolat",
+          "href": "kapcsolat.html"
+        },
+        {
+          "text": "Érdeklődöm",
+          "href": "kapcsolat.html#erdeklodes"
+        }
+      ],
+      "footer": [
+        {
+          "text": "Kezdőlap",
+          "href": "koncepcio-1-udvari-muhely.html#kezdo"
+        },
+        {
+          "text": "Tanfolyamok",
+          "href": "tanfolyamok.html"
+        },
+        {
+          "text": "Műhely",
+          "href": "muhely.html"
+        },
+        {
+          "text": "Kapcsolat",
+          "href": "kapcsolat.html"
+        }
+      ],
+      "sections": [],
+      "forms": []
+    }
+  ]
 }

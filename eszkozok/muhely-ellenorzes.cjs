@@ -18,7 +18,7 @@ const captions=['Türkiz és földszínű tálak, tányérok','Karakteres bögre
    assert(await page.locator('h1').count()===1,'Egyetlen H1');
    assert(await page.locator('main>section').count()===6,'Hat szakasz');
    assert(await page.locator('.site-nav [aria-current="page"]').textContent()==='Műhely','Aktív Műhely menü');
-   assert(await page.locator('.header-cta').getAttribute('href')==='koncepcio-1-udvari-muhely.html#kapcsolat','Fejléc érdeklődés célja');
+   assert(await page.locator('.header-cta').getAttribute('href')==='kapcsolat.html#erdeklodes','Fejléc érdeklődés célja');
    assert(await page.locator('main a.button[href="tanfolyamok.html"]').count()===2,'Két tanfolyamos CTA');
    assert(await page.locator('main form').count()===0,'Nem másoltunk ide űrlapot');
    assert(JSON.stringify(await page.locator('.studio-stats dd').allTextContents())===JSON.stringify(['15+ év','1500+','7000+']),'Számadatok csak egyszer');

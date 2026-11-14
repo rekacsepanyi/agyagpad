@@ -33,7 +33,7 @@ const assert=(ok,message)=>{if(!ok)throw Error(message)};
    await page.locator('.program-nav a').first().focus();assert(await page.locator('.program-nav a').first().evaluate(e=>e.matches(':focus-visible')&&parseFloat(getComputedStyle(e).outlineWidth)>=3),'Látható billentyűzetes fókusz');await page.keyboard.press('Enter');assert(new URL(page.url()).hash==='#korongozo-kostolo','Billentyűzetes kártyanavigáció');
    const formGap=await page.locator('.send').evaluate(e=>e.getBoundingClientRect().top-e.previousElementSibling.getBoundingClientRect().bottom);
    assert(formGap>=20&&formGap<=48,'Adatkezelési szöveg és gomb térköze');
-   assert(await page.locator('.header-cta').getAttribute('href')==='#kapcsolat','Helyi fejléc CTA');
+   assert(await page.locator('.header-cta').getAttribute('href')==='kapcsolat.html#erdeklodes','Helyi fejléc CTA');
    assert(await page.locator('.hero .actions a').getAttribute('href')==='#programvalaszto','Hero cél');
    assert(await page.locator('.hero-photo').evaluate(e=>getComputedStyle(e).filter==='none'&&getComputedStyle(e).objectPosition==='50% 0%'),'Kivágás vagy sötétítés');
    assert(!(await page.locator('.hero').textContent()).includes('Dóra'),'Résztvevő Dóraként bemutatva');

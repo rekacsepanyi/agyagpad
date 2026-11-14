@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-14",
+  "passed": true,
+  "results": [
+    "HTTP 500: nincs siker, megmaradó adatok",
+    "Valódi POST-kérés, form-name, összes mező és honeypot",
+    "Hálózati hiba: megmaradó adatok, újrapróbálható küldés",
+    "Folyamatban nincs sikerüzenet, nincs dupla POST",
+    "Csak pozitív fogadói HTTP-válasz után siker, mezők ürítése"
+  ],
+  "realDeliveryVerified": false,
+  "note": "A fogadó válaszait a helyi böngészős teszt szimulálta. Ez nem valódi Netlify- vagy e-mail-kézbesítési próba."
+}

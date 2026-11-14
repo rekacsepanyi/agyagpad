@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-14",
+  "passed": true,
+  "protectedSourcesUnchanged": true,
+  "formHtmlUnchanged": true,
+  "realDeliveryVerified": false,
+  "results": [
+    {
+      "width": 320,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "width": 600,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "width": 768,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "width": 900,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "width": 1200,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "textZoom": 2,
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "textZoom": 2,
+      "passed": true
+    }
+  ]
+}

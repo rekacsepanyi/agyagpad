@@ -1,40 +1,44 @@
 # Agyagpad – aktuális oldaltérkép
 
-Frissítve: 2026. november 14. Revízió: 2026-11-14-content-and-form.
+Frissítve: 2026. november 14. Revízió: 2026-11-14-responsive-final-review.
 
-## Aktív oldalak és fejléc
+## Közös navigáció
 
-A főoldal koncepcio-1-udvari-muhely.html; aloldalak: tanfolyamok.html, muhely.html és adatkezeles.html. Az index.html még a régi koncepcióválasztó.
+Öt aktív oldal: `koncepcio-1-udvari-muhely.html`, `tanfolyamok.html`, `muhely.html`, `kapcsolat.html`, `adatkezeles.html`. Az `index.html` még a régi koncepcióválasztó; publikáláskor a végleges főoldal legyen a belépési oldal.
 
-Közös fejléc: logó, Kezdőlap, Tanfolyamok, Műhely, Kapcsolat és kiemelt Érdeklődöm gomb. A CTA a Tanfolyamok oldalon a helyi #kapcsolat űrlaphoz, a többi aloldalról a főoldali #kapcsolat szakaszhoz vezet. Mobilon a lenyíló menüben marad. A lábléc Műhely linkje az új műhelyoldalra vezet.
+A közös fejlécben logó, Kezdőlap, Tanfolyamok, Műhely, Kapcsolat és Érdeklődöm gomb szerepel. Az utóbbi minden oldalon `kapcsolat.html#erdeklodes` célra vezet, mobilmenüben is. A helyi programgombok célja ettől függetlenül megmarad.
 
-## A főoldal négy szekciója
+## Főoldal
 
-1. **#kezdo:** Alkoss agyagból, bontakozz ki Szentendrén. Hosszabb, kezdőbarát bevezető; tanfolyamokhoz és műhelybemutatáshoz vezető gombok; agyagot formáló kezek fotója és a már meglévő idézetkártya.
-2. **#tanfolyamok:** három ár nélküli programkártya, élményalapú sorral és terrakotta vonalas ikonnal. Asztalon a sorok és részletlinkek igazodnak. A részletlinkek a tanfolyamok.html horgonyaira vezetnek. Közvetlenül alattuk türkiz tudnivalóblokk, hat közös állítással, asztalon két, mobilon egy oszlopban.
-3. **#muhely:** új Dóra-bemutatkozás (2009, népi iparművész) és a három felhasználói számadat: 15+ év szakmai tapasztalat, 1500+ tanítvány, 7000+ alkotás. Idővonal nincs. Utána műhelybolt: szöveg balra, bögrés kép jobbra; a cím és nyitvatartás kisebb információs egység, majd terrakotta CTA → muhely.html#keramiak. Mobilon szöveg után fotó.
-4. **#kapcsolat:** új bevezető, foglalás nélküli érdeklődés tájékoztatása, név/e-mail/program/üzenet mezők, adatkezelési link és Érdeklődés elküldése gomb. A mellette lévő kártya címe Találkozzunk a műhelyben! A küldési kód valódi Netlify POST-ra kész, de a felhasználó kérésére a fogadó még inaktív. A részletes beállítás a urlap-beallitas.md dokumentumban található.
+1. `#kezdo`: terrakotta H1, kezdőbarát bevezető, két CTA, korongozós fotó és idézetkártya.
+2. `#tanfolyamok`: három ár nélküli, élményalapú programkártya. Részletlinkek a Tanfolyamok megfelelő programjához. Közvetlenül alattuk türkiz tudnivalóblokk hat állítással; asztalon két, mobilon egy oszlop.
+3. `#muhely`: Dóra bemutatkozása, portréja és három számadata. A bemutatkozás után szellősebb műhelybolt: balra szöveg, jobbra kerámiafotó. A Felfedezem a kerámiákat gomb a `muhely.html#keramiak` célra vezet.
+4. `#kapcsolat`: meglévő érdeklődési űrlap és Találkozzunk a műhelyben! információs kártya.
 
-A meglévő váltakozó szakaszsarkok és visszafogott türkiz képmotívumok megmaradnak. A főoldalon nem szerepel prototípusra vagy üzenetküldés-hiányra utaló állandó űrlapmegjegyzés; hiba esetén viszont őszinte hibajelzés jelenik meg.
+## Tanfolyamok
 
-## Tanfolyamok aloldal
+Morzsamenü → képes hero → kompakt, kerámiaikonos programválasztó → három cikkcakkos programbemutató → közös türkiz tudnivalók → háromlépéses folyamat → helyi űrlap → közös lábléc.
 
-A pontos alkalomszámok, heti időbeosztások és árak maradnak. A négyhetes kezdő kurzus 4 alkalom, 4 × 2,5 óra. A hat közös tudnivaló szó szerint azonos a főoldalival, beleértve a körülbelül két hét múlva történő átvételt. A részletező oldal érdeklődési gombjai a helyi #kapcsolat űrlaphoz vezetnek, automatikus programválasztással. A céges program résztvevőszámát külön egyeztetik. A hero résztvevőt ábrázol, nem Dórát. Sorrend: morzsamenü, képes hero, kompakt programválasztó, három részletes programblokk, közös tudnivalók, háromlépéses folyamat, saját űrlap és közös lábléc. Részletek: tanfolyamok-terv.md.
+Pontos adatok és árak itt szerepelnek, a kurzus 4 alkalom × 2,5 óra. A céges létszámot és időtartamot külön egyeztetik. A programgombok a helyi `#kapcsolat` űrlaphoz vezetnek, automatikus programválasztással. A hero résztvevőt mutat, nem Dórát. Részletes terv: `tanfolyamok-terv.md`.
 
-## Műhelyoldal – #keramiak
+## Műhely
 
-Hat szakasz: személyes hero a hero1 fotóval; Dóra története és egyszer szereplő számhármasa; műhelybemutató két fotóval; türkiz személyes figyelemblokk; Alkotások; rövid bézs lezáró CTA. A #keramiak horgony a hat kész tárgyfotós galériára vezet. Asztalon három, tableten kettő, mobilon egy oszlop; mindegyik fotó teljes méretben nagyítható, Escape- és fókuszkezeléssel. Az oldalon nincs külön űrlap, galéria-aloldal vagy új menüpont. A két tanfolyamos CTA a tanfolyamok.html-re, a fejléc Érdeklődöm gombja a főoldali űrlapra vezet. Mind a tíz kért fotó megtalálható; optimalizált WebP-ként használjuk. Részletes terv: muhely-terv.md. A főoldal és a Tanfolyamok forrásai változatlanok.
+Személyes hero → Dóra története hangulatképpel és egyszer szereplő számhármassal → műhelybemutató két összetartozó fotóval → türkiz személyes figyelemblokk → hatképes készkerámia-galéria (`#keramiak`) → rövid bézs lezárás → közös lábléc.
 
-## Lábléc és adatkezelés
+Asztalon három-, tableten két-, mobilon egyoszlopos galéria. A képek teljes fotóként nagyíthatók, billentyűzettel és megfelelő fókuszkezeléssel. Nincs külön galériaoldal vagy űrlap. Részletes terv: `muhely-terv.md`.
 
-Közös márkaszöveg, cím és nyitvatartás, előzetes egyeztetésre utaló sor, négy navigációs link. Nincs külön Írj az űrlapon link. Alsó sor: © 2026 Agyagpad · Fiktív vállalkozást bemutató webdesign-vizsgamunka. Mellette az adatkezelési link marad.
+## Kapcsolat
 
-Az adatkezelési oldal a még inaktív fogadót és a tényleges üzemeltetői adatok hiányát jelzi. Nem állítja, hogy az előkészített kód éles üzenettovábbítása már működik.
+Morzsamenü → rövid, képes bevezető → bézs elérhetőségek és űrlap → törtfehér gyakori kérdések → közös lábléc.
 
-## Beadási képek
+Az elérhetőségek alatt Szentendre-térkép látható, a kitalált bemutatócímre helyjelölés nélkül. Nincs új e-mail vagy telefonszám. Az eredeti űrlapmezők és működés megmaradtak; az űrlapot és címét tartalmazó szakasz `id="erdeklodes"` azonosítót és 7 rem görgetési ráhagyást kapott. A korábbi `#kapcsolat` horgony is megmarad. A négy gyakori kérdés natív `details`/`summary` elemekből áll. Részletes terv: `kapcsolat-terv.md`.
 
-Az eredeti drótvázak történeti folyamatképek maradnak. A beadas/tervezesi-folyamat/03-aktualis-oldalterkep.png az aktuális szerkezetet mutatja; a beadas/jelenlegi-oldal mappában mobil- és asztali felvételek vannak. A Tanfolyamok újratervezését a tanfolyamok-asztali.png és tanfolyamok-mobil.png dokumentálja; a korábbi összesített oldaltérképkép a korábbi szerkezet folyamatképe. A vizsgakiírás legalább három oldalt vagy szekciót kér; a négy főoldali szekció ezt teljesíti. A valódi űrlapot a felhasználó külön projektkövetelménnyé tette; az éles próbája még hátravan.
+## Lábléc, adatkezelés és küldés
 
-Bemutatkozó elrendezés finomítása: a két bekezdés alatt 24 px-re a három számadat zárja a szövegoszlopot; külön CTA nincs. A műhelyboltig asztalon 80 px, mobilon 48 px térköz van. A portré eredeti arányú és a tartalomhoz méretezett. A körív csak a portrénál marad, a kerámiás képnél eltolt keret szerepel. A műhelybolt kerámiagombja továbbra is nyíl nélkül a muhely.html#keramiak célra mutat.
+Közös márkaszöveg, bemutatócím, nyitvatartás, előzetes egyeztetés, négy navigációs link és adatkezelési link. Alsó sor: © 2026 Agyagpad · Fiktív vállalkozást bemutató webdesign-vizsgamunka.
 
-A közös fejléc Műhely menüpontja minden aktív oldalon a muhely.html aloldalra vezet. A főoldali #muhely rövid bemutatkozó szakasz és a hozzá tartozó belső hivatkozások megmaradnak.
+Az Adatkezelés oldal az űrlapot, a külső térképet és a pótlandó valós üzemeltetői adatokat ismerteti. A Netlify-kód előkészített, de a fogadó felhasználói döntés alapján inaktív. Éles kézbesítést még nem igazoltunk. Beállítás: `urlap-beallitas.md`.
+
+## Tervezési bizonyíték és ellenőrzés
+
+Az eredeti oldaltérkép és drótváz a kezdeti tervezést dokumentálja. A `beadas/tervezesi-folyamat/03-aktualis-oldalterkep.png` már a fenti ötoldalas állapotot mutatja. Az aktuális nézetképek a `beadas/jelenlegi-oldal/` mappában találhatók. Az 53 sikeres nézetpróba és az űrlapszimulációk összefoglalója: `ellenorzes/eredmenyek.md`.

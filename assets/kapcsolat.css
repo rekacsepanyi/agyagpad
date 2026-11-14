@@ -1,0 +1,43 @@
+/* Csak a Kapcsolat oldal külső elrendezése; a meglévő űrlap stílusai közösek. */
+.contact-page .breadcrumb{margin-top:1.5rem;margin-bottom:0}
+.contact-page .contact-introduction{display:grid;grid-template-columns:minmax(0,1fr);align-items:center;gap:2rem;padding-block:2rem 3rem}
+.contact-page .contact-introduction>*{min-width:0}
+.contact-page .contact-introduction h1{max-width:100%;font-size:clamp(2.5rem,3.5vw,3rem)}
+.contact-page .contact-introduction h1 span{display:block}
+.contact-page .contact-introduction-copy>p:last-child{margin-top:1.25rem;max-width:65ch}
+.contact-page .contact-introduction-photo{width:min(100%,36rem);justify-self:center}
+.contact-page .contact-introduction-photo img{aspect-ratio:3/2;object-fit:cover;object-position:50% 50%}
+.contact-page .contact-page-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:3rem;align-items:start}
+.contact-page .contact-page-grid>*{min-width:0}
+.contact-page #erdeklodes{scroll-margin-top:7rem}
+.contact-page .contact-details h2{margin-bottom:1.5rem}
+.contact-page .contact-details address{font-style:normal}
+.contact-page .contact-details address p+p{margin-top:.25rem}
+.contact-page .opening-details{margin-top:2rem}
+.contact-page .opening-details h3{font:600 1.125rem/1.5 var(--heading);margin-bottom:.75rem}
+.contact-page .contact-details p{font-size:1rem;line-height:1.75}
+.contact-page .contact-map{margin-top:2rem}
+.contact-page .contact-map iframe{display:block;width:100%;height:auto;aspect-ratio:23/16;border:1px solid var(--sand);border-radius:1rem;background:var(--paper)}
+.contact-page .contact-map figcaption{margin-top:.75rem;font-size:var(--small);line-height:1.65}
+.contact-page .contact-map>a{display:inline-flex;align-items:center;min-height:3rem;font-size:var(--small)}
+.contact-page .contact-faq{padding-block:var(--section);background:var(--paper)}
+.contact-page .faq-layout{display:grid;grid-template-columns:minmax(0,1fr);gap:2rem;align-items:start}
+.contact-page .faq-layout>*{min-width:0}
+.contact-page .faq-layout h2{max-width:20ch}
+.contact-page .faq-list details{border-bottom:1px solid var(--sand)}
+.contact-page .faq-list summary{display:flex;align-items:center;justify-content:space-between;gap:1.25rem;padding-block:1.25rem;cursor:pointer;list-style:none;font-size:1.0625rem;font-weight:600;line-height:1.65}
+.contact-page .faq-list summary::-webkit-details-marker{display:none}
+.contact-page .faq-list summary>span:first-child{min-width:0;overflow-wrap:anywhere}
+.contact-page .faq-list summary:hover{text-decoration:underline;text-underline-offset:.25em}
+.contact-page .faq-list p{padding-bottom:1.5rem;font-size:1rem;line-height:1.75}
+.contact-page .faq-mark{position:relative;flex:none;width:1rem;height:1rem;color:var(--clay)}
+.contact-page .faq-mark::before,.contact-page .faq-mark::after{content:'';position:absolute;top:50%;left:0;width:1rem;height:1.5px;background:currentColor}
+.contact-page .faq-mark::after{transform:rotate(90deg)}
+.contact-page details[open] .faq-mark::after{display:none}
+@media(min-width:56.25rem){.contact-page .contact-page-grid{grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:3rem}}
+@media(min-width:56.25rem){.contact-page .faq-layout{grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:3rem}}
+@media(min-width:64rem){.contact-page .contact-area{padding-block:4rem}}
+@media(min-width:68.75rem){
+ .contact-page .contact-introduction{grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:3rem}
+ .contact-page .contact-introduction-photo{justify-self:end}
+}

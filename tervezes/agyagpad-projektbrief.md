@@ -1,6 +1,6 @@
 # Projektbrief: Agyagpad kerámiaműhely
 
-Frissítve: 2026. november 14. Aktuális tartalmi forrás: szovegek.md 3.6; arculat: design-system.md 4.13.
+Frissítve: 2026. november 14. Aktuális tartalmi forrás: szovegek.md 3.8; arculat: design-system.md 4.15.
 
 ## Ügyfél és keret
 
@@ -29,13 +29,13 @@ A felhasználó november 14-én felülírta a korábbi 2018–2024-es idővonala
 ## Oldalszerkezet és CTA-k
 
 - Főoldal: koncepcio-1-udvari-muhely.html, négy szekcióval: kezdo, tanfolyamok, muhely, kapcsolat.
-- Fejléc CTA: Érdeklődöm → a Tanfolyamok oldalon helyi #kapcsolat, más aloldalakon a főoldali #kapcsolat.
+- Fejléc CTA: Érdeklődöm → kapcsolat.html#erdeklodes minden aktív oldalon.
 - Hero H1: Alkoss agyagból, bontakozz ki Szentendrén.
 - Hero CTA-k: Megnézem a tanfolyamokat és Megismerem a műhelyt.
 - Programkártyák: részletes tanfolyamoldali horgonyokra mutatnak.
 - Dóra bemutatkozása után három számadat szerepel, idővonal nincs.
 - Műhelybolt CTA: Felfedezem a kerámiákat → muhely.html#keramiak.
-- Létező aloldalak: tanfolyamok.html, muhely.html, adatkezeles.html.
+- Létező aloldalak: tanfolyamok.html, muhely.html, kapcsolat.html, adatkezeles.html.
 - Az index.html még koncepcióválasztó; élesítés előtt a kiválasztott oldal legyen a belépési pont.
 
 ## Kerámiák és képek
@@ -65,3 +65,5 @@ Közös lábléc: rövid márkaszöveg, cím és nyitvatartás, négy navigáci�
 Statikus HTML/CSS, reszponzív megjelenés, legalább három oldal vagy szekció, CTA, saját tartalom és egységes arculat. A tervezési képek, az aktuális felvételek és a rövid AI-leírás a beadas mappában vannak. Élő URL és publikálás még hiányzik; a valódi űrlapfogadást ezután ellenőrizni kell. Beadási határidő: 2026. november 24.; kérhető haladékkal december 1.
 
 A Tanfolyamok aloldal új szerkezete: résztvevői hero (hero3.jpg), kompakt programválasztó, három képes részletes programblokk, közös tudnivalók, háromlépéses folyamat, helyi űrlap és közös lábléc. A hero szereplője nem Fehér Dóra. Programgombok: helyi űrlap és automatikus programválasztás. Részletes terv: tervezes/tanfolyamok-terv.md.
+
+Kapcsolat aloldal: rövid bevezető, elérhetőségek, változatlan közös űrlap és négy natív lenyitható kérdés. A fejléc Érdeklődöm gombja ezen az oldalon helyi célra mutat. A korábbi oldalak navigációja ebben a körben nem változott. Részletek: kapcsolat-terv.md és kapcsolat-szovegek.md.

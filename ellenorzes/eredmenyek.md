@@ -1,58 +1,40 @@
-# Agyagpad – november 14-i ellenőrzés
+# Agyagpad – végső reszponzív ellenőrzés
 
-Frissítve: 2026. november 14. Revízió: 2026-11-14-content-and-form. Kiinduló mentés: 7064af8.
+Frissítve: 2026. november 14. Revízió: 2026-11-14-responsive-final-review.
 
-## Reszponzív oldalak
+Az öt aktuális oldal: főoldal, Tanfolyamok, Műhely, Kapcsolat és Adatkezelés. A mostani ellenőrzés nem indokolt újabb dizájnmódosítást.
 
-A fooldal-ellenorzes.cjs az aktuális fooldal-ellenorzes-20261114.cjs tesztet indítja. Mind a 22 nézet sikeres: a főoldal 320, 390, 768, 1024 és 1440 px-en, plusz 390 és 1440 px 200%-os szöveggel; a tanfolyamok, műhely és adatkezelés oldalak ugyanezen öt normál szélességen.
+## Nézetek és arányok
 
-Ellenőrzött: betöltött WebP-k és helyi betűk, hiányzó erőforrás/JavaScript-hiba és vízszintes túlcsordulás nélkül. A Jelentkezem fejlécgomb, mobilmenü/Escape, billentyűzetes ugrólink, az új közös lábléc négy navigációs linkje és a fiktív vizsgamunka-jelzés mind a négy oldalon szerepel. A helyi fájl- és horgonycélok léteznek.
+Összesen 53 sikeres oldal/nézet-próba készült Chrome és Playwright segítségével:
 
-## Főoldali módosítások
+- Általános oldalellenőrzés: 22 nézet, 320–1440 px között; a főoldalon 200%-os szövegnagyítással is.
+- Tanfolyamok részletes ellenőrzése: 11 nézet, köztes szélességekkel és 200%-os szövegnagyítással.
+- Műhely részletes ellenőrzése: 10 nézet, köztes szélességekkel és 200%-os szövegnagyítással.
+- Kapcsolat részletes ellenőrzése: 10 nézet, köztes szélességekkel és 200%-os szövegnagyítással.
 
-- Új H1 és hero-bevezető.
-- A három élménysor az előírt szöveggel, grafit 600-as betűvel és terrakotta, kitöltés nélküli vonalas ikon mellett.
-- Asztalon és nagyított asztali szövegnél is egyező élménysor- és linkmagasság, CSS subgrid segítségével. Mobilon nincs szöveglevágás.
-- A türkiz tudnivalóblokk közvetlenül a kártyák alatt, azok szélességéhez igazítva maradt; asztalon két, mobilon egy oszlop.
-- A hat tudnivaló szövege szó szerint azonos a főoldalon és a tanfolyamok aloldalán. Körülbelül két hét átvételi idő szerepel.
-- A 2009-es történet és népi iparművész megjelölés a felhasználó új fiktív karakteradata; a három számadat 15+ év, 1500+, 7000+. A régi idővonal eltűnt.
-- A műhelybolt terrakotta gombja létező muhely.html#keramiak szakaszra vezet. Négy meglévő kép mutat kész bögrét, készülő vázát, munkafolyamatot és eszközöket.
-- A főoldali kapcsolati szakaszból a korábbi állandó demó- és prototípusszövegek kikerültek.
+Nincs vízszintes túlcsordulás, levágott szöveg, hiányzó helyi kép vagy JavaScript-hiba. A helyi betűk és optimalizált WebP-k betöltődnek. A mobilmenü, ugrólink, fókuszjelölések és a hivatkozási célok ellenőrzöttek. A szövegek keskeny képernyőn természetesen több sorba törhetnek.
 
-A tanfolyamok aloldalon a pontos adatok megmaradtak: a négyhetes kurzus 4 alkalom, 4 × 2,5 óra; az eredeti heti beosztás és ár nem változott.
+A Tanfolyamok oldalon megmaradt a cikkcakkos elrendezés, az egységes fotókeret, a 22 px-es díjazás és az asztali gombok fotó aljához igazítása. Mobilon kép–szöveg sorrend és balra igazított gombok szerepelnek. A programgombok a helyi űrlaphoz vezetnek, megfelelő programkiválasztással.
 
-## Űrlap – technikai próba és az éles működés határa
+A Műhely oldalon a képpár asztalon visszafogottan átfed, mobilon egymás alá kerül. A hatképes galéria egységes kereteket használ; a mintázott tál kivágása kitölti a keretet, nagyításkor a teljes fotó látható. Mind a hat kép nagyítója, bezárása, Escape- és fókuszkezelése ellenőrzött.
 
-Az assets/erdeklodes.js Netlify Forms-ra készít URL-kódolt POST-ot a statikus form-name, név, e-mail, program, üzenet és honeypot mezőkkel. Az éles konfiguráció szándékosan enabled: false, mert a felhasználó még nem hozott létre Netlify-oldalt, és a fogadó későbbi beállítását kérte.
+A Kapcsolat oldalon a 40–60%-os kapcsolati oszloppár mobilon egymás alá kerül. Az eredeti űrlap HTML-je változatlan. A térkép Szentendrét mutatja, nem tesz jelölőt a kitalált címre. A négy natív gyakori kérdés billentyűzettel is kezelhető.
 
-A helyi főoldali ellenőrzés igazolja a három kötelező mező hibáját, az e-mail-formátum magyar hibáját, az adatok megtartását és a konfiguráció nélküli POST elmaradását. A helyi előnézeti szerver GET/HEAD kérést szolgál ki, POST-ra 405-öt ad, nem állít sikeres átvételt.
+## Közös fejléc és hivatkozások
 
-A külön urlap-ellenorzes.cjs öt sikeres, teljesen helyi szimulációja:
+Az Érdeklődöm fejlécgomb mind az öt oldalon `kapcsolat.html#erdeklodes` célra vezet, asztali és mobilmenüben egyaránt. Az azonosító az űrlap címét is tartalmazó szakaszon található. A 7 rem görgetési ráhagyás rögzített fejléccel is helyet hagy a címnek; ezt a külön fejlécellenőrzés is vizsgálta. A többi programgomb célja megmaradt.
 
-1. HTTP 500 után nincs siker, az üzenet megmarad.
-2. A tényleges POST törzsében minden szükséges mező és a honeypot is szerepel.
-3. Hálózati hibánál az adatok megmaradnak, a küldés újrapróbálható.
-4. Függő válasznál nincs idő előtti sikerüzenet vagy dupla POST, a gomb tiltott.
-5. Csak a pozitív fogadói HTTP-válasz után jelenik meg siker és ürülnek a mezők.
+## Űrlappróbák és korlátjuk
 
-Az eredmény az urlap-ellenorzes.json fájlban van. A fogadót a böngészőteszt szimulálta; sem valódi Netlify-átvétel, sem postaládába érkezés nincs igazolva. A szükséges éles beállítások pontos listája: ../tervezes/urlap-beallitas.md.
+A főoldal, a Tanfolyamok és a Kapcsolat űrlapján külön-külön öt szimulált küldési ellenőrzés sikeres: HTTP-hiba, elküldött mezők, hálózati hiba, folyamatban lévő küldés és pozitív válasz utáni sikerjelzés. Hibakor a bevitt adatok megmaradnak; a kötelező mezők és az e-mail magyar mezőhibákkal ellenőrzöttek. A küldés közben nincs dupla beküldés.
 
-## Képek, arculat és dokumentáció
+**Éles e-mail-kézbesítés nincs igazolva.** A felhasználó döntése alapján a Netlify-oldal és a fogadó beállítása későbbi lépés. Az inaktív konfiguráció nem mutat hamis sikerüzenetet. A szimuláció nem helyettesíti az éles próbaüzenetet.
 
-A meglévő hat UI-színt, Merriweather–Inter tipográfiát és a korábbi szakaszsarkokat, képmotívumokat megtartottuk. Új szín nincs. A fo-kontrasztok.json meglévő párosításai továbbra is érvényesek: türkiz/törtfehér 8,91:1; grafit/törtfehér 13,45:1; törtfehér/terrakotta gomb 4,75:1.
+## Frissített mentések és hátralévő lépések
 
-A friss képernyőképek a kepernyokepek mappában, kiválasztott másolataik a ../beadas/jelenlegi-oldal mappában vannak. A tervezési eredetiek történeti folyamatképek, az aktuális oldaltérkép az új számadatokat, műhelygalériát és előkészített űrlapot követi. A régebbi szöveges/JSON-jelentések és kísérleti felvételek történeti anyagok, nem írják felül ezt a jelentést.
+A jelenlegi szövegek, oldaltérkép, tartalomexport, forráslenyomatok és beadási képek frissültek. Az eredeti tervezési képek történeti bizonyítékként megmaradtak. A jelenlegi oldalakról mobil-, álló/fekvő tablet- és asztali képek találhatók a `beadas/jelenlegi-oldal/` mappában.
 
-## Hátralévő éles lépések
+Élesítés előtt még szükséges: a régi koncepcióválasztó helyett megfelelő publikálási kezdőlap, Netlify-beállítás és publikus URL, valós üzemeltetői adatkezelési adatok, címzett és éles űrlappróba. Ezeket a GitHub-mentés nem teljesíti.
 
-Netlify-projekt és élő URL; form detection; értesítési cím; valódi üzemeltetői adatkezelési tájékoztató; explicit engedélyezett tárhelynév és a küldés bekapcsolása; éles próba a szolgáltató listájában és a postaládában. A végleges képkreditek, domainhez kötött SEO és publikálás is hátravan. A működő küldés a felhasználó külön projektkövetelménye, amelyet a fogadó későbbi beállítása után lehet teljesítettnek jelölni.
-
-## Bemutatkozó számadatok és CTA – későbbi finomítás
-
-A három számadat a bemutatkozó szövegoszlopba, a két bekezdés alá került. Alatta az Ismerkedjünk meg személyesen gomb a #kapcsolat szakaszhoz navigál. A Felfedezem a kerámiákat gomb nyila kikerült. Hét célzott nézetben ellenőrizve: 320, 390, 768, 1024 és 1440 px, valamint 390 és 1440 px 200%-os szöveggel. A számadatok és a CTA sorrendje, a valódi horgonyugrás és a túlcsordulás-mentesség sikeres. A friss képernyőképek és a szövegforrás is ezt az elrendezést követik.
-
-## Szellősebb bemutatkozás és műhelybolt
-
-A későbbi kérés felülírja az előző CTA-elrendezést: a bemutatkozó gomb kikerült, a szöveg a három számadattal zárul. Szöveg–számadat távolság: 24 px; blokkok között asztalon 80 px, mobilon 48 px. A portré nyújtás és kényszerített képkivágás nélkül, eredeti közel 2:3 aránnyal, maximum 360 px szélességgel jelenik meg. Körív a műhelyszakaszon belül csak a portrénál van; mindkét kép eltolt kerete megmarad.
-
-A bemutatkozas-ellenorzes.cjs hét célzott próbája sikeres: 320, 390, 768, 1024 és 1440 px, valamint mobil és asztal 200%-os szöveggel. Mértük a térközöket, a természetes képarányt, a számadatok végső pozícióját, a dekorációk számát, a váltakozó kép–szöveg sorrendet és a túlcsordulás-mentességet. A kerámiagomb célja változatlan. Az eredmény a bemutatkozas-ellenorzes.json fájlban van.
+Gépi eredmények: `fo-ellenorzes.json`, `tanfolyamok-ellenorzes.json`, `muhely-ellenorzes.json`, `kapcsolat-ellenorzes.json`, `fejlec-erdeklodes-ellenorzes.json`, valamint a három `*urlap-ellenorzes.json` fájl. A képernyőképeken a valódi külső térképet ellenőriztük; az elkülönített HTTP-szimulációban helyettesítő térkép szerepel.

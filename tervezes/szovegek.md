@@ -1,6 +1,6 @@
 # Agyagpad – aktuális weboldalszövegek
 
-Verzió: 3.6 · 2026. november 14.
+Verzió: 3.8 · 2026. november 14.
 Forrás: a főoldal és a tanfolyamok aloldal tényleges HTML-tartalma, a felhasználó november 14-i szövegei alapján. Az előző változatot ez a dokumentum váltja fel.
 
 Az Agyagpad és Fehér Dóra fiktív. A 2009-es indulás, a népi iparművész megjelölés és a három számadat a felhasználó által újonnan megadott karakteradat; nem valós személy ellenőrzött szakmai referenciája. Az idővonal kikerült.
@@ -10,10 +10,10 @@ Az Agyagpad és Fehér Dóra fiktív. A 2009-es indulás, a népi iparművész m
 - Kezdőlap: `#kezdo`
 - Tanfolyamok: `tanfolyamok.html`
 - Műhely: `muhely.html`
-- Kapcsolat: `#kapcsolat`
-- Érdeklődöm: `#kapcsolat`
+- Kapcsolat: `kapcsolat.html`
+- Érdeklődöm: `kapcsolat.html#erdeklodes`
 
-A Tanfolyamok oldalon a CTA a helyi #kapcsolat szakaszhoz vezet; a többi aloldalon a főoldali űrlaphoz. A „Érdeklődöm” mondatkezdő nagybetűs; mobilon a lenyíló menü része.
+A közös fejléc Érdeklődöm gombja minden aktív oldalon kapcsolat.html#erdeklodes célra vezet. A „Érdeklődöm” mondatkezdő nagybetűs; mobilon a lenyíló menü része.
 
 ## Nyitó szekció
 
@@ -144,7 +144,7 @@ A foglalkozásokon előzetes egyeztetéssel vehetsz részt.
 - Kezdőlap: `#kezdo`
 - Tanfolyamok: `tanfolyamok.html`
 - Műhely: `muhely.html`
-- Kapcsolat: `#kapcsolat`
+- Kapcsolat: `kapcsolat.html`
 
 Az „Írj az űrlapon” link kikerült.
 
@@ -205,3 +205,7 @@ A pontos alkalomszám és időtartam az aloldalon megmarad; a négyhetes kurzus 
 ## Műhely aloldal
 
 Az új hat szakaszos bemutatkozó oldal teljes szövege: muhely-szovegek.md. A hatképes, kész kerámiákat bemutató galéria megőrzött horgonya muhely.html#keramiak. A műhelybemutató külön munkafolyamatfotókat használ. A főoldali és tanfolyamos megjelenés ezzel az átalakítással nem változott.
+
+## Kapcsolat aloldal
+
+A kapcsolat.html rövid bevezetőt, bal oldali elérhetőségeket, a változatlan eredeti űrlapot és négy gyakori kérdést tartalmaz. Teljes szövegek: kapcsolat-szovegek.md. A közös Kapcsolat menüpont és lábléclink a kapcsolat.html aloldalra vezet; az Érdeklődöm fejlécgombok minden oldalon a kapcsolat.html#erdeklodes célra. A többi oldal megjelenése változatlan.

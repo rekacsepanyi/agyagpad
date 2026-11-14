@@ -1,47 +1,44 @@
 # Agyagpad – beadási ellenőrzőlap
 
-Frissítve: 2026. november 14. Kiinduló jóváhagyott weboldal: `7064af8`; aktuális továbbfejlesztés: új szövegek, élményalapú kártyasorok, Dóra számadatai, műhelygaléria és Netlify Forms küldési kód. Ez a csomag a fejlesztési állapotot dokumentálja; az élesítés még hátravan.
+Frissítve: 2026. november 14. Aktuális csomag: főoldal, Tanfolyamok, Műhely, Kapcsolat és Adatkezelés. A reszponzív megjelenés és a helyi működés ellenőrzött; az élesítés hátravan.
 
-## A kiírás szerint beadandó három tétel
+## Beadandó három tétel
 
 | Tétel | Állapot | Fájl vagy teendő |
 | --- | --- | --- |
-| Élő weboldal URL-je | Hiányzik | Publikálás után ide kerül a valóban megnyitható cím. A GitHub-tároló nem élő weboldal. |
-| Egy vagy több kép a tervezésről | Elkészült | `tervezesi-folyamat/01-eredeti-oldalterkep.png`, `02-eredeti-drotvaz.png`, `03-aktualis-oldalterkep.png` |
-| AI-használat, legfeljebb egy oldal | Elkészült az eddigi munkához | [AI-hasznalat.md](AI-hasznalat.md); élesítés után a publikálási lépéssel frissítendő. |
+| Élő weboldal URL-je | Hiányzik | Publikálás után a valóban megnyitható cím. A GitHub-tároló nem élő weboldal. |
+| Tervezési folyamat képe | Elkészült | `tervezesi-folyamat/01-eredeti-oldalterkep.png`, `02-eredeti-drotvaz.png`, `03-aktualis-oldalterkep.png` |
+| AI-használat, legfeljebb egy oldal | Az eddigi munkához elkészült | [AI-hasznalat.md](AI-hasznalat.md); élesítés után a publikálási lépéssel frissítendő. |
 
-A két eredeti kép korábbi tervezési állapotot bizonyít, nem az aktuális képernyő pontos másolata. A harmadik kép a megtartott változat szerkezetét foglalja össze. A `jelenlegi-oldal/` képei az aktuális továbbfejlesztés új felvételei.
+Az első két kép történeti terv, a harmadik az aktuális ötoldalas szerkezet. A `jelenlegi-oldal/` mappában a végleges oldalak friss mobil-, tablet- és asztali felvételei találhatók. A forráslenyomatokat a [verzio.json](verzio.json) rögzíti.
 
 ## Kötelező feltételek
 
-| Feltétel | Aktuális állapot |
+| Feltétel | Állapot |
 | --- | --- |
-| Statikus HTML/CSS-alap | Teljesül; kevés JavaScript kezeli a menüt és a helyi űrlappróbát. |
-| Böngészőben megnyitható | Helyben teljesül; a beadandó élő URL még hiányzik. |
-| Mobil és asztali megjelenés | Ellenőrzés: `../ellenorzes/eredmenyek.md`. |
-| Legalább három oldal vagy szekció | Teljesül: négy főoldali szekció. Három külön aloldal nem kötelező. |
-| Legalább egy CTA | Teljesül: Érdeklődöm, Megnézem a tanfolyamokat, Megismerem a műhelyt. |
-| Saját, projektre írt tartalom | Teljesül; nincs lorem ipsum. Az Agyagpad és a szereplő kitalált. |
-| Egységes arculat | Rögzítve: `../tervezes/design-system.md`. |
-| Tervezési kép | A fenti PNG-k rendelkezésre állnak. |
-| AI-használat leírása | Rövid leírás rendelkezésre áll; élesítés után véglegesítendő. |
+| Statikus HTML/CSS | Teljesül; JavaScript kezeli a menüt, az űrlapot és a galérianagyítót, a FAQ natív HTML. |
+| Böngészőben megnyitható | Helyben teljesül; az élő beadási URL hiányzik. |
+| Mobil és asztali megjelenés | Teljesül az elvégzett helyi próbákban; tablet is ellenőrzött. [Részletek](../ellenorzes/eredmenyek.md). |
+| Legalább három oldal vagy szekció | Teljesül: négy főoldali szekció és négy külön aloldal. |
+| Legalább egy CTA | Teljesül; a közös Érdeklődöm gomb célja `kapcsolat.html#erdeklodes`. |
+| Saját tartalom | Teljesül; a felhasználó által megadott és jóváhagyott projektszövegek. |
+| Egységes arculat | Teljesül a vizsgált nézetekben; rögzítve a [design systemben](../tervezes/design-system.md). |
+| Tervezési kép | Rendelkezésre áll, aktuális oldaltérképpel. |
+| AI-használat leírása | Rendelkezésre áll; az élesítés utáni mondat még kiegészítendő. |
 
-## Ajánlott extrák, nem kötelező teljesítési feltételek
+## Ajánlott extrák és külön projektkövetelmények
 
-- GitHub-verziókövetés: megvan, [rekacsepanyi/agyagpad](https://github.com/rekacsepanyi/agyagpad).
-- SEO: title, description, címsorok, alt szövegek és WebP-k vannak; a végleges domainhez tartozó beállítások hátravannak.
-- Valódi üzenetküldés: a kód előkészítve, a fogadó inaktív. A felhasználó külön projektkövetelménnyé tette, de jelezte, hogy még nincs Netlify-oldal, a fogadót később állítjuk be. Hiányzik az aktív projekt, az értesítési cím, az éles adatkezelés és a kézbesítési próba.
-- Saját domain, GA4, Search Console, hozzájáruláshoz kötött mérés és portfólió-esettanulmány: még nem készült. Ezek hiánya önmagában nem sérti a megadott kötelező feltételeket.
+- GitHub-verziókövetés: [rekacsepanyi/agyagpad](https://github.com/rekacsepanyi/agyagpad).
+- SEO-alapok: title, description, címsorok, alt szövegek és többméretű WebP-k rendelkezésre állnak; domainfüggő beállítások hátravannak.
+- A Műhely `#keramiak` galériája hat kész tárgyfotót tartalmaz, billentyűzettel kezelhető nagyítóval.
+- Az eredeti kiírásban ajánlott valódi űrlapot a felhasználó külön követelménnyé tette. A POST-kód kész és szimulált fogadóval tesztelt, de a Netlify-fogadó inaktív; éles kézbesítés nincs igazolva. [Bekapcsolási lista](../tervezes/urlap-beallitas.md).
+- Saját domain, GA4, Search Console, hozzájáruláshoz kötött mérés és portfólió-esettanulmány még nem készült.
 
-## A beadás előtt lezárandó
+## Beadás előtt
 
-1. A főoldal és az elérhető aloldalak végső átnézése, a tényleges fotóforrások és szükséges kreditek rögzítése.
-2. Az éles belépési pont beállítása. Jelenleg az `index.html` koncepcióválasztó, a főoldal `koncepcio-1-udvari-muhely.html`.
-3. Publikálás és az élő URL, a hivatkozások és a tényleges űrlapműködés ellenőrzése.
-4. Az AI-leírás utolsó bekezdésének frissítése, az élő URL és a tervezési képek beadása.
+1. A tényleges képkreditek és szükséges licencadatok rögzítése.
+2. Az éles belépési pont beállítása; az `index.html` jelenleg koncepcióválasztó.
+3. Publikálás, élő URL, fogadó és értesítési e-mail, tényleges kézbesítési próba.
+4. A valódi üzemeltető adatkezelési adatainak rögzítése és az AI-leírás véglegesítése.
 
-Határidő: 2026. november 24.; kérhető haladékkal december 1. Forrás: a felhasználó által megadott vizsgakiírás.
-
-Tartalmi feladat: a saját briefben és a szövegben ígért kerámiaválaszték bemutatása jelenleg egy bögrés termékfotóra támaszkodik. Az új muhely.html#keramiak galéria kész bögréket és a tárgyak készülését is bemutatja. További kész tál-/tányér-/vázafotóval később bővíthető. Ez nem külön, általános vizsgakiírásbeli galériakötelezettség.
-
-A működő küldést nem tekintjük késznek a sikeres helyi szimulációtól. Pontos bekapcsolási lista: ../tervezes/urlap-beallitas.md. Az éles Netlify- és postaláda-próba még nem történt meg.
+Határidő: 2026. november 24.; kérhető haladékkal december 1. A csomag nem állítja, hogy a még hátralévő élesítési feltételek már teljesültek.

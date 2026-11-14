@@ -8,7 +8,7 @@ const assert=(ok,message)=>{if(!ok)throw Error(message)};
  const gate=new Promise(resolve=>{release=resolve});
  try{
   await page.route('**/*',async route=>{
-   const req=route.request(),url=new URL(req.url());if(url.origin!==origin)throw Error('Váratlan külső kérés');
+   const req=route.request(),url=new URL(req.url());if(url.origin!==origin){if(url.origin==='https://www.openstreetmap.org'&&url.pathname==='/export/embed.html')return route.fulfill({status:200,contentType:'text/html',body:'<p>A térképet a küldési szimuláció nem tölti be.</p>'});throw Error('Váratlan külső kérés');}
    if(req.method()==='POST'){
     posts++;lastBody=new URLSearchParams(req.postData());
     if(mode==='network')return route.abort('failed');
@@ -20,7 +20,7 @@ const assert=(ok,message)=>{if(!ok)throw Error(message)};
    return route.fulfill({status:200,contentType:type,body:fs.readFileSync(file)});
   });
   const target=process.argv[2]||'koncepcio-1-udvari-muhely.html';
-  assert(['koncepcio-1-udvari-muhely.html','tanfolyamok.html'].includes(target),'Ismeretlen tesztoldal');
+  assert(['koncepcio-1-udvari-muhely.html','tanfolyamok.html','kapcsolat.html'].includes(target),'Ismeretlen tesztoldal');
   await page.goto(origin+'/'+target);
   await page.evaluate(()=>{window.AGYAGPAD_FORM_CONFIG={enabled:true,endpoint:'/',allowedHosts:[location.hostname]}});
   await page.locator('#name').fill('Teszt Elek');await page.locator('#email').fill('teszt@example.com');await page.locator('#program').selectOption('kezdo-kurzus');await page.locator('#message').fill('Helyi, szimulált beküldési próba.');
@@ -31,6 +31,6 @@ const assert=(ok,message)=>{if(!ok)throw Error(message)};
   mode='pending';const before=posts;await page.locator('.send').click();await page.waitForFunction(()=>document.querySelector('form').getAttribute('aria-busy')==='true');assert(await page.locator('.send').isDisabled(),'Folyamatban aktív gomb');assert(!(await page.locator('.form-status').textContent()).includes('megérkezett'),'Idő előtti siker');
   await page.locator('form').evaluate(e=>e.requestSubmit());await page.waitForTimeout(50);assert(posts===before+1,'Dupla küldés');results.push('Folyamatban nincs sikerüzenet, nincs dupla POST');
   release();await page.waitForFunction(()=>document.querySelector('.form-status').textContent.includes('megérkezett'));assert(await page.locator('#name').inputValue()===''&&!(await page.locator('.send').isDisabled()),'Sikerállapot vagy visszaállítás');results.push('Csak pozitív fogadói HTTP-válasz után siker, mezők ürítése');
- }finally{await browser.close();fs.writeFileSync(path.join(root,process.argv[2]==='tanfolyamok.html'?'ellenorzes/tanfolyamok-urlap-ellenorzes.json':'ellenorzes/urlap-ellenorzes.json'),JSON.stringify({date:'2026-11-14',passed:results.length===5,results,realDeliveryVerified:false,note:'A fogadó válaszait a helyi böngészős teszt szimulálta. Ez nem valódi Netlify- vagy e-mail-kézbesítési próba.'},null,2)+'\n');}
+ }finally{await browser.close();fs.writeFileSync(path.join(root,process.argv[2]==='kapcsolat.html'?'ellenorzes/kapcsolat-urlap-ellenorzes.json':process.argv[2]==='tanfolyamok.html'?'ellenorzes/tanfolyamok-urlap-ellenorzes.json':'ellenorzes/urlap-ellenorzes.json'),JSON.stringify({date:'2026-11-14',passed:results.length===5,results,realDeliveryVerified:false,note:'A fogadó válaszait a helyi böngészős teszt szimulálta. Ez nem valódi Netlify- vagy e-mail-kézbesítési próba.'},null,2)+'\n');}
  console.log(results.join('\n'));
 })().catch(e=>{console.error(e);process.exitCode=1});

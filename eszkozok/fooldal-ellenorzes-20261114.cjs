@@ -16,7 +16,7 @@ const expected=['3 óra alkotás és kikapcsolódás','4 hét, egymásra épül�
     const item={file,width,textZoom:zoom,passed:false};
     try{
      await page.goto('http://127.0.0.1:4173/'+file,{waitUntil:'networkidle'});await page.evaluate(()=>document.fonts.ready);
-     await page.evaluate(()=>Promise.all([...document.images].map(i=>{i.loading='eager';return i.decode()})));
+     await page.evaluate(()=>Promise.all([...document.images].filter(i=>i.hasAttribute('src')).map(i=>{i.loading='eager';return i.decode()})));
      if(zoom===2)await page.evaluate(()=>document.documentElement.style.fontSize='200%');
      assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'Vízszintes túlcsordulás');
      assert(await page.locator('h1').count()===1,'H1 hierarchia');
@@ -43,7 +43,7 @@ const expected=['3 óra alkotás és kikapcsolódás','4 hét, egymásra épül�
       await page.locator('form button[type="submit"]').click();assert(await page.locator('[aria-invalid="true"]').count()===3,'Kötelező mezők hibái');
       await page.locator('#name').fill('Teszt Elek');await page.locator('#email').fill('hibas');await page.locator('#program').selectOption('kostolo');await page.locator('.send').click();assert((await page.locator('#email-error').textContent()).includes('érvényes'),'Magyar e-mail hiba');
       await page.locator('#email').fill('teszt@example.com');await page.locator('.send').click();assert((await page.locator('.form-status').textContent()).includes('nem elérhető'),'Fogadó nélküli állapot');assert(posts===0,'Konfiguráció nélkül adatküldés történt');assert(await page.locator('#name').inputValue()==='Teszt Elek','Hibánál elveszett adat');
-      await page.reload({waitUntil:'networkidle'});await page.evaluate(()=>document.fonts.ready);await page.evaluate(()=>Promise.all([...document.images].map(i=>{i.loading='eager';return i.decode()})));if(zoom===2)await page.evaluate(()=>document.documentElement.style.fontSize='200%');
+      await page.reload({waitUntil:'networkidle'});await page.evaluate(()=>document.fonts.ready);await page.evaluate(()=>Promise.all([...document.images].filter(i=>i.hasAttribute('src')).map(i=>{i.loading='eager';return i.decode()})));if(zoom===2)await page.evaluate(()=>document.documentElement.style.fontSize='200%');
      }
      if(file==='tanfolyamok.html'){
       assert((await page.locator('#kezdo-kurzus .program-facts').textContent()).includes('4 alkalom × 2,5 óra'),'Hiányzó pontos kurzusidőtartam');assert((await page.locator('#kezdo-kurzus .program-facts').textContent()).includes('4 alkalom'),'Pontos alkalomszám');
@@ -51,8 +51,8 @@ const expected=['3 óra alkotás és kikapcsolódás','4 hét, egymásra épül�
      }
      await page.goto('http://127.0.0.1:4173/'+file,{waitUntil:'networkidle'});await page.keyboard.press('Tab');assert(await page.locator('.skip').evaluate(e=>e===document.activeElement),'Ugrólink fókusz');await page.keyboard.press('Enter');assert(await page.locator('main').evaluate(e=>e===document.activeElement),'Ugrólink cél');
      if((width===390||width===1440)&&zoom===1){
-      await page.evaluate(()=>document.fonts.ready);await page.evaluate(()=>Promise.all([...document.images].map(i=>{i.loading='eager';return i.decode()})));
-      const prefix=file===home?'udvari-aktualis':file.replace('.html','');await page.screenshot({path:path.join(shots,`${prefix}-${width}-teljes.png`),fullPage:true});
+      await page.evaluate(()=>document.fonts.ready);await page.evaluate(()=>Promise.all([...document.images].filter(i=>i.hasAttribute('src')).map(i=>{i.loading='eager';return i.decode()})));
+      await page.locator('main').evaluate(e=>e.blur());const prefix=file===home?'udvari-aktualis':file.replace('.html','');await page.screenshot({path:path.join(shots,`${prefix}-${width}-teljes.png`),fullPage:true});
       if(file===home){await page.screenshot({path:path.join(shots,`udvari-aktualis-${width}-nyito.png`)});for(const[selector,name]of[['.studio-stats','szamadatok'],['.story','bemutatkozas'],['#muhely','muhely'],['.shop','keramiak'],['.notes','tudnivalok'],['#tanfolyamok','programok'],['#kapcsolat','kapcsolat']])await page.locator(selector).screenshot({path:path.join(shots,`udvari-aktualis-${width}-${name}.png`)});if(width===1440)await sharp(path.join(shots,'udvari-aktualis-1440-nyito.png')).resize({width:720}).webp({quality:82}).toFile(path.join(root,'images/webp/koncepcio-1-elozetes.webp'));}
      }
      assert(errors.length===0,'Böngészőhiba: '+errors.join(';'));item.passed=true;

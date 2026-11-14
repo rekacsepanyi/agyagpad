@@ -1,0 +1,81 @@
+{
+  "passed": true,
+  "date": "2026-11-14",
+  "results": [
+    {
+      "file": "koncepcio-1-udvari-muhely.html",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "file": "muhely.html",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "file": "koncepcio-1-udvari-muhely.html",
+      "width": 768,
+      "passed": true
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 768,
+      "passed": true
+    },
+    {
+      "file": "muhely.html",
+      "width": 768,
+      "passed": true
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 768,
+      "passed": true
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 768,
+      "passed": true
+    },
+    {
+      "file": "koncepcio-1-udvari-muhely.html",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "file": "muhely.html",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 1440,
+      "passed": true
+    }
+  ]
+}

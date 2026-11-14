@@ -1,6 +1,6 @@
 # AI-használat – Agyagpad kerámiaműhely
 
-Állapot: 2026. november 12., a `16527e0` alap továbbfejlesztett változata.
+Állapot: 2026. november 14., az Agyagpad aktuális továbbfejlesztett változata.
 
 **Kiindulás és tervezés.** Az iskolai kerámiaműhely-briefből indultam ki. ChatGPT segítségével pontosítottam a célcsoportot, a programokat, az oldal célját és a tartalmi sorrendet. A kitalált vállalkozás és Fehér Dóra karakterének adatait átnéztem; vásárlói véleményeket és díjakat nem használtam. Oldaltérkép és asztali/mobil drótváz is készült.
 
@@ -10,4 +10,4 @@
 
 **Ellenőrzés és fájlkezelés.** Az AI a Sharp eszközzel többméretű WebP-képeket készített, Playwright és Chrome segítségével pedig mobil-, tablet- és asztali nézeteket, linkeket, billentyűzetes kezelést és 200%-os szövegméretet ellenőrzött. A tartalmi és vizuális döntéseket én hoztam meg. A forráskód Git-verziókövetést kapott és GitHubra került.
 
-**Hátralévő lépés.** A weboldal még nincs élesítve; a jelenlegi űrlap helyi bemutató, nem küld üzenetet. Az élesítés után ezt a leírást a ténylegesen elvégzett publikálási lépéssel frissítem. A Figma tervezőeszköz, a Sharp, Playwright, Chrome és Git ellenőrző és fejlesztői eszközök; az AI-munkatársak ChatGPT és Codex voltak.
+**Hátralévő lépés.** A weboldal még nincs élesítve; az űrlap Netlify Forms küldési kódja elkészült, de a felhasználó kérésére a fogadót később állítjuk be. A siker- és hibautakat helyi szimulációval ellenőriztük, nem éles e-maillel. Az élesítés után ezt a leírást a ténylegesen elvégzett publikálási lépéssel frissítem. A Figma tervezőeszköz, a Sharp, Playwright, Chrome és Git ellenőrző és fejlesztői eszközök; az AI-munkatársak ChatGPT és Codex voltak.

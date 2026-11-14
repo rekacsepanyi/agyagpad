@@ -1,95 +1,50 @@
 # Agyagpad – AI webdesigner vizsgamunka
 
-Az Agyagpad kitalált szentendrei kerámiaműhely bemutatóprojektje.
+Aktuális állapot: 2026. november 14. Az Agyagpad fiktív szentendrei kerámiaműhely. A kiinduló jóváhagyott változat 7064af8; a mostani revízió új szövegeket, élménysorokat, karakteradatokat és Netlify Forms küldési kódot tartalmaz.
 
-## A három elkészült weboldal-koncepció
+## Megnyitás és oldalak
 
-**Kiválasztott és továbbfejlesztett irány:** [Udvari műhely](koncepcio-1-udvari-muhely.html). Aktuális főoldal: terrakotta H1 és gombok, grafit alcímek, normál türkiz kickerek előtagvonal nélkül, ár nélküli programkártyák, egyetlen bögrés műhelyboltfotó, türkiz képmotívumok és a programkártyák alatti türkiz tudnivalóblokk, törtfehér szöveggel és ikonokkal. A fejlécben nincs Koncepciók hivatkozás. Az aloldalak további tartalmi fejlesztése a főoldal lezárása után következik.
+- [Főoldal](koncepcio-1-udvari-muhely.html): négy szekció, új hero, kártyák, tudnivalók, Dóra-bemutatkozás és számadatok, műhelybolt, érdeklődési űrlap.
+- [Tanfolyamok](tanfolyamok.html): részletes árak, alkalomszám és időtartam. A négyhetes kurzus továbbra is 4 × 2,5 órás.
+- [Műhely és kerámiák](muhely.html#keramiak): négyképes, meglévő WebP-assetekből álló galéria; kész tárgyak és munkafázisok megkülönböztetve.
+- [Adatkezelés](adatkezeles.html): a még inaktív küldés és az élesítés előtt pótlandó üzemeltetői adatok.
 
-Nyisd meg az [index.html koncepcióválasztót](index.html) a böngészőben, akár dupla kattintással. A fotók, betűk, stílusok és interakciók helyi fájlokból működnek, nem igényelnek internetkapcsolatot vagy telepítést.
+Az index.html a régi háromkoncepciós választó; élesítés előtt a kiválasztott oldal legyen a fő belépési pont. A másik két koncepció és az archivum mappa történeti anyagok.
 
-1. [Udvari műhely](koncepcio-1-udvari-muhely.html) – osztott nyitás, agyagot formáló kezek fotójával.
-2. [Agyagnapló](koncepcio-2-agyagnaplo.html) – tipográfiai nyitás, aszimmetrikus képpár, naplószerű ritmus.
-3. [Az alkotás közelről](koncepcio-3-az-alkotas-kozelrol.html) – széles anyagközeli fotók, kép és külön szövegblokk.
+## Valódi űrlap – pontos állapot
 
-A navigáció, a mobilmenü és a programválasztás kipróbálható. Az űrlap helyi bemutató: nem továbbít és nem tárol adatot. Az adatkezeles.html a jelenlegi prototípus működését ismerteti; nem helyettesíti a majdani éles adatkezelési tájékoztatót.
+A korábbi helyi siker-visszajelző helyett Netlify Forms-ra előkészített statikus űrlap és tényleges HTTP POST-kód készült. Magyar, mező melletti hibák, dupla küldés elleni védelem, időkorlát, csak pozitív fogadói válasz utáni siker, hibánál megmaradó adatok.
 
-Az [ellenőrzési összefoglaló](ellenorzes/eredmenyek.md) és a képernyőképek az `ellenorzes` mappában találhatók.
+A felhasználó megerősítette: még nincs Netlify-oldal, a fogadó később állítandó be. Az assets/form-config.js enabled értéke ezért false. Nincs valódi kézbesítés igazolva. A pontos hiánylista és bekapcsolási sorrend: [urlap-beallitas.md](tervezes/urlap-beallitas.md). A címzett e-mailt a Netlify értesítéseinél kell megadni, nem a nyilvános HTML-ben.
 
-## Aktuális munkafájlok
+## Aktuális forrásdokumentumok
 
-1. [Projektbrief](tervezes/agyagpad-projektbrief.md) – célok, szolgáltatások, követelmények.
-2. [Design system](tervezes/design-system.md) – színek, tipográfia, térközök, komponensek.
-3. [Weboldalszövegek](tervezes/szovegek.md) – a megjelenő tartalom, fejléc, lábléc, űrlapállapotok.
-4. [Aktuális szerkezeti leírás](tervezes/aktualis-oldalterkep.md) – szekciók és látogatói útvonalak.
+1. [Projektbrief](tervezes/agyagpad-projektbrief.md).
+2. [Design system 4.5](tervezes/design-system.md).
+3. [Weboldalszövegek 3.0](tervezes/szovegek.md), a tényleges oldalakból kinyerve.
+4. [Aktuális oldaltérkép](tervezes/aktualis-oldalterkep.md).
+5. [Beadási ellenőrzőlap](beadas/README.md), tervezési képek és rövid AI-leírás.
 
-A dokumentumokban szereplő `tervezes/...`, `images/...` és `archivum/...` útvonalak a projekt főmappájához képest értendők. A szomszédos fájlokra mutató rövid hivatkozásokat az adott dokumentum mappájából kell értelmezni.
+Dóra 2009-es története, népi iparművész megjelölése és a 15+ év / 1500+ tanítvány / 7000+ alkotás a felhasználó új fiktív karakteradatai. A korábbi idővonal kikerült. A rövid, fiktív vállalkozást jelző lábléc minden aktív oldalon megmarad.
 
-## Mappák
+## Ellenőrzés és képek
 
-```text
-Agyagpad 2/
-├── README.md
-├── index.html                    Három koncepció választóoldala
-├── koncepcio-1-udvari-muhely.html
-├── koncepcio-2-agyagnaplo.html
-├── koncepcio-3-az-alkotas-kozelrol.html
-├── adatkezeles.html              Helyi prototípus működési tájékoztatója
-├── tervezes/
-│   ├── agyagpad-projektbrief.md
-│   ├── design-system.md
-│   ├── szovegek.md
-│   ├── oldalterkep-es-drotvaz.md
-│   ├── drotvaz/                 Oldaltérkép, drótváz, PNG és SVG, HTML-áttekintő
-│   └── arculat/                 Saját arculati táblák és Figma-export
-├── images/
-│   ├── logo/                    Megadott logók és faviconok
-│   ├── webp/                    Optimalizált fotók, webes logó és előnézetek
-│   └── fotók/                   Eredeti stock fotók, változatlanul
-├── assets/fonts/                 Helyi WOFF2-betűk és licencek
-├── ellenorzes/                   Tesztjelentések és képernyőképek
-├── .webprojekt/                  Jóváhagyott koncepciók és munkafolyamat-állapot
-├── eszkozok/                    Drótvázkészítő segédszkript
-└── archivum/                    Korábbi javaslat és egyszeri technikai anyagok
-```
+[ellenorzes/eredmenyek.md](ellenorzes/eredmenyek.md): 22 reszponzív nézet a négy oldalon, valamint külön szimulált fogadós űrlapteszt. Az éles szolgáltatás és e-mail kézbesítését a szimuláció nem igazolja.
 
-A jelenlegi mappanév Agyagpad 2. A kért Agyagpad névre átnevezést a Windows fájlhasználati zárolás miatt nem engedte. A projektet használó alkalmazás bezárása után a mappa átnevezhető; a belső relatív hivatkozások ezt követően is működnek. A `.git` rejtett mappa a verziókövetéshez tartozik, változatlanul megmarad.
+A tartalmi képek WebP-k, többméretű srcsettel; helyi Inter és Merriweather betűk, átlátszó logó és favicon. Az eredeti nagy fotók helyben maradnak, a .gitignore kizárja őket. A forrás- és licencadatok tételes lezárása élesítés előtti feladat.
 
-## Tervezési képek a beadáshoz
+## Fejlesztői parancsok
 
-- [Oldaltérkép](tervezes/drotvaz/01-oldalterkep.png)
-- [Asztali és mobil drótváz](tervezes/drotvaz/02-drotvaz.png)
-- [Böngészős terváttekintő](tervezes/drotvaz/terv-megtekintese.html)
-- [Arculati tábla](tervezes/arculat/Arculati-tabla.png)
-- [Figma-arculati tábla](tervezes/arculat/Figma-arculati%20t%C3%A1bla.png)
+- Helyi előnézet: node eszkozok/helyi-szerver.cjs – 127.0.0.1:4173. Ez a szerver POST-ot nem fogad.
+- Aktuális ellenőrzés: node eszkozok/fooldal-ellenorzes.cjs.
+- Beküldési hibautak: node eszkozok/urlap-ellenorzes.cjs (minden válasz helyben szimulált).
+- Szövegek dokumentálása: node eszkozok/szoveg-dokumentacio.cjs.
+- Beadási képek és verzióleltár: node eszkozok/beadasi-kepek.cjs.
 
-## Technikai anyagok
+Az ellenőrzők a helyi Codex Node-runtime Sharp/Playwright csomagjait és a telepített Chrome-ot használják. A honlap megnyitásához nem kell fejlesztői csomag. A régi migrációs szkriptek és az előző elrendezést ellenőrző tesztek történeti anyagok; nem kell újrafuttatni őket.
 
-Az `eszkozok/drotvaz-generalas.cjs` Node.js-szkript a drótvázak SVG-változatát és a HTML-áttekintőt generálja a `tervezes/drotvaz` mappába. A PNG-ket nem frissíti automatikusan. A drótváz szerkezeti terv, nem a végleges arculattal megépített oldal.
+## Hátralévő lépések
 
-Az `archivum/update-design-system.cjs` egyszer lefuttatott migrációs segédlet. Történeti anyag, nem aktuális frissítőparancs; ne futtasd újra. Az archív Dóra-javaslat és Figma-ellenőrzés helyett az aktuális szöveg- és design-system fájlokból kell dolgozni.
+Aktív Netlify-projekt és élő URL; űrlapfelismerés, értesítési e-mail és éles próba; valódi üzemeltetői adatokhoz igazított adatkezelési tájékoztató; tételes képkreditek; végleges SEO és publikálás; az AI-leírás élesítési bekezdésének lezárása. A saját domain és mérés továbbra is ajánlott extra.
 
-## Állapot és hátralévő munka
-
-A tervezési dokumentumok, weboldalszövegek és a három böngészhető prototípus elkészültek. A használt fotók WebP-ként, több méretben előkészítve, a betűk és licencek helyben elérhetők. Mindhárom változat 320, 390 és 1440 px szélességen ellenőrizve.
-
-Hátravan a kiválasztott változat és az aloldalak végső átnézése, a fotóforrások tételes rögzítése, a végleges SEO és publikálás. A valódi üzenetküldés ajánlott extra; ha beállítjuk, a tényleges adatkezelési tájékoztatót és a próbaüzenetet is le kell zárni. Az AI-használat rövid leírása a beadas/AI-hasznalat.md fájlban elkészült; élesítés után a tényleges publikálási lépéssel frissítendő.
-
-Az `eszkozok/helyi-szerver.cjs` opcionális helyi előnézetet indít (`node eszkozok/helyi-szerver.cjs`), a három HTML-oldal azonban szerver nélkül is megnyitható. A fejlesztői ellenőrző és képoptimalizáló szkriptek a helyi Codex Node-runtime sharp/playwright csomagjait használják; a kész HTML-fájlok futtatásához ezek nem szükségesek. A nagy eredeti fotók megmaradnak helyben, a `.gitignore` kizárja őket a Gitből; az optimalizált WebP-k és az oldalak verziókövetettek.
-
-Beadási határidő: 2026. november 24. A kiírás szerint kérhető haladékkal december 1.
-
-
-A kiválasztott változat aktuális megjelenési forrása assets/udvari-muhely.css, dokumentációja tervezes/design-system.md 4.4 és tervezes/szovegek.md 2.4. Az aktuális hét futásos ellenőrzés: ellenorzes/fo-ellenorzes.json; kontrasztok: ellenorzes/fo-kontrasztok.json. Öt normál nézetszélesség és két 200%-os szövegméret-próba sikeres. A régebbi koncepcióellenőrzések történeti anyagok, a főoldal aktuális elrendezését a fooldal-ellenorzes.cjs ellenőrzi.
-
-Az archivum/udvari-muhely-turkiz-migracio.cjs egyszeri átalakítási segédlet, nem aktuális buildparancs. A kész HTML- és CSS-fájlokat kell tovább szerkeszteni; a migrációt nem kell újrafuttatni.
-
-
-
-## Megtartott verzió és beadási dokumentáció
-
-A honlap kiindulási alapja a jóváhagyott 16527e0, amelyet november 12-én váltakozó szakaszsarkokkal, Dóra csatolt portréjával és erősebb fotómotívumokkal finomítottunk. A későbbi összefonódó és lefelé vezetett spirálos motívumkísérleteket visszavontuk; a HTML, CSS és a webes assetek megtartott állapota az irányadó. A dokumentáció és a friss felvételek a november 12-i továbbfejlesztést követik. A fejléc CTA „Jelentkezés”, csak kezdő nagybetűvel.
-
-A beadási csomag és a kötelező/ajánlott tételek szétválasztása: [beadas/README.md](beadas/README.md). Itt található az AI-leírás, az eredeti tervezési képek másolata, az aktuális oldaltérkép és a visszaállított oldal friss képernyőképei. A csomag élő URL hiányában még nem végleges beadás.
-
-A tervezes/oldalterkep-es-drotvaz.md, a koncepciótervek és az eredeti PNG-k történeti anyagok. A régi dokumentáció pillanatképe az archivum/dokumentacio-2026-11-11-korabbi/ mappában maradt meg. A korábbi képernyőképek az ellenorzes/kepernyokepek/korabbi-valtozatok-2026-11-11/ almappába kerültek; nem a jelenlegi felület bizonyítékai. A friss képek a képernyőképmappa gyökerében és a beadas/jelenlegi-oldal/ mappában találhatók.
+Határidő: 2026. november 24.; kérhető haladékkal december 1. A valódi űrlapot a felhasználó külön projektkövetelménnyé tette, de a fogadó későbbi beállítását most kifejezetten kérte.

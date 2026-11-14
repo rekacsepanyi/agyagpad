@@ -1,47 +1,48 @@
-# Agyagpad – az aktuális változat ellenőrzése
+# Agyagpad – november 14-i ellenőrzés
 
-Frissítve: 2026. november 12. Kiinduló weboldalalap: 16527e0. Az aktuális továbbfejlesztés váltakozó szakaszsarkokat, a csatolt portrét és hangsúlyosabb képmotívumokat tartalmaz. A főoldal hét futását november 12-én újra elvégeztük; a fejléc harminc próbájának jelentése november 11-i, a fejléc ebben a körben nem változott. A régi napló másolata: ../archivum/dokumentacio-2026-11-11-korabbi/eredmenyek.md.
+Frissítve: 2026. november 14. Revízió: 2026-11-14-content-and-form. Kiinduló mentés: 7064af8.
 
-## Főoldal
+## Reszponzív oldalak
 
-A fooldal-ellenorzes.cjs mind a hét futása sikeres: 320, 390, 768, 1024 és 1440 px; továbbá 390 és 1440 px 200%-os szövegmérettel. A gépi eredmény: fo-ellenorzes.json, a kiinduló commit és az aktuális designrevízió azonosítójával.
+A fooldal-ellenorzes.cjs az aktuális fooldal-ellenorzes-20261114.cjs tesztet indítja. Mind a 22 nézet sikeres: a főoldal 320, 390, 768, 1024 és 1440 px-en, plusz 390 és 1440 px 200%-os szöveggel; a tanfolyamok, műhely és adatkezelés oldalak ugyanezen öt normál szélességen.
 
-Ellenőrizve: vízszintes túlcsordulás, betöltött képek, JavaScript és erőforráshibák, címsorszínek, normál kickerek, ár nélküli főoldali kártyák, működő részletlink-célok, változatlan idővonali évszámok és elrendezés, egyetlen műhelyboltfotó, türkiz tudnivalóblokk törtfehér elemekkel és a kártyákhoz igazodó szélességgel. A mobilmenü és Escape, a billentyűzetes ugrólink, az űrlap helyi visszajelzése és a POST-kérés nélküli működés is sikeres.
+Ellenőrzött: betöltött WebP-k és helyi betűk, hiányzó erőforrás/JavaScript-hiba és vízszintes túlcsordulás nélkül. A Jelentkezem fejlécgomb, mobilmenü/Escape, billentyűzetes ugrólink, az új közös lábléc négy navigációs linkje és a fiktív vizsgamunka-jelzés mind a négy oldalon szerepel. A helyi fájl- és horgonycélok léteznek.
 
-## Fejléc
+## Főoldali módosítások
 
-A fejlec-ellenorzes.cjs 30 sikeres próbája a főoldal és a két meglévő aloldal fejlécét vizsgálja: 320, 390, 768, 1023, 1024, 1100, 1200 és 1440 px, továbbá 390 és 1024 px 200%-os szövegmérettel. Eredmény: fejlec-ellenorzes.json.
+- Új H1 és hero-bevezető.
+- A három élménysor az előírt szöveggel, grafit 600-as betűvel és terrakotta, kitöltés nélküli vonalas ikon mellett.
+- Asztalon és nagyított asztali szövegnél is egyező élménysor- és linkmagasság, CSS subgrid segítségével. Mobilon nincs szöveglevágás.
+- A türkiz tudnivalóblokk közvetlenül a kártyák alatt, azok szélességéhez igazítva maradt; asztalon két, mobilon egy oszlop.
+- A hat tudnivaló szövege szó szerint azonos a főoldalon és a tanfolyamok aloldalán. Körülbelül két hét átvételi idő szerepel.
+- A 2009-es történet és népi iparművész megjelölés a felhasználó új fiktív karakteradata; a három számadat 15+ év, 1500+, 7000+. A régi idővonal eltűnt.
+- A műhelybolt terrakotta gombja létező muhely.html#keramiak szakaszra vezet. Négy meglévő kép mutat kész bögrét, készülő vázát, munkafolyamatot és eszközöket.
+- A főoldali kapcsolati szakaszból a korábbi állandó demó- és prototípusszövegek kikerültek.
 
-Ellenőrzött a Jelentkezés CTA, a főoldali űrlap elérése az aloldalakról is, a Tanfolyamok menüpont, a lenyíló menü, a terrakotta/törtfehér gomb, a lekerekítés, a sötétebb terrakotta hover, a Tab-fókusz és az Enter-navigáció. A fejléc elemei nem fedik egymást és nem lógnak ki. Ez fejlécellenőrzés; az aloldalak teljes tartalmi és elrendezési lezárását nem igazolja.
+A tanfolyamok aloldalon a pontos adatok megmaradtak: a négyhetes kurzus 4 alkalom, 4 × 2,5 óra; az eredeti heti beosztás és ár nem változott.
 
-## A megtartott vizuális állapot
+## Űrlap – technikai próba és az éles működés határa
 
-- A fejléc Jelentkezés gombja csak kezdő nagybetűs.
-- A hero fotó az agyagpad-hero WebP-készletből töltődik be.
-- A fotón 15 px-es dőlt türkiz idézet, törtfehér kártyán, bevezető vonal nélkül; jobb felső sarok 36 px-es lekerekítéssel, finom árnyékkal.
-- Átlátszó logó és favicon, a bögre jobb oldali kontúrja és füle türkiz.
-- Visszafogott, külön koronggyűrűk és eltolt türkiz képkeretek. Nincs összefonódó ív vagy lefelé futó spirálvég.
-- Műhelybolt: asztalon szöveg balra, fotó jobbra; mobilon szöveg után fotó.
-- A tudnivalóblokk a három programkártya alatt marad.
+Az assets/erdeklodes.js Netlify Forms-ra készít URL-kódolt POST-ot a statikus form-name, név, e-mail, program, üzenet és honeypot mezőkkel. Az éles konfiguráció szándékosan enabled: false, mert a felhasználó még nem hozott létre Netlify-oldalt, és a fogadó későbbi beállítását kérte.
 
-A november 12-én frissen generált mobil- és asztali felvételek a kepernyokepek/ mappa gyökerében és a ../beadas/jelenlegi-oldal/ mappában vannak. A megtekintett asztali hero a megtartott kártyát, külön motívumokat és normál gombfeliratot mutatja. A régi kísérleti képek a kepernyokepek/korabbi-valtozatok-2026-11-11/ almappában vannak, történeti anyagként.
+A helyi főoldali ellenőrzés igazolja a három kötelező mező hibáját, az e-mail-formátum magyar hibáját, az adatok megtartását és a konfiguráció nélküli POST elmaradását. A helyi előnézeti szerver GET/HEAD kérést szolgál ki, POST-ra 405-öt ad, nem állít sikeres átvételt.
 
-## Kontrasztok
+A külön urlap-ellenorzes.cjs öt sikeres, teljesen helyi szimulációja:
 
-A fo-kontrasztok.json a meglévő hat UI-színt és a mért színpárokat tartalmazza. Grafit/törtfehér 13,45:1; türkiz/törtfehér 8,91:1; törtfehér/türkiz ugyanennyi; törtfehér/terrakotta 4,75:1; törtfehér/sötétebb terrakotta hover 6,33:1. A fotók természetes színei nem UI-tokenek.
+1. HTTP 500 után nincs siker, az üzenet megmarad.
+2. A tényleges POST törzsében minden szükséges mező és a honeypot is szerepel.
+3. Hálózati hibánál az adatok megmaradnak, a küldés újrapróbálható.
+4. Függő válasznál nincs idő előtti sikerüzenet vagy dupla POST, a gomb tiltott.
+5. Csak a pozitív fogadói HTTP-válasz után jelenik meg siker és ürülnek a mezők.
 
-## Vizsgadokumentáció
+Az eredmény az urlap-ellenorzes.json fájlban van. A fogadót a böngészőteszt szimulálta; sem valódi Netlify-átvétel, sem postaládába érkezés nincs igazolva. A szükséges éles beállítások pontos listája: ../tervezes/urlap-beallitas.md.
 
-A kötelező és ajánlott tételek állapota: ../beadas/README.md. A tervezési képek megvannak, az AI-leírás az eddigi munkát röviden összefoglalja. Élő webcím és publikálás még nincs; a jelenlegi űrlap helyi bemutató. Saját domain, mérés, valódi üzenetküldés és esettanulmány ajánlott extrák, nem kötelező teljesítési feltételek.
+## Képek, arculat és dokumentáció
 
-Az eredeti brief, a korábbi szakaszterv és az arculati képek a folyamat előzményeit őrzik. A követendő dokumentumok: ../tervezes/agyagpad-projektbrief.md, design-system.md, szovegek.md, aktualis-oldalterkep.md. Az utóbbi három fájl is a tervezes mappában található.
+A meglévő hat UI-színt, Merriweather–Inter tipográfiát és a korábbi szakaszsarkokat, képmotívumokat megtartottuk. Új szín nincs. A fo-kontrasztok.json meglévő párosításai továbbra is érvényesek: türkiz/törtfehér 8,91:1; grafit/törtfehér 13,45:1; törtfehér/terrakotta gomb 4,75:1.
 
-## November 12-i designfinomítás és tartalmi észrevétel
+A friss képernyőképek a kepernyokepek mappában, kiválasztott másolataik a ../beadas/jelenlegi-oldal mappában vannak. A tervezési eredetiek történeti folyamatképek, az aktuális oldaltérkép az új számadatokat, műhelygalériát és előkészített űrlapot követi. A régebbi szöveges/JSON-jelentések és kísérleti felvételek történeti anyagok, nem írják felül ezt a jelentést.
 
-A Tanfolyamok és Kapcsolat szakasz bal felső, a Műhely jobb felső sarkán reszponzív, 32–80 px közötti lekerekítés van. Az új felületi hátterek a meglévő paper és sand tokenekből állnak; a tartalmat és a fókuszt nem vágják le.
+## Hátralévő éles lépések
 
-A bemutatkozó kép a felhasználó által csatolt hero.jpg (3193 × 4784 px) meglévő, 480/800/1200/1600 px-es WebP-készletét használja. A 800 px-es változat 98 298 bájt a 7 155 353 bájtos JPG helyett. A portré 3:4 képkivágást kapott; az arc, a kezek és az edény is látható. A bemutatkozó és műhelybolti fotó 2 px-es türkiz kerete mögül a jobb felső részen három finom gyűrű látszik ki, 1,75 px vonallal. Asztalon 148 × 99, mobilon 112 × 75 px a motívum.
-
-Mind a hét futás ellenőrzi a váltakozó sarkokat, a felületszíneket, az új portréforrást és a két megerősített motívum méretezését, helyét és látható vonalvastagságát. Mobilon és 200%-os szöveggel nincs vízszintes túlcsordulás. A teljes műhelyszakasz új felvételén a késleltetett képek dekódolását is megvártuk.
-
-A kerámiák többféle tárggyal való bemutatása a saját brief vállalása. Az általános vizsgakiírás nem követel külön kerámiagalériát. Jelenleg a műhelybolt kész bögréket mutat; a tálak/tányérok/vázák képi bemutatása még kiegészítendő, vagy a szöveges ígéret pontosítandó. Új galériát ebben a körben nem adtunk hozzá.
+Netlify-projekt és élő URL; form detection; értesítési cím; valódi üzemeltetői adatkezelési tájékoztató; explicit engedélyezett tárhelynév és a küldés bekapcsolása; éles próba a szolgáltató listájában és a postaládában. A végleges képkreditek, domainhez kötött SEO és publikálás is hátravan. A működő küldés a felhasználó külön projektkövetelménye, amelyet a fogadó későbbi beállítása után lehet teljesítettnek jelölni.

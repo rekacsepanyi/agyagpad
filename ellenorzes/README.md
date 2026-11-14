@@ -1,23 +1,13 @@
-# Ellenőrzési anyagok
+# Aktuális ellenőrzések
 
-Kiinduló megjelenési alap: `16527e0`. Aktuális revízió: 2026-11-12-rounded-sections; a főoldal váltakozó szakaszsarkokkal, portrécserével és erősebb motívumokkal finomodott. A főoldaljelentés november 12-i, a változatlan fejléc jelentése november 11-i.
+2026. november 14. – revízió: 2026-11-14-content-and-form.
 
-## Aktuális bizonyítékok
+- eredmenyek.md: aktuális, olvasható összefoglaló.
+- fo-ellenorzes.json: 22 sikeres reszponzív nézet, négy aktív oldalon.
+- urlap-ellenorzes.json: öt sikeres helyi, szimulált fogadós küldési próba. realDeliveryVerified: false.
+- fo-kontrasztok.json: a változatlan hat UI-szín kontrasztjai.
+- kepernyokepek/: friss felvételek; beadas/jelenlegi-oldal alatt kiválasztott másolatok.
 
-- `eredmenyek.md`: a megtartott állapot új ellenőrzési összefoglalója.
-- `fo-ellenorzes.json`: hét friss főoldalpróba, a megjelenési commit azonosítójával.
-- `fejlec-ellenorzes.json`: harminc friss fejlécpróba, a megjelenési commit azonosítójával.
-- `fo-kontrasztok.json`: a megtartott hat UI-szín és színpárjaik kontrasztjai.
-- `kepernyokepek/` gyökér: kizárólag a most újragenerált képek. Beadáshoz kiválasztott másolataik: `../beadas/jelenlegi-oldal/`.
+A régebbi fejléc-, türkiz- és prototípusjelentések történeti anyagok. Az új aktív tesztek: node eszkozok/fooldal-ellenorzes.cjs és node eszkozok/urlap-ellenorzes.cjs. Helyi HTTP-előnézet szükséges a 4173-as porton. A szimulált űrlapteszt semmilyen külső fogadónak nem küld adatot.
 
-## Történeti anyagok
-
-A `turkiz-*`, `prototipus-*` és `kiegeszito-*` JSON-jelentések korábbi fejlesztési állapotokhoz tartoznak; nem írják felül az aktuális jelentéseket. A `kepernyokepek/korabbi-valtozatok-2026-11-11/` mappa a régebbi és az elvetett próbák felvételeit őrzi. A régi szöveges napló másolata az `../archivum/dokumentacio-2026-11-11-korabbi/` mappában található.
-
-## Újragenerálás
-
-1. Indíts helyi előnézetet: `node eszkozok/helyi-szerver.cjs` a projekt gyökeréből.
-2. Futtasd: `node eszkozok/fooldal-ellenorzes.cjs`, majd `node eszkozok/fejlec-ellenorzes.cjs`.
-3. Futtasd: `node eszkozok/beadasi-kepek.cjs` a tervezési képek és a beadási képmásolatok frissítéséhez.
-
-A segédeszközök a helyi Codex Node-környezet Playwright/Sharp csomagjait és a telepített Chrome-ot használják. A kész oldal közvetlen böngészős megnyitásához ezek nem szükségesek. Az ellenőrzési JSON-ok commit- és dátumjelölése a jelen dokumentációfrissítés része; a tesztek önálló futtatása után az azonosítókat is egyeztetni kell. A régebbi állapotváltó migrációs szkripteket nem kell újrafuttatni.
+A beadási képek frissítése: node eszkozok/beadasi-kepek.cjs; a szövegforrás újrakinyerése: node eszkozok/szoveg-dokumentacio.cjs. A régi migrációs szkriptek nem aktuális buildparancsok.

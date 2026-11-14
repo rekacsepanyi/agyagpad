@@ -1,6 +1,6 @@
 {
   "direction_count": 3,
-  "phase": "homepage_refinement",
+  "phase": "content_complete_form_prepared",
   "source_url": null,
   "approval": "Felhasználó: igen, mehet.",
   "is_redesign": false,
@@ -10,15 +10,16 @@
   "structure_document": "tervezes/aktualis-oldalterkep.md",
   "submission_checklist": "beadas/README.md",
   "live_url": null,
-  "form_mode": "local_demo_no_send",
+  "form_mode": "netlify_prepared_disabled_pending_host_and_recipient",
   "pending": [
-    "élő URL és publikálás",
-    "végső oldal- és aloldalellenőrzés",
+    "Netlify-projekt és élő URL",
+    "form detection és értesítési e-mail bekapcsolása",
+    "valódi üzemeltetői adatkezelés véglegesítése",
+    "éles kézbesítési próba a Netlify listában és a postaládában",
     "fotóforrások és szükséges kreditek",
-    "AI-leírás publikálási lépésének lezárása",
-    "a briefben ígért kerámiaválaszték változatos képi bemutatása vagy a szöveges ígéret pontosítása"
+    "publikálás és beadási csomag lezárása"
   ],
-  "base_design_commit": "16527e0b05fc1b8faa251a54e96c16770f523ab7",
-  "design_revision": "2026-11-12-rounded-sections",
-  "updated": "2026-11-12"
+  "base_design_commit": "7064af8cb996f8d2fe00c5f4ecadf482048045c1",
+  "design_revision": "2026-11-14-content-and-form",
+  "updated": "2026-11-14"
 }

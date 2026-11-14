@@ -1,69 +1,36 @@
-# Agyagpad – aktuális oldaltérkép és szekciószerkezet
+# Agyagpad – aktuális oldaltérkép
 
-Frissítve: 2026. november 12. Kiindulás: a megtartott `16527e0`, azóta szakaszlekerekítéssel, portrécserével és erősebb képdekorációval finomítva.
+Frissítve: 2026. november 14. Revízió: 2026-11-14-content-and-form.
 
-## Belépési pontok
+## Aktív oldalak és fejléc
 
-- Főoldal: `koncepcio-1-udvari-muhely.html`, négy szekcióval.
-- Programrészletek: `tanfolyamok.html`, három programhorgonnyal.
-- Helyi prototípus adatkezelési tájékoztatása: `adatkezeles.html`.
-- `index.html`: három korábbi koncepció választója; élesítés előtt a kiválasztott oldal legyen a fő belépési pont.
-- A másik két koncepció történeti anyag. Külön `muhely.html` nincs; a Műhely link a működő főoldali szekcióhoz vezet.
+A főoldal koncepcio-1-udvari-muhely.html; aloldalak: tanfolyamok.html, muhely.html és adatkezeles.html. Az index.html még a régi koncepcióválasztó.
 
-## Fejléc
+Közös fejléc: logó, Kezdőlap, Tanfolyamok, Műhely, Kapcsolat és kiemelt Jelentkezem gomb. A CTA aloldalakról is a főoldali #kapcsolat szakaszhoz vezet. Mobilon a lenyíló menüben marad. A lábléc Műhely linkje az új műhelyoldalra vezet.
 
-Logó, Kezdőlap, Tanfolyamok, Műhely, Kapcsolat és kiemelt „Jelentkezés” gomb. A Tanfolyamok a részletes aloldalra vezet. A Jelentkezés minden jelenlegi oldalról a főoldali `#kapcsolat` szekcióhoz navigál. Mobilon a lenyíló menü része; felirata csak kezdőbetűjében nagybetűs. Koncepciók hivatkozás nincs.
+## A főoldal négy szekciója
 
-## A négy főoldali szekció
+1. **#kezdo:** Alkoss agyagból, bontakozz ki Szentendrén. Hosszabb, kezdőbarát bevezető; tanfolyamokhoz és műhelybemutatáshoz vezető gombok; agyagot formáló kezek fotója és a már meglévő idézetkártya.
+2. **#tanfolyamok:** három ár nélküli programkártya, élményalapú sorral és terrakotta vonalas ikonnal. Asztalon a sorok és részletlinkek igazodnak. A részletlinkek a tanfolyamok.html horgonyaira vezetnek. Közvetlenül alattuk türkiz tudnivalóblokk, hat közös állítással, asztalon két, mobilon egy oszlopban.
+3. **#muhely:** új Dóra-bemutatkozás (2009, népi iparművész) és a három felhasználói számadat: 15+ év szakmai tapasztalat, 1500+ tanítvány, 7000+ alkotás. Idővonal nincs. Utána műhelybolt: szöveg balra, bögrés kép jobbra; a cím és nyitvatartás kisebb információs egység, majd terrakotta CTA → muhely.html#keramiak. Mobilon szöveg után fotó.
+4. **#kapcsolat:** új bevezető, foglalás nélküli érdeklődés tájékoztatása, név/e-mail/program/üzenet mezők, adatkezelési link és Érdeklődés elküldése gomb. A mellette lévő kártya címe Találkozzunk a műhelyben! A küldési kód valódi Netlify POST-ra kész, de a felhasználó kérésére a fogadó még inaktív. A részletes beállítás a urlap-beallitas.md dokumentumban található.
 
-### 1. Nyitó szekció – `#kezdo`
+A meglévő váltakozó szakaszsarkok és visszafogott türkiz képmotívumok megmaradnak. A főoldalon nem szerepel prototípusra vagy üzenetküldés-hiányra utaló állandó űrlapmegjegyzés; hiba esetén viszont őszinte hibajelzés jelenik meg.
 
-Asztalon szöveg és két CTA balra, az agyagot formáló kezeket mutató `agyagpad-hero` fotó jobbra. Mobilon szöveg, gombok, majd fotó következik.
+## Tanfolyamok aloldal
 
-- H1: Alkoss agyagból, kapcsolódj ki Szentendrén.
-- Fő CTA: Megnézem a tanfolyamokat → `#tanfolyamok`.
-- Másodlagos CTA: Megismerem a műhelyt → `#muhely`.
-- A fotón 15 px-es, dőlt türkiz idézet, törtfehér, finoman árnyékolt kártyán, lágyan lekerekített jobb felső sarokkal. Nincs előtte díszvonal.
-- A megtartott dekoráció eltolt türkiz keret és három külön koronggyűrű. Nincs összefonódó első/hátsó SVG-réteg vagy lefelé futó spirálvég.
+A pontos alkalomszámok, heti időbeosztások és árak maradnak. A négyhetes kezdő kurzus 4 alkalom, 4 × 2,5 óra. A hat közös tudnivaló szó szerint azonos a főoldalival, beleértve a körülbelül két hét múlva történő átvételt. A részletező oldal érdeklődési gombjai programot előválasztó URL-paraméterrel vezetnek a főoldali űrlaphoz.
 
-### 2. Tanfolyamok – `#tanfolyamok`
+## Műhelyoldal – #keramiak
 
-Asztalon három kártya; tabletméretben egymás alatti kép–szöveg kártyák; mobilon egy oszlop.
+A főoldali gomb létező horgonyra vezet. A négyképes galéria kész bögréket, készülő vázát, korongozási folyamatot és műhelyeszközöket mutat. A képaláírások megkülönböztetik a kész tárgyakat és a munkafázisokat. Online vásárlás nincs. A tálak, tányérok és vázák kész termékfotói később bővíthetik a választék bemutatását; ilyen képeket nem helyettesítünk kitalált látvánnyal.
 
-| Főoldali programnév | Látható összefoglaló | Részletlink célja |
-| --- | --- | --- |
-| Korongozó kóstoló | 1 alkalom · 3 óra | `tanfolyamok.html#korongozo-kostolo` |
-| Négyhetes kurzus | 4 alkalom · 4 × 2,5 óra | `tanfolyamok.html#kezdo-kurzus` |
-| Céges csapatépítő | Egyeztetett időpont · Egyedi időtartam | `tanfolyamok.html#ceges-csapatepito` |
+## Lábléc és adatkezelés
 
-Sorrend: felvezetés, programnév, élményleírás, időtartam és „Részletek és árak” link, nyíl nélkül. Főoldalon nincs konkrét ár. A részletes árak és a programot előválasztó érdeklődési gombok az aloldalon találhatók.
+Közös márkaszöveg, cím és nyitvatartás, előzetes egyeztetésre utaló sor, négy navigációs link. Nincs külön Írj az űrlapon link. Alsó sor: © 2026 Agyagpad · Fiktív vállalkozást bemutató webdesign-vizsgamunka. Mellette az adatkezelési link marad.
 
-Közvetlenül alattuk azonos teljes szélességgel az „Amit érdemes tudnod” blokk szerepel. Türkiz háttér, törtfehér cím, szöveg és ikonok; asztalon két, mobilon egy oszlop. Hat állítás: kezdőbarát részvétel, alapanyag és két égetés, legfeljebb hat fő, két héttel későbbi átvétel, nincs garantált darabszám vagy hibátlan végeredmény, külön időpont-egyeztetés.
+Az adatkezelési oldal a még inaktív fogadót és a tényleges üzemeltetői adatok hiányát jelzi. Nem állítja, hogy az előkészített kód éles üzenettovábbítása már működik.
 
-### 3. Műhely és alkotó – `#muhely`
+## Beadási képek
 
-Fehér Dóra csatolt hero.jpg portréjának WebP-változata és bemutatkozása: asztalon kép balra, szöveg jobbra. A bemutatkozásban bögrék, tálak és vázák szerepelnek. Ezután a 2018, 2022, 2023 és 2024 állomású idővonal következik: asztalon vízszintesen, szűk helyen függőlegesen.
-
-A műhelyboltban asztalon szöveg balra, egyetlen bögrés fotó jobbra kerül; mobilon szöveg után fotó következik. Nyitvatartás: csütörtök–vasárnap 10:00–18:00. Cím: 2000 Szentendre, Agyagliget köz 4., kitalált, nem látogatható bemutatócímként jelölve. Nincs webshop vagy térképes útvonaltervezés.
-
-### 4. Kapcsolat – `#kapcsolat`
-
-Űrlap és helyszíni tájékoztatás, asztalon két, mobilon egy oszlopban. Név, e-mail és program kötelező; üzenet opcionális. A programválasztó alaphelyzetben „Válassz programot”; ismert URL-paraméter előválaszthat programot. A főoldali ugrógombok nem törlik a kitöltött adatokat.
-
-A jelenlegi űrlap helyi bemutató: nem továbbít adatot és nem foglal valódi helyet. Hibajelzése és helyi visszajelzése kipróbálható. A valódi üzenetküldés ajánlott extra, nincs késznek feltüntetve.
-
-## Lábléc
-
-Márka és rövid bemutatkozás; bemutatócím és nyitvatartás; navigáció; adatkezelési link. A vizsgamunka, a kitalált vállalkozás, a foglalás nélküli működés és a stock fotók illusztrációs jellege jelölt.
-
-## Tervezési folyamat és aktuális képek
-
-- `tervezes/drotvaz/01-oldalterkep.png` és `02-drotvaz.png`: megőrzött eredeti folyamatképek; nem a végleges felület pontos rajzai.
-- `beadas/tervezesi-folyamat/03-aktualis-oldalterkep.png`: az aktuális szerkezet áttekintése.
-- `beadas/jelenlegi-oldal/`: az aktuális továbbfejlesztés új mobil- és asztali felvételei.
-
-A kiírás legalább három oldalt **vagy** szekciót kér; a négy főoldali szekció ezt teljesíti. Az eredeti képek a folyamatot, a friss képernyőképek az eredményt dokumentálják.
-
-A szakaszhátterek felső sarka bal–jobb–bal sorrendben lekerekített. A bemutatkozó és a műhelybolti fotó felső jobb részén hangsúlyosabb, de visszafogott türkiz koronggyűrűk és eltolt keret jelennek meg.
-
-Tartalmi pontosítás: az általános vizsgakiírás nem kér külön kerámiagalériát. A saját brief és a műhelybolt szövege viszont többféle használati kerámiát ígér. Jelenleg egy bögrés fotó mutat kész tárgyakat; tálak, tányérok és vázák változatos bemutatása még kiegészítendő tartalmi feladat.
+Az eredeti drótvázak történeti folyamatképek maradnak. A beadas/tervezesi-folyamat/03-aktualis-oldalterkep.png az aktuális szerkezetet mutatja; a beadas/jelenlegi-oldal mappában friss mobil- és asztali felvételek vannak. A vizsgakiírás legalább három oldalt vagy szekciót kér; a négy főoldali szekció ezt teljesíti. A valódi űrlapot a felhasználó külön projektkövetelménnyé tette; az éles próbája még hátravan.

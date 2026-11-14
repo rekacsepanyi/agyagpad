@@ -1,6 +1,6 @@
 # Agyagpad – beadási ellenőrzőlap
 
-Frissítve: 2026. november 12. Kiinduló jóváhagyott weboldal: `16527e0`, aktuális továbbfejlesztés: váltakozó szakaszlekerekítés, portrécsere és erősebb fotómotívumok. Ez a csomag a fejlesztési állapotot dokumentálja; az élesítés még hátravan.
+Frissítve: 2026. november 14. Kiinduló jóváhagyott weboldal: `7064af8`; aktuális továbbfejlesztés: új szövegek, élményalapú kártyasorok, Dóra számadatai, műhelygaléria és Netlify Forms küldési kód. Ez a csomag a fejlesztési állapotot dokumentálja; az élesítés még hátravan.
 
 ## A kiírás szerint beadandó három tétel
 
@@ -20,7 +20,7 @@ A két eredeti kép korábbi tervezési állapotot bizonyít, nem az aktuális k
 | Böngészőben megnyitható | Helyben teljesül; a beadandó élő URL még hiányzik. |
 | Mobil és asztali megjelenés | Ellenőrzés: `../ellenorzes/eredmenyek.md`. |
 | Legalább három oldal vagy szekció | Teljesül: négy főoldali szekció. Három külön aloldal nem kötelező. |
-| Legalább egy CTA | Teljesül: Jelentkezés, Megnézem a tanfolyamokat, Megismerem a műhelyt. |
+| Legalább egy CTA | Teljesül: Jelentkezem, Megnézem a tanfolyamokat, Megismerem a műhelyt. |
 | Saját, projektre írt tartalom | Teljesül; nincs lorem ipsum. Az Agyagpad és a szereplő kitalált. |
 | Egységes arculat | Rögzítve: `../tervezes/design-system.md`. |
 | Tervezési kép | A fenti PNG-k rendelkezésre állnak. |
@@ -30,7 +30,7 @@ A két eredeti kép korábbi tervezési állapotot bizonyít, nem az aktuális k
 
 - GitHub-verziókövetés: megvan, [rekacsepanyi/agyagpad](https://github.com/rekacsepanyi/agyagpad).
 - SEO: title, description, címsorok, alt szövegek és WebP-k vannak; a végleges domainhez tartozó beállítások hátravannak.
-- Valódi üzenetküldés: nincs; a bemutatóűrlap nem küld és nem tárol adatot. Éles fogadó esetén adatkezelési tájékoztató és próbaüzenet is szükséges.
+- Valódi üzenetküldés: a kód előkészítve, a fogadó inaktív. A felhasználó külön projektkövetelménnyé tette, de jelezte, hogy még nincs Netlify-oldal, a fogadót később állítjuk be. Hiányzik az aktív projekt, az értesítési cím, az éles adatkezelés és a kézbesítési próba.
 - Saját domain, GA4, Search Console, hozzájáruláshoz kötött mérés és portfólió-esettanulmány: még nem készült. Ezek hiánya önmagában nem sérti a megadott kötelező feltételeket.
 
 ## A beadás előtt lezárandó
@@ -42,4 +42,6 @@ A két eredeti kép korábbi tervezési állapotot bizonyít, nem az aktuális k
 
 Határidő: 2026. november 24.; kérhető haladékkal december 1. Forrás: a felhasználó által megadott vizsgakiírás.
 
-Tartalmi feladat: a saját briefben és a szövegben ígért kerámiaválaszték bemutatása jelenleg egy bögrés termékfotóra támaszkodik. További kész tál-/tányér-/vázafotóval bővítendő, vagy a szöveges ígéret pontosítandó. Ez nem külön, általános vizsgakiírásbeli galériakötelezettség.
+Tartalmi feladat: a saját briefben és a szövegben ígért kerámiaválaszték bemutatása jelenleg egy bögrés termékfotóra támaszkodik. Az új muhely.html#keramiak galéria kész bögréket és a tárgyak készülését is bemutatja. További kész tál-/tányér-/vázafotóval később bővíthető. Ez nem külön, általános vizsgakiírásbeli galériakötelezettség.
+
+A működő küldést nem tekintjük késznek a sikeres helyi szimulációtól. Pontos bekapcsolási lista: ../tervezes/urlap-beallitas.md. Az éles Netlify- és postaláda-próba még nem történt meg.

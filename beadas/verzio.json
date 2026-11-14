@@ -1,26 +1,40 @@
 {
-  "date": "2026-11-12",
-  "designRevision": "2026-11-12-rounded-sections",
-  "baseDesignCommit": "16527e0b05fc1b8faa251a54e96c16770f523ab7",
+  "date": "2026-11-14",
+  "designRevision": "2026-11-14-content-and-form",
+  "baseDesignCommit": "7064af8cb996f8d2fe00c5f4ecadf482048045c1",
   "liveUrl": null,
-  "designSystem": "4.4",
-  "copy": "2.4",
+  "designSystem": "4.5",
+  "copy": "3.0",
+  "formEnabled": false,
+  "realDeliveryVerified": false,
   "sourceFiles": [
     {
       "file": "koncepcio-1-udvari-muhely.html",
-      "sha256": "88d56453671b7879834e2c6585c348e1435cb1974e5eca704599b4a0141927bd"
+      "sha256": "7a10dc5ef2b47b79799d79d7ee3daa7367bbe49b4c5929d4d5222778ca453850"
     },
     {
       "file": "assets/udvari-muhely.css",
-      "sha256": "8f113812b1bb831b36d293a8721a638484e808b83b9b1b4e38d3f16cf0db5053"
+      "sha256": "863cb1150f1db6c4c226536c555569f644685057397ad9228c1d5a3a58c9baec"
     },
     {
       "file": "tanfolyamok.html",
-      "sha256": "fa6877f8e59a826af45117796a5fcc3a7ba511fac4f6e3644602e90a53b6d838"
+      "sha256": "c1015c087e66cde066b9ab44ab1803577c77dcd0f3dcf2941a702aff9a688af3"
+    },
+    {
+      "file": "muhely.html",
+      "sha256": "24819117dc46389aadb3341fc41e4921bfd8829dc6bdf94fc34c8f365f849d3e"
     },
     {
       "file": "adatkezeles.html",
-      "sha256": "33f6c969abed863a8494bc13613088ed3bf6612c1255ec6b5c80f3698a9bc855"
+      "sha256": "387ea545bd8a374596842fb85855a34d5c6e54a2ddb18a3ecb47204678a60cf2"
+    },
+    {
+      "file": "assets/erdeklodes.js",
+      "sha256": "6157071dd18fa3f68bf4e780d76ad32f2f0ecf66dc94dc277878cf82828443a0"
+    },
+    {
+      "file": "assets/form-config.js",
+      "sha256": "36fb3d55f83de75781fb4960e3a404d9281c8a9058cb59eac03295032f931662"
     },
     {
       "file": "images/logo/Agyagpad-logo-transparent.svg",
@@ -43,7 +57,9 @@
     "muhelybolt-asztali.png",
     "bemutatkozas-asztali.png",
     "muhely-szakasz-asztali.png",
-    "tudnivalok-asztali.png"
+    "tudnivalok-asztali.png",
+    "muhely-galeria-asztali.png",
+    "muhely-galeria-mobil.png"
   ],
-  "note": "A jóváhagyott kiinduló változat november 12-i továbbfejlesztése: szakaszlekerekítés, portrécsere és erősebb motívumok."
+  "note": "November 14-i tartalom, galéria és valódi POST-ra előkészített űrlap. A fogadó inaktív, éles kézbesítés nem történt."
 }

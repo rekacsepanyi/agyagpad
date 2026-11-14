@@ -1,92 +1,139 @@
 {
+  "date": "2026-11-14",
   "results": [
     {
+      "file": "koncepcio-1-udvari-muhely.html",
       "width": 320,
       "textZoom": 1,
-      "passed": true,
-      "checks": [
-        "tudnivalók a kártyák alatt, azonos szélességgel, türkiz háttéren törtfehér elemekkel, két/egy oszlopban; korábbi finomítások",
-        "váltakozó szakaszsarkok, új Dóra-portré, diszkréten erősebb portré- és műhelyboltmotívum",
-        "színek, normál kicker vonal nélkül, ár nélküli kártyák, egy kerámiakép, reszponzív idővonal",
-        "menü, linkcélok és helyi űrlap",
-        "billentyűzetes ugrólink"
-      ]
+      "passed": true
     },
     {
+      "file": "koncepcio-1-udvari-muhely.html",
       "width": 390,
       "textZoom": 1,
-      "passed": true,
-      "checks": [
-        "tudnivalók a kártyák alatt, azonos szélességgel, türkiz háttéren törtfehér elemekkel, két/egy oszlopban; korábbi finomítások",
-        "váltakozó szakaszsarkok, új Dóra-portré, diszkréten erősebb portré- és műhelyboltmotívum",
-        "színek, normál kicker vonal nélkül, ár nélküli kártyák, egy kerámiakép, reszponzív idővonal",
-        "menü, linkcélok és helyi űrlap",
-        "billentyűzetes ugrólink"
-      ]
+      "passed": true
     },
     {
+      "file": "koncepcio-1-udvari-muhely.html",
       "width": 768,
       "textZoom": 1,
-      "passed": true,
-      "checks": [
-        "tudnivalók a kártyák alatt, azonos szélességgel, türkiz háttéren törtfehér elemekkel, két/egy oszlopban; korábbi finomítások",
-        "váltakozó szakaszsarkok, új Dóra-portré, diszkréten erősebb portré- és műhelyboltmotívum",
-        "színek, normál kicker vonal nélkül, ár nélküli kártyák, egy kerámiakép, reszponzív idővonal",
-        "menü, linkcélok és helyi űrlap",
-        "billentyűzetes ugrólink"
-      ]
+      "passed": true
     },
     {
+      "file": "koncepcio-1-udvari-muhely.html",
       "width": 1024,
       "textZoom": 1,
-      "passed": true,
-      "checks": [
-        "tudnivalók a kártyák alatt, azonos szélességgel, türkiz háttéren törtfehér elemekkel, két/egy oszlopban; korábbi finomítások",
-        "váltakozó szakaszsarkok, új Dóra-portré, diszkréten erősebb portré- és műhelyboltmotívum",
-        "színek, normál kicker vonal nélkül, ár nélküli kártyák, egy kerámiakép, reszponzív idővonal",
-        "menü, linkcélok és helyi űrlap",
-        "billentyűzetes ugrólink"
-      ]
+      "passed": true
     },
     {
+      "file": "koncepcio-1-udvari-muhely.html",
       "width": 1440,
       "textZoom": 1,
-      "passed": true,
-      "checks": [
-        "tudnivalók a kártyák alatt, azonos szélességgel, türkiz háttéren törtfehér elemekkel, két/egy oszlopban; korábbi finomítások",
-        "váltakozó szakaszsarkok, új Dóra-portré, diszkréten erősebb portré- és műhelyboltmotívum",
-        "színek, normál kicker vonal nélkül, ár nélküli kártyák, egy kerámiakép, reszponzív idővonal",
-        "menü, linkcélok és helyi űrlap",
-        "billentyűzetes ugrólink"
-      ]
+      "passed": true
     },
     {
+      "file": "koncepcio-1-udvari-muhely.html",
       "width": 390,
       "textZoom": 2,
-      "passed": true,
-      "checks": [
-        "tudnivalók a kártyák alatt, azonos szélességgel, türkiz háttéren törtfehér elemekkel, két/egy oszlopban; korábbi finomítások",
-        "váltakozó szakaszsarkok, új Dóra-portré, diszkréten erősebb portré- és műhelyboltmotívum",
-        "színek, normál kicker vonal nélkül, ár nélküli kártyák, egy kerámiakép, reszponzív idővonal",
-        "menü, linkcélok és helyi űrlap",
-        "billentyűzetes ugrólink"
-      ]
+      "passed": true
     },
     {
+      "file": "koncepcio-1-udvari-muhely.html",
       "width": 1440,
       "textZoom": 2,
-      "passed": true,
-      "checks": [
-        "tudnivalók a kártyák alatt, azonos szélességgel, türkiz háttéren törtfehér elemekkel, két/egy oszlopban; korábbi finomítások",
-        "váltakozó szakaszsarkok, új Dóra-portré, diszkréten erősebb portré- és műhelyboltmotívum",
-        "színek, normál kicker vonal nélkül, ár nélküli kártyák, egy kerámiakép, reszponzív idővonal",
-        "menü, linkcélok és helyi űrlap",
-        "billentyűzetes ugrólink"
-      ]
+      "passed": true
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 320,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 390,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 768,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 1024,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 1440,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "file": "muhely.html",
+      "width": 320,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "file": "muhely.html",
+      "width": 390,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "file": "muhely.html",
+      "width": 768,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "file": "muhely.html",
+      "width": 1024,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "file": "muhely.html",
+      "width": 1440,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 320,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 390,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 768,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 1024,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 1440,
+      "textZoom": 1,
+      "passed": true
     }
   ],
   "passed": true,
-  "baseDesignCommit": "16527e0b05fc1b8faa251a54e96c16770f523ab7",
-  "designRevision": "2026-11-12-rounded-sections",
-  "checkedDate": "2026-11-12"
+  "form": "A Netlify-fogadó inaktív. Az éles kézbesítés nincs igazolva."
 }

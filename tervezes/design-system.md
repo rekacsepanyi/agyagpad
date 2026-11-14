@@ -1,7 +1,7 @@
 # Agyagpad – design system
 
-Verzió: 4.4 · 2026. november 12.
-Állapot: az Udvari műhely aktuális specifikációja. Kiindulás: a jóváhagyott 16527e0 változat; november 12-i továbbfejlesztés szakaszlekerekítésekkel, portrécserével és hangsúlyosabb fotómotívumokkal. A korábbi türkiz gombos irányt ez a dokumentum felülírja.
+Verzió: 4.5 · 2026. november 14.
+Állapot: az Udvari műhely aktuális specifikációja. Kiindulás: a jóváhagyott 16527e0 változat; november 14-i tartalmi továbbfejlesztés, kártyaélménysorok, Dóra-számadatok és előkészített valódi űrlapküldés. A korábbi türkiz gombos irányt ez a dokumentum felülírja.
 
 ## Források és hatókör
 
@@ -61,7 +61,7 @@ Merriweather a címsorokhoz, Inter a szöveghez és kezelőelemekhez. Helyi WOFF
 
 - H1 terrakotta; H2 és H3 grafit a világos felületeken.
 - A kickerek normál, mondatkezdő nagybetűs írásmódúak. Nincs text-transform: uppercase, ritkítás, bevezető em dash vagy dekoratív előtagvonal.
-- A többi gomb nagybetűs megjelenése megmarad; a fejléc „Jelentkezés” gombja mondatkezdő nagybetűs, normál betűközzel. Ez a szabály nem terjed át a kickerekre.
+- A többi gomb nagybetűs megjelenése megmarad; a fejléc „Jelentkezem” gombja mondatkezdő nagybetűs, normál betűközzel. Ez a szabály nem terjed át a kickerekre.
 - Folyó szöveg max. min(680 px, 65ch). Balra zárt, nem sorkizárt.
 - Egy H1, a fő szekciók H2, a programnevek H3.
 - A nagyított szöveg nem vágódhat le. Szűk helyen a hosszú szavak törhetnek; a tartalmat nem rejtjük el vízszintes overflow-val.
@@ -74,19 +74,20 @@ Merriweather a címsorokhoz, Inter a szöveghez és kezelőelemekhez. Helyi WOFF
 - Hero: #F9F8F6. Tanfolyamok: #D9C3B0, törtfehér programkártyákkal. Műhely: #F9F8F6. Kapcsolat: #D9C3B0, világos mezőkkel és információs kártyával.
 - Nincs dekoratív határvonal a szakaszok között vagy a műhelybolt blokkja körül. A funkcionális mezőkeretek és fókuszjelzések megmaradnak.
 - 1024 px alatt mobilmenü; 768 px alatt egyoszlopos tartalmi blokkok. A programkártyák tabletméretben egymás alatt, asztalon három oszlopban látszanak.
-- A fejléc: átlátszó logó, Kezdőlap, Tanfolyamok, Műhely, Kapcsolat, majd jobb oldalt kiemelt „Jelentkezés” CTA. A főoldalon #kapcsolat, a meglévő aloldalakon koncepcio-1-udvari-muhely.html#kapcsolat a cél. Koncepciók link nincs.
+- A fejléc: átlátszó logó, Kezdőlap, Tanfolyamok, Műhely, Kapcsolat, majd jobb oldalt kiemelt „Jelentkezem” CTA. A főoldalon #kapcsolat, a meglévő aloldalakon koncepcio-1-udvari-muhely.html#kapcsolat a cél. Koncepciók link nincs.
 - A fejléc CTA a meglévő elsődleges gombot használja: terrakotta háttér, törtfehér felirat, kapszulaforma, sötétebb terrakotta hover és közös, 3 px grafit billentyűzetes fókusz. 1024 px alatt a lenyíló menü része, mobilon teljes szélességű. 1024–1199 px között kisebb logószélesség és navigációs térköz tartja szellősen a fejlécet.
 
 ## Programkártyák
 
-Sorrend: normál kicker → programnév → rövid élményleírás → alkalomszám és időtartam → „Részletek és árak” link, nyíl nélkül.
+Sorrend: normál kicker, programnév, rövid élményleírás, élménysor ikon mellett, Részletek és árak link. A főoldalon nincs konkrét ár.
 
-- Főoldalon nincs konkrét ár és külön árcímke.
-- Korongozó kóstoló: 1 alkalom, 3 óra.
-- Négyhetes kurzus (főoldali rövid név): 4 alkalom, 4 × 2,5 óra.
-- Céges csapatépítő: egyeztetett időpont, egyedi időtartam; új adatot nem találunk ki.
-- A meglévő tanfolyamok.html megfelelő programhorgonyaira mutató linkek megmaradnak; részletes árakat ott talál a látogató.
-- Törtfehér kártya, 16 px sugár, nincs árnyék. Belső tér mobil/tablet 24 px, asztalon 32 px.
+- Korongozó kóstoló: 3 óra alkotás és kikapcsolódás; óraikon.
+- Négyhetes kurzus: 4 hét, egymásra épülő alkalmakkal; naptárikon.
+- Céges csapatépítő: Közös alkotás, egyeztetett időpontban; csoportikon.
+- Az ikonok 24 px-esek, kitöltés nélkül, 1,5 px-es terrakotta vonallal, a meglévő ikonstílusban.
+- Az élményszöveg grafit, Inter 600, 16 px. Nem kerül dobozba vagy kapszulába.
+- Asztalon CSS subgrid közös sorai igazítják az élménysor és a link magasságát. Mobilon a szöveg természetesen törik, nincs rögzített magasság vagy levágás.
+- A részletlinkek a tanfolyamok.html megfelelő horgonyaira vezetnek. Az aloldalon megmarad a pontos alkalomszám és időtartam: a kurzus 4 × 2,5 órás.
 
 ## Gombok és űrlap
 
@@ -95,21 +96,18 @@ Sorrend: normál kicker → programnév → rövid élményleírás → alkaloms
 - Legalább 48 px magas kezelőelemek, több sorba törhető felirat, látható grafit fókusz.
 - Név, e-mail és program kötelező; üzenet opcionális. Mezőcímkék külön láthatók, nem placeholderbe rejtve.
 - Mező: törtfehér, grafit szöveg, 1 px grafit keret, 12 px sugár.
-- A prototípus nem küld és nem tárol adatot. Érthető helyi visszajelzés, nincs valótlan kézbesítési állítás. JavaScript nélkül a küldés letiltott.
+- A Netlify Forms küldési kódja elkészült, de a felhasználó kérésére az aktív fogadó később állítandó be. Az assets/form-config.js enabled értéke false; nincs konfiguráció nélküli POST vagy sikerjelzés. Valódi küldéskor csak pozitív HTTP-válasz után jelzünk sikert, hiba esetén minden adat megmarad. Részletek: tervezes/urlap-beallitas.md.
 - Hibaüzenet szöveggel és aria-invalid kapcsolattal jelenik meg; az adatok megmaradnak.
 
 ## Tudnivalóblokk
 
 Közvetlenül a három programkártya alatt, a tanfolyamos szakasz közös tartalmi konténerében helyezkedik el. Sötéttürkiz (#1B4D4F) háttér, törtfehér (#F9F8F6) cím, szöveg és egységes, 24 px-es kör-pipa ikonok. A kártyák együttes szélességéhez igazodik; belső tere mobilon 24 px, asztalon 32 px. A korábbi különálló blokk megszűnt. A törtfehér/türkiz kontraszt 8,91:1. 768 px-től két oszlop, mobilon egy. A hat pont rövid kiemelt állítással kezdődik, és megőrzi az előképzettség, anyagok/égetések, hatfős csoport, két héttel későbbi átvétel, végeredmény-korlátok és időpont-egyeztetés információját. A dekoratív ikonok aria-hidden jelölésűek. A végeredményről szóló pontban a „vagy hibátlan végeredményt nem garantálunk.” új sorban kezdődik.
 
-## Idővonal
+## Dóra bemutatkozása és számadatok
 
-- Állomások: 2018, 2022, 2023, 2024. Új évszám vagy esemény nincs.
-- Normál asztali nézet: évszám felül, terrakotta pont és összekötő középen, rövid eseményszöveg alul.
-- Szűkebb tartalmi térben: függőleges tengely bal oldalon; évszám és eseményszöveg jobb oldalon.
-- A vízszintes elrendezést a műhely tartalmi konténerének legalább 44rem szélessége engedi. Nagyított szövegnél ezért korábban függőlegesre vált.
-- A szöveg CSS Gridben marad; csak a dekoratív tengely kap abszolút pozicionálást.
-- Az év, a pont és a szöveg nem fedheti egymást. 200%-os szövegmérettel is ellenőrizendő.
+Az idővonal kikerült. Az új bemutatkozásban 2009-es tanulási kezdet és népi iparművész megjelölés szerepel. Alatta: 15+ év szakmai tapasztalat, 1500+ tanítvány, 7000+ alkotás. Ezek a felhasználó által megadott új fiktív karakteradatok, nem valós személy ellenőrzött referenciái.
+
+A számadatok szemantikus dl-listában, három oszlopban, levegős térközzel jelennek meg. Merriweather terrakotta számok és kisebb grafit, félkövér címkék. A szövegek nagyításnál is törhetnek, nem vágódnak le.
 
 ## Képek, logó és dekoráció
 
@@ -129,7 +127,7 @@ A bemutatott műhelybolt nyitvatartása csütörtök–vasárnap 10:00–18:00. 
 
 Aktuális teszt: eszkozok/fooldal-ellenorzes.cjs; eredmény: ellenorzes/fo-ellenorzes.json. Öt nézetszélesség: 320, 390, 768, 1024, 1440 px. További két futás 200%-os szövegmérettel: mobil és asztal. Ellenőrzött billentyűzetes ugrólink, menü/Escape, linkcélok, színek, űrlap és túlcsordulás.
 
-A főoldal lezárása után következik az aloldalak tartalmi finomítása. A kért muhely.html még nem készül el ebben a körben; oda 4–6 változatos, tartalom alapján kiválasztott fotó kerülhet: portré, munkafolyamat, műhelyrészlet és kész tárgyak. Addig a főoldali Műhely hivatkozás működő #muhely célra mutat.
+A muhely.html elkészült, a főoldali terrakotta gomb a #keramiak galériához vezet. Négy WebP-kép mutat kész bögréket, készülő vázát, korongozást és műhelyeszközöket. A feliratok megkülönböztetik a kész tárgyat és a munkafázist.
 
 Az éles űrlap, adatkezelési tájékoztató, tételes képkreditek, végleges SEO, publikálás továbbra is külön lezárandó munka. Az AI-használat eddigi folyamata a beadas/AI-hasznalat.md fájlban elkészült; élesítés után a tényleges publikálási lépéssel frissítendő.
 
@@ -140,3 +138,7 @@ A műhelybolt blokk tartalmi és vizuális sorrendje szöveg, majd fotó: asztal
 ## November 12-i szakaszritmus
 
 A Tanfolyamok szakasz bal felső, a Műhely szakasz jobb felső, a Kapcsolat szakasz bal felső sarka lekerekített. A sugár clamp(2rem, 6vw, 5rem), normál asztalon legfeljebb 80 px. A meglévő törtfehér és homok színek rétegzett szakaszhátterei teszik láthatóvá a sarkokat. Nincs új szín, és a szakaszok nem vágják le a képmotívumokat vagy a fókuszjelzéseket.
+
+## November 14-i szöveg és közös elemek
+
+A hero főcíme „Alkoss agyagból, bontakozz ki Szentendrén.”, hosszabb, kezdőbarát bevezetővel. A kapcsolat szakaszban nincs állandó demó- vagy prototípusmegjegyzés; a foglalás nélküli érdeklődés tájékoztatása megmarad. A lábléc minden aktív oldalon az új közös szöveget, négy navigációs linket és a rövid fiktív vizsgamunka-jelzést használja. Az „Írj az űrlapon” link kikerült.

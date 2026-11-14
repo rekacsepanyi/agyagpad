@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-14",
+  "fictionalCharacter": true,
+  "heroHeading": "Alkoss agyagból, bontakozz ki Szentendrén.",
+  "programSummaries": [
+    "3 óra alkotás és kikapcsolódás",
+    "4 hét, egymásra épülő alkalmakkal",
+    "Közös alkotás, egyeztetett időpontban"
+  ],
+  "commonNotes": [
+    [
+      "Kezdőként is jöhetsz.",
+      "Nem szükséges előképzettség, az első mozdulatoktól segítünk."
+    ],
+    [
+      "Az alapanyag benne van az árban.",
+      "Az agyagot, a mázat és a két égetést is biztosítjuk."
+    ],
+    [
+      "Kis csoportban alkotunk.",
+      "A kezdő foglalkozásokon legfeljebb hat fővel dolgozunk, így mindenkire jut figyelem."
+    ],
+    [
+      "Az alkotásodra kicsit várni kell.",
+      "A szárítás és az égetések után, az utolsó alkalomtól számítva körülbelül két hét múlva viheted haza."
+    ],
+    [
+      "A kísérletezés is az élmény része.",
+      "Minden tárgy másképp sikerül; meghatározott darabszámot és hibátlan végeredményt nem tudunk garantálni."
+    ],
+    [
+      "Az időpontot veled egyeztetjük.",
+      "A feltüntetett időpontok tájékoztató jellegűek. A pontos kezdésről és a szabad helyekről érdeklődéskor adunk információt."
+    ]
+  ],
+  "biography": {
+    "learningSince": 2009,
+    "designation": "Népi iparművész",
+    "statistics": [
+      [
+        "15+ év",
+        "szakmai tapasztalat"
+      ],
+      [
+        "1500+",
+        "tanítvány"
+      ],
+      [
+        "7000+",
+        "alkotás"
+      ]
+    ]
+  },
+  "formStatus": "Netlify Forms előkészítve; a felhasználó kérésére a fogadó később állítandó be."
+}

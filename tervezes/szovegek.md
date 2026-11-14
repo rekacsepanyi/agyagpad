@@ -1,6 +1,6 @@
 # Agyagpad – aktuális weboldalszövegek
 
-Verzió: 3.4 · 2026. november 14.
+Verzió: 3.5 · 2026. november 14.
 Forrás: a főoldal és a tanfolyamok aloldal tényleges HTML-tartalma, a felhasználó november 14-i szövegei alapján. Az előző változatot ez a dokumentum váltja fel.
 
 Az Agyagpad és Fehér Dóra fiktív. A 2009-es indulás, a népi iparművész megjelölés és a három számadat a felhasználó által újonnan megadott karakteradat; nem valós személy ellenőrzött szakmai referenciája. Az idővonal kikerült.
@@ -53,12 +53,12 @@ Az élményjelölések a leírás és a link között jelennek meg, terrakotta v
 
 ## Amit érdemes tudnod
 
-- Kezdőként is jöhetsz. Nem szükséges előképzettség, az első mozdulatoktól segítünk.
-- Az alapanyag benne van az árban. Az agyagot, a mázat és a két égetést is biztosítjuk.
+- Kezdőként is jöhetsz. Nem szükséges előképzettség, az első mozdulatoktól segítek.
+- Az alapanyag benne van az árban. Az agyagot, a mázat és a két égetést is biztosítom.
 - Kis csoportban alkotunk. A kezdő foglalkozásokon legfeljebb hat fővel dolgozunk, így mindenkire jut figyelem.
 - Az alkotásodra kicsit várni kell. A szárítás és az égetések után, az utolsó alkalomtól számítva körülbelül két hét múlva viheted haza.
-- A kísérletezés is az élmény része. Minden tárgy másképp sikerül; meghatározott darabszámot és hibátlan végeredményt nem tudunk garantálni.
-- Az időpontot veled egyeztetjük. A feltüntetett időpontok tájékoztató jellegűek. A pontos kezdésről és a szabad helyekről érdeklődéskor adunk információt.
+- A kísérletezés is az élmény része. Minden tárgy másképp sikerül; meghatározott darabszámot és hibátlan végeredményt nem tudok garantálni.
+- Az időpontot veled egyeztetjük. A feltüntetett időpontok tájékoztató jellegűek. A pontos kezdésről és a szabad helyekről érdeklődéskor adok információt.
 
 A blokk közvetlenül a kártyák alatt marad, azok teljes szélességével, türkiz háttéren törtfehér elemekkel. Két oszlop asztalon, egy mobilon. Ugyanez a hat pont szerepel a tanfolyamok aloldalon.
 
@@ -170,7 +170,7 @@ Ismerkedj meg az agyaggal, próbáld ki a korongot, és tapasztald meg, hogyan f
 
 Kicker: Alapok négy alkalom alatt
 
-Ha egyetlen alkalomnál többre vágysz, ezen a kurzuson lépésről lépésre ismerkedhetsz meg a korongozás alapjaival. A négy egymást követő héten tartott foglalkozásokon van időd gyakorolni, kérdezni és megtalálni a saját ritmusodat.
+Ha egyetlen alkalomnál többre vágysz, ezen a kurzuson lépésről lépésre ismerkedhetsz meg a korongozás alapjaival. Az agyag előkészítésétől és központosításától az egyszerű edényformák kialakításáig haladunk. A négy alkalom során van időd gyakorolni, kérdezni és egyre önállóbban alkotni.
 
 - Időtartam: 4 alkalom × 2,5 óra
 - Csoport: legfeljebb 6 fő
@@ -182,11 +182,11 @@ Ha egyetlen alkalomnál többre vágysz, ezen a kurzuson lépésről lépésre i
 
 Kicker: Közös élmény, közös alkotás
 
-Lépjetek ki a megszokott munkanapból, és próbáljátok ki együtt az agyagformálást! A közös alkotáshoz nem szükséges előképzettség; a program részleteit a csapat igényeihez igazítjuk.
+Cseréljétek a megszokott munkanapot közös alkotásra! A műhelyben kipróbálhatjátok a korongozást és a kézi agyagformálást, miközben egymás új oldalát is megismerhetitek. Előképzettség nem szükséges: végig segítek, a programot pedig a csapat létszámához és elképzeléseihez igazítom.
 
-- Időpont és időtartam: egyéni egyeztetés szerint
-- Létszám: a csapat igényeihez igazítva, előzetes egyeztetéssel
-- Ár: DíjazásA létszám és a program alapján egyeztetjük.
+- Időpont és időtartam: előzetes egyeztetés szerint.
+- Létszám: a program kialakításakor egyeztetjük.
+- Ár: DíjazásA létszám és a program alapján egyeztetjük.Az ajánlat tartalmazza az agyagot, a mázat és a két égetést.
 - Ajánlatot kérek: `#kapcsolat`
 
 A Tanfolyamok oldal önálló érdeklődési űrlapot kapott. A három programgomb helyben választja ki a programot, és megőrzi a kitöltött nevet, e-mailt és üzenetet. A hero résztvevői stock illusztráció, nem Fehér Dóra portréja. A teljes aloldali szerkezet és a fotókivágás: tanfolyamok-terv.md.

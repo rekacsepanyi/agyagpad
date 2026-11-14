@@ -1,16 +1,16 @@
 {
   "date": "2026-11-14",
-  "designRevision": "2026-11-14-courses-outer-cta-alignment",
+  "designRevision": "2026-11-14-courses-final-content",
   "baseDesignCommit": "7064af8cb996f8d2fe00c5f4ecadf482048045c1",
   "liveUrl": null,
-  "designSystem": "4.10",
-  "copy": "3.4",
+  "designSystem": "4.11",
+  "copy": "3.5",
   "formEnabled": false,
   "realDeliveryVerified": false,
   "sourceFiles": [
     {
       "file": "koncepcio-1-udvari-muhely.html",
-      "sha256": "612cebb9b0c47a2d45b92b2fdfb0f4925d1d96289825c4fe927381bd25fd3424"
+      "sha256": "0909fcb046e23cdf58768c662f9bf48929f7fff09bd304c5551244798b679e22"
     },
     {
       "file": "assets/udvari-muhely.css",
@@ -18,7 +18,7 @@
     },
     {
       "file": "tanfolyamok.html",
-      "sha256": "8405553550a0c20996b48a950577d1218042df62d51c2a4c1a62b675c86adddc"
+      "sha256": "98a1ddf2c059457dc5571c7f322d2bd0056c980fbbbcb03ebff55386bf76bae4"
     },
     {
       "file": "muhely.html",
@@ -46,7 +46,7 @@
     },
     {
       "file": "assets/tanfolyamok.css",
-      "sha256": "d666584d975fa65b966b233788b389f915d9ca978cd550b282fda6deaad32f6f"
+      "sha256": "fb06db832787d53767cebd0a40b69b2b5d47967945bfa4b69e93b2913d3ed203"
     },
     {
       "file": "images/webp/tanfolyam-resztvevo-480.webp",
@@ -83,5 +83,5 @@
     "tanfolyamok-mobil.png",
     "tanfolyamok-asztali.png"
   ],
-  "note": "Programgombok asztalon a fotótól távolabbi szélen, alulra igazítva; a fotómagasság rugalmas. Mobilon balra, a tartalom után. Díjazás 22 px; kurzusidőpont Szerdánként, 17:00–19:30. Főoldal és űrlapkód változatlan. Fogadó inaktív, éles kézbesítés nem történt."
+  "note": "Tanfolyamok lezárva: végleges kurzus- és céges szövegek, egyforma rugalmas asztali fotóméretek, külső és alsó CTA-igazítás. Főoldal: csak négy közös tudnivaló egyes számú hangra javítva. 11 nézet és mindkét űrlap szimulált küldése ellenőrizve. Éles kézbesítés a hiányzó Netlify/fogadó/értesítési beállítás miatt nem igazolt. Részletek: ellenorzes/tanfolyamok-lezaras.md."
 }

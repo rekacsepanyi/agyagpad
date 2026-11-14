@@ -1,6 +1,6 @@
 # Agyagpad – design system
 
-Verzió: 4.10 · 2026. november 14.
+Verzió: 4.11 · 2026. november 14.
 Állapot: az Udvari műhely aktuális specifikációja. Kiindulás: a jóváhagyott 16527e0 változat; november 14-i tartalmi továbbfejlesztés, kártyaélménysorok, Dóra-számadatok és előkészített valódi űrlapküldés. A korábbi türkiz gombos irányt ez a dokumentum felülírja.
 
 ## Források és hatókör
@@ -176,3 +176,7 @@ A cikkcakkos, kétoszlopos programelrendezés 1200 px-től jelenik meg, egyforma
 Asztalon (1200 px-től) a program szövegoszlopa flexoszlop, a CTA a fennmaradó térrel alulra kerül. A kóstoló és a céges program gombja a jobb szélre, a fordított kurzusblokk gombja balra igazodik, így mindig a fotótól távolabbi szélen zár. A grid sorához a fotó és a szöveg egyaránt nyúlik; a 6:5 alapkeret magasabb szöveghez alkalmazkodhat. Az adatrész után legalább 18 px marad, külön programonkénti margó nélkül. Ez felülírja az előző, minden nézetben balra igazított, fotótól független gombelrendezést.
 
 A díjazás 22 px/600, a gyakorlati adatértékek 16 px-esek; ár mellett nincs ikon. Az időpont Szerdánként, 17:00–19:30; a leírás rögzíti a négy egymást követő hetet. 1200 px alatt nincs alsó fotóigazítás, a gomb a tartalom után balra, a feliratához igazodó szélességgel jelenik meg.
+
+### Lezárt programbemutatók
+
+Az asztali programsorok közös, a leghosszabb szöveghez növekvő rácssormagasságot kapnak (grid-auto-rows:1fr); a három fotó szélessége és magassága megegyezik. Nincs merev szövegmagasság vagy programonkénti margó. A gombok alsó éle a fotóval egyezik, a fotótól távolabbi oldalon. Mobilon a fotó 6:5 arányú önálló elem, a gomb a tartalom után balra kerül. A két új programleírás a szovegek.md 3.5-ben szerepel. A közös tudnivalók szolgáltatói megszólalásai egyes számúak; a főoldalnak csak ez a négy mondata változott. A céges ajánlat tartalmazza az agyagot, a mázat és a két égetést, létszáma egyeztetett. Az űrlapopciók változatlanok, az ajándékozás és egyéb érdeklődés továbbra is egy közös opció. Ellenőrzési összegzés: ellenorzes/tanfolyamok-lezaras.md. További designmódosítás nem része ennek a lezárásnak.

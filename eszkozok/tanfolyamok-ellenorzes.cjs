@@ -23,14 +23,14 @@ const assert=(ok,message)=>{if(!ok)throw Error(message)};
    assert(geometry.every(g=>g.priceSize===22*zoom),'Egységes 22 px-es díjazás');
    if(geometry.every(g=>g.copyWidth>=448*zoom)){assert(geometry.every(g=>Math.abs(g.facts.top-g.price.top)<1&&g.price.left>g.facts.right),'Bal oldali adatok és jobb oldali díjazás');}
    else assert(geometry.every(g=>g.price.top>g.facts.bottom),'Mobil adat–díjazás sorrend');
-   if(width>=1200&&zoom===1){assert(geometry.every(g=>Math.abs(g.width-g.copyWidth)<1&&Math.abs(g.top-g.copyTop)<1),'Azonos oszlopszélesség és felső igazítás');assert(Math.max(...geometry.map(g=>g.width))-Math.min(...geometry.map(g=>g.width))<1,'Azonos fotóméret');assert(geometry[1].left>geometry[1].copyLeft&&geometry[0].left<geometry[0].copyLeft,'Cikkcakk elrendezés');}
+   if(width>=1200&&zoom===1){assert(geometry.every(g=>Math.abs(g.width-g.copyWidth)<1&&Math.abs(g.top-g.copyTop)<1),'Azonos oszlopszélesség és felső igazítás');assert(Math.max(...geometry.map(g=>g.width))-Math.min(...geometry.map(g=>g.width))<1&&Math.max(...geometry.map(g=>g.height))-Math.min(...geometry.map(g=>g.height))<1,'Azonos fotóméret');assert(geometry[1].left>geometry[1].copyLeft&&geometry[0].left<geometry[0].copyLeft,'Cikkcakk elrendezés');}
    if(width<1200)assert(geometry.every(g=>g.copyTop>g.top),'Mobil kép–szöveg sorrend');
    assert(await page.evaluate(()=>getComputedStyle(document.querySelector('#programvalaszto h2')).fontSize===getComputedStyle(document.querySelector('.course-process h2')).fontSize),'Közös H2-stílus');
    assert(await page.locator('.program-nav .ceramic-icon[aria-hidden="true"]').count()===3,'Dekoratív kerámiaikonok');
    assert(await page.locator('.program-facts .course-icon').count()===8,'Megmaradó adatjelölő ikonok');
    const facts=await page.locator('#korongozo-kostolo .program-facts').evaluate(e=>[...e.children].map(c=>c.getBoundingClientRect().toJSON()));
    assert(facts[1].top>facts[0].top&&facts[2].top>facts[1].top,'Gyakorlati adatok közös bal oszlopban');
-   await page.locator('.program-nav a').first().focus();await page.keyboard.press('Enter');assert(new URL(page.url()).hash==='#korongozo-kostolo','Billentyűzetes kártyanavigáció');
+   await page.locator('.program-nav a').first().focus();assert(await page.locator('.program-nav a').first().evaluate(e=>e.matches(':focus-visible')&&parseFloat(getComputedStyle(e).outlineWidth)>=3),'Látható billentyűzetes fókusz');await page.keyboard.press('Enter');assert(new URL(page.url()).hash==='#korongozo-kostolo','Billentyűzetes kártyanavigáció');
    const formGap=await page.locator('.send').evaluate(e=>e.getBoundingClientRect().top-e.previousElementSibling.getBoundingClientRect().bottom);
    assert(formGap>=20&&formGap<=48,'Adatkezelési szöveg és gomb térköze');
    assert(await page.locator('.header-cta').getAttribute('href')==='#kapcsolat','Helyi fejléc CTA');
@@ -39,9 +39,12 @@ const assert=(ok,message)=>{if(!ok)throw Error(message)};
    assert(!(await page.locator('.hero').textContent()).includes('Dóra'),'Résztvevő Dóraként bemutatva');
    assert((await page.locator('#kezdo-kurzus .program-facts').textContent()).includes('4 alkalom × 2,5 óra'),'Pontos kurzusidő');
    assert((await page.locator('#kezdo-kurzus .program-facts').textContent()).includes('Szerdánként, 17:00–19:30'),'Rövid heti időpont');
-   assert((await page.locator('#kezdo-kurzus .course-description').textContent()).includes('négy egymást követő héten'),'Négy egymást követő alkalom');
+   assert((await page.locator('#kezdo-kurzus .course-description').textContent()).includes('Az agyag előkészítésétől és központosításától'),'Végleges kurzusleírás');
    assert(await page.locator('.price svg').count()===0,'Díjazás ikon nélkül');
-   assert((await page.locator('#ceges-csapatepito .program-facts').textContent()).includes('előzetes egyeztetéssel'),'Céges létszám');
+   assert((await page.locator('#ceges-csapatepito .price').textContent()).includes('az agyagot, a mázat és a két égetést'),'Céges alapanyag és égetés');
+   assert(!(await page.locator('#ceges-csapatepito .program-facts').textContent()).includes('6 fő'),'Hatfős korlát nem a céges programon');
+   assert(JSON.stringify(await page.locator('#program option').allTextContents())===JSON.stringify(['Válassz programot','Korongozó kóstoló','Négyhetes kezdő kurzus','Céges csapatépítő','Ajándékozás vagy egyéb érdeklődés']),'Megmaradó űrlapopciók');
+   assert((await page.locator('#ceges-csapatepito .program-facts').textContent()).includes('a program kialakításakor egyeztetjük.'),'Céges létszám');
    for(const href of await page.locator('a[href]').evaluateAll(es=>es.map(e=>e.getAttribute('href')))){
     if(/^(https?:|mailto:)/.test(href))continue;
     const u=new URL(href,base+'tanfolyamok.html'),file=path.join(root,decodeURIComponent(u.pathname.slice(1)));

@@ -56,3 +56,9 @@ A programválasztó ikonrendje: tányér a kóstolónál, váza a kurzusnál, b�
 ### Utolsó finomhangolás
 
 Asztalon a kóstoló és a céges program gombja jobbra, a kurzusé balra zár, a fotó alsó széléhez igazítva. A flex/grid elrendezés természetesen növeli a fotókeretet, ha a szöveg magasabb; nincs külön beállított programmargó. Mobilon a gombok a tartalom után balra kerülnek, alsó fotóigazítás nélkül. Díjazás: 22 px/600, adatértékek: 16 px, árikon nincs. A kurzus tervezett időpontja Szerdánként, 17:00–19:30. A négy egymást követő hét a leírásban megmarad.
+
+## Lezárt állapot
+
+A legutóbbi felhasználói pontosítás szerinti, részletes kurzus- és céges leírás érvényes; szó szerinti forrásuk a szovegek.md 3.5. A céges időpont és időtartam előzetes egyeztetés szerint, a létszámot a program kialakításakor egyeztetik. Az ajánlatban az agyag, a máz és két égetés is szerepel; a hatfős korlát csak a kezdő programoké. Az asztali programok közös rugalmas grid-sormagasságot kapnak az egyforma fotóméretekhez. A CTA-k az alsó és a fotótól távolabbi szélre igazodnak; mobilon természetesen a tartalom után balra kerülnek. A szakaszsorrend és az arculat változatlan.
+
+A közös tudnivalók szolgáltatói megszólalásai egyes számúak, mindkét oldalon szó szerint egyeznek. Az Ajándékozás vagy egyéb érdeklődés összevont űrlapopció megmaradt. A 11 nézetes vizsgálat és a két oldal szimulált küldési ellenőrzése sikeres. Az éles kézbesítéshez a korábban későbbre hagyott Netlify/fogadó/e-mail-beállítások szükségesek. Teljes lezárási összegzés: ellenorzes/tanfolyamok-lezaras.md. További önálló designmódosítás nincs tervben.

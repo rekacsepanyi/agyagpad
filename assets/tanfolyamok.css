@@ -64,7 +64,10 @@
  .courses-page .course-process{padding-block:5rem}
 }
 @media(min-width:75rem){
- .courses-page .program-layout{grid-template-columns:repeat(2,minmax(0,1fr));gap:3rem;align-items:stretch}
+ /* A három sor a leghosszabb tartalomhoz nő, merev magasság nélkül. */
+ .courses-page .program-list{display:grid;grid-auto-rows:1fr}
+ .courses-page .program-detail{display:flex;flex-direction:column}
+ .courses-page .program-layout{flex:1;grid-template-columns:repeat(2,minmax(0,1fr));gap:3rem;align-items:stretch}
  .courses-page .program-layout .detail-photo{align-self:stretch}
  .courses-page .program-copy{display:flex;flex-direction:column;align-self:stretch}
  .courses-page .program-information{margin-bottom:1.125rem}

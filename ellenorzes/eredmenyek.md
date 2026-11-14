@@ -1,3 +1,7 @@
+# Aktuális kiegészítés – SEO és public kiadás
+
+2026. november 14.: a webes források a public mappába költöztek, a főoldal public/index.html. A legfrissebb teszt a seo-publikalas-ellenorzes.json: 35 sikeres nézetpróba. A három űrlap öt-öt HTTP-szimulációja sikeres. A domainfüggő SEO-elemek a még hiányzó webcímre várnak; részletes állapot: tervezes/seo-es-publikalas.md. Az alábbi 53 nézetpróba a költöztetés előtti állapot történeti ellenőrzése.
+
 # Agyagpad – végső reszponzív ellenőrzés
 
 Frissítve: 2026. november 14. Revízió: 2026-11-14-responsive-final-review.

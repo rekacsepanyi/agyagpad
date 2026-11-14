@@ -1,10 +1,10 @@
 # Agyagpad – aktuális oldaltérkép
 
-Frissítve: 2026. november 14. Revízió: 2026-11-14-responsive-final-review.
+Frissítve: 2026. november 14. Revízió: 2026-11-14-seo-public-webp.
 
 ## Közös navigáció
 
-Öt aktív oldal: `koncepcio-1-udvari-muhely.html`, `tanfolyamok.html`, `muhely.html`, `kapcsolat.html`, `adatkezeles.html`. Az `index.html` még a régi koncepcióválasztó; publikáláskor a végleges főoldal legyen a belépési oldal.
+Öt aktív oldal a public mappában: `index.html`, `tanfolyamok.html`, `muhely.html`, `kapcsolat.html`, `adatkezeles.html`. A public/index.html a végleges belépési pont. A régi koncepcióválasztó az archivum/koncepciok-index.html fájlban maradt.
 
 A közös fejlécben logó, Kezdőlap, Tanfolyamok, Műhely, Kapcsolat és Érdeklődöm gomb szerepel. Az utóbbi minden oldalon `kapcsolat.html#erdeklodes` célra vezet, mobilmenüben is. A helyi programgombok célja ettől függetlenül megmarad.
 
@@ -42,3 +42,5 @@ Az Adatkezelés oldal az űrlapot, a külső térképet és a pótlandó valós 
 ## Tervezési bizonyíték és ellenőrzés
 
 Az eredeti oldaltérkép és drótváz a kezdeti tervezést dokumentálja. A `beadas/tervezesi-folyamat/03-aktualis-oldalterkep.png` már a fenti ötoldalas állapotot mutatja. Az aktuális nézetképek a `beadas/jelenlegi-oldal/` mappában találhatók. Az 53 sikeres nézetpróba és az űrlapszimulációk összefoglalója: `ellenorzes/eredmenyek.md`.
+
+SEO és kiadási mappa: tervezes/seo-es-publikalas.md. A végleges webcím hiányzik; a Netlify Git-build automatikusan véglegesíti a domainfüggő SEO-elemeket.

@@ -1,0 +1,500 @@
+[
+  {
+    "file": "images/logo/Agyagpad-favicon-transparent.png",
+    "bytes": 13132,
+    "width": 256,
+    "height": 256
+  },
+  {
+    "file": "images/webp/agyagpad-hero-800.webp",
+    "bytes": 36524,
+    "width": 800,
+    "height": 1200
+  },
+  {
+    "file": "images/webp/korongozo-kostolo-800.webp",
+    "bytes": 18748,
+    "width": 800,
+    "height": 533
+  },
+  {
+    "file": "images/webp/4-hetes-kezdo-kurzus-800.webp",
+    "bytes": 18948,
+    "width": 800,
+    "height": 534
+  },
+  {
+    "file": "images/webp/ceges-csapatepito-800.webp",
+    "bytes": 60326,
+    "width": 800,
+    "height": 1200
+  },
+  {
+    "file": "images/webp/hero-800.webp",
+    "bytes": 98298,
+    "width": 800,
+    "height": 1199
+  },
+  {
+    "file": "images/webp/muhelybolt-800.webp",
+    "bytes": 36164,
+    "width": 800,
+    "height": 533
+  },
+  {
+    "file": "images/webp/kapcsolat-800.webp",
+    "bytes": 40090,
+    "width": 800,
+    "height": 533
+  },
+  {
+    "file": "images/webp/agyagpad-hero-480.webp",
+    "bytes": 18104,
+    "width": 480,
+    "height": 720
+  },
+  {
+    "file": "images/webp/agyagpad-hero-1200.webp",
+    "bytes": 67006,
+    "width": 1200,
+    "height": 1800
+  },
+  {
+    "file": "images/webp/agyagpad-hero-1600.webp",
+    "bytes": 110454,
+    "width": 1600,
+    "height": 2400
+  },
+  {
+    "file": "images/webp/korongozo-kostolo-480.webp",
+    "bytes": 9394,
+    "width": 480,
+    "height": 320
+  },
+  {
+    "file": "images/webp/korongozo-kostolo-1200.webp",
+    "bytes": 31260,
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "file": "images/webp/korongozo-kostolo-1600.webp",
+    "bytes": 47850,
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "file": "images/webp/4-hetes-kezdo-kurzus-480.webp",
+    "bytes": 10164,
+    "width": 480,
+    "height": 320
+  },
+  {
+    "file": "images/webp/4-hetes-kezdo-kurzus-1200.webp",
+    "bytes": 31264,
+    "width": 1200,
+    "height": 801
+  },
+  {
+    "file": "images/webp/4-hetes-kezdo-kurzus-1600.webp",
+    "bytes": 45670,
+    "width": 1600,
+    "height": 1068
+  },
+  {
+    "file": "images/webp/ceges-csapatepito-480.webp",
+    "bytes": 30362,
+    "width": 480,
+    "height": 720
+  },
+  {
+    "file": "images/webp/ceges-csapatepito-1200.webp",
+    "bytes": 109300,
+    "width": 1200,
+    "height": 1800
+  },
+  {
+    "file": "images/webp/ceges-csapatepito-1600.webp",
+    "bytes": 193314,
+    "width": 1600,
+    "height": 2400
+  },
+  {
+    "file": "images/webp/hero-480.webp",
+    "bytes": 46322,
+    "width": 480,
+    "height": 719
+  },
+  {
+    "file": "images/webp/hero-1200.webp",
+    "bytes": 154664,
+    "width": 1200,
+    "height": 1798
+  },
+  {
+    "file": "images/webp/hero-1600.webp",
+    "bytes": 249364,
+    "width": 1600,
+    "height": 2397
+  },
+  {
+    "file": "images/webp/muhelybolt-480.webp",
+    "bytes": 18422,
+    "width": 480,
+    "height": 320
+  },
+  {
+    "file": "images/webp/muhelybolt-1200.webp",
+    "bytes": 62738,
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "file": "images/webp/muhelybolt-1600.webp",
+    "bytes": 88674,
+    "width": 1600,
+    "height": 1066
+  },
+  {
+    "file": "images/webp/kapcsolat-480.webp",
+    "bytes": 19260,
+    "width": 480,
+    "height": 320
+  },
+  {
+    "file": "images/webp/kapcsolat-1200.webp",
+    "bytes": 69384,
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "file": "images/webp/kapcsolat-1600.webp",
+    "bytes": 105970,
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "file": "images/webp/tanfolyam-resztvevo-800.webp",
+    "bytes": 89448,
+    "width": 800,
+    "height": 1200
+  },
+  {
+    "file": "images/webp/tanfolyam-resztvevo-480.webp",
+    "bytes": 38950,
+    "width": 480,
+    "height": 720
+  },
+  {
+    "file": "images/webp/tanfolyam-resztvevo-1200.webp",
+    "bytes": 181138,
+    "width": 1200,
+    "height": 1800
+  },
+  {
+    "file": "images/webp/tanfolyam-resztvevo-1600.webp",
+    "bytes": 340348,
+    "width": 1600,
+    "height": 2400
+  },
+  {
+    "file": "images/webp/muhely-hero-800.webp",
+    "bytes": 47650,
+    "width": 800,
+    "height": 534
+  },
+  {
+    "file": "images/webp/muhely-kezben-tal-800.webp",
+    "bytes": 26886,
+    "width": 800,
+    "height": 547
+  },
+  {
+    "file": "images/webp/muhely-polc-800.webp",
+    "bytes": 20852,
+    "width": 800,
+    "height": 533
+  },
+  {
+    "file": "images/webp/muhely-korongozas-800.webp",
+    "bytes": 24294,
+    "width": 800,
+    "height": 533
+  },
+  {
+    "file": "images/webp/muhely-talak-tanyerok-1920.webp",
+    "bytes": 723500,
+    "width": 1920,
+    "height": 1280
+  },
+  {
+    "file": "images/webp/muhely-talak-tanyerok-800.webp",
+    "bytes": 123748,
+    "width": 800,
+    "height": 534
+  },
+  {
+    "file": "images/webp/muhely-pettyes-bogre-1920.webp",
+    "bytes": 196004,
+    "width": 1920,
+    "height": 1280
+  },
+  {
+    "file": "images/webp/muhely-pettyes-bogre-800.webp",
+    "bytes": 51998,
+    "width": 800,
+    "height": 533
+  },
+  {
+    "file": "images/webp/muhely-vazak-1920.webp",
+    "bytes": 76904,
+    "width": 1920,
+    "height": 1280
+  },
+  {
+    "file": "images/webp/muhely-vazak-800.webp",
+    "bytes": 20644,
+    "width": 800,
+    "height": 533
+  },
+  {
+    "file": "images/webp/muhely-teritek-1920.webp",
+    "bytes": 149382,
+    "width": 1920,
+    "height": 1280
+  },
+  {
+    "file": "images/webp/muhely-teritek-800.webp",
+    "bytes": 43960,
+    "width": 800,
+    "height": 533
+  },
+  {
+    "file": "images/webp/muhely-mintazott-tal-1920.webp",
+    "bytes": 260792,
+    "width": 1920,
+    "height": 2744
+  },
+  {
+    "file": "images/webp/muhely-mintazott-tal-800.webp",
+    "bytes": 62360,
+    "width": 800,
+    "height": 1143
+  },
+  {
+    "file": "images/webp/muhely-turkiz-tanyerok-1920.webp",
+    "bytes": 350114,
+    "width": 1920,
+    "height": 1281
+  },
+  {
+    "file": "images/webp/muhely-turkiz-tanyerok-800.webp",
+    "bytes": 66860,
+    "width": 800,
+    "height": 534
+  },
+  {
+    "file": "images/webp/muhely-hero-480.webp",
+    "bytes": 23890,
+    "width": 480,
+    "height": 320
+  },
+  {
+    "file": "images/webp/muhely-hero-1200.webp",
+    "bytes": 84078,
+    "width": 1200,
+    "height": 801
+  },
+  {
+    "file": "images/webp/muhely-hero-1600.webp",
+    "bytes": 128544,
+    "width": 1600,
+    "height": 1068
+  },
+  {
+    "file": "images/webp/muhely-kezben-tal-480.webp",
+    "bytes": 13438,
+    "width": 480,
+    "height": 328
+  },
+  {
+    "file": "images/webp/muhely-kezben-tal-1200.webp",
+    "bytes": 47546,
+    "width": 1200,
+    "height": 821
+  },
+  {
+    "file": "images/webp/muhely-kezben-tal-1600.webp",
+    "bytes": 73622,
+    "width": 1600,
+    "height": 1095
+  },
+  {
+    "file": "images/webp/muhely-polc-480.webp",
+    "bytes": 11316,
+    "width": 480,
+    "height": 320
+  },
+  {
+    "file": "images/webp/muhely-polc-1200.webp",
+    "bytes": 33154,
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "file": "images/webp/muhely-polc-1600.webp",
+    "bytes": 48874,
+    "width": 1600,
+    "height": 1066
+  },
+  {
+    "file": "images/webp/muhely-korongozas-480.webp",
+    "bytes": 13178,
+    "width": 480,
+    "height": 320
+  },
+  {
+    "file": "images/webp/muhely-korongozas-1200.webp",
+    "bytes": 39298,
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "file": "images/webp/muhely-korongozas-1600.webp",
+    "bytes": 56482,
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "file": "images/webp/muhely-talak-tanyerok-480.webp",
+    "bytes": 40870,
+    "width": 480,
+    "height": 320
+  },
+  {
+    "file": "images/webp/muhely-talak-tanyerok-1200.webp",
+    "bytes": 293890,
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "file": "images/webp/muhely-talak-tanyerok-1600.webp",
+    "bytes": 519786,
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "file": "images/webp/muhely-pettyes-bogre-480.webp",
+    "bytes": 20126,
+    "width": 480,
+    "height": 320
+  },
+  {
+    "file": "images/webp/muhely-pettyes-bogre-1200.webp",
+    "bytes": 97432,
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "file": "images/webp/muhely-pettyes-bogre-1600.webp",
+    "bytes": 153544,
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "file": "images/webp/muhely-vazak-480.webp",
+    "bytes": 9968,
+    "width": 480,
+    "height": 320
+  },
+  {
+    "file": "images/webp/muhely-vazak-1200.webp",
+    "bytes": 36796,
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "file": "images/webp/muhely-vazak-1600.webp",
+    "bytes": 56726,
+    "width": 1600,
+    "height": 1066
+  },
+  {
+    "file": "images/webp/muhely-teritek-480.webp",
+    "bytes": 20332,
+    "width": 480,
+    "height": 320
+  },
+  {
+    "file": "images/webp/muhely-teritek-1200.webp",
+    "bytes": 74596,
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "file": "images/webp/muhely-teritek-1600.webp",
+    "bytes": 114620,
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "file": "images/webp/muhely-mintazott-tal-480.webp",
+    "bytes": 28302,
+    "width": 480,
+    "height": 686
+  },
+  {
+    "file": "images/webp/muhely-mintazott-tal-1200.webp",
+    "bytes": 123924,
+    "width": 1200,
+    "height": 1715
+  },
+  {
+    "file": "images/webp/muhely-mintazott-tal-1600.webp",
+    "bytes": 195652,
+    "width": 1600,
+    "height": 2287
+  },
+  {
+    "file": "images/webp/muhely-turkiz-tanyerok-480.webp",
+    "bytes": 24808,
+    "width": 480,
+    "height": 320
+  },
+  {
+    "file": "images/webp/muhely-turkiz-tanyerok-1200.webp",
+    "bytes": 145632,
+    "width": 1200,
+    "height": 801
+  },
+  {
+    "file": "images/webp/muhely-turkiz-tanyerok-1600.webp",
+    "bytes": 245808,
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "file": "images/webp/kapcsolat-teritek-800.webp",
+    "bytes": 88254,
+    "width": 800,
+    "height": 533
+  },
+  {
+    "file": "images/webp/kapcsolat-teritek-480.webp",
+    "bytes": 29486,
+    "width": 480,
+    "height": 320
+  },
+  {
+    "file": "images/webp/kapcsolat-teritek-1200.webp",
+    "bytes": 213050,
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "file": "images/webp/kapcsolat-teritek-1600.webp",
+    "bytes": 374084,
+    "width": 1600,
+    "height": 1066
+  }
+]

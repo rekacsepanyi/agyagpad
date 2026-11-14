@@ -1,12 +1,12 @@
 const fs=require('fs'),path=require('path'),{createRequire}=require('module');
 const r=createRequire('C:/Users/jolci/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/package.json'),{chromium}=r('playwright');
 const root=path.resolve(__dirname,'..');
-const files=['koncepcio-1-udvari-muhely.html','tanfolyamok.html','muhely.html','kapcsolat.html','adatkezeles.html'];
+const files=['index.html','tanfolyamok.html','muhely.html','kapcsolat.html','adatkezeles.html'];
 (async()=>{
  const browser=await chromium.launch({headless:true,executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe'}),pages=[];let main;
  try{
   for(const file of files){
-   const page=await browser.newPage({viewport:{width:1440,height:1000}});await page.goto('http://127.0.0.1:4173/'+file);await page.evaluate(()=>document.fonts.ready);
+   const page=await browser.newPage({viewport:{width:1440,height:1000}});await page.goto('http://127.0.0.1:4173/public/'+file);await page.evaluate(()=>document.fonts.ready);
    const content=await page.evaluate(()=>{
     const text=e=>e.textContent.replace(/\s+/g,' ').trim(),links=s=>[...document.querySelectorAll(s)].map(e=>({text:text(e),href:e.getAttribute('href')}));
     return {title:document.title,description:document.querySelector('meta[name="description"]').content,headings:[...document.querySelectorAll('main h1,main h2,main h3')].map(e=>({level:e.tagName,id:e.id,text:text(e)})),navigation:links('.site-header a'),footer:links('.footer-links a'),sections:[...document.querySelectorAll('main>section')].map(e=>({id:e.id,text:text(e)})),forms:[...document.querySelectorAll('[data-contact-form]')].map(e=>({name:e.getAttribute('name'),fields:[...e.querySelectorAll('input,select,textarea')].map(f=>({name:f.name,type:f.type,required:f.required,options:f.tagName==='SELECT'?[...f.options].map(o=>({value:o.value,text:o.textContent})):undefined}))}))};

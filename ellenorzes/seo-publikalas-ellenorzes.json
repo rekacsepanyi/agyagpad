@@ -1,0 +1,222 @@
+{
+  "date": "2026-11-14",
+  "passed": true,
+  "domainPending": true,
+  "results": [
+    {
+      "file": "index.html",
+      "width": 320,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "file": "index.html",
+      "width": 390,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "file": "index.html",
+      "width": 768,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "file": "index.html",
+      "width": 1024,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "file": "index.html",
+      "width": 1440,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "file": "index.html",
+      "width": 390,
+      "textZoom": 2,
+      "passed": true
+    },
+    {
+      "file": "index.html",
+      "width": 1440,
+      "textZoom": 2,
+      "passed": true
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 320,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 390,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 768,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 1024,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 1440,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 390,
+      "textZoom": 2,
+      "passed": true
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 1440,
+      "textZoom": 2,
+      "passed": true
+    },
+    {
+      "file": "muhely.html",
+      "width": 320,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "file": "muhely.html",
+      "width": 390,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "file": "muhely.html",
+      "width": 768,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "file": "muhely.html",
+      "width": 1024,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "file": "muhely.html",
+      "width": 1440,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "file": "muhely.html",
+      "width": 390,
+      "textZoom": 2,
+      "passed": true
+    },
+    {
+      "file": "muhely.html",
+      "width": 1440,
+      "textZoom": 2,
+      "passed": true
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 320,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 390,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 768,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 1024,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 1440,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 390,
+      "textZoom": 2,
+      "passed": true
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 1440,
+      "textZoom": 2,
+      "passed": true
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 320,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 390,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 768,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 1024,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 1440,
+      "textZoom": 1,
+      "passed": true
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 390,
+      "textZoom": 2,
+      "passed": true
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 1440,
+      "textZoom": 2,
+      "passed": true
+    }
+  ],
+  "issues": [],
+  "pending": [
+    "Végleges HTTPS webcím: canonical, og:url, abszolút megosztási kép-URL, öt sitemap URL és robots Sitemap sor. Netlify Git-build automatikusan véglegesíti az URL környezeti változóból."
+  ],
+  "realDeliveryVerified": false
+}

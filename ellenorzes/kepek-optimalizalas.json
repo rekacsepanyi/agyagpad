@@ -1,0 +1,757 @@
+{
+  "date": "2026-11-14",
+  "beforeBytes": 8218108,
+  "afterBytes": 6692253,
+  "savedBytes": 1525855,
+  "savedPercent": 18.6,
+  "originalsUnchanged": true,
+  "results": [
+    {
+      "file": "public/images/logo/Agyagpad-favicon-transparent.png",
+      "original": null,
+      "width": 256,
+      "height": 256,
+      "beforeBytes": 13132,
+      "afterBytes": 7573,
+      "quality": null
+    },
+    {
+      "file": "public/images/webp/agyagpad-hero-800.webp",
+      "original": "images/fotók/agyagpad-hero.jpg",
+      "width": 800,
+      "height": 1200,
+      "beforeBytes": 36524,
+      "afterBytes": 31284,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/korongozo-kostolo-800.webp",
+      "original": "images/fotók/korongozo-kostolo.jpg",
+      "width": 800,
+      "height": 533,
+      "beforeBytes": 18748,
+      "afterBytes": 17244,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/4-hetes-kezdo-kurzus-800.webp",
+      "original": "images/fotók/4-hetes-kezdo-kurzus.jpg",
+      "width": 800,
+      "height": 534,
+      "beforeBytes": 18948,
+      "afterBytes": 17364,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/ceges-csapatepito-800.webp",
+      "original": "images/fotók/ceges-csapatepito.jpg",
+      "width": 800,
+      "height": 1200,
+      "beforeBytes": 60326,
+      "afterBytes": 54478,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/hero-800.webp",
+      "original": "images/fotók/hero.jpg",
+      "width": 800,
+      "height": 1199,
+      "beforeBytes": 98298,
+      "afterBytes": 89814,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhelybolt-800.webp",
+      "original": "images/fotók/muhelybolt.jpg",
+      "width": 800,
+      "height": 533,
+      "beforeBytes": 36164,
+      "afterBytes": 33512,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/kapcsolat-800.webp",
+      "original": "images/fotók/kapcsolat.jpg",
+      "width": 800,
+      "height": 533,
+      "beforeBytes": 40090,
+      "afterBytes": 36892,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/agyagpad-hero-480.webp",
+      "original": "images/fotók/agyagpad-hero.jpg",
+      "width": 480,
+      "height": 720,
+      "beforeBytes": 18104,
+      "afterBytes": 15868,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/agyagpad-hero-1200.webp",
+      "original": "images/fotók/agyagpad-hero.jpg",
+      "width": 1200,
+      "height": 1800,
+      "beforeBytes": 67006,
+      "afterBytes": 57350,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/agyagpad-hero-1600.webp",
+      "original": "images/fotók/agyagpad-hero.jpg",
+      "width": 1600,
+      "height": 2400,
+      "beforeBytes": 110454,
+      "afterBytes": 89894,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/korongozo-kostolo-480.webp",
+      "original": "images/fotók/korongozo-kostolo.jpg",
+      "width": 480,
+      "height": 320,
+      "beforeBytes": 9394,
+      "afterBytes": 8718,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/korongozo-kostolo-1200.webp",
+      "original": "images/fotók/korongozo-kostolo.jpg",
+      "width": 1200,
+      "height": 800,
+      "beforeBytes": 31260,
+      "afterBytes": 29028,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/korongozo-kostolo-1600.webp",
+      "original": "images/fotók/korongozo-kostolo.jpg",
+      "width": 1600,
+      "height": 1067,
+      "beforeBytes": 47850,
+      "afterBytes": 42576,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/4-hetes-kezdo-kurzus-480.webp",
+      "original": "images/fotók/4-hetes-kezdo-kurzus.jpg",
+      "width": 480,
+      "height": 320,
+      "beforeBytes": 10164,
+      "afterBytes": 9514,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/4-hetes-kezdo-kurzus-1200.webp",
+      "original": "images/fotók/4-hetes-kezdo-kurzus.jpg",
+      "width": 1200,
+      "height": 801,
+      "beforeBytes": 31264,
+      "afterBytes": 28750,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/4-hetes-kezdo-kurzus-1600.webp",
+      "original": "images/fotók/4-hetes-kezdo-kurzus.jpg",
+      "width": 1600,
+      "height": 1068,
+      "beforeBytes": 45670,
+      "afterBytes": 41618,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/ceges-csapatepito-480.webp",
+      "original": "images/fotók/ceges-csapatepito.jpg",
+      "width": 480,
+      "height": 720,
+      "beforeBytes": 30362,
+      "afterBytes": 27608,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/ceges-csapatepito-1200.webp",
+      "original": "images/fotók/ceges-csapatepito.jpg",
+      "width": 1200,
+      "height": 1800,
+      "beforeBytes": 109300,
+      "afterBytes": 94908,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/ceges-csapatepito-1600.webp",
+      "original": "images/fotók/ceges-csapatepito.jpg",
+      "width": 1600,
+      "height": 2400,
+      "beforeBytes": 193314,
+      "afterBytes": 158254,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/hero-480.webp",
+      "original": "images/fotók/hero.jpg",
+      "width": 480,
+      "height": 719,
+      "beforeBytes": 46322,
+      "afterBytes": 43574,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/hero-1200.webp",
+      "original": "images/fotók/hero.jpg",
+      "width": 1200,
+      "height": 1798,
+      "beforeBytes": 154664,
+      "afterBytes": 154664,
+      "quality": null
+    },
+    {
+      "file": "public/images/webp/hero-1600.webp",
+      "original": "images/fotók/hero.jpg",
+      "width": 1600,
+      "height": 2397,
+      "beforeBytes": 249364,
+      "afterBytes": 232394,
+      "quality": 74
+    },
+    {
+      "file": "public/images/webp/muhelybolt-480.webp",
+      "original": "images/fotók/muhelybolt.jpg",
+      "width": 480,
+      "height": 320,
+      "beforeBytes": 18422,
+      "afterBytes": 16964,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhelybolt-1200.webp",
+      "original": "images/fotók/muhelybolt.jpg",
+      "width": 1200,
+      "height": 800,
+      "beforeBytes": 62738,
+      "afterBytes": 55800,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhelybolt-1600.webp",
+      "original": "images/fotók/muhelybolt.jpg",
+      "width": 1600,
+      "height": 1066,
+      "beforeBytes": 88674,
+      "afterBytes": 80652,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/kapcsolat-480.webp",
+      "original": "images/fotók/kapcsolat.jpg",
+      "width": 480,
+      "height": 320,
+      "beforeBytes": 19260,
+      "afterBytes": 17814,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/kapcsolat-1200.webp",
+      "original": "images/fotók/kapcsolat.jpg",
+      "width": 1200,
+      "height": 800,
+      "beforeBytes": 69384,
+      "afterBytes": 62094,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/kapcsolat-1600.webp",
+      "original": "images/fotók/kapcsolat.jpg",
+      "width": 1600,
+      "height": 1067,
+      "beforeBytes": 105970,
+      "afterBytes": 95070,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/tanfolyam-resztvevo-800.webp",
+      "original": "images/fotók/hero3.jpg",
+      "width": 800,
+      "height": 1200,
+      "beforeBytes": 89448,
+      "afterBytes": 76352,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/tanfolyam-resztvevo-480.webp",
+      "original": "images/fotók/hero3.jpg",
+      "width": 480,
+      "height": 720,
+      "beforeBytes": 38950,
+      "afterBytes": 35062,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/tanfolyam-resztvevo-1200.webp",
+      "original": "images/fotók/hero3.jpg",
+      "width": 1200,
+      "height": 1800,
+      "beforeBytes": 181138,
+      "afterBytes": 150930,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/tanfolyam-resztvevo-1600.webp",
+      "original": "images/fotók/hero3.jpg",
+      "width": 1600,
+      "height": 2400,
+      "beforeBytes": 340348,
+      "afterBytes": 226332,
+      "quality": 74
+    },
+    {
+      "file": "public/images/webp/muhely-hero-800.webp",
+      "original": "images/fotók/hero1.jpg",
+      "width": 800,
+      "height": 534,
+      "beforeBytes": 47650,
+      "afterBytes": 42174,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-kezben-tal-800.webp",
+      "original": "images/fotók/muhely/handmade-pottery-bowl.jpg",
+      "width": 800,
+      "height": 547,
+      "beforeBytes": 26886,
+      "afterBytes": 23450,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-polc-800.webp",
+      "original": "images/fotók/side-view-clay-pots-arrangement.jpg",
+      "width": 800,
+      "height": 533,
+      "beforeBytes": 20852,
+      "afterBytes": 18656,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-korongozas-800.webp",
+      "original": "images/fotók/muhely/close-up-female-potter-s-hand-giving-shape-clay-bowl-pottery-wheel.jpg",
+      "width": 800,
+      "height": 533,
+      "beforeBytes": 24294,
+      "afterBytes": 21322,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-talak-tanyerok-1920.webp",
+      "original": "images/fotók/muhely/different-ceramic-empty-plates-bowls.jpg",
+      "width": 1920,
+      "height": 1280,
+      "beforeBytes": 723500,
+      "afterBytes": 510638,
+      "quality": 66
+    },
+    {
+      "file": "public/images/webp/muhely-talak-tanyerok-800.webp",
+      "original": "images/fotók/muhely/different-ceramic-empty-plates-bowls.jpg",
+      "width": 800,
+      "height": 534,
+      "beforeBytes": 123748,
+      "afterBytes": 84724,
+      "quality": 66
+    },
+    {
+      "file": "public/images/webp/muhely-pettyes-bogre-1920.webp",
+      "original": "images/fotók/muhely/rustic-speckled-mug-design-resource.jpg",
+      "width": 1920,
+      "height": 1280,
+      "beforeBytes": 196004,
+      "afterBytes": 169524,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-pettyes-bogre-800.webp",
+      "original": "images/fotók/muhely/rustic-speckled-mug-design-resource.jpg",
+      "width": 800,
+      "height": 533,
+      "beforeBytes": 51998,
+      "afterBytes": 46360,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-vazak-1920.webp",
+      "original": "images/fotók/muhely/close-up-arrangement-modern-vases (1).jpg",
+      "width": 1920,
+      "height": 1280,
+      "beforeBytes": 76904,
+      "afterBytes": 62394,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-vazak-800.webp",
+      "original": "images/fotók/muhely/close-up-arrangement-modern-vases (1).jpg",
+      "width": 800,
+      "height": 533,
+      "beforeBytes": 20644,
+      "afterBytes": 17150,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-teritek-1920.webp",
+      "original": "images/fotók/muhely/top-view-table-arrangement-with-empty-dishes-tableware.jpg",
+      "width": 1920,
+      "height": 1280,
+      "beforeBytes": 149382,
+      "afterBytes": 125222,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-teritek-800.webp",
+      "original": "images/fotók/muhely/top-view-table-arrangement-with-empty-dishes-tableware.jpg",
+      "width": 800,
+      "height": 533,
+      "beforeBytes": 43960,
+      "afterBytes": 38028,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-mintazott-tal-1920.webp",
+      "original": "images/fotók/muhely/ceramic-bowl-linen-cloth.jpg",
+      "width": 1920,
+      "height": 2744,
+      "beforeBytes": 260792,
+      "afterBytes": 217254,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-mintazott-tal-800.webp",
+      "original": "images/fotók/muhely/ceramic-bowl-linen-cloth.jpg",
+      "width": 800,
+      "height": 1143,
+      "beforeBytes": 62360,
+      "afterBytes": 52430,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-turkiz-tanyerok-1920.webp",
+      "original": "images/fotók/muhely/bottom-view-round-platters-black-table.jpg",
+      "width": 1920,
+      "height": 1281,
+      "beforeBytes": 350114,
+      "afterBytes": 309474,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-turkiz-tanyerok-800.webp",
+      "original": "images/fotók/muhely/bottom-view-round-platters-black-table.jpg",
+      "width": 800,
+      "height": 534,
+      "beforeBytes": 66860,
+      "afterBytes": 58034,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-hero-480.webp",
+      "original": "images/fotók/hero1.jpg",
+      "width": 480,
+      "height": 320,
+      "beforeBytes": 23890,
+      "afterBytes": 20850,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-hero-1200.webp",
+      "original": "images/fotók/hero1.jpg",
+      "width": 1200,
+      "height": 801,
+      "beforeBytes": 84078,
+      "afterBytes": 73598,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-hero-1600.webp",
+      "original": "images/fotók/hero1.jpg",
+      "width": 1600,
+      "height": 1068,
+      "beforeBytes": 128544,
+      "afterBytes": 111354,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-kezben-tal-480.webp",
+      "original": "images/fotók/muhely/handmade-pottery-bowl.jpg",
+      "width": 480,
+      "height": 328,
+      "beforeBytes": 13438,
+      "afterBytes": 12168,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-kezben-tal-1200.webp",
+      "original": "images/fotók/muhely/handmade-pottery-bowl.jpg",
+      "width": 1200,
+      "height": 821,
+      "beforeBytes": 47546,
+      "afterBytes": 39756,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-kezben-tal-1600.webp",
+      "original": "images/fotók/muhely/handmade-pottery-bowl.jpg",
+      "width": 1600,
+      "height": 1095,
+      "beforeBytes": 73622,
+      "afterBytes": 61790,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-polc-480.webp",
+      "original": "images/fotók/side-view-clay-pots-arrangement.jpg",
+      "width": 480,
+      "height": 320,
+      "beforeBytes": 11316,
+      "afterBytes": 9974,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-polc-1200.webp",
+      "original": "images/fotók/side-view-clay-pots-arrangement.jpg",
+      "width": 1200,
+      "height": 800,
+      "beforeBytes": 33154,
+      "afterBytes": 28612,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-polc-1600.webp",
+      "original": "images/fotók/side-view-clay-pots-arrangement.jpg",
+      "width": 1600,
+      "height": 1066,
+      "beforeBytes": 48874,
+      "afterBytes": 42438,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-korongozas-480.webp",
+      "original": "images/fotók/muhely/close-up-female-potter-s-hand-giving-shape-clay-bowl-pottery-wheel.jpg",
+      "width": 480,
+      "height": 320,
+      "beforeBytes": 13178,
+      "afterBytes": 11942,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-korongozas-1200.webp",
+      "original": "images/fotók/muhely/close-up-female-potter-s-hand-giving-shape-clay-bowl-pottery-wheel.jpg",
+      "width": 1200,
+      "height": 800,
+      "beforeBytes": 39298,
+      "afterBytes": 34502,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-korongozas-1600.webp",
+      "original": "images/fotók/muhely/close-up-female-potter-s-hand-giving-shape-clay-bowl-pottery-wheel.jpg",
+      "width": 1600,
+      "height": 1067,
+      "beforeBytes": 56482,
+      "afterBytes": 49376,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-talak-tanyerok-480.webp",
+      "original": "images/fotók/muhely/different-ceramic-empty-plates-bowls.jpg",
+      "width": 480,
+      "height": 320,
+      "beforeBytes": 40870,
+      "afterBytes": 35664,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-talak-tanyerok-1200.webp",
+      "original": "images/fotók/muhely/different-ceramic-empty-plates-bowls.jpg",
+      "width": 1200,
+      "height": 800,
+      "beforeBytes": 293890,
+      "afterBytes": 204896,
+      "quality": 66
+    },
+    {
+      "file": "public/images/webp/muhely-talak-tanyerok-1600.webp",
+      "original": "images/fotók/muhely/different-ceramic-empty-plates-bowls.jpg",
+      "width": 1600,
+      "height": 1067,
+      "beforeBytes": 519786,
+      "afterBytes": 366492,
+      "quality": 66
+    },
+    {
+      "file": "public/images/webp/muhely-pettyes-bogre-480.webp",
+      "original": "images/fotók/muhely/rustic-speckled-mug-design-resource.jpg",
+      "width": 480,
+      "height": 320,
+      "beforeBytes": 20126,
+      "afterBytes": 17888,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-pettyes-bogre-1200.webp",
+      "original": "images/fotók/muhely/rustic-speckled-mug-design-resource.jpg",
+      "width": 1200,
+      "height": 800,
+      "beforeBytes": 97432,
+      "afterBytes": 85114,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-pettyes-bogre-1600.webp",
+      "original": "images/fotók/muhely/rustic-speckled-mug-design-resource.jpg",
+      "width": 1600,
+      "height": 1067,
+      "beforeBytes": 153544,
+      "afterBytes": 132448,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-vazak-480.webp",
+      "original": "images/fotók/muhely/close-up-arrangement-modern-vases (1).jpg",
+      "width": 480,
+      "height": 320,
+      "beforeBytes": 9968,
+      "afterBytes": 8486,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-vazak-1200.webp",
+      "original": "images/fotók/muhely/close-up-arrangement-modern-vases (1).jpg",
+      "width": 1200,
+      "height": 800,
+      "beforeBytes": 36796,
+      "afterBytes": 31498,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-vazak-1600.webp",
+      "original": "images/fotók/muhely/close-up-arrangement-modern-vases (1).jpg",
+      "width": 1600,
+      "height": 1066,
+      "beforeBytes": 56726,
+      "afterBytes": 46540,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-teritek-480.webp",
+      "original": "images/fotók/muhely/top-view-table-arrangement-with-empty-dishes-tableware.jpg",
+      "width": 480,
+      "height": 320,
+      "beforeBytes": 20332,
+      "afterBytes": 18164,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-teritek-1200.webp",
+      "original": "images/fotók/muhely/top-view-table-arrangement-with-empty-dishes-tableware.jpg",
+      "width": 1200,
+      "height": 800,
+      "beforeBytes": 74596,
+      "afterBytes": 64132,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-teritek-1600.webp",
+      "original": "images/fotók/muhely/top-view-table-arrangement-with-empty-dishes-tableware.jpg",
+      "width": 1600,
+      "height": 1067,
+      "beforeBytes": 114620,
+      "afterBytes": 97324,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-mintazott-tal-480.webp",
+      "original": "images/fotók/muhely/ceramic-bowl-linen-cloth.jpg",
+      "width": 480,
+      "height": 686,
+      "beforeBytes": 28302,
+      "afterBytes": 24498,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-mintazott-tal-1200.webp",
+      "original": "images/fotók/muhely/ceramic-bowl-linen-cloth.jpg",
+      "width": 1200,
+      "height": 1715,
+      "beforeBytes": 123924,
+      "afterBytes": 101962,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-mintazott-tal-1600.webp",
+      "original": "images/fotók/muhely/ceramic-bowl-linen-cloth.jpg",
+      "width": 1600,
+      "height": 2287,
+      "beforeBytes": 195652,
+      "afterBytes": 163414,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-turkiz-tanyerok-480.webp",
+      "original": "images/fotók/muhely/bottom-view-round-platters-black-table.jpg",
+      "width": 480,
+      "height": 320,
+      "beforeBytes": 24808,
+      "afterBytes": 21212,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-turkiz-tanyerok-1200.webp",
+      "original": "images/fotók/muhely/bottom-view-round-platters-black-table.jpg",
+      "width": 1200,
+      "height": 801,
+      "beforeBytes": 145632,
+      "afterBytes": 130240,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/muhely-turkiz-tanyerok-1600.webp",
+      "original": "images/fotók/muhely/bottom-view-round-platters-black-table.jpg",
+      "width": 1600,
+      "height": 1067,
+      "beforeBytes": 245808,
+      "afterBytes": 215056,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/kapcsolat-teritek-800.webp",
+      "original": "images/fotók/muhely/top-view-brown-big-tray-with-same-colored-plate-dark-surface.jpg",
+      "width": 800,
+      "height": 533,
+      "beforeBytes": 88254,
+      "afterBytes": 75426,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/kapcsolat-teritek-480.webp",
+      "original": "images/fotók/muhely/top-view-brown-big-tray-with-same-colored-plate-dark-surface.jpg",
+      "width": 480,
+      "height": 320,
+      "beforeBytes": 29486,
+      "afterBytes": 25330,
+      "quality": 78
+    },
+    {
+      "file": "public/images/webp/kapcsolat-teritek-1200.webp",
+      "original": "images/fotók/muhely/top-view-brown-big-tray-with-same-colored-plate-dark-surface.jpg",
+      "width": 1200,
+      "height": 800,
+      "beforeBytes": 213050,
+      "afterBytes": 154260,
+      "quality": 74
+    },
+    {
+      "file": "public/images/webp/kapcsolat-teritek-1600.webp",
+      "original": "images/fotók/muhely/top-view-brown-big-tray-with-same-colored-plate-dark-surface.jpg",
+      "width": 1600,
+      "height": 1066,
+      "beforeBytes": 374084,
+      "afterBytes": 239066,
+      "quality": 66
+    }
+  ]
+}

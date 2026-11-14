@@ -39,9 +39,9 @@
   "formStatus": "Netlify Forms előkészítve; fogadó inaktív, éles kézbesítés nem igazolt.",
   "pages": [
     {
-      "file": "koncepcio-1-udvari-muhely.html",
-      "title": "Agyagpad – Kerámiaműhely Szentendrén | Bemutatóprojekt",
-      "description": "Kezdőbarát korongozás, kis csoportos tanfolyamok és kézzel készült kerámiák egy kitalált szentendrei műhely bemutatóoldalán. AI webdesigner vizsgamunka.",
+      "file": "index.html",
+      "title": "Korongozás Szentendrén, kezdőbarát élmény | Agyagpad",
+      "description": "Próbáld ki a korongozást Szentendrén, kis csoportban, személyes figyelemmel. Ismerd meg az Agyagpad programjait és kézzel készült kerámiáit, és érdeklődj bátran!",
       "headings": [
         {
           "level": "H1",
@@ -218,8 +218,8 @@
     },
     {
       "file": "tanfolyamok.html",
-      "title": "Tanfolyamok és árak | Agyagpad – Bemutatóprojekt",
-      "description": "Korongozó kóstoló, négyhetes kezdő kurzus és céges alkotóprogram: árak, időbeosztás és részvételi tudnivalók az Agyagpad bemutatóprojektjében.",
+      "title": "Korongozó tanfolyamok és alkotóprogramok | Agyagpad",
+      "description": "Korongozó kóstoló, négyhetes kezdő kurzus és céges csapatépítő Szentendrén. Nézd meg az időtartamokat, árakat és tudnivalókat, majd érdeklődj a szabad helyekről!",
       "headings": [
         {
           "level": "H1",
@@ -247,7 +247,7 @@
           "text": "Céges csapatépítő"
         },
         {
-          "level": "H3",
+          "level": "H2",
           "id": "tudnivalok",
           "text": "Amit érdemes tudnod"
         },
@@ -285,11 +285,11 @@
       "navigation": [
         {
           "text": "",
-          "href": "koncepcio-1-udvari-muhely.html#kezdo"
+          "href": "index.html#kezdo"
         },
         {
           "text": "Kezdőlap",
-          "href": "koncepcio-1-udvari-muhely.html#kezdo"
+          "href": "index.html#kezdo"
         },
         {
           "text": "Tanfolyamok",
@@ -311,7 +311,7 @@
       "footer": [
         {
           "text": "Kezdőlap",
-          "href": "koncepcio-1-udvari-muhely.html#kezdo"
+          "href": "index.html#kezdo"
         },
         {
           "text": "Tanfolyamok",
@@ -410,8 +410,8 @@
     },
     {
       "file": "muhely.html",
-      "title": "Műhely és kézzel készült kerámiák | Agyagpad",
-      "description": "Ismerd meg Fehér Dóra történetét, a szentendrei Agyagpad műhelyét és a kézzel készült bögrék, tálak, tányérok és vázák galériáját.",
+      "title": "Kerámiaműhely és kézzel készült kerámiák | Agyagpad",
+      "description": "Ismerd meg Fehér Dóra szentendrei kerámiaműhelyét és alkotásait. Bögrék, tálak, tányérok és vázák képgalériája vár: nézz körül, és fedezd fel a korongozást!",
       "headings": [
         {
           "level": "H1",
@@ -462,11 +462,11 @@
       "navigation": [
         {
           "text": "",
-          "href": "koncepcio-1-udvari-muhely.html#kezdo"
+          "href": "index.html#kezdo"
         },
         {
           "text": "Kezdőlap",
-          "href": "koncepcio-1-udvari-muhely.html#kezdo"
+          "href": "index.html#kezdo"
         },
         {
           "text": "Tanfolyamok",
@@ -488,7 +488,7 @@
       "footer": [
         {
           "text": "Kezdőlap",
-          "href": "koncepcio-1-udvari-muhely.html#kezdo"
+          "href": "index.html#kezdo"
         },
         {
           "text": "Tanfolyamok",
@@ -533,8 +533,8 @@
     },
     {
       "file": "kapcsolat.html",
-      "title": "Kapcsolat és érdeklődés | Agyagpad",
-      "description": "Kérdezz az Agyagpad tanfolyamairól, a közös alkotásról vagy a kerámiákról. Kapcsolati űrlap, szentendrei műhelyadatok és gyakori kérdések.",
+      "title": "Kapcsolat és érdeklődés, szentendrei műhely | Agyagpad",
+      "description": "Kérdezz a korongozó programokról, céges alkotásról vagy a kerámiákról. Műhelyadatok, nyitvatartás és gyakori kérdések egy helyen. Írd meg, mi érdekel az Agyagpadban!",
       "headings": [
         {
           "level": "H1",
@@ -565,11 +565,11 @@
       "navigation": [
         {
           "text": "",
-          "href": "koncepcio-1-udvari-muhely.html#kezdo"
+          "href": "index.html#kezdo"
         },
         {
           "text": "Kezdőlap",
-          "href": "koncepcio-1-udvari-muhely.html#kezdo"
+          "href": "index.html#kezdo"
         },
         {
           "text": "Tanfolyamok",
@@ -591,7 +591,7 @@
       "footer": [
         {
           "text": "Kezdőlap",
-          "href": "koncepcio-1-udvari-muhely.html#kezdo"
+          "href": "index.html#kezdo"
         },
         {
           "text": "Tanfolyamok",
@@ -682,8 +682,8 @@
     },
     {
       "file": "adatkezeles.html",
-      "title": "Adatkezelési tájékoztató | Agyagpad",
-      "description": "Az Agyagpad érdeklődési űrlapjának adatkezeléséről és az üzemeltetői adatok előkészítéséről szóló tájékoztatás.",
+      "title": "Adatkezelés és az érdeklődési űrlap adatai | Agyagpad",
+      "description": "Olvasd el az Agyagpad bemutatóprojekt adatkezelési tájékoztatóját: érdeklődési űrlap, külső térkép és az üzenetküldés állapota. Tájékozódj a beküldés előtt!",
       "headings": [
         {
           "level": "H1",
@@ -709,11 +709,11 @@
       "navigation": [
         {
           "text": "",
-          "href": "koncepcio-1-udvari-muhely.html#kezdo"
+          "href": "index.html#kezdo"
         },
         {
           "text": "Kezdőlap",
-          "href": "koncepcio-1-udvari-muhely.html#kezdo"
+          "href": "index.html#kezdo"
         },
         {
           "text": "Tanfolyamok",
@@ -735,7 +735,7 @@
       "footer": [
         {
           "text": "Kezdőlap",
-          "href": "koncepcio-1-udvari-muhely.html#kezdo"
+          "href": "index.html#kezdo"
         },
         {
           "text": "Tanfolyamok",

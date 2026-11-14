@@ -1,416 +1,452 @@
 {
   "date": "2026-11-14",
-  "designRevision": "2026-11-14-responsive-final-review",
+  "designRevision": "2026-11-14-seo-public-webp",
   "baseDesignCommit": "7064af8cb996f8d2fe00c5f4ecadf482048045c1",
   "liveUrl": null,
-  "designSystem": "4.15",
+  "designSystem": "4.16",
   "copy": "3.8",
   "formEnabled": false,
   "realDeliveryVerified": false,
   "sourceFiles": [
     {
-      "file": "adatkezeles.html",
-      "sha256": "4e85854a0e6debe8b6cb1e355786f0a58f907c6300cacd1e6f7d18e305f74bf9"
+      "file": "public/_redirects",
+      "sha256": "61f278cd7fcf162a39a43bc799712ff3f08d2c08c6146a9831520b87855e0fac"
     },
     {
-      "file": "assets/erdeklodes.js",
+      "file": "public/adatkezeles.html",
+      "sha256": "86cac228b89c1f7885ae1636b55983dd20ffda270e9b604036a23a339cdaea52"
+    },
+    {
+      "file": "public/assets/erdeklodes.js",
       "sha256": "e41ea34c1cddf33062b36c2092ad1f2c7f640a9d1f9e5a9a8d9fa5f4ef168541"
     },
     {
-      "file": "assets/fonts/inter-latin-ext.woff2",
+      "file": "public/assets/fonts/Inter-LICENSE.txt",
+      "sha256": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+    },
+    {
+      "file": "public/assets/fonts/Merriweather-OFL.txt",
+      "sha256": "715bd349bfa6116f99e351e1548321dcfa25b91df65502d22ca8d624557697d2"
+    },
+    {
+      "file": "public/assets/fonts/inter-latin-ext.woff2",
       "sha256": "34b9c504cab7a73e37b746343a449132e56cf7b5481af2cb81dc74dcff25c956"
     },
     {
-      "file": "assets/fonts/inter-latin.woff2",
+      "file": "public/assets/fonts/inter-latin.woff2",
       "sha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62"
     },
     {
-      "file": "assets/fonts/merriweather-latin-ext.woff2",
+      "file": "public/assets/fonts/merriweather-latin-ext.woff2",
       "sha256": "8ca0880997847953a13964d6769b6712c57aa2dc2f881f4e6e805719791daed8"
     },
     {
-      "file": "assets/fonts/merriweather-latin.woff2",
+      "file": "public/assets/fonts/merriweather-latin.woff2",
       "sha256": "4fbe8dd9c23b1fd62a988bb8a69b8e692d810f773d9ef6ebca2ba2760c7b11ee"
     },
     {
-      "file": "assets/form-config.js",
+      "file": "public/assets/form-config.js",
       "sha256": "36fb3d55f83de75781fb4960e3a404d9281c8a9058cb59eac03295032f931662"
     },
     {
-      "file": "assets/kapcsolat.css",
+      "file": "public/assets/kapcsolat.css",
       "sha256": "f3c0151f1d9f41509662eed789ec84f0d5db0396464f1dfa26f7b468ee0e9e41"
     },
     {
-      "file": "assets/muhely-galeria.js",
+      "file": "public/assets/muhely-galeria.js",
       "sha256": "6429509040b3e48321aa65fc20e6a8af64634f3d09567590f80e620a9d75931f"
     },
     {
-      "file": "assets/muhely.css",
+      "file": "public/assets/muhely.css",
       "sha256": "f671513ea8bd6bd833b0cf37622e570bed615277b2b9d8f21885df1b9c54daaa"
     },
     {
-      "file": "assets/tanfolyamok.css",
-      "sha256": "fb06db832787d53767cebd0a40b69b2b5d47967945bfa4b69e93b2913d3ed203"
+      "file": "public/assets/tanfolyamok.css",
+      "sha256": "56d68afe267bf806ce6b705905553d4a5a475965d605a3184a83038b4d9d3ad2"
     },
     {
-      "file": "assets/udvari-muhely.css",
+      "file": "public/assets/udvari-muhely.css",
       "sha256": "9f51ba709c2861bdcd386efd16426be35ada16f34dd7e8bfeec34cdac572d3fe"
     },
     {
-      "file": "images/logo/Agyagpad-favicon-transparent.png",
-      "sha256": "16d7f49c8d8074499687eef4001ed5733f5faed8dc13485b1929c5e7c4d09d5d"
+      "file": "public/images/logo/Agyagpad-favicon-transparent.png",
+      "sha256": "f5435f989860e0607397e891fd28c02e647f50bd13133126b5802b5cf21c3130"
     },
     {
-      "file": "images/logo/Agyagpad-favicon-transparent.svg",
+      "file": "public/images/logo/Agyagpad-favicon-transparent.svg",
       "sha256": "307a8611389d2321b09ad54ccbc2cb8fb295426f5e7acf047b5e2583b15bbb17"
     },
     {
-      "file": "images/logo/Agyagpad-logo-transparent.svg",
+      "file": "public/images/logo/Agyagpad-logo-transparent.svg",
       "sha256": "b7c73c9f524c5d0bec30ca9884079a967568aa0dd9060bb5a9ab74e605422cdd"
     },
     {
-      "file": "images/webp/4-hetes-kezdo-kurzus-1200.webp",
-      "sha256": "bab66c5366b803491e62cb1e00c19a4cc630ae54b19378c390b8c54b3cee9fbf"
+      "file": "public/images/og/fooldal.jpg",
+      "sha256": "d1cd1077f2a493e00f12cf8722168df6e779b51a610a7d68b93bfd983476b2ea"
     },
     {
-      "file": "images/webp/4-hetes-kezdo-kurzus-1600.webp",
-      "sha256": "f6d80c34c209149aca40d02e9661652d5dc53e0c2cb3e34a3552da3a5d7b8b13"
+      "file": "public/images/og/kapcsolat.jpg",
+      "sha256": "b60f53121beb84282f472b93fe71507352dc4a2228f8f4c71f3ff80bfc26cab5"
     },
     {
-      "file": "images/webp/4-hetes-kezdo-kurzus-480.webp",
-      "sha256": "64e872700677c2a1a2d783c90966377d0ae563e7ff0b581390af97907b236690"
+      "file": "public/images/og/muhely.jpg",
+      "sha256": "bb107fda20456fff3e00dbfed3cd7d594857c0ea3ebc9b5063c2849ef43f3891"
     },
     {
-      "file": "images/webp/4-hetes-kezdo-kurzus-800.webp",
-      "sha256": "8a61f5aa5663d07ff5474c36eb2b0741586fc62906f960f23ff900e8d0a07d34"
+      "file": "public/images/og/tanfolyamok.jpg",
+      "sha256": "77a8deb32163c1cc8ba83171af65e8690b5975bddf8e2afefdcee4d91fab0aa4"
     },
     {
-      "file": "images/webp/agyagpad-hero-1200.webp",
-      "sha256": "dfbf6a2e6037c102f3fbd7ca9e380a7fd6cadfe501935ecf4ac8ae4d4bbce383"
+      "file": "public/images/webp/4-hetes-kezdo-kurzus-1200.webp",
+      "sha256": "4089ee9dc79d9726bb56a10273ed3ee572825cf3de10c6343640f4e576d57915"
     },
     {
-      "file": "images/webp/agyagpad-hero-1600.webp",
-      "sha256": "f66f3e8eb102c920b5f169b98c7d94e89b8b055fe7df41c1663135389a4c063a"
+      "file": "public/images/webp/4-hetes-kezdo-kurzus-1600.webp",
+      "sha256": "ee690d75780a87bb50f2059ff51bf3e648722fc46b364b2f8d421245fedb70b1"
     },
     {
-      "file": "images/webp/agyagpad-hero-480.webp",
-      "sha256": "72096126e6e1580e00851809917900793f2a52a7b2a865c71c313a076a306940"
+      "file": "public/images/webp/4-hetes-kezdo-kurzus-480.webp",
+      "sha256": "4789ebb40248e8714bb36812aca0675c1a7ee3f8451f69e23273fa1539f4abb0"
     },
     {
-      "file": "images/webp/agyagpad-hero-800.webp",
-      "sha256": "f874b9ae84acb4bbec880a3886c32472682f004bbb6bafcf10d5f670ac0c0590"
+      "file": "public/images/webp/4-hetes-kezdo-kurzus-800.webp",
+      "sha256": "22fcd10647d3128508f5a2b434a20375b2e27750c7a2a3746abe64674238f694"
     },
     {
-      "file": "images/webp/ceges-csapatepito-1200.webp",
-      "sha256": "b97bd99003548b548a90bbb5cf7b6392238f5a345a8115b9c4fc6f05662b2a1d"
+      "file": "public/images/webp/agyagpad-hero-1200.webp",
+      "sha256": "867d3d604998a5d6f6f802207dcc2c923668065965953f527b02c745bd5b8db2"
     },
     {
-      "file": "images/webp/ceges-csapatepito-1600.webp",
-      "sha256": "b06602d3d972616d5f04d6121ee0f9151ab9555718b8d671e141906e7f7c8db2"
+      "file": "public/images/webp/agyagpad-hero-1600.webp",
+      "sha256": "b6c6e93d36562b1d7ee64c12993f49d6249946ef97c7499fa4f1aed05830d9c3"
     },
     {
-      "file": "images/webp/ceges-csapatepito-480.webp",
-      "sha256": "3878808255a861b3f9c40d426837fedd9c7cfa95b8052190b53a7c50fe399be4"
+      "file": "public/images/webp/agyagpad-hero-480.webp",
+      "sha256": "76cfcd0f9f3f6e62609d3e62a94c2e940afa056c84d60f78e5d5e590813b7df2"
     },
     {
-      "file": "images/webp/ceges-csapatepito-800.webp",
-      "sha256": "43cd3d699a3a456b8ac38aec81af782f06812dc0e67470aecc483307217933a6"
+      "file": "public/images/webp/agyagpad-hero-800.webp",
+      "sha256": "93c8494c66bdddd2253f60568dbb4c7823d31dd9c8c6df2b42149cc2d43265b9"
     },
     {
-      "file": "images/webp/hero-1200.webp",
+      "file": "public/images/webp/ceges-csapatepito-1200.webp",
+      "sha256": "b328ce43ffbb37d0fc8ac9ed930899baadcc24fe9eba37810e1a6e92a6b90332"
+    },
+    {
+      "file": "public/images/webp/ceges-csapatepito-1600.webp",
+      "sha256": "d5c45c2e6d362db83517de8b8275181af67ca91ddfffe936da334834bedf899c"
+    },
+    {
+      "file": "public/images/webp/ceges-csapatepito-480.webp",
+      "sha256": "b9000f5d488997690af73ffe5076ba070b18bd044caac7118df18f7287a8354d"
+    },
+    {
+      "file": "public/images/webp/ceges-csapatepito-800.webp",
+      "sha256": "801ea4de50fa26462b7a5b16deb0e22ff9c26348fac7f2d4615f50a56432ef3d"
+    },
+    {
+      "file": "public/images/webp/hero-1200.webp",
       "sha256": "2895989255555c63583f647924beb22770b0b7e0cdad47ab2ad457cc7908f8ce"
     },
     {
-      "file": "images/webp/hero-1600.webp",
-      "sha256": "d6a306df539648e59d9215efcaa81d2885beb4bd83bb9fecddc8cd844c9193a4"
+      "file": "public/images/webp/hero-1600.webp",
+      "sha256": "75893bb4ef1dc28def8a5dcfb11364f383f6eec15cedde15e35de2f8d9d3d2e3"
     },
     {
-      "file": "images/webp/hero-480.webp",
-      "sha256": "dc4836a6ecba8afb4bb98f512d81de6e2fb3fffbcca700b3e6500c12229ed7ec"
+      "file": "public/images/webp/hero-480.webp",
+      "sha256": "a9cfa119c3ef1af7e665aa1564670ad6187ee2b0b5470455a847db2ab3686d0b"
     },
     {
-      "file": "images/webp/hero-800.webp",
-      "sha256": "a5916031c8a717e24ca8ffad1a9847a9c44367558fd432119074e4c15f4133c9"
+      "file": "public/images/webp/hero-800.webp",
+      "sha256": "1d9741d970f3795972d64fa282a122fa2f898b96b4a47f9099f28529d2e38cf8"
     },
     {
-      "file": "images/webp/kapcsolat-1200.webp",
-      "sha256": "c3c7ead31dd41485ce4e42d85eee1de7e426faaa00544857cd2f439e87603c14"
+      "file": "public/images/webp/kapcsolat-1200.webp",
+      "sha256": "febc7d7b3173627f6c5a2ab9099474b1c6c71565df107353a8118469946f3bae"
     },
     {
-      "file": "images/webp/kapcsolat-1600.webp",
-      "sha256": "b1f486b65d7caf6a357ae03f45c492f01a0512ab35a13fb2174cf2348171f0cd"
+      "file": "public/images/webp/kapcsolat-1600.webp",
+      "sha256": "4527e9ac3a7aa39d3087e584f39021e0db47ac4048db081bc279f19fc378f712"
     },
     {
-      "file": "images/webp/kapcsolat-480.webp",
-      "sha256": "87a8fa5e6e3fa8fe959fcba07e988b19bf1f2dc5f10b939d547659e28834394f"
+      "file": "public/images/webp/kapcsolat-480.webp",
+      "sha256": "339fada26cbc5d067c4ab3d9aa71aa2dc664c0187c732b0223a4b8d59c878b38"
     },
     {
-      "file": "images/webp/kapcsolat-800.webp",
-      "sha256": "07f126261f2ee22e95e856bb03dfbb6e442fd25f417f032b5d1f0c370c857cf2"
+      "file": "public/images/webp/kapcsolat-800.webp",
+      "sha256": "b462c2cc34cd8f0a3e8f66947f6c6ae59f08e6e931c670bb7ab72a0048554b99"
     },
     {
-      "file": "images/webp/kapcsolat-teritek-1200.webp",
-      "sha256": "129203e093af04804dc0383d1e60cb737f025088cb34953669c5253b86b7f3f9"
+      "file": "public/images/webp/kapcsolat-teritek-1200.webp",
+      "sha256": "db0c2d1a242d7147946f8a3b1dca66e56ac7aa26c2d73f55da97ddc3eb2757a9"
     },
     {
-      "file": "images/webp/kapcsolat-teritek-1600.webp",
-      "sha256": "bfced8d40833dbd00de10cb1469378eb2087cf228ef39f51437a6c06b4f6cdce"
+      "file": "public/images/webp/kapcsolat-teritek-1600.webp",
+      "sha256": "648284184516a42148d7a3c955d308e8247ecad7c79addb74014e9ac47cfb731"
     },
     {
-      "file": "images/webp/kapcsolat-teritek-480.webp",
-      "sha256": "8aaf50f86e87e808e55833d54164b89c6eec44ca1c6d7f0897d2eb3ab00f0cce"
+      "file": "public/images/webp/kapcsolat-teritek-480.webp",
+      "sha256": "2f673269ecdccee3ba2e9a86964074a7389c45ef2816c77ae1f5b4003d9dd68c"
     },
     {
-      "file": "images/webp/kapcsolat-teritek-800.webp",
-      "sha256": "0e42c5220111e4ec0cce69735186341a364829e498634486e58f85f432b5bab4"
+      "file": "public/images/webp/kapcsolat-teritek-800.webp",
+      "sha256": "ae59eb32573eb88dbfc81bf3e7279393444361b847c002b30e20bb525912bd1d"
     },
     {
-      "file": "images/webp/korongozo-kostolo-1200.webp",
-      "sha256": "000384debb6a498bbe1a9911f6b879df12b104aa52740bc9ec98d49a904b6018"
+      "file": "public/images/webp/korongozo-kostolo-1200.webp",
+      "sha256": "a054fbdc1859960c307be4898e7e3abaa8b00bdce22dfbb7234d2bda38af2e39"
     },
     {
-      "file": "images/webp/korongozo-kostolo-1600.webp",
-      "sha256": "d4a280c03f7cb446ae6ef46a3c2c0883506942bcb64c799d62e43b1fb50236ba"
+      "file": "public/images/webp/korongozo-kostolo-1600.webp",
+      "sha256": "748be2aec5bd04380be34be3f20739749591c3189007e74725fe177660057ea1"
     },
     {
-      "file": "images/webp/korongozo-kostolo-480.webp",
-      "sha256": "f3601851d1a67fb8ca3baa9af3d6bae59c7d790c3f78cb1189e8b5be41d343a2"
+      "file": "public/images/webp/korongozo-kostolo-480.webp",
+      "sha256": "a3ad3fb4e2d1e1cd0409edecb74512cc49383f7f8a646882cb373987ea1c4e85"
     },
     {
-      "file": "images/webp/korongozo-kostolo-800.webp",
-      "sha256": "ef9c22c706cde42e3ef4d917bbee769481143328030c36ec7a247f8ad053bb39"
+      "file": "public/images/webp/korongozo-kostolo-800.webp",
+      "sha256": "90e59be0f0acd7c76f23e1ae2333b9ea81fa8951ecdcc568dffbf14baab12078"
     },
     {
-      "file": "images/webp/muhely-hero-1200.webp",
-      "sha256": "a0cdcca05d50a175c7f5ac88023e8455015a92bbd8116fc82140c8440e322d19"
+      "file": "public/images/webp/muhely-hero-1200.webp",
+      "sha256": "5cd2b5987aa7bd0de10b676ab83a6ba02735ab7b7ebc5bfdfa0bc6a4b8c329a7"
     },
     {
-      "file": "images/webp/muhely-hero-1600.webp",
-      "sha256": "781aa837fc214f27d44dae804f1a85ceda91a850b4f0b72059ee32a9a6b41a30"
+      "file": "public/images/webp/muhely-hero-1600.webp",
+      "sha256": "174006782df6326a23bdbbee574dedf455768d19238f8cd57aaefc3e8b777cbc"
     },
     {
-      "file": "images/webp/muhely-hero-480.webp",
-      "sha256": "cacd0245ed21043eac9989cd523caa1df9f1e97eb3100e4c015fa2690ad2d40d"
+      "file": "public/images/webp/muhely-hero-480.webp",
+      "sha256": "8f68a0fa6409750168be79f3c2a9460a8e02abf794dada2bfd7393f7811ea410"
     },
     {
-      "file": "images/webp/muhely-hero-800.webp",
-      "sha256": "6223db5f34de1cb74f971713e4194bb5d46f8e2ec6788a5e31cbd3290b81ec37"
+      "file": "public/images/webp/muhely-hero-800.webp",
+      "sha256": "37bcfbd32e4699def45495b01906dd6281b4f16909df3dadee0258983ca7db01"
     },
     {
-      "file": "images/webp/muhely-kezben-tal-1200.webp",
-      "sha256": "18ecb650bb9a53b80878930734d391effba92d50be81790c3b26bc9657f66b22"
+      "file": "public/images/webp/muhely-kezben-tal-1200.webp",
+      "sha256": "b3e822a4c3a2db23d89961f1467d643d782725a700e672a6b72d26b057814863"
     },
     {
-      "file": "images/webp/muhely-kezben-tal-1600.webp",
-      "sha256": "f54e92df062bf15c34402642288d60f79afaacee9e7d59a7472ff49163aacb8c"
+      "file": "public/images/webp/muhely-kezben-tal-1600.webp",
+      "sha256": "820f91a7bef72fed0b99d7fcda2cabd3d810fdcc65fc93f018dbd4fdf07ae37b"
     },
     {
-      "file": "images/webp/muhely-kezben-tal-480.webp",
-      "sha256": "e52deb51f34bb883ab431106d1578f60fa111444bff1fcaed963a49c59429b46"
+      "file": "public/images/webp/muhely-kezben-tal-480.webp",
+      "sha256": "7345c0af2c8c25f8ebd0fd3cb1558fa2046e3b67c4576abed8f3f840b82b3d52"
     },
     {
-      "file": "images/webp/muhely-kezben-tal-800.webp",
-      "sha256": "5b7638bb090a505ef50ebc246809b3e42255d3ac684983958affa96e0d3c0368"
+      "file": "public/images/webp/muhely-kezben-tal-800.webp",
+      "sha256": "ac47be0aa23b17f3250e50de8c0a0c3284e3ade4fcc6b34680dd2bd2c340139b"
     },
     {
-      "file": "images/webp/muhely-korongozas-1200.webp",
-      "sha256": "fc371b8dfbfc4a721cefb40454f7214f8884766213eb7364c42b59aafd798017"
+      "file": "public/images/webp/muhely-korongozas-1200.webp",
+      "sha256": "47f0fde2e60cce3781502aa513d06a88e80c435a75507beb9f8022cec02adc85"
     },
     {
-      "file": "images/webp/muhely-korongozas-1600.webp",
-      "sha256": "6ea90c884e9592407e3d9471ff43b20697e9d9c4eb9db02d1f71b53cd3cdda6f"
+      "file": "public/images/webp/muhely-korongozas-1600.webp",
+      "sha256": "a15244c2f3ea0c61e968c3ec228db0abd1e75a4cdcd37c95f071534f558e4cb4"
     },
     {
-      "file": "images/webp/muhely-korongozas-480.webp",
-      "sha256": "e8de947980a73a0022400898eb287c0ff146295b1bc6307aae2b1c42c28b9832"
+      "file": "public/images/webp/muhely-korongozas-480.webp",
+      "sha256": "b79d5096d814b354d67612635d0e145a2f52e6739b9196af66b0dff5940191c4"
     },
     {
-      "file": "images/webp/muhely-korongozas-800.webp",
-      "sha256": "afea5c59b19e6b5efbe3bc140b66b16b8ef9903ee16b482daf36660668a8a6fd"
+      "file": "public/images/webp/muhely-korongozas-800.webp",
+      "sha256": "7cab3e269dc6f0471df31ae48719b19aca110c02effd0fa591ab9b013385a28b"
     },
     {
-      "file": "images/webp/muhely-mintazott-tal-1200.webp",
-      "sha256": "82bcc59346fcc480d86d5a64ea96fea05fd91d009dc2f43dd95fb511e51dc907"
+      "file": "public/images/webp/muhely-mintazott-tal-1200.webp",
+      "sha256": "74b072bd51ffc3d109f508e7eeb0404a1b710a0ce656e4ae17da40dbfd65c976"
     },
     {
-      "file": "images/webp/muhely-mintazott-tal-1600.webp",
-      "sha256": "f300f8df395696b90d69e0571f95c0098851bbe9a985a849f04dd1669e401a3e"
+      "file": "public/images/webp/muhely-mintazott-tal-1600.webp",
+      "sha256": "5c4b061ea2acbebaaa2e7bf3486511f020f0513c017f9760eeef835393efb731"
     },
     {
-      "file": "images/webp/muhely-mintazott-tal-1920.webp",
-      "sha256": "2278ff566399770ae9d1ac0633991e05ba682d609992b444a75a7a9d6108eead"
+      "file": "public/images/webp/muhely-mintazott-tal-1920.webp",
+      "sha256": "06461fe57e4a9d160572b8d21f6885c6162a736c882f09ce30e40d52083fd338"
     },
     {
-      "file": "images/webp/muhely-mintazott-tal-480.webp",
-      "sha256": "b3e87b61c3e3017d278334392ff58d1d7fbad46f9b380112767a6afa65bf233f"
+      "file": "public/images/webp/muhely-mintazott-tal-480.webp",
+      "sha256": "57154f6ea7d45e639e9c1019727066f2a79f8a6dcac62bafe202bbb4b7eb1422"
     },
     {
-      "file": "images/webp/muhely-mintazott-tal-800.webp",
-      "sha256": "7ae10378fdae9a31676793b88e997f288732242203117fe628f10f3a19a54aff"
+      "file": "public/images/webp/muhely-mintazott-tal-800.webp",
+      "sha256": "001ba5a79f732ea39033ab2dc0b9c718c75e759fc5a5bd9fe4484c3961437459"
     },
     {
-      "file": "images/webp/muhely-pettyes-bogre-1200.webp",
-      "sha256": "0204e0053a34664a8408f1e0ab500c6afc048dc50bfd099d58b43695a787899f"
+      "file": "public/images/webp/muhely-pettyes-bogre-1200.webp",
+      "sha256": "3bbb9205e21dec4ba81752f37c9f4aa196e90f1af82ccd1404d52c23b2e99cd4"
     },
     {
-      "file": "images/webp/muhely-pettyes-bogre-1600.webp",
-      "sha256": "d0a80e4a792d53ea5d549bf4012278b63b7280e9f773bc9629ea36d6c3fc9941"
+      "file": "public/images/webp/muhely-pettyes-bogre-1600.webp",
+      "sha256": "9a058fd68d7cecf50b5a5c4b89c5a0f6daa90d056c1efed30162e55cc9194216"
     },
     {
-      "file": "images/webp/muhely-pettyes-bogre-1920.webp",
-      "sha256": "4e714dcd788bc4962c4191f7f644e316d1e3645f11d65b7ec9dfc888f96b3415"
+      "file": "public/images/webp/muhely-pettyes-bogre-1920.webp",
+      "sha256": "5dd122d4be1d7de48283e4933e34e5c162a5f77f3395fc7b85b04825360a9ba1"
     },
     {
-      "file": "images/webp/muhely-pettyes-bogre-480.webp",
-      "sha256": "f13e789838397f04d6533416414f97beb28164f863fff861fdad846b53ae697e"
+      "file": "public/images/webp/muhely-pettyes-bogre-480.webp",
+      "sha256": "057b89cc7cac26915f7c3bfaa1bb58c488521405c208b3489616749304d950b1"
     },
     {
-      "file": "images/webp/muhely-pettyes-bogre-800.webp",
-      "sha256": "5b9e4b95b9144c993f2b2b03c73bb96f30f0dfeb81c8994c0bb299e905580335"
+      "file": "public/images/webp/muhely-pettyes-bogre-800.webp",
+      "sha256": "aa962926e37f2b1d5e306945c3bf6e2a509e32a29e8f23f54041cabf33d40179"
     },
     {
-      "file": "images/webp/muhely-polc-1200.webp",
-      "sha256": "070b199b19fbd36dfa4b201824ac92734c2a17433f94b3b89e9e13be36430096"
+      "file": "public/images/webp/muhely-polc-1200.webp",
+      "sha256": "ad9c54822bb95b01c0565103b519e03d60ad01e84286b610255475bdd14414fd"
     },
     {
-      "file": "images/webp/muhely-polc-1600.webp",
-      "sha256": "1691f07b476a869ceaa0dbe46ceacf08aa49dd9e085f10680b779906cdf1d7b1"
+      "file": "public/images/webp/muhely-polc-1600.webp",
+      "sha256": "7553cbc3a481dc35771cb659308889a9939ec1fb134063675ba26257930840bc"
     },
     {
-      "file": "images/webp/muhely-polc-480.webp",
-      "sha256": "0f2ce55aaa186f938300b665d2a9e32c1e79b5a5520a1205798cff61eba22511"
+      "file": "public/images/webp/muhely-polc-480.webp",
+      "sha256": "223b46540ea9874b49c6ab413596b32509455c8b050987ff51998886bdba1a0e"
     },
     {
-      "file": "images/webp/muhely-polc-800.webp",
-      "sha256": "bfa45569de53ffde4fe38030b9698d4fb4d41e227b5069a8bb945294483ab495"
+      "file": "public/images/webp/muhely-polc-800.webp",
+      "sha256": "35a01f263e132075ffbd2f1fc736f0e3cbe1e2238e50f5764582f761495f6f28"
     },
     {
-      "file": "images/webp/muhely-talak-tanyerok-1200.webp",
-      "sha256": "b59dd10d438b7fdf747365549005536a5e9b986eded2875b5ed2ed8ca27ddb07"
+      "file": "public/images/webp/muhely-talak-tanyerok-1200.webp",
+      "sha256": "12e12a5563cb893418c79dbb54eddc2829f0d6b9663e14988877d07161f9b79f"
     },
     {
-      "file": "images/webp/muhely-talak-tanyerok-1600.webp",
-      "sha256": "0526515ea0301080603350d66210a9a478b2b16e1256eefe77b24e3ec538828d"
+      "file": "public/images/webp/muhely-talak-tanyerok-1600.webp",
+      "sha256": "2bb8847e4bc9db26fc28dc9aa595c2f9a98bb35931563baed52a8d4cd5c7b1a4"
     },
     {
-      "file": "images/webp/muhely-talak-tanyerok-1920.webp",
-      "sha256": "c6b94c93fc494a028bd6d4c1c35bb8c1064b990794657bc5fea413ca6a09697f"
+      "file": "public/images/webp/muhely-talak-tanyerok-1920.webp",
+      "sha256": "ea2f4c64d308b631eacae27b5dae8d90242eb2a9599b308b3febb8c9763b523b"
     },
     {
-      "file": "images/webp/muhely-talak-tanyerok-480.webp",
-      "sha256": "4f70db4c57476e50cb1d56cda02ab07db88c6ba23324bfd743c1451364f3712f"
+      "file": "public/images/webp/muhely-talak-tanyerok-480.webp",
+      "sha256": "05ea68c385b58962bb2c0345332eba2c3771b614a0327085d8078032e5c35195"
     },
     {
-      "file": "images/webp/muhely-talak-tanyerok-800.webp",
-      "sha256": "934002c749d167b115b8a7673399e83b4d3a9024bd0fc38cacc0b27dd73c273f"
+      "file": "public/images/webp/muhely-talak-tanyerok-800.webp",
+      "sha256": "dd8f97d370fecb2864295c1f7b4c0fda72c4f119d2c83b431597edddf87a184f"
     },
     {
-      "file": "images/webp/muhely-teritek-1200.webp",
-      "sha256": "528e7dfe9ce78d41fa47ef36adb5e91696c8aa5fce8b0e3c81d220bbadb6deef"
+      "file": "public/images/webp/muhely-teritek-1200.webp",
+      "sha256": "c6df45b245b421aa5c3806d34b3302b54e02e402d487c8e3dce3181e38f5506e"
     },
     {
-      "file": "images/webp/muhely-teritek-1600.webp",
-      "sha256": "d357e4a31be1c51571ca209e075ca907dbc198182df8b35a5fea8a6fb40f3e69"
+      "file": "public/images/webp/muhely-teritek-1600.webp",
+      "sha256": "bb93cb956ad7f910bb01220d52bcd6ba2fc3b3afd087fb05c9eb3dc17961c944"
     },
     {
-      "file": "images/webp/muhely-teritek-1920.webp",
-      "sha256": "5698a3ef931a70ce0d3cec0f32dfa47a495b5afad964295616d6f34a33c39511"
+      "file": "public/images/webp/muhely-teritek-1920.webp",
+      "sha256": "c1ff2852737cb8075ad003079ffee716caaf30f5cb9c251257bb98368e27e478"
     },
     {
-      "file": "images/webp/muhely-teritek-480.webp",
-      "sha256": "914473f3ed0029ed33f3e1542bfd3e9370d84b3b7560e0ad99eccc1be6868102"
+      "file": "public/images/webp/muhely-teritek-480.webp",
+      "sha256": "e6a3f93639789632ce7edbd805b5c559618eaa9ca8aad62a7994e7d612e2b56c"
     },
     {
-      "file": "images/webp/muhely-teritek-800.webp",
-      "sha256": "891586ad525258f92903f44c1d495bbe6fd5e5b588b4ef516050ea251700db72"
+      "file": "public/images/webp/muhely-teritek-800.webp",
+      "sha256": "c45d995d59889323962a523805bac10bca33cfc8730defcc4059566de6ca32e8"
     },
     {
-      "file": "images/webp/muhely-turkiz-tanyerok-1200.webp",
-      "sha256": "99e1b2717ad86f63676a66a0544b232f26eadebc6bd52702caa6a1c8876a6386"
+      "file": "public/images/webp/muhely-turkiz-tanyerok-1200.webp",
+      "sha256": "c6d806aba2e35a2db0f837b9bdebf55eaf59c73eec1272cdb79158c56c69fb8c"
     },
     {
-      "file": "images/webp/muhely-turkiz-tanyerok-1600.webp",
-      "sha256": "3402c496ed2bb10569b2eefc1d957e4b3b51dfca6e9ac8a5ab60c5776b027f59"
+      "file": "public/images/webp/muhely-turkiz-tanyerok-1600.webp",
+      "sha256": "304e8a21c52f9dd854ab0ffdc4954ea5e8ca71d0a84a4be621497f046d13be2d"
     },
     {
-      "file": "images/webp/muhely-turkiz-tanyerok-1920.webp",
-      "sha256": "14e48a2df83ea88138d2fdcfb022328899ed923e7bd60b5600d54a1728bfb51b"
+      "file": "public/images/webp/muhely-turkiz-tanyerok-1920.webp",
+      "sha256": "e6e652fe3d495b27f0e1f7a82a5078735f9e95eda5677f156e79285908f527b2"
     },
     {
-      "file": "images/webp/muhely-turkiz-tanyerok-480.webp",
-      "sha256": "75ca557b09918ac965b0fac279878d9f661d24ca0afb9dfa0cdab93e4bab80d5"
+      "file": "public/images/webp/muhely-turkiz-tanyerok-480.webp",
+      "sha256": "ad9b989ebaa80374fad0a270adf35fb925784ef86c7f04b8287f7ea7f25a0943"
     },
     {
-      "file": "images/webp/muhely-turkiz-tanyerok-800.webp",
-      "sha256": "c9ec3699ca7015523db98b60129f78849470e5355743a19e590afa6c0bb1bc8e"
+      "file": "public/images/webp/muhely-turkiz-tanyerok-800.webp",
+      "sha256": "da9f4fb33e804944e9657dd437f461e2c700ad1e34d00b46fc54262a40de93f9"
     },
     {
-      "file": "images/webp/muhely-vazak-1200.webp",
-      "sha256": "1f6e52ced0c40e105050d19276a3b7e51af7413a8e4e5b6a516da332d99bf69a"
+      "file": "public/images/webp/muhely-vazak-1200.webp",
+      "sha256": "c81626535f4c486a3aebe7a8c1c562b140dcd41d9e6b67be3e6ea6391700b374"
     },
     {
-      "file": "images/webp/muhely-vazak-1600.webp",
-      "sha256": "a8e1b5a0f029b47c2b55b422b429c6c0c9e43f1e48ff575b755e738bc02a8311"
+      "file": "public/images/webp/muhely-vazak-1600.webp",
+      "sha256": "20dd461c889a493340186dd960008d65d31fa9f19aa3f54bba92cef935ddd201"
     },
     {
-      "file": "images/webp/muhely-vazak-1920.webp",
-      "sha256": "d7f1ba487ad3e6414688b9b4072c96cfe6c65d7a75bfd328529a5f3d9def2a5e"
+      "file": "public/images/webp/muhely-vazak-1920.webp",
+      "sha256": "4f6a7f16af2d405e31bdfc2ca1c184791ef3eedb43f589862e175a1088104b88"
     },
     {
-      "file": "images/webp/muhely-vazak-480.webp",
-      "sha256": "03c1dc21007d59adeb0b89a9f31096b6c56aa8f96ced4a9138ab2559ef84fd63"
+      "file": "public/images/webp/muhely-vazak-480.webp",
+      "sha256": "73ce42a70227c7a6dd56193cacffc0ccf04c3c6f3711acee9732b478c368c4bb"
     },
     {
-      "file": "images/webp/muhely-vazak-800.webp",
-      "sha256": "6e59bc6b6cd85359a9b59084085279194ef1f6a3b10e3ba1f173d1219bef2547"
+      "file": "public/images/webp/muhely-vazak-800.webp",
+      "sha256": "0a943c0985a1ab9cae937562c600eb461d6cae289be2565cc2ef7d3dd5eca8a7"
     },
     {
-      "file": "images/webp/muhelybolt-1200.webp",
-      "sha256": "611e412a87879943ca757aca116bd45e30ae96613e7939cca96d0601b3738605"
+      "file": "public/images/webp/muhelybolt-1200.webp",
+      "sha256": "96d1d58c31d7cb7aa00eaff63f68cbdfeb48a9824ad3f23a7ac082547bc74965"
     },
     {
-      "file": "images/webp/muhelybolt-1600.webp",
-      "sha256": "6a77997ca04db835822bcd714aabb67a07948e6067707e8917755bc2a95c578c"
+      "file": "public/images/webp/muhelybolt-1600.webp",
+      "sha256": "cd3e189940d515da5b018ef54fde4e2dad38fc6d60e5e1e1a625ed8816f3c476"
     },
     {
-      "file": "images/webp/muhelybolt-480.webp",
-      "sha256": "21aa87b022497215631fd4413446f5aaa0601f92b7be4db85affb2bd5fe48c65"
+      "file": "public/images/webp/muhelybolt-480.webp",
+      "sha256": "17fc45aecb43a3032e916baf7fa0a158f656960fc5a0a89824bbf24acf3faf34"
     },
     {
-      "file": "images/webp/muhelybolt-800.webp",
-      "sha256": "73823ac218977e2423c2bdc3ba7bb4e472399a2272bf3c884a601699979b87b2"
+      "file": "public/images/webp/muhelybolt-800.webp",
+      "sha256": "fe1c1bf1de7cc7d80ddf731fa6256704da89444993504664186a2cf05f6ff198"
     },
     {
-      "file": "images/webp/tanfolyam-resztvevo-1200.webp",
-      "sha256": "eaa45a5ccca497be18692c25f417d145ec14700c508dedfd70314549a1158d87"
+      "file": "public/images/webp/tanfolyam-resztvevo-1200.webp",
+      "sha256": "0b64472c76c1bcb2142ca98e51be02a0ab1c72575ad67807b1bc5fd91c02adac"
     },
     {
-      "file": "images/webp/tanfolyam-resztvevo-1600.webp",
-      "sha256": "3815c78912a54e365613987e15a805d663cbc5c0efc6def2c70e09e4504b08e1"
+      "file": "public/images/webp/tanfolyam-resztvevo-1600.webp",
+      "sha256": "65d29125a0822b63190ab392696047fbc271a58d70e8129cee8d18d4f3522d75"
     },
     {
-      "file": "images/webp/tanfolyam-resztvevo-480.webp",
-      "sha256": "a1d12ae53a23626e88e87200b89c0db32f0e869f2596035fa09926722c5a3629"
+      "file": "public/images/webp/tanfolyam-resztvevo-480.webp",
+      "sha256": "97727168f9f236afb332ab46224e12f91247472f26d1803d3b6bbcf25f8fc004"
     },
     {
-      "file": "images/webp/tanfolyam-resztvevo-800.webp",
-      "sha256": "e3312784b38b5cef2fba58baf001663ab638ca0325c45b6e32fd81040e3a2377"
+      "file": "public/images/webp/tanfolyam-resztvevo-800.webp",
+      "sha256": "d385677ebb4a87dc8d1a8c7f5cca78ccb46593cda1660db67b9347e439c1778a"
     },
     {
-      "file": "kapcsolat.html",
-      "sha256": "a5b39dbe574a2780b69300e4c8f8d468da6dbb1bbc2ce6c8b2b16e78dce9b726"
+      "file": "public/index.html",
+      "sha256": "28a3f549d3a50f472b537b29a181f1015de6b0d05c4b617b8f15e18afd9dd005"
     },
     {
-      "file": "koncepcio-1-udvari-muhely.html",
-      "sha256": "f08885ab54eb4035dec3afc935babc398afa00fb36346a68a0a730a1b474f126"
+      "file": "public/kapcsolat.html",
+      "sha256": "0a8dee274de95a31fda5b074fa22600ff617dca72ef4af1fa764c9f40c410fe2"
     },
     {
-      "file": "muhely.html",
-      "sha256": "ea8cae370bab42185827470dbf341347a131695a6d09ccf33a2bacec15cb38f9"
+      "file": "public/muhely.html",
+      "sha256": "9cb5b17be61ebea9758294eea3dcddc02a35c236b7c9f08fddccd36eca88a419"
     },
     {
-      "file": "tanfolyamok.html",
-      "sha256": "59a087f8adf319541efe3ac936c641785a8c74612491edc4f41e211f3851aa54"
+      "file": "public/robots.txt",
+      "sha256": "b8f65131aa2eee6c5a8261922c03a4856578d4473b7b2f8b9532deda00a913f2"
+    },
+    {
+      "file": "public/sitemap.xml",
+      "sha256": "89fbd00f41c7e447420f9c81075098144cd3510dff419f2d5a76e6547e098586"
+    },
+    {
+      "file": "public/tanfolyamok.html",
+      "sha256": "020babf8793ee64694252bda6bafff87db5c1f0c3514a227dd69d494715850ea"
     }
   ],
   "planningImages": [
@@ -419,6 +455,8 @@
     "03-aktualis-oldalterkep.png"
   ],
   "currentScreenshots": [
+    "adatkezeles-asztali.png",
+    "adatkezeles-mobil.png",
     "adatkezeles-tablet-allo.png",
     "adatkezeles-tablet-fekvo.png",
     "bemutatkozas-asztali.png",
@@ -445,5 +483,8 @@
     "tanfolyamok-tablet-fekvo.png",
     "tudnivalok-asztali.png"
   ],
-  "note": "Öt aktív oldal végső reszponzív ellenőrzése; egységes kapcsolat.html#erdeklodes fejlécgombcél. Aktuális oldaltérkép, szövegek, képek és forráslenyomatok frissítve. Az eredeti drótvázak történeti anyagok. A Netlify-fogadó inaktív, az éles kézbesítés nincs igazolva."
+  "note": "SEO-alapok, további képtömörítés, csak webes fájlokat tartalmazó public kiadás. A végleges webcím hiányzik: canonical, og:url és sitemap URL-ek még nem véglegesek. Netlify Git-build az URL környezeti változóból generálja őket. Az űrlap fogadója inaktív.",
+  "publishDirectory": "public",
+  "homePage": "public/index.html",
+  "domainPending": true
 }

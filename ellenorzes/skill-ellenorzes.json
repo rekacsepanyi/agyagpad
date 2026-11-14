@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-14",
+  "skills": [
+    {
+      "name": "vikingo-seo-skill",
+      "installedPath": "C:/Users/jolci/.codex/skills/vikingo-seo-skill/SKILL.md",
+      "source": "https://github.com/vikingokft/skill-vikingo-seo",
+      "sha256": "dcafee3665c3f95810a1ab70af8c233c3a6cfc19c82fa403e10f6d9bb2680dac",
+      "verified": true
+    },
+    {
+      "name": "deploy-mappa",
+      "installedPath": "C:/Users/jolci/.codex/skills/deploy-mappa/SKILL.md",
+      "source": "https://github.com/vikingokft/ai-webdesign/tree/main/deploy-mappa",
+      "sha256": "d74be273590bdfa71e4212baa645df02cc6190e71b04471f7ace2324173cc443",
+      "verified": true
+    }
+  ]
+}

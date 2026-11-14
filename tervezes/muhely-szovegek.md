@@ -74,4 +74,4 @@ Kipróbálnád, milyen érzés agyagból alkotni? Akár egyetlen alkalomra érke
 
 - Megnézem a tanfolyamokat: tanfolyamok.html
 
-Fejléc: Műhely aktív; Érdeklődöm a főoldali #kapcsolat szakaszhoz vezet. Lábléc: a közös, végleges változat. A hat fotó a megadott sorrendben nagyítható; ezen az oldalon érdeklődési űrlap nincs.
+Fejléc: Műhely aktív; Érdeklődöm a kapcsolat.html#erdeklodes szakaszhoz vezet. Lábléc: a közös, végleges változat. A hat fotó a megadott sorrendben nagyítható; ezen az oldalon érdeklődési űrlap nincs.

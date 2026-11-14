@@ -1,6 +1,6 @@
 # Projektbrief: Agyagpad kerámiaműhely
 
-Frissítve: 2026. november 14. Aktuális tartalmi forrás: szovegek.md 3.8; arculat: design-system.md 4.15.
+Frissítve: 2026. november 14. Aktuális tartalmi forrás: szovegek.md 3.8; arculat: design-system.md 4.16.
 
 ## Ügyfél és keret
 
@@ -67,3 +67,6 @@ Statikus HTML/CSS, reszponzív megjelenés, legalább három oldal vagy szekció
 A Tanfolyamok aloldal új szerkezete: résztvevői hero (hero3.jpg), kompakt programválasztó, három képes részletes programblokk, közös tudnivalók, háromlépéses folyamat, helyi űrlap és közös lábléc. A hero szereplője nem Fehér Dóra. Programgombok: helyi űrlap és automatikus programválasztás. Részletes terv: tervezes/tanfolyamok-terv.md.
 
 Kapcsolat aloldal: rövid bevezető, elérhetőségek, változatlan közös űrlap és négy natív lenyitható kérdés. A fejléc Érdeklődöm gombja ezen az oldalon helyi célra mutat. A korábbi oldalak navigációja ebben a körben nem változott. Részletek: kapcsolat-terv.md és kapcsolat-szovegek.md.
+
+
+Publikálási állapot, 2026. november 14.: a végleges webes források a public/ mappában találhatók, a főoldal public/index.html. A régi gyökérbeli HTML-ek csak helyi átirányítók. A SEO- és képtömörítési részletek: tervezes/seo-es-publikalas.md. A látható arculat és szövegek megmaradtak.

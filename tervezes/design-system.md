@@ -1,6 +1,6 @@
 # Agyagpad – design system
 
-Verzió: 4.15 · 2026. november 14.
+Verzió: 4.16 · 2026. november 14.
 Állapot: az Udvari műhely aktuális specifikációja. Kiindulás: a jóváhagyott 16527e0 változat; november 14-i tartalmi továbbfejlesztés, kártyaélménysorok, Dóra-számadatok és előkészített valódi űrlapküldés. A korábbi türkiz gombos irányt ez a dokumentum felülírja.
 
 ## Források és hatókör
@@ -198,3 +198,6 @@ FAQ: négy natív details/summary elem, 17 px/600 kérdésszöveg, 16 px válasz
 Kapcsolat későbbi pontosítása: 1100 px-től kétoszlopos bevezető, jobbra 3:2 arányú, kért tálcás fotó; balra két sorra tagolt H1 40–48 px-es mérettel. A 2. szakasz kickere kikerült. Az elérhetőségek alatti térkép 23:16 arányú, Szentendrét ábrázolja; a kitalált címhez nem tartozik helyjelölő. Az új fotó, a térkép és ezek megjelenése felülírja az eredeti kép/térkép nélküli bevezetőt; az űrlap belső stílusa nem változott.
 
 A közös fejléc Érdeklődöm gombjának egységes célja minden aktív oldalon: kapcsolat.html#erdeklodes. A Kapcsolat oldali contact-form-column önálló section, id=erdeklodes azonosítóval és 7 rem scroll-margin-top értékkel. A korábbi #kapcsolat horgony megmaradt. A gomb megjelenése, az űrlap HTML-je, a programgombok és az űrlapszkriptek változatlanok. 15 mobil/tablet/asztali navigáció és file:// használat ellenőrizve, tesztben rögzített fejléc mellett is látható címmel.
+
+
+Publikálási állapot, 2026. november 14.: a végleges webes források a public/ mappában találhatók, a főoldal public/index.html. A régi gyökérbeli HTML-ek csak helyi átirányítók. A SEO- és képtömörítési részletek: tervezes/seo-es-publikalas.md. A látható arculat és szövegek megmaradtak.

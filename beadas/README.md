@@ -1,6 +1,6 @@
 # Agyagpad – beadási ellenőrzőlap
 
-Frissítve: 2026. november 14. Aktuális csomag: főoldal, Tanfolyamok, Műhely, Kapcsolat és Adatkezelés. A reszponzív megjelenés és a helyi működés ellenőrzött; az élesítés hátravan.
+Frissítve: 2026. november 14. Aktuális csomag: public/index.html főoldal, Tanfolyamok, Műhely, Kapcsolat és Adatkezelés. A reszponzív megjelenés és a helyi működés ellenőrzött; az élesítés hátravan.
 
 ## Beadandó három tétel
 
@@ -37,8 +37,13 @@ Az első két kép történeti terv, a harmadik az aktuális ötoldalas szerkeze
 ## Beadás előtt
 
 1. A tényleges képkreditek és szükséges licencadatok rögzítése.
-2. Az éles belépési pont beállítása; az `index.html` jelenleg koncepcióválasztó.
+2. A public/index.html már a végleges belépési pont. A public mappát kell publikálni; a koncepcióválasztó archív munkaanyag.
 3. Publikálás, élő URL, fogadó és értesítési e-mail, tényleges kézbesítési próba.
 4. A valódi üzemeltető adatkezelési adatainak rögzítése és az AI-leírás véglegesítése.
 
 Határidő: 2026. november 24.; kérhető haladékkal december 1. A csomag nem állítja, hogy a még hátralévő élesítési feltételek már teljesültek.
+
+
+## SEO és feltöltési állapot
+
+A public mappa tiszta Netlify-kiadás, a munkaanyagok kimaradnak. 83 raszterfájl további tömörítésével 18,6% méretcsökkenés történt; a fotók WebP-k. Az öt oldalon egyedi metaadatok, OG/Twitter és strukturált adatok készültek. A végleges webcím hiánya miatt a canonical, og:url és sitemap URL-ek még véglegesítendők. Netlify Git-buildkor a beállított generátor ezt az URL környezeti változóból megoldja; kézi feltöltésnél a kapott webcímmel újra kell generálni és feltölteni a mappát. 35 új böngészős nézet és 15 szimulált űrlappróba sikeres. Részletek: tervezes/seo-es-publikalas.md.

@@ -1,0 +1,80 @@
+
+=== adatkezeles.html
+  [ok]   title - 35 kar.
+  [ok]   meta description - 111 kar.
+  [HIBA] Open Graph - hianyzo: og:title, og:description, og:image, og:url, og:type
+  [figy] twitter:card - hianyzik
+  [HIBA] canonical - hianyzik
+  [ok]   favicon
+  [ok]   lang attributum
+  [ok]   viewport
+  [ok]   H1
+  [ok]   kep alt szovegek - 2 kep
+  [HIBA] schema.org JSON-LD - hianyzik
+
+=== index.html
+  [ok]   title - 35 kar.
+  [ok]   meta description - 77 kar.
+  [HIBA] Open Graph - hianyzo: og:title, og:description, og:image, og:url, og:type
+  [figy] twitter:card - hianyzik
+  [HIBA] canonical - hianyzik
+  [ok]   favicon
+  [ok]   lang attributum
+  [ok]   viewport
+  [ok]   H1
+  [ok]   kep alt szovegek - 4 kep
+  [HIBA] schema.org JSON-LD - hianyzik
+
+=== kapcsolat.html
+  [ok]   title - 34 kar.
+  [ok]   meta description - 138 kar.
+  [HIBA] Open Graph - hianyzo: og:title, og:description, og:image, og:url, og:type
+  [figy] twitter:card - hianyzik
+  [HIBA] canonical - hianyzik
+  [ok]   favicon
+  [ok]   lang attributum
+  [ok]   viewport
+  [ok]   H1
+  [ok]   kep alt szovegek - 3 kep
+  [HIBA] schema.org JSON-LD - hianyzik
+
+=== muhely.html
+  [ok]   title - 44 kar.
+  [ok]   meta description - 130 kar.
+  [HIBA] Open Graph - hianyzo: og:title, og:description, og:image, og:url, og:type
+  [figy] twitter:card - hianyzik
+  [HIBA] canonical - hianyzik
+  [ok]   favicon
+  [ok]   lang attributum
+  [ok]   viewport
+  [ok]   H1
+  [ok]   kep alt szovegek - 13 kep
+  [HIBA] schema.org JSON-LD - hianyzik
+
+=== tanfolyamok.html
+  [ok]   title - 48 kar.
+  [ok]   meta description - 142 kar.
+  [HIBA] Open Graph - hianyzo: og:title, og:description, og:image, og:url, og:type
+  [figy] twitter:card - hianyzik
+  [HIBA] canonical - hianyzik
+  [ok]   favicon
+  [ok]   lang attributum
+  [ok]   viewport
+  [ok]   H1
+  [ok]   kep alt szovegek - 7 kep
+  [HIBA] schema.org JSON-LD - hianyzik
+
+=== Oldalak kozotti egyediseg
+  [ok]   minden title egyedi
+  [ok]   minden meta description egyedi
+
+=== Technikai fajlok
+  [HIBA] sitemap.xml hianyzik
+  [HIBA] robots.txt hianyzik
+
+=== Google Search Console
+  [figy] nincs GSC-hitelesitesi nyom az oldalban - ha meg nincs Search Console,
+         erdemes beallitani; ha DNS-sel vagy hosting-integracioval hitelesitettel,
+         ez a jelzes figyelmen kivul hagyhato
+
+EREDMENY: HIBAK VANNAK - javits es futtasd ujra.

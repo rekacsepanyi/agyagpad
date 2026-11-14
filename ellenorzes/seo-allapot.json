@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-14",
+  "siteUrl": null,
+  "domainPending": true,
+  "generatedPages": [
+    {
+      "file": "index.html",
+      "title": "Korongozás Szentendrén, kezdőbarát élmény | Agyagpad",
+      "titleLength": 52,
+      "description": "Próbáld ki a korongozást Szentendrén, kis csoportban, személyes figyelemmel. Ismerd meg az Agyagpad programjait és kézzel készült kerámiáit, és érdeklődj bátran!",
+      "descriptionLength": 161
+    },
+    {
+      "file": "tanfolyamok.html",
+      "title": "Korongozó tanfolyamok és alkotóprogramok | Agyagpad",
+      "titleLength": 51,
+      "description": "Korongozó kóstoló, négyhetes kezdő kurzus és céges csapatépítő Szentendrén. Nézd meg az időtartamokat, árakat és tudnivalókat, majd érdeklődj a szabad helyekről!",
+      "descriptionLength": 161
+    },
+    {
+      "file": "muhely.html",
+      "title": "Kerámiaműhely és kézzel készült kerámiák | Agyagpad",
+      "titleLength": 51,
+      "description": "Ismerd meg Fehér Dóra szentendrei kerámiaműhelyét és alkotásait. Bögrék, tálak, tányérok és vázák képgalériája vár: nézz körül, és fedezd fel a korongozást!",
+      "descriptionLength": 156
+    },
+    {
+      "file": "kapcsolat.html",
+      "title": "Kapcsolat és érdeklődés, szentendrei műhely | Agyagpad",
+      "titleLength": 54,
+      "description": "Kérdezz a korongozó programokról, céges alkotásról vagy a kerámiákról. Műhelyadatok, nyitvatartás és gyakori kérdések egy helyen. Írd meg, mi érdekel az Agyagpadban!",
+      "descriptionLength": 165
+    },
+    {
+      "file": "adatkezeles.html",
+      "title": "Adatkezelés és az érdeklődési űrlap adatai | Agyagpad",
+      "titleLength": 53,
+      "description": "Olvasd el az Agyagpad bemutatóprojekt adatkezelési tájékoztatóját: érdeklődési űrlap, külső térkép és az üzenetküldés állapota. Tájékozódj a beküldés előtt!",
+      "descriptionLength": 156
+    }
+  ],
+  "fictionalBusiness": true
+}

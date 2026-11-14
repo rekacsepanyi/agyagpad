@@ -1,57 +1,42 @@
-# Agyagpad – AI webdesigner vizsgamunka
+# Agyagpad – végleges weboldal és Netlify-feltöltés
 
-Aktuális állapot: 2026. november 14. Statikus HTML/CSS webprojekt, helyi JavaScript-komponensekkel. Az Agyagpad és Fehér Dóra fiktív, a cím bemutatóadat.
+Frissítve: 2026. november 14. A vállalkozás, Dóra karaktere és a műhely címe fiktív vizsgaadat.
 
-## Aktív oldalak
+A publikálandó weboldal kizárólag a **public/** mappában található. Kezdőlap: [public/index.html](public/index.html). Aloldalak: Tanfolyamok, Műhely, Kapcsolat és Adatkezelés. A főoldal korábbi koncepciós fájlneve belső linkként már nem szerepel. A régi gyökérbeli HTML-fájlok csak a korábban használt helyi címek átirányítói.
 
-- [Főoldal](koncepcio-1-udvari-muhely.html): négy szakasz, programkártyák, bemutatkozás, műhelybolt és meglévő érdeklődési űrlap.
-- [Tanfolyamok](tanfolyamok.html): három részletes program, díjazás és helyi, programot előválasztó űrlap.
-- [Műhely](muhely.html): személyes történet, műhelybemutató, figyelemblokk és hatképes, nagyítható készkerámia-galéria.
-- [Kapcsolat](kapcsolat.html): képes bevezető, elérhetőségek, Szentendre-térkép, változatlan közös űrlap és négy natív gyakori kérdés.
-- [Adatkezelés](adatkezeles.html): az űrlap, a külső térkép és az élesítés előtt pótlandó üzemeltetői adatok tájékoztatása.
+A munkaanyagok a tervezes/, beadas/, ellenorzes/, eszkozok/, archivum/, .webprojekt/ és az eredeti images/ mappában maradtak. **A projekt gyökerét ne töltsd fel kézi Netlify-telepítéshez.** A régi koncepcióválasztó: archivum/koncepciok-index.html.
 
-A közös fejléc **Érdeklődöm** gombja minden aktív oldalon a `kapcsolat.html#erdeklodes` célra vezet. A Tanfolyamok programgombjai továbbra is a saját helyi űrlaphoz vezetnek, előválasztott programmal. A főoldal régi `#kapcsolat` és `#muhely` horgonyai megmaradtak.
+## Netlify
 
-Az `index.html` még a régi koncepcióválasztó. Publikálás előtt a kiválasztott főoldalt kell belépési pontnak beállítani. A másik két koncepció és az `archivum/` történeti anyag; nem az aktuális oldal része.
+GitHubos telepítésnél a netlify.toml beállítja:
 
-## Űrlap állapota
+- Build command: `node eszkozok/seo-generalas.cjs`
+- Publish directory: `public`
+- A végleges domain hiányában a build a Netlify `URL` környezeti változójából generálja a canonical és megosztási URL-eket, valamint az ötelemű sitemapet.
 
-Az eredeti űrlapmezők és opciók mindhárom űrlapos oldalon megmaradtak. A közös JavaScript magyar mezőhibákat, e-mail-ellenőrzést, URL-kódolt POST-küldést, dupla beküldés elleni védelmet és hibánál megmaradó adatokat kezel. Sikerüzenet kizárólag pozitív fogadói válasz után jelenik meg.
+Kézi feltöltéshez a public mappát add át a Netlifynak. A Netlify ilyenkor nem futtat buildparancsot. Az elsőként kapott HTTPS webcím után futtasd a projekt gyökeréből:
 
-Az `assets/form-config.js` jelenleg szándékosan `enabled: false`: még nincs aktív Netlify-projekt és fogadó. A szimulált küldési próbák sikeresek, de éles e-mail-kézbesítés nem történt. A pontos hátralévő beállítások: [urlap-beallitas.md](tervezes/urlap-beallitas.md). Nincs kitalált publikus telefonszám vagy e-mail-cím.
+`node eszkozok/seo-generalas.cjs --domain=https://A-KAPOTT-WEBCIM`
 
-## Dokumentáció és beadási csomag
+Ezután töltsd fel ismét a public mappát. A fenti parancsban a teljes saját Netlify-cím szerepeljen. Tartós beállításként a tervezes/seo-konfiguracio.json siteUrl mezőjét töltsd ki. Jelenleg nincs végleges URL; nem írtunk be kitalált domaint.
 
-- [Projektbrief](tervezes/agyagpad-projektbrief.md), [design system](tervezes/design-system.md), [tényleges weboldalszövegek](tervezes/szovegek.md).
-- [Aktuális oldaltérkép](tervezes/aktualis-oldalterkep.md) és [friss tervezési kép](beadas/tervezesi-folyamat/03-aktualis-oldalterkep.png).
-- Oldaltervek: [Tanfolyamok](tervezes/tanfolyamok-terv.md), [Műhely](tervezes/muhely-terv.md), [Kapcsolat](tervezes/kapcsolat-terv.md).
-- [Beadási ellenőrzőlap](beadas/README.md), [AI-használati leírás](beadas/AI-hasznalat.md), [verziójegyzék és forráslenyomatok](beadas/verzio.json).
-- Aktuális mobil-, tablet- és asztali képernyőképek: `beadas/jelenlegi-oldal/`.
+Az űrlap fogadója a korábbi döntés szerint még inaktív. Beállítás és éles próba: [tervezes/urlap-beallitas.md](tervezes/urlap-beallitas.md). A Netlifyra feltöltés önmagában nem kapcsolja be a jelenlegi konfigurációban az üzenetküldést.
 
-A korábbi drótvázak a tervezési folyamatot dokumentálják, ezért történeti állapotként megmaradnak. A fiktív karakter szakmai adatai a felhasználótól származnak; új díjak vagy vendégvélemények nem kerültek be.
+## SEO és képek
 
-## Ellenőrzés és frissítés
+Öt egyedi title és leírás, Open Graph és Twitter-kártya, négy 1200×630-as megosztási kép, ellenőrzött címsorok és alt szövegek, LocalBusiness/Person/FAQPage/WebPage strukturált adatok készültek. A fiktív jelleg a LocalBusiness leírásában is szerepel; nem adtunk meg kitalált telefonszámot, koordinátát vagy értékelést.
 
-A [végső ellenőrzési összegzés](ellenorzes/eredmenyek.md) tartalmazza az eredményeket. Összesen 53 oldal/nézet ellenőrzése sikeres, többek között mobil, álló és fekvő tablet, asztali és kétszeres szövegméret mellett. A galéria, gyakori kérdések, űrlapellenőrzés és fejlécnavigáció külön is tesztelt.
+A 83 meglévő webes raszterállomány összmérete 8 218 108-ról 6 692 253 bájtra csökkent (18,6%). A fotók többméretű WebP-k; a logó és favicon elsődlegesen SVG. A közösségi megosztók kompatibilitása miatt a külön OG-képek JPEG-ek.
 
-```text
-node eszkozok/helyi-szerver.cjs
-node eszkozok/fooldal-ellenorzes.cjs
-node eszkozok/tanfolyamok-ellenorzes.cjs
-node eszkozok/muhely-ellenorzes.cjs
-node eszkozok/kapcsolat-ellenorzes.cjs
-node eszkozok/urlap-ellenorzes.cjs
-node eszkozok/urlap-ellenorzes.cjs tanfolyamok.html
-node eszkozok/urlap-ellenorzes.cjs kapcsolat.html
-node eszkozok/szoveg-dokumentacio.cjs
-node eszkozok/tartalom-export.cjs
-node eszkozok/beadasi-kepek.cjs
-```
+Részletek és pontos fájlhelyek: [tervezes/seo-es-publikalas.md](tervezes/seo-es-publikalas.md).
 
-A helyi szerver címe `http://127.0.0.1:4173`; POST-ot nem fogad. Az ellenőrzők a helyi Codex-runtime Playwright/Sharp csomagjait és a telepített Chrome-ot használják. Az oldal megnyitásához nincs szükség fejlesztői csomagokra. A térkép internetkapcsolatot használ; a helyi fotók WebP-k, a betűfájlok is helyiek. Az eredeti nagy fotók a `.gitignore` szerint helyi munkaanyagok maradnak.
+## Aktuális ellenőrzések
 
-## Hátralévő élesítési feladatok
+- `node eszkozok/seo-publikalas-ellenorzes.cjs`: 35 böngészős nézet, 320–1440 px, 200%-os szövegnagyítás, linkek, képek, navigáció, galéria, GYIK és űrlapellenőrzés.
+- `node eszkozok/urlap-ellenorzes.cjs`: a főoldali űrlap öt szimulált küldési esete; paraméterként tanfolyamok.html vagy kapcsolat.html is megadható.
+- `node eszkozok/szoveg-dokumentacio.cjs`, `node eszkozok/tartalom-export.cjs`: tartalomfrissítés a helyi előnézetből.
+- `node eszkozok/beadasi-kepek.cjs`: a legutóbbi kiadási teszt képei és forráslenyomatai.
 
-Éles belépési pont és Netlify-publikálás; élő URL; fogadó és értesítési cím, valódi kézbesítési próba; tényleges adatkezelői adatok; tételes képkreditek; domainhez igazított SEO; az AI-leírás élesítési bekezdésének véglegesítése. A saját domain és a hozzájáruláshoz kötött mérés ajánlott extra.
+A korábbi, dátumozott megjelenéstesztek és védett forráspéldányok történeti ellenőrzések. A public mappás kiadás aktuális tesztje a seo-publikalas-ellenorzes.cjs; nem a régi gyökérbeli HTML-eket kell szerkeszteni.
 
-A vizsgahatáridő 2026. november 24., kérhető haladékkal december 1. A valódi űrlap a felhasználó külön projektkövetelménye; az éles fogadó későbbi beállítása korábbi döntése szerint hátravan.
+Helyi előnézet a projekt gyökeréből: `node eszkozok/helyi-szerver.cjs`, majd http://127.0.0.1:4173/public/index.html. Ez nem élő weboldal.

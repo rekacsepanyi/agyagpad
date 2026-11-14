@@ -1,0 +1,13 @@
+[build]
+  publish = "public"
+  command = "node eszkozok/seo-generalas.cjs"
+
+[[redirects]]
+  from = "/koncepcio-1-udvari-muhely.html"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+  status = 301

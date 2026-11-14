@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+# TODO: végleges webcím után Sitemap: HTTPS-WEBCIM/sitemap.xml

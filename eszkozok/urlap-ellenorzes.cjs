@@ -1,6 +1,6 @@
 const fs=require('fs'),path=require('path'),{createRequire}=require('module');
 const r=createRequire('C:/Users/jolci/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/package.json'),{chromium}=r('playwright');
-const root=path.resolve(__dirname,'..'),origin='https://agyagpad-form-teszt.invalid';
+const root=path.resolve(__dirname,'..'),web=path.join(root,'public'),origin='https://agyagpad-form-teszt.invalid';
 const assert=(ok,message)=>{if(!ok)throw Error(message)};
 (async()=>{
  const browser=await chromium.launch({headless:true,executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe'}),page=await browser.newPage();
@@ -15,12 +15,12 @@ const assert=(ok,message)=>{if(!ok)throw Error(message)};
     if(mode==='pending')await gate;
     return route.fulfill({status:mode==='error'?500:200,contentType:'text/html',body:mode==='error'?'Hiba':'<p>Accepted by simulated form receiver</p>'});
    }
-   const file=path.resolve(root,'.'+decodeURIComponent(url.pathname));assert(file.startsWith(root+path.sep),'Hibás tesztútvonal');
+   const file=path.resolve(web,'.'+decodeURIComponent(url.pathname));assert(file.startsWith(web+path.sep),'Hibás tesztútvonal');
    const ext=path.extname(file),type={'.html':'text/html','.css':'text/css','.js':'text/javascript','.svg':'image/svg+xml','.png':'image/png','.webp':'image/webp','.woff2':'font/woff2'}[ext]||'application/octet-stream';
    return route.fulfill({status:200,contentType:type,body:fs.readFileSync(file)});
   });
-  const target=process.argv[2]||'koncepcio-1-udvari-muhely.html';
-  assert(['koncepcio-1-udvari-muhely.html','tanfolyamok.html','kapcsolat.html'].includes(target),'Ismeretlen tesztoldal');
+  const target=process.argv[2]||'index.html';
+  assert(['index.html','tanfolyamok.html','kapcsolat.html'].includes(target),'Ismeretlen tesztoldal');
   await page.goto(origin+'/'+target);
   await page.evaluate(()=>{window.AGYAGPAD_FORM_CONFIG={enabled:true,endpoint:'/',allowedHosts:[location.hostname]}});
   await page.locator('#name').fill('Teszt Elek');await page.locator('#email').fill('teszt@example.com');await page.locator('#program').selectOption('kezdo-kurzus');await page.locator('#message').fill('Helyi, szimulált beküldési próba.');

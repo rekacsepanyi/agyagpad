@@ -1,0 +1,80 @@
+
+=== adatkezeles.html
+  [ok]   title - 53 kar.
+  [ok]   meta description - 156 kar.
+  [HIBA] Open Graph - hianyzo: og:url
+  [ok]   twitter:card
+  [HIBA] canonical - hianyzik
+  [ok]   favicon
+  [ok]   lang attributum
+  [ok]   viewport
+  [ok]   H1
+  [ok]   kep alt szovegek - 2 kep
+  [ok]   schema.org JSON-LD - tipus: ?
+
+=== index.html
+  [ok]   title - 52 kar.
+  [ok]   meta description - 161 kar.
+  [HIBA] Open Graph - hianyzo: og:url
+  [ok]   twitter:card
+  [HIBA] canonical - hianyzik
+  [ok]   favicon
+  [ok]   lang attributum
+  [ok]   viewport
+  [ok]   H1
+  [ok]   kep alt szovegek - 9 kep
+  [ok]   schema.org JSON-LD - tipus: ?
+
+=== kapcsolat.html
+  [ok]   title - 54 kar.
+  [ok]   meta description - 165 kar.
+  [HIBA] Open Graph - hianyzo: og:url
+  [ok]   twitter:card
+  [HIBA] canonical - hianyzik
+  [ok]   favicon
+  [ok]   lang attributum
+  [ok]   viewport
+  [ok]   H1
+  [ok]   kep alt szovegek - 3 kep
+  [ok]   schema.org JSON-LD - tipus: ?
+
+=== muhely.html
+  [ok]   title - 51 kar.
+  [ok]   meta description - 156 kar.
+  [HIBA] Open Graph - hianyzo: og:url
+  [ok]   twitter:card
+  [HIBA] canonical - hianyzik
+  [ok]   favicon
+  [ok]   lang attributum
+  [ok]   viewport
+  [ok]   H1
+  [ok]   kep alt szovegek - 13 kep
+  [ok]   schema.org JSON-LD - tipus: ?
+
+=== tanfolyamok.html
+  [ok]   title - 51 kar.
+  [ok]   meta description - 161 kar.
+  [HIBA] Open Graph - hianyzo: og:url
+  [ok]   twitter:card
+  [HIBA] canonical - hianyzik
+  [ok]   favicon
+  [ok]   lang attributum
+  [ok]   viewport
+  [ok]   H1
+  [ok]   kep alt szovegek - 7 kep
+  [ok]   schema.org JSON-LD - tipus: ?
+
+=== Oldalak kozotti egyediseg
+  [ok]   minden title egyedi
+  [ok]   minden meta description egyedi
+
+=== Technikai fajlok
+  [ok]   sitemap.xml letezik
+  [ok]   robots.txt letezik
+
+=== Google Search Console
+  [figy] nincs GSC-hitelesitesi nyom az oldalban - ha meg nincs Search Console,
+         erdemes beallitani; ha DNS-sel vagy hosting-integracioval hitelesitettel,
+         ez a jelzes figyelmen kivul hagyhato
+
+EREDMENY: HIBAK VANNAK - javits es futtasd ujra.

@@ -16,7 +16,7 @@
 2. A Netlify felületén a Forms automatikus felismerésének bekapcsolása, majd az űrlapot tartalmazó oldal új telepítése. Ellenőrizni kell, hogy az `agyagpad-erdeklodes` megjelent a Forms alatt.
 3. Az értesítéseket fogadó e-mail-cím. A Forms → Submission notifications alatt az értesítést külön be kell állítani; a külső címhez a szolgáltató megerősítést kérhet. A cím nem kerül a nyilvános HTML-be.
 4. A tényleges adatkezelő neve és elérhetősége, a vállalt megőrzési idő és az éles adatkezelési tájékoztató. A fiktív műhely helyett a vizsgaprojekt valódi üzemeltetőjét kell megadni.
-5. Az `assets/form-config.js` fájlban a pontos tárhelynév az `allowedHosts` listában, majd `enabled: true`. Az `endpoint: '/'` a statikus Netlify Forms fogadója. A jelenlegi `enabled: false` szándékos.
+5. Az `public/assets/form-config.js` fájlban a pontos tárhelynév az `allowedHosts` listában, majd `enabled: true`. Az `endpoint: '/'` a statikus Netlify Forms fogadója. A jelenlegi `enabled: false` szándékos.
 6. Éles próbaüzenet: a Netlify beküldési listájában és a címzett postaládájában is ellenőrizni kell. A böngészős tesztben szimulált pozitív válasz nem igazol e-mail-kézbesítést.
 
 A kiírás eredeti szövegében a valódi üzenetküldés ajánlott extra volt; a felhasználó most ezt külön kért projektkövetelménnyé tette. Nem jelöljük teljesítettnek, amíg a fogadót és a próbaüzenetet nem ellenőriztük.

@@ -11,9 +11,9 @@ Az Agyagpad és Fehér Dóra fiktív. A 2009-es indulás, a népi iparművész m
 - Tanfolyamok: `tanfolyamok.html`
 - Műhely: `#muhely`
 - Kapcsolat: `#kapcsolat`
-- Jelentkezem: `#kapcsolat`
+- Érdeklődöm: `#kapcsolat`
 
-A CTA minden aktív aloldalról a főoldali #kapcsolat szakaszhoz vezet. A „Jelentkezem” mondatkezdő nagybetűs; mobilon a lenyíló menü része.
+A CTA minden aktív aloldalról a főoldali #kapcsolat szakaszhoz vezet. A „Érdeklődöm” mondatkezdő nagybetűs; mobilon a lenyíló menü része.
 
 ## Nyitó szekció
 

@@ -6,7 +6,7 @@ Frissítve: 2026. november 14. Revízió: 2026-11-14-content-and-form.
 
 A főoldal koncepcio-1-udvari-muhely.html; aloldalak: tanfolyamok.html, muhely.html és adatkezeles.html. Az index.html még a régi koncepcióválasztó.
 
-Közös fejléc: logó, Kezdőlap, Tanfolyamok, Műhely, Kapcsolat és kiemelt Jelentkezem gomb. A CTA aloldalakról is a főoldali #kapcsolat szakaszhoz vezet. Mobilon a lenyíló menüben marad. A lábléc Műhely linkje az új műhelyoldalra vezet.
+Közös fejléc: logó, Kezdőlap, Tanfolyamok, Műhely, Kapcsolat és kiemelt Érdeklődöm gomb. A CTA aloldalakról is a főoldali #kapcsolat szakaszhoz vezet. Mobilon a lenyíló menüben marad. A lábléc Műhely linkje az új műhelyoldalra vezet.
 
 ## A főoldal négy szekciója
 

@@ -16,7 +16,7 @@ const esc=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;');
  const down=(y1,y2)=>{svg+=`<path d="M428 ${y1} V${y2} m-5 -6 5 6 5-6" fill="none" stroke="#1B4D4F" stroke-width="1.5"/>`};
  text(48,54,'Agyagpad – az aktuális változat oldaltérképe',32,700);
  text(48,86,'2026. november 14. · Új tartalom és előkészített küldés · Aktuális szerkezet',18);
- box(48,118,1104,94,'Közös fejléc',['Logó · Kezdőlap · Tanfolyamok · Műhely · Kapcsolat · Jelentkezem → főoldali űrlap']);
+ box(48,118,1104,94,'Közös fejléc',['Logó · Kezdőlap · Tanfolyamok · Műhely · Kapcsolat · Érdeklődöm → főoldali űrlap']);
  box(48,244,760,124,'1. Nyitó szekció  #kezdo',['Főcím és két CTA · agyagot formáló kezek fotója · idézetkártya','Megnézem a tanfolyamokat → #tanfolyamok; műhely → #muhely']);down(212,244);
  box(48,400,760,150,'2. Tanfolyamok  #tanfolyamok',['Három élményalapú kártyasor, terrakotta ikonokkal','Részletek és árak → a program aloldali horgonya','Közvetlenül alattuk: türkiz hátterű közös tudnivalóblokk']);down(368,400);
  box(840,400,312,150,'Tanfolyamok aloldal',['tanfolyamok.html','Részletes árak, feltételek','Érdeklődés → főoldali űrlap']);

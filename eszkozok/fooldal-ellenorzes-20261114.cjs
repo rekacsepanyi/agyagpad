@@ -20,7 +20,7 @@ const expected=['3 óra alkotás és kikapcsolódás','4 hét, egymásra épül�
      if(zoom===2)await page.evaluate(()=>document.documentElement.style.fontSize='200%');
      assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'Vízszintes túlcsordulás');
      assert(await page.locator('h1').count()===1,'H1 hierarchia');
-     assert(await page.locator('.header-cta').first().textContent()==='Jelentkezem','Fejléc CTA');
+     assert(await page.locator('.header-cta').first().textContent()==='Érdeklődöm','Fejléc CTA');
      assert((await page.locator('.project-credit').textContent()).trim()==='© 2026 Agyagpad · Fiktív vállalkozást bemutató webdesign-vizsgamunka.','Lábléc jelzés');
      assert(await page.locator('.footer-links a').count()===4,'Lábléc linkek');
      if(width<1024){await page.locator('.menu').click();assert(await page.locator('.site-header .header-cta').isVisible(),'Mobil CTA');await page.keyboard.press('Escape');assert(await page.locator('.menu').getAttribute('aria-expanded')==='false','Menü/Escape');}

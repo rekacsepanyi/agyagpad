@@ -20,7 +20,7 @@ A két eredeti kép korábbi tervezési állapotot bizonyít, nem az aktuális k
 | Böngészőben megnyitható | Helyben teljesül; a beadandó élő URL még hiányzik. |
 | Mobil és asztali megjelenés | Ellenőrzés: `../ellenorzes/eredmenyek.md`. |
 | Legalább három oldal vagy szekció | Teljesül: négy főoldali szekció. Három külön aloldal nem kötelező. |
-| Legalább egy CTA | Teljesül: Jelentkezem, Megnézem a tanfolyamokat, Megismerem a műhelyt. |
+| Legalább egy CTA | Teljesül: Érdeklődöm, Megnézem a tanfolyamokat, Megismerem a műhelyt. |
 | Saját, projektre írt tartalom | Teljesül; nincs lorem ipsum. Az Agyagpad és a szereplő kitalált. |
 | Egységes arculat | Rögzítve: `../tervezes/design-system.md`. |
 | Tervezési kép | A fenti PNG-k rendelkezésre állnak. |

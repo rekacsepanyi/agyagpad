@@ -29,7 +29,7 @@ A felhasználó november 14-én felülírta a korábbi 2018–2024-es idővonala
 ## Oldalszerkezet és CTA-k
 
 - Főoldal: koncepcio-1-udvari-muhely.html, négy szekcióval: kezdo, tanfolyamok, muhely, kapcsolat.
-- Fejléc CTA: Jelentkezem → főoldali #kapcsolat, aloldalakról is.
+- Fejléc CTA: Érdeklődöm → főoldali #kapcsolat, aloldalakról is.
 - Hero H1: Alkoss agyagból, bontakozz ki Szentendrén.
 - Hero CTA-k: Megnézem a tanfolyamokat és Megismerem a műhelyt.
 - Programkártyák: részletes tanfolyamoldali horgonyokra mutatnak.

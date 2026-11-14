@@ -61,7 +61,7 @@ Merriweather a címsorokhoz, Inter a szöveghez és kezelőelemekhez. Helyi WOFF
 
 - H1 terrakotta; H2 és H3 grafit a világos felületeken.
 - A kickerek normál, mondatkezdő nagybetűs írásmódúak. Nincs text-transform: uppercase, ritkítás, bevezető em dash vagy dekoratív előtagvonal.
-- A többi gomb nagybetűs megjelenése megmarad; a fejléc „Jelentkezem” gombja mondatkezdő nagybetűs, normál betűközzel. Ez a szabály nem terjed át a kickerekre.
+- A többi gomb nagybetűs megjelenése megmarad; a fejléc „Érdeklődöm” gombja mondatkezdő nagybetűs, normál betűközzel. Ez a szabály nem terjed át a kickerekre.
 - Folyó szöveg max. min(680 px, 65ch). Balra zárt, nem sorkizárt.
 - Egy H1, a fő szekciók H2, a programnevek H3.
 - A nagyított szöveg nem vágódhat le. Szűk helyen a hosszú szavak törhetnek; a tartalmat nem rejtjük el vízszintes overflow-val.
@@ -74,7 +74,7 @@ Merriweather a címsorokhoz, Inter a szöveghez és kezelőelemekhez. Helyi WOFF
 - Hero: #F9F8F6. Tanfolyamok: #D9C3B0, törtfehér programkártyákkal. Műhely: #F9F8F6. Kapcsolat: #D9C3B0, világos mezőkkel és információs kártyával.
 - Nincs dekoratív határvonal a szakaszok között vagy a műhelybolt blokkja körül. A funkcionális mezőkeretek és fókuszjelzések megmaradnak.
 - 1024 px alatt mobilmenü; 768 px alatt egyoszlopos tartalmi blokkok. A programkártyák tabletméretben egymás alatt, asztalon három oszlopban látszanak.
-- A fejléc: átlátszó logó, Kezdőlap, Tanfolyamok, Műhely, Kapcsolat, majd jobb oldalt kiemelt „Jelentkezem” CTA. A főoldalon #kapcsolat, a meglévő aloldalakon koncepcio-1-udvari-muhely.html#kapcsolat a cél. Koncepciók link nincs.
+- A fejléc: átlátszó logó, Kezdőlap, Tanfolyamok, Műhely, Kapcsolat, majd jobb oldalt kiemelt „Érdeklődöm” CTA. A főoldalon #kapcsolat, a meglévő aloldalakon koncepcio-1-udvari-muhely.html#kapcsolat a cél. Koncepciók link nincs.
 - A fejléc CTA a meglévő elsődleges gombot használja: terrakotta háttér, törtfehér felirat, kapszulaforma, sötétebb terrakotta hover és közös, 3 px grafit billentyűzetes fókusz. 1024 px alatt a lenyíló menü része, mobilon teljes szélességű. 1024–1199 px között kisebb logószélesség és navigációs térköz tartja szellősen a fejlécet.
 
 ## Programkártyák

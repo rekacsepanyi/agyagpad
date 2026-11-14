@@ -10,7 +10,7 @@
   "sourceFiles": [
     {
       "file": "koncepcio-1-udvari-muhely.html",
-      "sha256": "e644a9e90ba52bbe1366a0697849a666c7933df4f6afa6878986d97b1b448941"
+      "sha256": "612cebb9b0c47a2d45b92b2fdfb0f4925d1d96289825c4fe927381bd25fd3424"
     },
     {
       "file": "assets/udvari-muhely.css",
@@ -18,15 +18,15 @@
     },
     {
       "file": "tanfolyamok.html",
-      "sha256": "c1015c087e66cde066b9ab44ab1803577c77dcd0f3dcf2941a702aff9a688af3"
+      "sha256": "50b4e5044a066ee50001944735f9659e3283a1b77e4c273649fbc5b1d6847a75"
     },
     {
       "file": "muhely.html",
-      "sha256": "24819117dc46389aadb3341fc41e4921bfd8829dc6bdf94fc34c8f365f849d3e"
+      "sha256": "930c0434355785ef07d5a515a1b9d8778748cbe4a141bb709cb203155ee640ed"
     },
     {
       "file": "adatkezeles.html",
-      "sha256": "387ea545bd8a374596842fb85855a34d5c6e54a2ddb18a3ecb47204678a60cf2"
+      "sha256": "58b700072791da8d8952f9dd434500fe9cd2d3793840a113c87e6d0dba4fddbf"
     },
     {
       "file": "assets/erdeklodes.js",

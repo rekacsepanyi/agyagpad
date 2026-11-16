@@ -1,7 +1,7 @@
 {
   "date": "2026-11-16",
   "passed": true,
-  "domainPending": true,
+  "domainPending": false,
   "results": [
     {
       "file": "index.html",
@@ -215,8 +215,6 @@
     }
   ],
   "issues": [],
-  "pending": [
-    "Végleges HTTPS webcím: canonical, og:url, abszolút megosztási kép-URL, öt sitemap URL és robots Sitemap sor. Netlify Git-build automatikusan véglegesíti az URL környezeti változóból."
-  ],
+  "pending": [],
   "realDeliveryVerified": false
 }

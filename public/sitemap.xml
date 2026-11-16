@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- TODO: a webcím megadása után öt abszolút HTTPS URL generálódik. -->
+  <url><loc>https://agyagpad-muhely.netlify.app/</loc></url>
+  <url><loc>https://agyagpad-muhely.netlify.app/tanfolyamok.html</loc></url>
+  <url><loc>https://agyagpad-muhely.netlify.app/muhely.html</loc></url>
+  <url><loc>https://agyagpad-muhely.netlify.app/kapcsolat.html</loc></url>
+  <url><loc>https://agyagpad-muhely.netlify.app/adatkezeles.html</loc></url>
 </urlset>

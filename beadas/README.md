@@ -1,54 +1,31 @@
 # Agyagpad – beadási ellenőrzőlap
 
-Frissítve: 2026. november 16. Aktuális csomag: public/index.html főoldal, Tanfolyamok, Műhely, Kapcsolat és Adatkezelés. A reszponzív megjelenés és a helyi működés ellenőrzött; az élesítés hátravan.
+Frissítve: 2026. november 16. **Élő URL: https://agyagpad-muhely.netlify.app/**.
 
 ## Beadandó három tétel
 
-| Tétel | Állapot | Fájl vagy teendő |
+| Tétel | Állapot | Hely |
 | --- | --- | --- |
-| Élő weboldal URL-je | Hiányzik | Publikálás után a valóban megnyitható cím. A GitHub-tároló nem élő weboldal. |
-| Tervezési folyamat képe | Elkészült | `tervezesi-folyamat/01-eredeti-oldalterkep.png`, `02-eredeti-drotvaz.png`, `03-aktualis-oldalterkep.png` |
-| AI-használat, legfeljebb egy oldal | Az eddigi munkához elkészült | [AI-hasznalat.md](AI-hasznalat.md); élesítés után a publikálási lépéssel frissítendő. |
+| Élő weboldal | Elérhető, HTTP 200-zal ellenőrizve | https://agyagpad-muhely.netlify.app/ |
+| Tervezési folyamat képei | Elkészültek | tervezesi-folyamat/01-eredeti-oldalterkep.png, 02-eredeti-drotvaz.png, 03-aktualis-oldalterkep.png |
+| AI-használat leírása | Frissítve az élesítéssel | AI-hasznalat.md |
 
-Az első két kép történeti terv, a harmadik az aktuális ötoldalas szerkezet. A `jelenlegi-oldal/` mappában a végleges oldalak friss mobil-, tablet- és asztali felvételei találhatók. A forráslenyomatokat a [verzio.json](verzio.json) rögzíti.
+A közzétett oldal öt részből áll: főoldal, Tanfolyamok, Műhely, Kapcsolat és Adatkezelés. A public/index.html a belépési pont. A public mappa a Netlify publish directory; a briefek, ellenőrzések és eredeti fotók nem kerülnek nyilvánosságra.
 
-## Kötelező feltételek
+Az arculat 4.17, a szövegek 3.9 verziójúak. A Műhely hat kész kerámiát mutató galériája nagyítható. A fiktív vállalkozás és bemutatócím jelölése megmaradt; vásárlói vélemény vagy kitalált díj nem szerepel.
 
-| Feltétel | Állapot |
-| --- | --- |
-| Statikus HTML/CSS | Teljesül; JavaScript kezeli a menüt, az űrlapot és a galérianagyítót, a FAQ natív HTML. |
-| Böngészőben megnyitható | Helyben teljesül; az élő beadási URL hiányzik. |
-| Mobil és asztali megjelenés | Teljesül az elvégzett helyi próbákban; tablet is ellenőrzött. [Részletek](../ellenorzes/eredmenyek.md). |
-| Legalább három oldal vagy szekció | Teljesül: négy főoldali szekció és négy külön aloldal. |
-| Legalább egy CTA | Teljesül; a közös Érdeklődöm gomb célja `kapcsolat.html#erdeklodes`. |
-| Saját tartalom | Teljesül; a felhasználó által megadott és jóváhagyott projektszövegek. |
-| Egységes arculat | Teljesül a vizsgált nézetekben; rögzítve a [design systemben](../tervezes/design-system.md). |
-| Tervezési kép | Rendelkezésre áll, aktuális oldaltérképpel. |
-| AI-használat leírása | Rendelkezésre áll; az élesítés utáni mondat még kiegészítendő. |
+## Ellenőrzések és SEO
 
-## Ajánlott extrák és külön projektkövetelmények
+A november 16-i mobil/tablet ellenőrzés 165 nézete, az általános kiadási próba 35 nézete és az élő SEO-ellenőrzés 15 nézete sikeres. A képernyőképek a jelenlegi-oldal/ mappában, a részletes gépi jelentések a projekt ellenorzes/ mappájában találhatók.
 
-- GitHub-verziókövetés: [rekacsepanyi/agyagpad](https://github.com/rekacsepanyi/agyagpad).
-- SEO-alapok: title, description, címsorok, alt szövegek és többméretű WebP-k rendelkezésre állnak; domainfüggő beállítások hátravannak.
-- A Műhely `#keramiak` galériája hat kész tárgyfotót tartalmaz, billentyűzettel kezelhető nagyítóval.
-- Az eredeti kiírásban ajánlott valódi űrlapot a felhasználó külön követelménnyé tette. A POST-kód kész és szimulált fogadóval tesztelt, de a Netlify-fogadó inaktív; éles kézbesítés nincs igazolva. [Bekapcsolási lista](../tervezes/urlap-beallitas.md).
-- Saját domain, GA4, Search Console, hozzájáruláshoz kötött mérés és portfólió-esettanulmány még nem készült.
+Mind az öt oldalon egyedi title és leírás, Open Graph/Twitter, abszolút canonical és megfelelő JSON-LD van. A cím és nyitvatartás fiktív LocalBusiness adatként szerepel; a Kapcsolat FAQPage, a Műhely Person kiegészítést is tartalmaz. Az élő sitemap öt URL-t sorol, a robots.txt hivatkozik rá. A helyi és élő Vikingo-ellenőrzés 0 hibát mutat. A végleges webcím már nem hiányzó adat.
 
-## Beadás előtt
+A fotók többméretű WebP-k; a további tömörítés 18,6% megtakarítás. A logó/favikon SVG, a megosztási képek külön JPEG-ek. A forráslenyomatokat és az élő címet a verzio.json rögzíti. Részletes lista: tervezes/seo-es-publikalas.md a projektben.
 
-1. A tényleges képkreditek és szükséges licencadatok rögzítése.
-2. A public/index.html már a végleges belépési pont. A public mappát kell publikálni; a koncepcióválasztó archív munkaanyag.
-3. Publikálás, élő URL, fogadó és értesítési e-mail, tényleges kézbesítési próba.
-4. A valódi üzemeltető adatkezelési adatainak rögzítése és az AI-leírás véglegesítése.
+## Ami még hátravan
 
-Határidő: 2026. november 24.; kérhető haladékkal december 1. A csomag nem állítja, hogy a még hátralévő élesítési feltételek már teljesültek.
+- A Netlify Forms fogadójának aktiválása, az értesítési e-mail beállítása és valódi kézbesítési próba. A korábbi 15 HTTP-szimuláció nem e-mail-kézbesítési bizonyíték.
+- Valódi üzemeltetői adatkezelési adatok és a tényleges képkreditek/licencadatok véglegesítése.
+- Search Console-hitelesítés és sitemap-beküldés ajánlott extra; jelenleg nem igazolt.
 
-
-## SEO és feltöltési állapot
-
-A public mappa tiszta Netlify-kiadás, a munkaanyagok kimaradnak. 83 raszterfájl további tömörítésével 18,6% méretcsökkenés történt; a fotók WebP-k. Az öt oldalon egyedi metaadatok, OG/Twitter és strukturált adatok készültek. A végleges webcím hiánya miatt a canonical, og:url és sitemap URL-ek még véglegesítendők. Netlify Git-buildkor a beállított generátor ezt az URL környezeti változóból megoldja; kézi feltöltésnél a kapott webcímmel újra kell generálni és feltölteni a mappát. 35 új böngészős nézet és 15 szimulált űrlappróba sikeres. Részletek: tervezes/seo-es-publikalas.md.
-
-
-## November 16-i pontosítás
-
-Design system 4.17, szövegek 3.9. A Műhely galériabevezetője az új használati/ajándékozási szöveg, a galéria és elrendezése változatlan. A Kapcsolat hero a részleteket. kifejezése egy sorban marad. A mobil/tablet ellenőrzés 165 nézete sikeres (álló/fekvő, köztes méretek, 200%-os szöveg). A főoldal nagyított tabletnézetének belső túlcsordulása javítva. A 35 nézetes általános működési próba is sikeres.
+A kiírásban a működő űrlap ajánlott extra volt; a felhasználó külön projektkövetelménnyé tette, ezért nem jelöljük késznek a kézbesítési próba előtt. Határidő: 2026. november 24.; kérhető haladékkal december 1.

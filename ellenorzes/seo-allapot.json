@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-14",
-  "siteUrl": null,
-  "domainPending": true,
+  "date": "2026-11-16",
+  "siteUrl": "https://agyagpad-muhely.netlify.app",
+  "domainPending": false,
   "generatedPages": [
     {
       "file": "index.html",

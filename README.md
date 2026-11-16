@@ -1,47 +1,39 @@
-# Agyagpad – végleges weboldal és Netlify-feltöltés
+# Agyagpad – élő weboldal
 
-Frissítve: 2026. november 16. A vállalkozás, Dóra karaktere és a műhely címe fiktív vizsgaadat.
+Frissítve: 2026. november 16. Élő cím: **https://agyagpad-muhely.netlify.app/**.
 
-A publikálandó weboldal kizárólag a **public/** mappában található. Kezdőlap: [public/index.html](public/index.html). Aloldalak: Tanfolyamok, Műhely, Kapcsolat és Adatkezelés. A főoldal korábbi koncepciós fájlneve belső linkként már nem szerepel. A régi gyökérbeli HTML-fájlok csak a korábban használt helyi címek átirányítói.
+A publikálható weboldal a public/ mappában található; a főoldal public/index.html. A Tanfolyamok, Műhely, Kapcsolat és Adatkezelés önálló aloldal. A vállalkozás, Dóra karaktere és az Agyagliget köz 4. cím fiktív vizsgaadat; ezt a lábléc és a strukturált adat leírása is jelöli.
 
-A munkaanyagok a tervezes/, beadas/, ellenorzes/, eszkozok/, archivum/, .webprojekt/ és az eredeti images/ mappában maradtak. **A projekt gyökerét ne töltsd fel kézi Netlify-telepítéshez.** A régi koncepcióválasztó: archivum/koncepciok-index.html.
+## Netlify és fájlok
 
-## Netlify
+A netlify.toml buildparancsa `node eszkozok/seo-generalas.cjs`, publish directory `public`. A GitHub main ága a kiadás forrása. A kézi feltöltéshez is kizárólag a public mappa való; a projekt gyökere munkaanyagokat tartalmaz. A korábbi gyökérbeli HTML-címek helyi átirányítók, nem szerkesztendő webes források.
 
-GitHubos telepítésnél a netlify.toml beállítja:
+A tervezes/, beadas/, ellenorzes/, eszkozok/, archivum/, .webprojekt/ és az eredeti images/ mappa nem része a webes kiadásnak. A régi koncepcióválasztó az archivum/koncepciok-index.html fájlban maradt.
 
-- Build command: `node eszkozok/seo-generalas.cjs`
-- Publish directory: `public`
-- A végleges domain hiányában a build a Netlify `URL` környezeti változójából generálja a canonical és megosztási URL-eket, valamint az ötelemű sitemapet.
+## SEO
 
-Kézi feltöltéshez a public mappát add át a Netlifynak. A Netlify ilyenkor nem futtat buildparancsot. Az elsőként kapott HTTPS webcím után futtasd a projekt gyökeréből:
+A végleges webcím a [tervezes/seo-konfiguracio.json](tervezes/seo-konfiguracio.json) siteUrl mezőjében szerepel. A SEO-generátor ebből állítja elő az öt oldal egyedi title/meta description és Open Graph/Twitter adatait, abszolút canonical és megosztási URL-jeit, a JSON-LD adatokat, a sitemap.xml-t és robots.txt-t. Ismételt futtatáskor nem duplikál tageket. Saját domainre költözéskor a siteUrl értékét kell átírni, majd új buildet indítani.
 
-`node eszkozok/seo-generalas.cjs --domain=https://A-KAPOTT-WEBCIM`
+Élő technikai fájlok: https://agyagpad-muhely.netlify.app/sitemap.xml és https://agyagpad-muhely.netlify.app/robots.txt . A sitemap öt abszolút HTTPS-címet tartalmaz. A robots.txt engedi a feltérképezést és hivatkozik a sitemapre.
 
-Ezután töltsd fel ismét a public mappát. A fenti parancsban a teljes saját Netlify-cím szerepeljen. Tartós beállításként a tervezes/seo-konfiguracio.json siteUrl mezőjét töltsd ki. Jelenleg nincs végleges URL; nem írtunk be kitalált domaint.
+A címadat, a csütörtök–vasárnap 10:00–18:00 nyitvatartás és a fiktív jelleg LocalBusiness JSON-LD-ben is szerepel. A Műhely oldalon Person, a Kapcsolat oldalon a négy látható kérdéssel egyező FAQPage is található. Nincs kitalált telefon, koordináta vagy értékelés.
 
-Az űrlap fogadója a korábbi döntés szerint még inaktív. Beállítás és éles próba: [tervezes/urlap-beallitas.md](tervezes/urlap-beallitas.md). A Netlifyra feltöltés önmagában nem kapcsolja be a jelenlegi konfigurációban az üzenetküldést.
+Az öt oldalon egy H1 szerepel, a címsorszintek és alt szövegek ellenőrzöttek. A fotók többméretű WebP-k, további tömörítésük 18,6% megtakarítást eredményezett. A logó/favikon SVG, a négy külön megosztási kép 1200×630-as JPEG.
 
-## SEO és képek
-
-Öt egyedi title és leírás, Open Graph és Twitter-kártya, négy 1200×630-as megosztási kép, ellenőrzött címsorok és alt szövegek, LocalBusiness/Person/FAQPage/WebPage strukturált adatok készültek. A fiktív jelleg a LocalBusiness leírásában is szerepel; nem adtunk meg kitalált telefonszámot, koordinátát vagy értékelést.
-
-A 83 meglévő webes raszterállomány összmérete 8 218 108-ról 6 692 253 bájtra csökkent (18,6%). A fotók többméretű WebP-k; a logó és favicon elsődlegesen SVG. A közösségi megosztók kompatibilitása miatt a külön OG-képek JPEG-ek.
-
-Részletek és pontos fájlhelyek: [tervezes/seo-es-publikalas.md](tervezes/seo-es-publikalas.md).
+Pontos fájlhelyek és ellenőrzés: [tervezes/seo-es-publikalas.md](tervezes/seo-es-publikalas.md).
 
 ## Aktuális ellenőrzések
 
-- `node eszkozok/seo-publikalas-ellenorzes.cjs`: 35 böngészős nézet, 320–1440 px, 200%-os szövegnagyítás, linkek, képek, navigáció, galéria, GYIK és űrlapellenőrzés.
-- `node eszkozok/urlap-ellenorzes.cjs`: a főoldali űrlap öt szimulált küldési esete; paraméterként tanfolyamok.html vagy kapcsolat.html is megadható.
-- `node eszkozok/szoveg-dokumentacio.cjs`, `node eszkozok/tartalom-export.cjs`: tartalomfrissítés a helyi előnézetből.
-- `node eszkozok/beadasi-kepek.cjs`: a legutóbbi kiadási teszt képei és forráslenyomatai.
+- `node eszkozok/seo-eles-ellenorzes.cjs`: öt élő oldal 390/768/1440 px-en; metaadatok, képek, címsorok, strukturált adatok, sitemap és robots.txt. Nem küld űrlapot.
+- `node eszkozok/seo-publikalas-ellenorzes.cjs`: 35 helyi nézet és működési próba, nagyított szöveggel is.
+- `node eszkozok/reszponziv-ellenorzes.cjs`: 165 mobil/tablet nézet, álló/fekvő helyzet és köztes szélességek, 200%-os szöveggel. A főoldali nagyított hasábok túlcsordulása javítva.
+- `node eszkozok/urlap-ellenorzes.cjs`: öt szimulált küldési eset. Paraméterként tanfolyamok.html vagy kapcsolat.html is megadható.
+- `node eszkozok/beadasi-kepek.cjs`: a kiadási teszt képei és a forráslenyomatok frissítése.
 
-A korábbi, dátumozott megjelenéstesztek és védett forráspéldányok történeti ellenőrzések. A public mappás kiadás aktuális tesztje a seo-publikalas-ellenorzes.cjs; nem a régi gyökérbeli HTML-eket kell szerkeszteni.
+A korábbi dátumozott jelentések történeti állapotokat dokumentálnak. Az élő SEO-ellenőrzés és a helyi Vikingo-vizsgálat hibamentes; Search Console-hitelesítést és keresési helyezést nem igazolnak.
 
-Helyi előnézet a projekt gyökeréből: `node eszkozok/helyi-szerver.cjs`, majd http://127.0.0.1:4173/public/index.html. Ez nem élő weboldal.
+## Hátralévő lépések
 
+A Netlify Forms fogadója változatlanul inaktív; az éles kézbesítés és az értesítési cím még nincs igazolva. Beállítás: [tervezes/urlap-beallitas.md](tervezes/urlap-beallitas.md). Az üzemeltetői adatkezelési adatok véglegesítése szintén hátravan. Search Console-hitelesítés és a sitemap beküldése a következő keresőoldali feladat.
 
-## Legutóbbi mobil/tablet ellenőrzés – november 16.
-
-`node eszkozok/reszponziv-ellenorzes.cjs`: öt oldal, 33 beállítás oldalanként, összesen 165 nézet. Telefon és tablet álló/fekvő helyzetben, 320–1368 px szélességen, töréspontok mellett és 200%-os szöveggel. A főoldal nagyított fekvő tabletnézetében talált belső kártyatúlcsordulás és túl szűk bemutatkozó hasáb javítva. A Műhely galériabevezetője a kért új szöveg, a Kapcsolat hero a részleteket. kifejezése nem válik két sorra. Új szín, galériakép vagy gomb nincs. Részletes eredmény: ellenorzes/reszponziv-ellenorzes-2026-11-16.json. A teszt Chrome érintéses emulációban futott, nem minden létező fizikai eszközön.
+Helyi előnézet: `node eszkozok/helyi-szerver.cjs`, majd http://127.0.0.1:4173/public/index.html .

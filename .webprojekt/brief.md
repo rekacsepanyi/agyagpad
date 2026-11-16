@@ -48,7 +48,7 @@ A felhasználó Freepik stock fotókat adott, felhasználási jogukról ő táj�
 
 Netlify Forms-ra előkészített, statikus HTML-űrlap, valódi POST-kóddal, mezőhöz rendelt magyar hibákkal, sikerjelzéssel kizárólag pozitív fogadói válasz után. Hiba esetén megmaradnak az adatok; küldés közben nincs dupla beküldés.
 
-A felhasználó november 14-i válasza: még nincs Netlify-oldal, a fogadót később állítjuk be. Ezért a küldés jelenleg nincs élesítve. Hiányzik az élő Netlify-projekt, a bekapcsolt form detection, az értesítési e-mail-cím, a valódi üzemeltető adatkezelési adatai és az éles próbaüzenet. Pontos lista: urlap-beallitas.md. A helyi szimuláció nem e-mail-kézbesítési bizonyíték.
+November 16-i állapot: az oldal a https://agyagpad-muhely.netlify.app/ címen elérhető, a domainfüggő SEO végleges. A fogadót a korábbi döntés szerint később állítjuk be. A Forms felismerés/aktiválás, az értesítési e-mail-cím, a valódi üzemeltető adatkezelési adatai és az éles próbaüzenet még nem igazolt. Pontos lista: urlap-beallitas.md. A helyi szimuláció nem e-mail-kézbesítési bizonyíték.
 
 A kiírás eredetileg ajánlott extraként említette a működő űrlapot; a felhasználó ezt most külön kötelező projektkövetelménnyé tette. Ezt a tételt az éles próba előtt nem jelöljük teljesítettnek.
 

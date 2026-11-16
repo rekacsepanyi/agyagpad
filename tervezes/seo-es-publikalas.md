@@ -1,59 +1,58 @@
-# Agyagpad – SEO, képek és publikálási mappa
+# Agyagpad – végleges SEO és publikálás
 
-2026. november 14. Arculat: 4.16. Szövegek: 3.8. A látható szövegeket és a véglegesített elrendezést megőriztük.
+Frissítve: 2026. november 16. **Élő webhely: https://agyagpad-muhely.netlify.app/**.
 
-## Hol találhatók a módosítások?
+A Netlify build már az első élő ellenőrzéskor létrehozta a domainhez kötött SEO-elemeket. A jó title-öket és leírásokat megőriztük; most a megadott webcímet a projekt konfigurációjában és minden helyi kiadási fájlban is véglegesítettük. A látható oldalszövegek és a megjelenés nem változtak.
 
-| Fájl | Beállítás |
-| --- | --- |
-| public/index.html | Végleges főoldal; egyedi title és meta description; OG/Twitter; LocalBusiness JSON-LD. |
-| public/tanfolyamok.html | Egyedi metaadatok; OG/Twitter; WebPage JSON-LD; a különálló tudnivalók címe H2, változatlan mérettel. |
-| public/muhely.html | Egyedi metaadatok; OG/Twitter; LocalBusiness és a fiktív Dóra karakterét jelölő Person. A hatképes galéria megmaradt. |
-| public/kapcsolat.html | Egyedi metaadatok; OG/Twitter; LocalBusiness és a négy látható kérdéssel szó szerint egyező FAQPage. |
-| public/adatkezeles.html | Egyedi metaadatok; OG/Twitter; WebPage JSON-LD. |
-| public/images/webp/ | Méretezett és tovább tömörített fotók, meglévő reszponzív srcset-változatokkal. |
-| public/images/og/ | Négy 1200×630-as JPEG a széles körű megosztási kompatibilitáshoz. |
-| public/images/logo/ | Átlátszó SVG-logó és -favicon, kisebbre tömörített PNG-tartalék. |
-| public/sitemap.xml, public/robots.txt | Elkészült szerkezet; domain nélküli állapotban egyértelmű TODO-val. |
-| public/_redirects | A korábbi főoldali fájlnév és index.html átirányítása a webhely gyökerére Netlify alatt. |
-| netlify.toml | public publish directory, SEO-generáló buildparancs. |
-| eszkozok/seo-generalas.cjs | Ismételhető generálás, duplikált tagek nélkül, CLI/config/Netlify URL alapján. |
-| tervezes/seo-konfiguracio.json | A később megadandó végleges HTTPS webcím. |
+## Mit és hol állítottunk be?
 
-Mind az öt oldalon egy H1 van, a fő tartalom címsorszintjei nem ugranak. A leíró altok a képtartalomhoz illeszkednek; a logók dekoratív üres altja mellé a hivatkozáson hozzáférhető márkanév tartozik. A képnagyító kezdetben üres, dinamikus képének altja megnyitáskor a kiválasztott fotó leírására vált. A nyitófotók előnyben töltődnek, az alattuk lévő fotók lazy betöltésűek. A helyi betűk megmaradtak.
+| Fájl | Egyedi title | További adatok |
+| --- | --- | --- |
+| public/index.html | Korongozás Szentendrén, kezdőbarát élmény &#124; Agyagpad | Egyedi leírás, OG/Twitter, canonical, LocalBusiness. |
+| public/tanfolyamok.html | Korongozó tanfolyamok és alkotóprogramok &#124; Agyagpad | Egyedi leírás, OG/Twitter, canonical, WebPage. |
+| public/muhely.html | Kerámiaműhely és kézzel készült kerámiák &#124; Agyagpad | Egyedi leírás, OG/Twitter, canonical, LocalBusiness és a fiktív alapító Person adata. |
+| public/kapcsolat.html | Kapcsolat és érdeklődés, szentendrei műhely &#124; Agyagpad | Egyedi leírás, OG/Twitter, canonical, LocalBusiness és a négy látható kérdéssel egyező FAQPage. |
+| public/adatkezeles.html | Adatkezelés és az érdeklődési űrlap adatai &#124; Agyagpad | Egyedi leírás, OG/Twitter, canonical, WebPage. |
 
-A LocalBusiness címadata és nyitvatartása az oldalon látható bemutatóadat: 2000 Szentendre, Agyagliget köz 4.; csütörtök–vasárnap 10:00–18:00. A leírás egyértelműen fiktív vizsgaprojektet jelez. Nincs kitalált telefon, e-mail, térképi koordináta, díj vagy értékelés. A fotók stock illusztrációk. Valódi Google Cégprofilt ehhez a fiktív vállalkozáshoz nem készítünk.
+A HTML-title-ökben a márkanevet függőleges vonal választja el. Hosszuk 51–54 karakter; a leírások 156–165 karakteresek. Mindegyik egyedi, magyar nyelvű és az adott oldal tartalmát írja le.
 
-## Képtömörítés
+Az öt HTML head részében egy-egy SEO-blokk szerepel. Az Open Graph elemek: title, description, url, image, type, locale, site_name, képformátum/méret/alt. A megosztási képek 1200×630-as JPEG-ek a public/images/og/ mappában; mindegyik ténylegesen elérhető. Az og:url, og:image, Twitter-kép és canonical abszolút HTTPS-címet használ, az agyagpad-muhely.netlify.app domainnel. A Twitter-kártya summary_large_image.
 
-83 meglévő raszterfájl: **8 218 108 → 6 692 253 bájt**, megtakarítás **1 525 855 bájt (18,6%)**. Az eredeti fotók nem változtak. A teljes eredeti képarányú galériaképek nagyítása és az álló tál felismerhető kivágása megmaradt. A böngésző képernyőméret szerint választ a 480–1600 px-es változatokból; a nagyító külön 1920 px-es fájlokat használ. A négy további OG-JPEG összesen körülbelül 404 KB; ezeket normál oldalnézetben a böngésző nem tölti le.
+A LocalBusiness címadata: Agyagliget köz 4., Szentendre, 2000, HU. Nyitvatartás: csütörtök, péntek, szombat és vasárnap, 10:00–18:00, OpeningHoursSpecification formában. A napnevek az angol schema.org értékek. A vállalkozás URL-je, képe és logója abszolút, elérhető webcím. Nincs hozzáadott telefon, koordináta vagy értékelés. A leírás kifejezetten jelzi, hogy a vállalkozás és a cím fiktív bemutatóadat. Valódi Cégprofilt ehhez a vizsgakarakterhez nem hozunk létre.
 
-A fotók WebP-k; a vektoros márkaelemeket SVG-ként tartottuk meg. A PNG-favicon veszteségmentesen kisebb lett. A minőséget nem rontottuk korlátlanul fájlméret-cél eléréséhez. Tételes előtte/utána lista: ellenorzes/kepek-optimalizalas.json. A generáló script: eszkozok/webkepek-tomoritese.cjs.
+A fő tartalomban oldalanként pontosan egy H1 van, nincs átugrott címsorszint. A fotók leíró alt szöveget kaptak; a logók üres altja mellett a hivatkozásnak hozzáférhető márkaneve van. A galéria dinamikus nagyítójában a kiválasztott kép leírása jelenik meg. A hajtás alatti fotók lazy betöltésűek, a hero előnyben töltődik. A meglévő WebP-, SVG- és favicon-beállítások megmaradtak.
 
-## Végleges webcím még nincs
+## Technikai fájlok és konfiguráció
 
-A felhasználó megerősítette, hogy még nincs végleges webcím. Emiatt a nyilvános HTML-be nem került kitalált canonical vagy og:url. Az OG-képek útvonala átmenetileg domain nélküli. A sitemap érvényes XML, de az öt URL a domain megadásáig nincs benne; a robots.txt Sitemap sora addig komment.
+- public/sitemap.xml: öt abszolút, közvetlenül HTTP 200-zal elérhető kanonikus URL. Élő: https://agyagpad-muhely.netlify.app/sitemap.xml .
+- public/robots.txt: User-agent: *, Allow: / és az élő sitemap hivatkozása. Élő: https://agyagpad-muhely.netlify.app/robots.txt .
+- tervezes/seo-konfiguracio.json: a végleges siteUrl. Már nincs hiányzó domain vagy TODO ebben az állapotban.
+- eszkozok/seo-generalas.cjs: ismételhető, duplikáció nélküli SEO-generátor. A konfigurált címet használja, és saját domainre költözéskor innen frissíthetők az URL-ek.
+- netlify.toml: a generátort futtatja buildkor; publish directory: public.
+- public/_redirects: a korábbi főoldali fájlnév és index.html átirányítása a kezdőlapra.
 
-GitHub → Netlify telepítéskor a netlify.toml buildparancsa a Netlify URL környezeti változójából automatikusan véglegesíti ezeket. Saját domainnél a seo-konfiguracio.json siteUrl értékét kell beállítani, majd új buildet indítani.
+## Bizonyított ellenőrzés
 
-Kézi feltöltéskor a Netlify nem futtat buildet. Az első telepítés után a kapott valódi HTTPS-címmel futtasd a projekt gyökeréből: `node eszkozok/seo-generalas.cjs --domain=https://A-KAPOTT-WEBCIM`, majd töltsd fel újra a public mappát. Ezután a sitemap öt abszolút URL-t, a robots.txt pedig a valódi sitemap-címet tartalmazza.
+A mostani élő kiinduló állapotban **0 SEO-hiba** volt: a Netlify build már helyesen generált. A helyi, még domain nélküli előző kiadás 10 hiányzó URL-jelzése a véglegesítés után **0-ra csökkent**. Nem állítjuk, hogy a már megfelelő élő title-öket vagy leírásokat újra kellett írni.
 
-## Ellenőrzési eredmény
+- ellenorzes/seo-eles-kiindulo-2026-11-16.txt: a tényleges élő HTML-ek Vikingo-ellenőrzése, 0 hiba.
+- ellenorzes/seo-vegleges-2026-11-16.txt: a végleges domainnel generált public mappa, 0 hiba.
+- ellenorzes/seo-eles-ellenorzes-2026-11-16.json: öt élő oldal 390, 768 és 1440 px-en; 15 sikeres nézet, öt megosztásikép-ellenőrzés és két technikai fájl. A canonical és og:url pontos egyezése, egyedi metaadatok, JSON-LD tartalma, látható GYIK-egyezés, képek, altok és címsorok is ellenőrzöttek. Űrlapküldés nem történt.
+- ellenorzes/seo-publikalas-ellenorzes.json: 35 sikeres helyi nézet és működési próba, nagyított szöveggel is.
+- ellenorzes/reszponziv-ellenorzes-2026-11-16.json: a korábbi célzott mobil/tablet ellenőrzés 165 sikeres nézete. A SEO-véglegesítés a látható elrendezést nem módosítja.
 
-A Vikingo skill kiinduló ellenőrzése 17 hibát jelzett. Az aktuális domain nélküli kiadásban 10 jelzés marad: oldalanként a végleges og:url és a canonical hiánya. Ezek a hiányzó webcímhez kötöttek, nem jelöljük őket késznek. A többi ellenőrzött alapelem elkészült. A GSC-hitelesítés hiánya külön figyelmeztetés; ellenőrzéséhez valós domain szükséges.
+A Google jelenlegi alapszintű dokumentációját a skill frissességi szabálya szerint ismét ellenőriztük. A LocalBusiness nyitvatartási értékek és a kanonikus sitemap-címek megfelelnek; új kötelező elem bevezetése nem volt szükséges.
 
-A domaines generálást a kiadástól elkülönített, nem publikált tesztmappában is ellenőriztük, kizárólag seo-proba.invalid tesztcímmel: **0 hiba**. Ez a tesztcím nem került a public mappába. A valós domain megadását nem helyettesíti. Jelentések: ellenorzes/seo-kiindulo.txt, seo-skill-eredmeny.txt és seo-domain-proba.txt.
+## Képek és feltöltési mappa
 
-A public mappás kiadás 35 böngészős nézetpróbán szerepel: 320, 390, 768, 1024 és 1440 px, plusz 390/1440 px 200%-os szöveggel. Ellenőrzött a képek betöltése, a tördelés, a belső linkek, a fejléc CTA, programválasztás, billentyűzetes galéria/FAQ és a magyar mezőhibák. A három űrlap külön öt-öt szimulált HTTP-próbája sikeres; éles kézbesítést nem állítunk. A küldő konfiguráció változatlanul inaktív.
+83 meglévő raszterfájl: 8 218 108 → 6 692 253 bájt, **18,6% megtakarítás**; az eredeti fotók változatlanok. A webes fotók WebP-k, a logó/favikon SVG, a PNG-favicon tartalék veszteségmentesen tömörített. A négy külön OG-JPEG összesen körülbelül 404 KB. Tételes lista: ellenorzes/kepek-optimalizalas.json.
 
-## Mi került ki a feltöltésből?
+A public mappa kizárólag a webhelyhez szükséges 110 fájlt tartalmazza. Brief, ellenőrzés, skill, eredeti nagy JPG és tervezési munkaanyag nincs benne. A helyi forráslenyomatok és az élő cím a beadas/verzio.json fájlban szerepelnek.
 
-A public mappában nincs brief, README, eredeti JPG-fotó, skill, ellenőrzés, tervezési anyag vagy koncepcióválasztó. A webes fájlokat Git-mozgatással rendeztük át; a gyökérbeli korábbi címek helyi átirányítóként megmaradtak. A munkaanyagok és beadási dokumentumok a projekten belül, a public mappán kívül maradtak.
+## Következő keresőoldali lépés
 
-Az ellenőrzött skillek: https://github.com/vikingokft/skill-vikingo-seo és https://github.com/vikingokft/ai-webdesign/tree/main/deploy-mappa. A telepített változatok útvonalai és lenyomatai: ellenorzes/skill-ellenorzes.json. A letöltött útmutatók tartalma azonos a korábban telepítettekkel; a SKILL.md fájlok frissítve, a helyi ellenőrző segédfájlok megtartva.
+Search Console-hitelesítés és a sitemap beküldése ajánlott; a kódban ennek még nincs nyoma. DNS-hitelesítés az oldal forrásából nem igazolható. A strukturált adat nem garantál kiemelt keresési megjelenést, és az alapbeállítások nem garantálnak helyezést vagy AI-válaszban megjelenést.
 
-## Következő lépések
+Az űrlap fogadója a korábbi döntés szerint változatlanul inaktív; aktiválása és az éles e-mail-próba külön feladat. Az üzemeltető adatkezelési adatai is véglegesítendők.
 
-A végleges webcím után SEO-generálás és az élő URL ellenőrzése; ezt követően Search Console-hitelesítés és sitemap-beküldés végezhető. A Netlify Forms címzettje, aktiválása és valódi próbaüzenete továbbra is hátravan. Az üzemeltetői adatokat az adatkezelési oldalon is véglegesíteni kell.
-
-Ez belépőszintű keresőoptimalizálás: nem garantál Google-helyezést vagy AI-válaszokban megjelenést. A FAQ strukturált adat sem garantál külön keresési megjelenést. Szakmai források: https://developers.google.com/search/docs/appearance/structured-data/local-business , https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap , https://ogp.me/ , https://docs.netlify.com/build/configure-builds/environment-variables/ .
+Felhasznált szakmai források: [Google LocalBusiness](https://developers.google.com/search/docs/appearance/structured-data/local-business), [Google sitemap-útmutató](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap), [strukturált adatok irányelvei](https://developers.google.com/search/docs/appearance/structured-data/sd-policies). Alkalmazott skill: C:/Users/jolci/.codex/skills/vikingo-seo-skill/SKILL.md.

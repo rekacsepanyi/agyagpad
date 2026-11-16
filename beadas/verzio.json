@@ -1,8 +1,8 @@
 {
   "date": "2026-11-16",
-  "designRevision": "2026-11-16-responsive-copy",
+  "designRevision": "2026-11-16-live-seo",
   "baseDesignCommit": "7064af8cb996f8d2fe00c5f4ecadf482048045c1",
-  "liveUrl": null,
+  "liveUrl": "https://agyagpad-muhely.netlify.app",
   "designSystem": "4.17",
   "copy": "3.9",
   "formEnabled": false,
@@ -14,7 +14,7 @@
     },
     {
       "file": "public/adatkezeles.html",
-      "sha256": "e1c17b37ef64ff2cf2bfe84ba5b956224ba72bed8c7752d4b707272a49ad46c1"
+      "sha256": "6e2e74b9804c2e2f513ce74e73ac797930dc888b69c1172a1a73606498c43acd"
     },
     {
       "file": "public/assets/erdeklodes.js",
@@ -426,27 +426,27 @@
     },
     {
       "file": "public/index.html",
-      "sha256": "250d0d183d0f20d1b19d52bf4c474be57ff7e4de6da13d2efe67f8c5d67e71b6"
+      "sha256": "cba9a8f688dab4c4ba3ade0e012056ea4e35ac60e5b5aab98977ef0f941764fb"
     },
     {
       "file": "public/kapcsolat.html",
-      "sha256": "5ba3b173976303fc5c34f373ac1b9f74328827dcbb0a4e4f54ce77716cceed74"
+      "sha256": "819bdacf9dfd1d0a3797909443fc3e64de18482d749eedc880cab8ac6f422d91"
     },
     {
       "file": "public/muhely.html",
-      "sha256": "3482231bc0da4e821a86898cdc8e3873d303e7e0cc43c0e4119a1cb469ac2657"
+      "sha256": "a4a414f7ff8ddd580b98b9129af91c89c4f8ce8478e9f8507cb92b3960b0eeb6"
     },
     {
       "file": "public/robots.txt",
-      "sha256": "b8f65131aa2eee6c5a8261922c03a4856578d4473b7b2f8b9532deda00a913f2"
+      "sha256": "750dd7a5925ed42b58e8f6c311ff5081c325ea7ceb5faec09bd7cefb3106b9f8"
     },
     {
       "file": "public/sitemap.xml",
-      "sha256": "89fbd00f41c7e447420f9c81075098144cd3510dff419f2d5a76e6547e098586"
+      "sha256": "f72f85b6e4876762a54d928778a8dfa7fa564f5047f717809e420af24fdcdaac"
     },
     {
       "file": "public/tanfolyamok.html",
-      "sha256": "020babf8793ee64694252bda6bafff87db5c1f0c3514a227dd69d494715850ea"
+      "sha256": "9e1b0bb9e109699084637d1a66d1e995e6094cb5d3f5a392c640a3f4f4c823ef"
     }
   ],
   "planningImages": [
@@ -483,8 +483,9 @@
     "tanfolyamok-tablet-fekvo.png",
     "tudnivalok-asztali.png"
   ],
-  "note": "165 sikeres mobil/tablet nézet; nagyított szövegnél is alkalmazkodó főoldali hasábok. Műhely-bevezető frissítve, a Kapcsolat hero a részleteket. kifejezése együtt marad. SEO-alapok, további képtömörítés, csak webes fájlokat tartalmazó public kiadás. A végleges webcím hiányzik: canonical, og:url és sitemap URL-ek még nem véglegesek. Netlify Git-build az URL környezeti változóból generálja őket. Az űrlap fogadója inaktív.",
+  "note": "165 sikeres mobil/tablet nézet; nagyított szövegnél is alkalmazkodó főoldali hasábok. Műhely-bevezető frissítve, a Kapcsolat hero a részleteket. kifejezése együtt marad. SEO-alapok, további képtömörítés, csak webes fájlokat tartalmazó public kiadás. A domainhez kötött elemek állapotát a liveUrl és domainPending mezők jelzik; a végleges címet a tervezes/seo-konfiguracio.json rögzíti. Az űrlap fogadója inaktív.",
   "publishDirectory": "public",
   "homePage": "public/index.html",
-  "domainPending": true
+  "domainPending": false,
+  "liveSeoVerified": true
 }

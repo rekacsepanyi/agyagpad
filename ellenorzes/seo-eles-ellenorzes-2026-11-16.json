@@ -1,0 +1,154 @@
+{
+  "date": "2026-11-16",
+  "siteUrl": "https://agyagpad-muhely.netlify.app",
+  "passed": true,
+  "results": [
+    {
+      "file": "index.html",
+      "url": "https://agyagpad-muhely.netlify.app/",
+      "width": 390,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "file": "index.html",
+      "url": "https://agyagpad-muhely.netlify.app/",
+      "width": 768,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "file": "index.html",
+      "url": "https://agyagpad-muhely.netlify.app/",
+      "width": 1440,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "file": "tanfolyamok.html",
+      "url": "https://agyagpad-muhely.netlify.app/tanfolyamok.html",
+      "width": 390,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "file": "tanfolyamok.html",
+      "url": "https://agyagpad-muhely.netlify.app/tanfolyamok.html",
+      "width": 768,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "file": "tanfolyamok.html",
+      "url": "https://agyagpad-muhely.netlify.app/tanfolyamok.html",
+      "width": 1440,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "file": "muhely.html",
+      "url": "https://agyagpad-muhely.netlify.app/muhely.html",
+      "width": 390,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "file": "muhely.html",
+      "url": "https://agyagpad-muhely.netlify.app/muhely.html",
+      "width": 768,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "file": "muhely.html",
+      "url": "https://agyagpad-muhely.netlify.app/muhely.html",
+      "width": 1440,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "file": "kapcsolat.html",
+      "url": "https://agyagpad-muhely.netlify.app/kapcsolat.html",
+      "width": 390,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "file": "kapcsolat.html",
+      "url": "https://agyagpad-muhely.netlify.app/kapcsolat.html",
+      "width": 768,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "file": "kapcsolat.html",
+      "url": "https://agyagpad-muhely.netlify.app/kapcsolat.html",
+      "width": 1440,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "file": "adatkezeles.html",
+      "url": "https://agyagpad-muhely.netlify.app/adatkezeles.html",
+      "width": 390,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "file": "adatkezeles.html",
+      "url": "https://agyagpad-muhely.netlify.app/adatkezeles.html",
+      "width": 768,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "file": "adatkezeles.html",
+      "url": "https://agyagpad-muhely.netlify.app/adatkezeles.html",
+      "width": 1440,
+      "status": 200,
+      "passed": true
+    }
+  ],
+  "resources": [
+    {
+      "url": "https://agyagpad-muhely.netlify.app/images/og/fooldal.jpg",
+      "status": 200,
+      "width": 1200,
+      "height": 630
+    },
+    {
+      "url": "https://agyagpad-muhely.netlify.app/images/og/tanfolyamok.jpg",
+      "status": 200,
+      "width": 1200,
+      "height": 630
+    },
+    {
+      "url": "https://agyagpad-muhely.netlify.app/images/og/muhely.jpg",
+      "status": 200,
+      "width": 1200,
+      "height": 630
+    },
+    {
+      "url": "https://agyagpad-muhely.netlify.app/images/og/kapcsolat.jpg",
+      "status": 200,
+      "width": 1200,
+      "height": 630
+    },
+    {
+      "url": "https://agyagpad-muhely.netlify.app/images/og/muhely.jpg",
+      "status": 200,
+      "width": 1200,
+      "height": 630
+    },
+    {
+      "url": "https://agyagpad-muhely.netlify.app/sitemap.xml",
+      "status": 200
+    },
+    {
+      "url": "https://agyagpad-muhely.netlify.app/robots.txt",
+      "status": 200
+    }
+  ],
+  "realFormSubmitted": false,
+  "note": "A cím fiktív bemutatóadat, a LocalBusiness leírása ezt jelöli. Search Console-hitelesítést és keresési helyezést ez a teszt nem igazol."
+}

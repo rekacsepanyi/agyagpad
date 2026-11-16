@@ -1,6 +1,6 @@
 # Agyagpad – a valódi üzenetküldés bekapcsolása
 
-Állapot: 2026. november 14. A felhasználó jelezte: még nincs Netlify-oldal, a fogadót később állítjuk be. A küldési kód elkészült, az éles üzenetátvétel és e-mail-értesítés még nem működik és nincs igazolva.
+Állapot: 2026. november 16. Az élő Netlify-oldal már elérhető: https://agyagpad-muhely.netlify.app/ . A fogadót a korábbi döntés szerint később állítjuk be. A küldési kód elkészült, az éles üzenetátvétel és e-mail-értesítés még nincs bekapcsolva és nincs igazolva.
 
 ## Ami elkészült
 
@@ -12,7 +12,7 @@
 
 ## Pontosan mi hiányzik
 
-1. A Netlify-projekt és az HTTPS-es élő oldal címe. Más tárhely önmagában nem kezeli a Netlify Forms-kéréseket.
+1. Az élő Netlify-projekt már elérhető: https://agyagpad-muhely.netlify.app/ . A következő fogadói beállításokat kell még elvégezni.
 2. A Netlify felületén a Forms automatikus felismerésének bekapcsolása, majd az űrlapot tartalmazó oldal új telepítése. Ellenőrizni kell, hogy az `agyagpad-erdeklodes` megjelent a Forms alatt.
 3. Az értesítéseket fogadó e-mail-cím. A Forms → Submission notifications alatt az értesítést külön be kell állítani; a külső címhez a szolgáltató megerősítést kérhet. A cím nem kerül a nyilvános HTML-be.
 4. A tényleges adatkezelő neve és elérhetősége, a vállalt megőrzési idő és az éles adatkezelési tájékoztató. A fiktív műhely helyett a vizsgaprojekt valódi üzemeltetőjét kell megadni.

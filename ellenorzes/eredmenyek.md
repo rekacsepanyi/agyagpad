@@ -1,3 +1,7 @@
+# Élő SEO – 2026. november 16.
+
+Élő cím: https://agyagpad-muhely.netlify.app/ . A helyi SEO-vizsgálat a végleges domainnel 0 hibás; az élő kiinduló állapotot a Netlify build már helyesen generálta, ezért ott is 0 hiba volt. A 15 élő mobil/tablet/desktop nézet, az öt megosztási kép és a két technikai fájl ellenőrzése sikeres. Jelentések: seo-eles-ellenorzes-2026-11-16.json, seo-vegleges-2026-11-16.txt. Search Console-hitelesítést és e-mail-kézbesítést nem állítunk. Az alábbi korábbi domainhiányt jelző szakaszok történeti állapotok.
+
 # Legutóbbi ellenőrzés – 2026. november 16.
 
 Öt oldal 33 telefon/tablet beállításon, összesen 165 nézetben: 320–1368 px, álló/fekvő tájolás, köztes méretek, 200%-os szöveg. A nagyított fekvő tabletnézetben talált főoldali subgrid-szövegtúlcsordulás és túl szűk bemutatkozó hasáb javítva. A szövegdobozok, képek, űrlapmezők és a menü külön is ellenőrzöttek. Részletes gépi eredmény: reszponziv-ellenorzes-2026-11-16.json.

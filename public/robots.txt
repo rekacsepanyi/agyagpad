@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-# TODO: végleges webcím után Sitemap: HTTPS-WEBCIM/sitemap.xml
+Sitemap: https://agyagpad-muhely.netlify.app/sitemap.xml

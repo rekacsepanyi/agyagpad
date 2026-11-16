@@ -1,6 +1,6 @@
 {
-  "siteUrl": "",
+  "siteUrl": "https://agyagpad-muhely.netlify.app",
   "language": "hu-HU",
   "fictionalBusiness": true,
-  "note": "A végleges HTTPS Netlify-cím vagy saját domain ide kerül. Netlify Git-alapú buildnél az URL környezeti változó automatikusan használható."
+  "note": "A felhasználó által megadott és 2026. november 16-án ellenőrzött élő Netlify-cím. Saját domainre költözéskor ezt az értéket kell frissíteni."
 }

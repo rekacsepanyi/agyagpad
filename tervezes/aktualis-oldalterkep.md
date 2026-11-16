@@ -43,4 +43,4 @@ Az Adatkezelés oldal az űrlapot, a külső térképet és a pótlandó valós 
 
 Az eredeti oldaltérkép és drótváz a kezdeti tervezést dokumentálja. A `beadas/tervezesi-folyamat/03-aktualis-oldalterkep.png` már a fenti ötoldalas állapotot mutatja. Az aktuális nézetképek a `beadas/jelenlegi-oldal/` mappában találhatók. Az 53 sikeres nézetpróba és az űrlapszimulációk összefoglalója: `ellenorzes/eredmenyek.md`.
 
-SEO és kiadási mappa: tervezes/seo-es-publikalas.md. A végleges webcím hiányzik; a Netlify Git-build automatikusan véglegesíti a domainfüggő SEO-elemeket.
+SEO és kiadási mappa: tervezes/seo-es-publikalas.md. Élő cím: https://agyagpad-muhely.netlify.app/ . A domainfüggő SEO-elemek véglegesek, az élő oldalon is ellenőrizve.

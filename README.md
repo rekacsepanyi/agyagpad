@@ -34,6 +34,6 @@ A korábbi dátumozott jelentések történeti állapotokat dokumentálnak. Az �
 
 ## Hátralévő lépések
 
-A Netlify Forms fogadója változatlanul inaktív; az éles kézbesítés és az értesítési cím még nincs igazolva. Beállítás: [tervezes/urlap-beallitas.md](tervezes/urlap-beallitas.md). Az üzemeltetői adatkezelési adatok véglegesítése szintén hátravan. Search Console-hitelesítés és a sitemap beküldése a következő keresőoldali feladat.
+A Netlify Forms küldőkódja az éles domainen aktív. Az értesítési cím beállítása, az űrlap felismerésének és a valódi beérkezésnek az ellenőrzése még hátravan. Beállítás: [tervezes/urlap-beallitas.md](tervezes/urlap-beallitas.md). Az üzemeltetői adatkezelési adatok véglegesítése szintén hátravan. Search Console-hitelesítés és a sitemap beküldése a következő keresőoldali feladat.
 
 Helyi előnézet: `node eszkozok/helyi-szerver.cjs`, majd http://127.0.0.1:4173/public/index.html .

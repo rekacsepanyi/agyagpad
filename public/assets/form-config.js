@@ -1,6 +1,6 @@
-/* Élesítéskor töltsd ki a tervezes/urlap-beallitas.md ellenőrzőlapja szerint. */
+/* Netlify Forms; értesítési cím kizárólag a Netlify felületén állítható be. */
 window.AGYAGPAD_FORM_CONFIG = {
-  enabled: false,
+  enabled: true,
   endpoint: '/',
-  allowedHosts: []
+  allowedHosts: ['agyagpad-muhely.netlify.app']
 };

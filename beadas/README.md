@@ -24,7 +24,7 @@ A fotók többméretű WebP-k; a további tömörítés 18,6% megtakarítás. A 
 
 ## Ami még hátravan
 
-- A Netlify Forms fogadójának aktiválása, az értesítési e-mail beállítása és valódi kézbesítési próba. A korábbi 15 HTTP-szimuláció nem e-mail-kézbesítési bizonyíték.
+- A Netlify Forms küldőkódja aktiválva; a felismerés ellenőrzése, az értesítési e-mail beállítása és valódi kézbesítési próba még hátravan. A korábbi 15 HTTP-szimuláció nem e-mail-kézbesítési bizonyíték.
 - Valódi üzemeltetői adatkezelési adatok és a tényleges képkreditek/licencadatok véglegesítése.
 - Search Console-hitelesítés és sitemap-beküldés ajánlott extra; jelenleg nem igazolt.
 

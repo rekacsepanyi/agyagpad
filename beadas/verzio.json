@@ -5,7 +5,7 @@
   "liveUrl": "https://agyagpad-muhely.netlify.app",
   "designSystem": "4.17",
   "copy": "3.9",
-  "formEnabled": false,
+  "formEnabled": true,
   "realDeliveryVerified": false,
   "sourceFiles": [
     {
@@ -14,7 +14,7 @@
     },
     {
       "file": "public/adatkezeles.html",
-      "sha256": "8bd94cc179d585961f8da4668dd6328aa7f46570f7aa399a624fbb0dca38cd0d"
+      "sha256": "4b3b5557390e5bf1a3f94ba09bee0ec767c71fa3d24770886f0298e513085704"
     },
     {
       "file": "public/assets/erdeklodes.js",
@@ -46,7 +46,7 @@
     },
     {
       "file": "public/assets/form-config.js",
-      "sha256": "36fb3d55f83de75781fb4960e3a404d9281c8a9058cb59eac03295032f931662"
+      "sha256": "9d34b6ea83f3a10d992a479c4eeda4c7747abb0f5543561b53d46a39a947d612"
     },
     {
       "file": "public/assets/kapcsolat.css",
@@ -483,9 +483,10 @@
     "tanfolyamok-tablet-fekvo.png",
     "tudnivalok-asztali.png"
   ],
-  "note": "165 sikeres mobil/tablet nézet; nagyított szövegnél is alkalmazkodó főoldali hasábok. Műhely-bevezető frissítve, a Kapcsolat hero a részleteket. kifejezése együtt marad. SEO-alapok, további képtömörítés, csak webes fájlokat tartalmazó public kiadás. A domainhez kötött elemek állapotát a liveUrl és domainPending mezők jelzik; a végleges címet a tervezes/seo-konfiguracio.json rögzíti. Az űrlap fogadója inaktív. A Tanfolyamok, Műhely és Kapcsolat morzsamenüje és saját CSS-e eltávolítva; felső térközök egységesítve. A fejléc, más SEO és az űrlapok változatlanok. A célzott helyi ellenőrzés 20 nézete sikeres. A logó és Kezdőlap / címre vezet, a főoldali aktív menüpont oldaljelölés; az aloldalak rövid navigációs URL-eket használnak, a valódi szakaszhivatkozások megmaradtak.",
+  "note": "165 sikeres mobil/tablet nézet; nagyított szövegnél is alkalmazkodó főoldali hasábok. Műhely-bevezető frissítve, a Kapcsolat hero a részleteket. kifejezése együtt marad. SEO-alapok, további képtömörítés, csak webes fájlokat tartalmazó public kiadás. A domainhez kötött elemek állapotát a liveUrl és domainPending mezők jelzik; a végleges címet a tervezes/seo-konfiguracio.json rögzíti. A Tanfolyamok, Műhely és Kapcsolat morzsamenüje és saját CSS-e eltávolítva; felső térközök egységesítve. A fejléc, más SEO és az űrlapok változatlanok. A célzott helyi ellenőrzés 20 nézete sikeres. A logó és Kezdőlap / címre vezet, a főoldali aktív menüpont oldaljelölés; az aloldalak rövid navigációs URL-eket használnak, a valódi szakaszhivatkozások megmaradtak. Netlify Forms küldőkód aktiválva; felismerés és valódi kézbesítés ellenőrzése hátravan.",
   "publishDirectory": "public",
   "homePage": "public/index.html",
   "domainPending": false,
-  "liveSeoVerified": true
+  "liveSeoVerified": true,
+  "formRevision": "2026-11-16-netlify-activation"
 }

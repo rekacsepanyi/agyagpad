@@ -1,4 +1,5 @@
-.measurement-choice{position:sticky;bottom:0;z-index:30;background:var(--paper);border-top:1px solid var(--sand);padding-block:1.25rem;box-shadow:0 -4px 16px #2D2A2610}
+/* A Netlify-jelvény fölött marad, hogy az engedélyezés gomb elérhető legyen. */
+.measurement-choice{position:sticky;bottom:0;z-index:2147483646;background:var(--paper);border-top:1px solid var(--sand);padding-block:1.25rem;box-shadow:0 -4px 16px #2D2A2610}
 .measurement-choice[hidden]{display:none}
 .measurement-layout{display:grid;gap:1.25rem;align-items:center}
 .measurement-choice h2{font:600 1.125rem/1.5 var(--heading);margin-bottom:.5rem}

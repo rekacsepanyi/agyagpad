@@ -10,6 +10,7 @@ const records=[
  ['tanfolyamok.html','Korongozó tanfolyamok és alkotóprogramok | Agyagpad','Korongozó kóstoló, négyhetes kezdő kurzus és céges csapatépítő Szentendrén. Nézd meg az időtartamokat, árakat és tudnivalókat, majd érdeklődj a szabad helyekről!','tanfolyamok'],
  ['muhely.html','Kerámiaműhely és kézzel készült kerámiák | Agyagpad','Ismerd meg Fehér Dóra szentendrei kerámiaműhelyét és alkotásait. Bögrék, tálak, tányérok és vázák képgalériája vár: nézz körül, és fedezd fel a korongozást!','muhely'],
  ['kapcsolat.html','Kapcsolat és érdeklődés, szentendrei műhely | Agyagpad','Kérdezz a korongozó programokról, céges alkotásról vagy a kerámiákról. Műhelyadatok, nyitvatartás és gyakori kérdések egy helyen. Írd meg, mi érdekel az Agyagpadban!','kapcsolat'],
+ ['koszonom.html','Köszönöm az érdeklődésed – üzenet fogadva | Agyagpad','Sikeres érdeklődés után itt találod az Agyagpad visszajelzését. Amíg válaszra vársz, meríts inspirációt a műhely kézzel készült kerámiáiból, és nézz körül!','muhely'],
  ['adatkezeles.html','Adatkezelés és az érdeklődési űrlap adatai | Agyagpad','Olvasd el az Agyagpad bemutatóprojekt adatkezelési tájékoztatóját: érdeklődési űrlap, külső térkép és az üzenetküldés állapota. Tájékozódj a beküldés előtt!','muhely']
 ];
 const esc=s=>s.replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;');
@@ -27,7 +28,7 @@ for(const[file,title,description,image]of records){
  html=html.replace(/\n?<!-- SEO:START -->[\s\S]*?<!-- SEO:END -->\n?/g,'\n').replace(/<title\b[^>]*>[\s\S]*?<\/title>/gi,'').replace(/<meta\b[^>]*(?:name="(?:description|robots|twitter:[^"]+)"|property="og:[^"]+")[^>]*>/gi,'').replace(/<link\b[^>]*rel="canonical"[^>]*>/gi,'');
  // Önálló információs szakasz címe a Tanfolyamok oldalon H2, megjelenése változatlan.
  if(file==='tanfolyamok.html')html=html.replace('<h3 id="tudnivalok">Amit érdemes tudnod</h3>','<h2 id="tudnivalok">Amit érdemes tudnod</h2>');
- const url=origin+(file==='index.html'?'/':'/'+file),ogImage=(origin||'')+'/images/og/'+image+'.jpg';
+ const url=origin+(file==='index.html'?'/':file==='koszonom.html'?'/koszonom':'/'+file),ogImage=(origin||'')+'/images/og/'+image+'.jpg';
  const graph=[];
  if(file==='index.html'||file==='muhely.html'||file==='kapcsolat.html')graph.push({...business});
  if(file==='muhely.html')graph.push({'@type':'Person',name:'Fehér Dóra',description:'Az Agyagpad fiktív vizsgaprojekt alapítójának karaktere.',jobTitle:'Népi iparművész',worksFor:{'@id':business['@id']}});
@@ -39,7 +40,7 @@ for(const[file,title,description,image]of records){
  if(!graph.length)graph.push({'@type':'WebPage',name:title,description,inLanguage:'hu-HU',...(origin?{url}:{})});
  const schema={'@context':'https://schema.org','@graph':graph};
  const tags=['<!-- SEO:START -->',`<title>${esc(title)}</title>`,`<meta name="description" content="${esc(description)}">`,
- '<meta name="robots" content="index,follow">',
+ `<meta name="robots" content="${file==='koszonom.html'?'noindex,follow':'index,follow'}">`,
  ...(origin?[`<link rel="canonical" href="${esc(url)}">`,`<meta property="og:url" content="${esc(url)}">`]:['<!-- TODO: végleges HTTPS webcím után a canonical és og:url generálása: node eszkozok/seo-generalas.cjs --domain=https://SAJAT-WEBCIM -->']),
  `<meta property="og:title" content="${esc(title)}">`,`<meta property="og:description" content="${esc(description)}">`,
  `<meta property="og:type" content="website">`,`<meta property="og:locale" content="hu_HU">`,`<meta property="og:site_name" content="Agyagpad Kerámiaműhely">`,
@@ -49,8 +50,8 @@ for(const[file,title,description,image]of records){
  html=html.replace('</head>',tags.join('\n')+'\n</head>').replace(/^[ \t]+$/gm,'');fs.writeFileSync(target,html.trimEnd()+'\n');
 }
 // Domain nélkül nem találunk ki keresőknek elküldött URL-t: érvényes, üres XML + egyértelmű TODO.
-const urls=origin?records.map(([f])=>`  <url><loc>${esc(origin+(f==='index.html'?'/':'/'+f))}</loc></url>`).join('\n'):'  <!-- TODO: a webcím megadása után öt abszolút HTTPS URL generálódik. -->';
+const urls=origin?records.filter(([f])=>f!=='koszonom.html').map(([f])=>`  <url><loc>${esc(origin+(f==='index.html'?'/':'/'+f))}</loc></url>`).join('\n'):'  <!-- TODO: a webcím megadása után öt abszolút HTTPS URL generálódik. -->';
 fs.writeFileSync(path.join(web,'sitemap.xml'),'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+urls+'\n</urlset>\n');
 fs.writeFileSync(path.join(web,'robots.txt'),'User-agent: *\nAllow: /\n\n'+(origin?'Sitemap: '+origin+'/sitemap.xml':'# TODO: végleges webcím után Sitemap: HTTPS-WEBCIM/sitemap.xml')+'\n');
 fs.writeFileSync(customOutput?path.join(web,'seo-allapot.json'):path.join(root,'ellenorzes/seo-allapot.json'),JSON.stringify({date:'2026-11-16',siteUrl:origin||null,domainPending:!origin,generatedPages:records.map(([file,title,description])=>({file,title,titleLength:title.length,description,descriptionLength:description.length})),fictionalBusiness:true},null,2)+'\n');
-console.log('Öt oldal SEO-elemei frissítve. '+(origin?'Végleges webcím: '+origin:'A canonical, og:url, abszolút kép-URL és a sitemap URL-jei a Netlify-címre várnak.'));
+console.log(records.length+' oldal SEO-elemei frissítve. '+(origin?'Végleges webcím: '+origin:'A canonical, og:url, abszolút kép-URL és a sitemap URL-jei a Netlify-címre várnak.'));

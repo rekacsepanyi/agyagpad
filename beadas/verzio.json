@@ -14,11 +14,11 @@
     },
     {
       "file": "public/adatkezeles.html",
-      "sha256": "4b3b5557390e5bf1a3f94ba09bee0ec767c71fa3d24770886f0298e513085704"
+      "sha256": "52609705c410549a1d06cba96524c4b7ae53fea1ddaae2613e801148d8f94a3a"
     },
     {
       "file": "public/assets/erdeklodes.js",
-      "sha256": "e41ea34c1cddf33062b36c2092ad1f2c7f640a9d1f9e5a9a8d9fa5f4ef168541"
+      "sha256": "6e973da75c93fffdde3cca1b0ba0109513b7844b4d1e91c0244e230dcff2ebd9"
     },
     {
       "file": "public/assets/fonts/Inter-LICENSE.txt",
@@ -51,6 +51,14 @@
     {
       "file": "public/assets/kapcsolat.css",
       "sha256": "2e2fc631ccf2d11ef2b285890ae7dddd9414c0c34c06fa2dc922d0e3352636dd"
+    },
+    {
+      "file": "public/assets/koszonom.css",
+      "sha256": "492f1f8ceb756cc95ebf71f676b111812c8c9d25fa0c825e4ac4906c59e612e1"
+    },
+    {
+      "file": "public/assets/koszonom.js",
+      "sha256": "2742d08dcb045f642e3b459494208508a4f943dc641d90bda1e6e2b6563ef884"
     },
     {
       "file": "public/assets/muhely-galeria.js",
@@ -433,6 +441,10 @@
       "sha256": "2d4b05ef0d1bb3d679feb97a5d7597606cd090ee8b1b141df562a992f7d04ef7"
     },
     {
+      "file": "public/koszonom.html",
+      "sha256": "8cf72a23a241cced66cc3effb3b76e75760b921b4261101c409a43e9999b1e59"
+    },
+    {
       "file": "public/muhely.html",
       "sha256": "dfd6ac29f0dc95f80b032e461593ad00b5b3b6975254481cd0b9e4ee19052718"
     },
@@ -483,10 +495,12 @@
     "tanfolyamok-tablet-fekvo.png",
     "tudnivalok-asztali.png"
   ],
-  "note": "165 sikeres mobil/tablet nézet; nagyított szövegnél is alkalmazkodó főoldali hasábok. Műhely-bevezető frissítve, a Kapcsolat hero a részleteket. kifejezése együtt marad. SEO-alapok, további képtömörítés, csak webes fájlokat tartalmazó public kiadás. A domainhez kötött elemek állapotát a liveUrl és domainPending mezők jelzik; a végleges címet a tervezes/seo-konfiguracio.json rögzíti. A Tanfolyamok, Műhely és Kapcsolat morzsamenüje és saját CSS-e eltávolítva; felső térközök egységesítve. A fejléc, más SEO és az űrlapok változatlanok. A célzott helyi ellenőrzés 20 nézete sikeres. A logó és Kezdőlap / címre vezet, a főoldali aktív menüpont oldaljelölés; az aloldalak rövid navigációs URL-eket használnak, a valódi szakaszhivatkozások megmaradtak. Netlify Forms küldőkód aktiválva; felismerés és valódi kézbesítés ellenőrzése hátravan.",
+  "note": "165 sikeres mobil/tablet nézet; nagyított szövegnél is alkalmazkodó főoldali hasábok. Műhely-bevezető frissítve, a Kapcsolat hero a részleteket. kifejezése együtt marad. SEO-alapok, további képtömörítés, csak webes fájlokat tartalmazó public kiadás. A domainhez kötött elemek állapotát a liveUrl és domainPending mezők jelzik; a végleges címet a tervezes/seo-konfiguracio.json rögzíti. A Tanfolyamok, Műhely és Kapcsolat morzsamenüje és saját CSS-e eltávolítva; felső térközök egységesítve. A fejléc, más SEO és az űrlapok változatlanok. A célzott helyi ellenőrzés 20 nézete sikeres. A logó és Kezdőlap / címre vezet, a főoldali aktív menüpont oldaljelölés; az aloldalak rövid navigációs URL-eket használnak, a valódi szakaszhivatkozások megmaradtak. Netlify Forms küldőkód aktiválva; felismerés és valódi kézbesítés ellenőrzése hátravan. Köszönőoldal és egyszer használható generate_lead jelzés, 21 szimulált eset sikeres. GA4-mérőkód még nincs; az éles üzenet beérkezését a felhasználó igazolta vissza.",
   "publishDirectory": "public",
   "homePage": "public/index.html",
   "domainPending": false,
   "liveSeoVerified": true,
-  "formRevision": "2026-11-16-netlify-activation"
+  "formRevision": "2026-11-16-thank-you-conversion",
+  "userReportedDeliveryVerified": true,
+  "analyticsDeliveryVerified": false
 }

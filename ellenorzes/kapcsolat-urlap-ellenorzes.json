@@ -6,7 +6,9 @@
     "Valódi POST-kérés, form-name, összes mező és honeypot",
     "Hálózati hiba: megmaradó adatok, újrapróbálható küldés",
     "Folyamatban nincs sikerüzenet, nincs dupla POST",
-    "Csak pozitív fogadói HTTP-válasz után siker, mezők ürítése"
+    "Csak pozitív HTTP-válasz után köszönőoldal és egy generate_lead esemény, személyes adat nélkül",
+    "Köszönőoldal frissítése nem számít új konverziónak",
+    "Közvetlen megnyitás nem számít konverziónak és nem állít sikeres küldést"
   ],
   "realDeliveryVerified": false,
   "note": "A fogadó válaszait a helyi böngészős teszt szimulálta. Ez nem valódi Netlify- vagy e-mail-kézbesítési próba."

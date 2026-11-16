@@ -15,7 +15,8 @@ const assert=(ok,message)=>{if(!ok)throw Error(message)};
     if(mode==='pending')await gate;
     return route.fulfill({status:mode==='error'?500:200,contentType:'text/html',body:mode==='error'?'Hiba':'<p>Accepted by simulated form receiver</p>'});
    }
-   const file=path.resolve(web,'.'+decodeURIComponent(url.pathname));assert(file.startsWith(web+path.sep),'Hibás tesztútvonal');
+   const pathname=url.pathname==='/koszonom'?'/koszonom.html':url.pathname;
+   const file=path.resolve(web,'.'+decodeURIComponent(pathname));assert(file.startsWith(web+path.sep),'Hibás tesztútvonal');
    const ext=path.extname(file),type={'.html':'text/html','.css':'text/css','.js':'text/javascript','.svg':'image/svg+xml','.png':'image/png','.webp':'image/webp','.woff2':'font/woff2'}[ext]||'application/octet-stream';
    return route.fulfill({status:200,contentType:type,body:fs.readFileSync(file)});
   });
@@ -30,7 +31,12 @@ const assert=(ok,message)=>{if(!ok)throw Error(message)};
   mode='network';await page.locator('.send').click();await page.waitForFunction(()=>document.querySelector('.form-status').textContent.includes('nem sikerült'));assert(await page.locator('#email').inputValue()==='teszt@example.com','Hálózati hibánál elveszett e-mail');results.push('Hálózati hiba: megmaradó adatok, újrapróbálható küldés');
   mode='pending';const before=posts;await page.locator('.send').click();await page.waitForFunction(()=>document.querySelector('form').getAttribute('aria-busy')==='true');assert(await page.locator('.send').isDisabled(),'Folyamatban aktív gomb');assert(!(await page.locator('.form-status').textContent()).includes('megérkezett'),'Idő előtti siker');
   await page.locator('form').evaluate(e=>e.requestSubmit());await page.waitForTimeout(50);assert(posts===before+1,'Dupla küldés');results.push('Folyamatban nincs sikerüzenet, nincs dupla POST');
-  release();await page.waitForFunction(()=>document.querySelector('.form-status').textContent.includes('megérkezett'));assert(await page.locator('#name').inputValue()===''&&!(await page.locator('.send').isDisabled()),'Sikerállapot vagy visszaállítás');results.push('Csak pozitív fogadói HTTP-válasz után siker, mezők ürítése');
- }finally{await browser.close();fs.writeFileSync(path.join(root,process.argv[2]==='kapcsolat.html'?'ellenorzes/kapcsolat-urlap-ellenorzes.json':process.argv[2]==='tanfolyamok.html'?'ellenorzes/tanfolyamok-urlap-ellenorzes.json':'ellenorzes/urlap-ellenorzes.json'),JSON.stringify({date:new Date().toISOString().slice(0,10),passed:results.length===5,results,realDeliveryVerified:false,note:'A fogadó válaszait a helyi böngészős teszt szimulálta. Ez nem valódi Netlify- vagy e-mail-kézbesítési próba.'},null,2)+'\n');}
+  release();await page.waitForURL(origin+'/koszonom');await page.waitForFunction(()=>document.querySelector('h1').textContent.includes('megérkezett'));
+  const leadEvents=()=>page.evaluate(()=>(window.dataLayer||[]).filter(e=>e[0]==='event'&&e[1]==='generate_lead').map(e=>e[2]));
+  const events=await leadEvents();assert(events.length===1&&events[0].program==='kezdo-kurzus'&&events[0].form_name==='agyagpad-erdeklodes'&&Object.keys(events[0]).length===3,'Hibás vagy személyes adatot tartalmazó konverzió');
+  results.push('Csak pozitív HTTP-válasz után köszönőoldal és egy generate_lead esemény, személyes adat nélkül');
+  await page.reload();assert((await leadEvents()).length===0,'Frissítéskor ismételt konverzió');results.push('Köszönőoldal frissítése nem számít új konverziónak');
+  await page.goto(origin+'/koszonom');assert((await leadEvents()).length===0,'Közvetlen megnyitáskor konverzió');assert(!(await page.locator('h1').textContent()).includes('megérkezett'),'Közvetlen megnyitáskor téves átvételi igazolás');results.push('Közvetlen megnyitás nem számít konverziónak és nem állít sikeres küldést');
+ }finally{await browser.close();fs.writeFileSync(path.join(root,process.argv[2]==='kapcsolat.html'?'ellenorzes/kapcsolat-urlap-ellenorzes.json':process.argv[2]==='tanfolyamok.html'?'ellenorzes/tanfolyamok-urlap-ellenorzes.json':'ellenorzes/urlap-ellenorzes.json'),JSON.stringify({date:new Date().toISOString().slice(0,10),passed:results.length===7,results,realDeliveryVerified:false,note:'A fogadó válaszait a helyi böngészős teszt szimulálta. Ez nem valódi Netlify- vagy e-mail-kézbesítési próba.'},null,2)+'\n');}
  console.log(results.join('\n'));
 })().catch(e=>{console.error(e);process.exitCode=1});

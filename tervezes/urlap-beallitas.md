@@ -1,6 +1,6 @@
 # Agyagpad – Netlify Forms
 
-Állapot: 2026. november 16. A felhasználó bekapcsolta a Form detection beállítást. A küldőkód aktív a https://agyagpad-muhely.netlify.app domainen; a helyi előnézet nem küld adatot. A felismerést az új közzététel után a Netlify felületén kell ellenőrizni. E-mail-értesítés még nincs beállítva, valódi kézbesítési próba még nem történt.
+Állapot: 2026. november 16. A felhasználó bekapcsolta a Form detection beállítást. A küldőkód aktív a https://agyagpad-muhely.netlify.app domainen; a helyi előnézet nem küld adatot. A felismerést az új közzététel után a Netlify felületén kell ellenőrizni. A felhasználó beállította az e-mail-értesítést, és 2026. november 16-án sikeres éles próbaküldést jelzett. Ez felhasználói visszaigazolás, a Netlify beérkezési listájához nincs közvetlen hozzáférésünk.
 
 ## Megvalósítás és ellenőrzés
 
@@ -8,7 +8,7 @@
 - `public/assets/form-config.js`: `enabled: true`, `endpoint: '/'`, kizárólag az éles tárhely engedélyezett.
 - Magyar mezőhibák, kötelező mezők és e-mail-formátum ellenőrzése. Hiba esetén megmaradó adatok, küldés közbeni gombtiltás és időkorlát.
 - A sikerüzenet kizárólag pozitív HTTP-válasz után jelenik meg.
-- Három oldalon összesen 15 szimulált HTTP-teszt sikeres: szerverhiba, hálózati hiba, POST-adatok, dupla beküldés és pozitív válasz. Ezek nem igazolják a Netlify beérkezést vagy az e-mail-kézbesítést.
+- Három oldalon összesen 21 szimulált HTTP- és konverziós teszt sikeres: szerverhiba, hálózati hiba, POST-adatok, dupla beküldés és pozitív válasz. Ezek nem igazolják a Netlify beérkezést vagy az e-mail-kézbesítést.
 
 ## A Netlify felületén elvégzendő lépések
 
@@ -20,3 +20,5 @@
 A címzettet a Netlify tárolja, nem a nyilvános forráskód. A vizsgaprojekt valódi üzemeltetőjének adatai és az adatmegőrzés részletei továbbra is véglegesítendők az adatkezelési tájékoztatóban; ezek helyett nem használható a fiktív műhely címe.
 
 Hivatalos források: [Forms beállítás](https://docs.netlify.com/manage/forms/setup/), [e-mail-értesítések](https://docs.netlify.com/manage/forms/notifications/).
+
+Sikeres POST után mindhárom űrlap a `/koszonom` oldalra irányít. A konverziós mérés előkészítését a [GA4-leírás](ga4-konverzio.md) rögzíti.

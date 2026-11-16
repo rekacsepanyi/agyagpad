@@ -92,9 +92,15 @@
         credentials: 'same-origin'
       });
       if (!response.ok) throw new Error('A fogadó nem vette át az üzenetet.');
+      try {
+        sessionStorage.setItem('agyagpad-lead-success', JSON.stringify({
+          createdAt: Date.now(), program: program.value, source: location.pathname
+        }));
+      } catch { /* Tiltott tárhely esetén is megjelenik a köszönőoldal. */ }
       status.textContent = 'Köszönöm, az érdeklődésed megérkezett! A részletekről e-mailben egyeztetünk.';
       form.reset();
       fields.forEach(clear);
+      location.assign('/koszonom');
     } catch {
       status.textContent = 'Az üzenetet nem sikerült elküldeni. Kérjük, próbáld meg újra. A megadott adataid megmaradtak.';
     } finally {

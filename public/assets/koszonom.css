@@ -1,0 +1,13 @@
+.thankyou-intro{padding-block:3rem;max-width:52rem;text-align:center}
+.thankyou-mark{display:block;margin:0 auto 1.5rem;color:var(--teal)}
+.thankyou-intro h1{font-size:clamp(2rem,4vw,3rem);margin-bottom:1.5rem}
+.thankyou-intro>p:not(.eyebrow){max-width:60ch;margin-inline:auto}
+.thankyou-note{margin-top:1rem;font-size:var(--small)}
+.thankyou-inspiration{background:var(--sand);border-top-left-radius:clamp(2rem,5vw,5rem);padding-block:3rem}
+.inspiration-layout{display:grid;gap:2rem;align-items:center}
+.inspiration-layout>*{min-width:0}
+.inspiration-layout figure{margin:0}
+.inspiration-layout img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:1rem}
+.inspiration-layout h2{margin-bottom:1.25rem}
+.inspiration-layout .button{margin-top:1.5rem;text-transform:none;letter-spacing:normal}
+@media(min-width:48rem){.thankyou-intro{padding-block:4rem}.inspiration-layout{grid-template-columns:1fr 1fr;gap:3rem}.thankyou-inspiration{padding-block:4rem}}

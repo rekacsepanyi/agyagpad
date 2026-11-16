@@ -1,5 +1,4 @@
 /* Csak a Kapcsolat oldal külső elrendezése; a meglévő űrlap stílusai közösek. */
-.contact-page .breadcrumb{margin-top:1.5rem;margin-bottom:0}
 .contact-page .contact-introduction{display:grid;grid-template-columns:minmax(0,1fr);align-items:center;gap:2rem;padding-block:2rem 3rem}
 .contact-page .contact-introduction>*{min-width:0}
 .contact-page .contact-introduction h1{max-width:100%;font-size:clamp(2.5rem,3.5vw,3rem)}
@@ -41,3 +40,6 @@
  .contact-page .contact-introduction{grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:3rem}
  .contact-page .contact-introduction-photo{justify-self:end}
 }
+
+/* A három aloldal azonos felső térközzel indul: mobilon 2rem, 768px-től 3rem. */
+@media(min-width:48rem){.contact-page .contact-introduction{padding-top:3rem}}

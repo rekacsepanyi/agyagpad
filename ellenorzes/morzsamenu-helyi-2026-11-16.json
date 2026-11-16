@@ -1,0 +1,351 @@
+{
+  "date": "2026-11-16",
+  "origin": "http://127.0.0.1:53327",
+  "passed": true,
+  "formConfigurationUnchanged": true,
+  "formScriptsUnchanged": true,
+  "formSubmissions": 0,
+  "otherSeoAndVisibleContentUnchanged": true,
+  "results": [
+    {
+      "file": "index.html",
+      "width": 320,
+      "passed": true,
+      "checks": [
+        "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
+        "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
+      ],
+      "topSpacing": {
+        "top": 128,
+        "header": 128,
+        "padding": 64,
+        "rem": 16
+      }
+    },
+    {
+      "file": "index.html",
+      "width": 390,
+      "passed": true,
+      "checks": [
+        "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
+        "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
+      ],
+      "topSpacing": {
+        "top": 80.125,
+        "header": 80.125,
+        "padding": 64,
+        "rem": 16
+      }
+    },
+    {
+      "file": "index.html",
+      "width": 768,
+      "passed": true,
+      "checks": [
+        "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
+        "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
+      ],
+      "topSpacing": {
+        "top": 80.125,
+        "header": 80.125,
+        "padding": 64,
+        "rem": 16
+      }
+    },
+    {
+      "file": "index.html",
+      "width": 1024,
+      "passed": true,
+      "checks": [
+        "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
+        "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
+      ],
+      "topSpacing": {
+        "top": 85.5,
+        "header": 85.5,
+        "padding": 128,
+        "rem": 16
+      }
+    },
+    {
+      "file": "index.html",
+      "width": 1440,
+      "passed": true,
+      "checks": [
+        "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
+        "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
+      ],
+      "topSpacing": {
+        "top": 87.140625,
+        "header": 87.140625,
+        "padding": 128,
+        "rem": 16
+      }
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 320,
+      "passed": true,
+      "checks": [
+        "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
+        "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
+      ],
+      "topSpacing": {
+        "top": 128,
+        "header": 128,
+        "padding": 32,
+        "rem": 16
+      }
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 390,
+      "passed": true,
+      "checks": [
+        "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
+        "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
+      ],
+      "topSpacing": {
+        "top": 80.125,
+        "header": 80.125,
+        "padding": 32,
+        "rem": 16
+      }
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 768,
+      "passed": true,
+      "checks": [
+        "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
+        "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
+      ],
+      "topSpacing": {
+        "top": 80.125,
+        "header": 80.125,
+        "padding": 48,
+        "rem": 16
+      }
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 1024,
+      "passed": true,
+      "checks": [
+        "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
+        "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
+      ],
+      "topSpacing": {
+        "top": 85.5,
+        "header": 85.5,
+        "padding": 48,
+        "rem": 16
+      }
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 1440,
+      "passed": true,
+      "checks": [
+        "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
+        "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
+      ],
+      "topSpacing": {
+        "top": 87.140625,
+        "header": 87.140625,
+        "padding": 48,
+        "rem": 16
+      }
+    },
+    {
+      "file": "muhely.html",
+      "width": 320,
+      "passed": true,
+      "checks": [
+        "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
+        "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Mind a hat fotó nagyítása, bezárógomb, Escape és fókusz-visszaadás",
+        "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
+      ],
+      "topSpacing": {
+        "top": 128,
+        "header": 128,
+        "padding": 32,
+        "rem": 16
+      }
+    },
+    {
+      "file": "muhely.html",
+      "width": 390,
+      "passed": true,
+      "checks": [
+        "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
+        "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Mind a hat fotó nagyítása, bezárógomb, Escape és fókusz-visszaadás",
+        "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
+      ],
+      "topSpacing": {
+        "top": 80.125,
+        "header": 80.125,
+        "padding": 32,
+        "rem": 16
+      }
+    },
+    {
+      "file": "muhely.html",
+      "width": 768,
+      "passed": true,
+      "checks": [
+        "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
+        "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Mind a hat fotó nagyítása, bezárógomb, Escape és fókusz-visszaadás",
+        "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
+      ],
+      "topSpacing": {
+        "top": 80.125,
+        "header": 80.125,
+        "padding": 48,
+        "rem": 16
+      }
+    },
+    {
+      "file": "muhely.html",
+      "width": 1024,
+      "passed": true,
+      "checks": [
+        "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
+        "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Mind a hat fotó nagyítása, bezárógomb, Escape és fókusz-visszaadás",
+        "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
+      ],
+      "topSpacing": {
+        "top": 85.5,
+        "header": 85.5,
+        "padding": 48,
+        "rem": 16
+      }
+    },
+    {
+      "file": "muhely.html",
+      "width": 1440,
+      "passed": true,
+      "checks": [
+        "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
+        "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Mind a hat fotó nagyítása, bezárógomb, Escape és fókusz-visszaadás",
+        "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
+      ],
+      "topSpacing": {
+        "top": 87.140625,
+        "header": 87.140625,
+        "padding": 48,
+        "rem": 16
+      }
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 320,
+      "passed": true,
+      "checks": [
+        "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
+        "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Mind a négy GYIK Enter/szóköz kezelése",
+        "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
+      ],
+      "topSpacing": {
+        "top": 128,
+        "header": 128,
+        "padding": 32,
+        "rem": 16
+      }
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 390,
+      "passed": true,
+      "checks": [
+        "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
+        "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Mind a négy GYIK Enter/szóköz kezelése",
+        "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
+      ],
+      "topSpacing": {
+        "top": 80.125,
+        "header": 80.125,
+        "padding": 32,
+        "rem": 16
+      }
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 768,
+      "passed": true,
+      "checks": [
+        "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
+        "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Mind a négy GYIK Enter/szóköz kezelése",
+        "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
+      ],
+      "topSpacing": {
+        "top": 80.125,
+        "header": 80.125,
+        "padding": 48,
+        "rem": 16
+      }
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 1024,
+      "passed": true,
+      "checks": [
+        "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
+        "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Mind a négy GYIK Enter/szóköz kezelése",
+        "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
+      ],
+      "topSpacing": {
+        "top": 85.5,
+        "header": 85.5,
+        "padding": 48,
+        "rem": 16
+      }
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 1440,
+      "passed": true,
+      "checks": [
+        "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
+        "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Mind a négy GYIK Enter/szóköz kezelése",
+        "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
+      ],
+      "topSpacing": {
+        "top": 87.140625,
+        "header": 87.140625,
+        "padding": 48,
+        "rem": 16
+      }
+    }
+  ],
+  "screenshots": [
+    "morzsamenu-helyi-index-390.png",
+    "morzsamenu-helyi-index-1440.png",
+    "morzsamenu-helyi-tanfolyamok-390.png",
+    "morzsamenu-helyi-tanfolyamok-1440.png",
+    "morzsamenu-helyi-muhely-390.png",
+    "morzsamenu-helyi-muhely-1440.png",
+    "morzsamenu-helyi-kapcsolat-390.png",
+    "morzsamenu-helyi-kapcsolat-1440.png"
+  ]
+}

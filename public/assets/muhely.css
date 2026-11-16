@@ -1,5 +1,4 @@
 /* A Műhely aloldal saját elrendezése, a közös arculati változókkal. */
-.workshop-page .breadcrumb{margin-top:1.5rem;margin-bottom:0}
 .workshop-page .workshop-hero{padding-block:3rem 5rem;gap:3rem}
 .workshop-page .workshop-hero h1{max-width:18ch}
 .workshop-page .workshop-hero .photo-surround{width:min(100%,29rem);justify-self:center}

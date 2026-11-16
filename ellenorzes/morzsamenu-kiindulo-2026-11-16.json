@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-16",
+  "pages": {
+    "index.html": {
+      "html": "cba9a8f688dab4c4ba3ade0e012056ea4e35ac60e5b5aab98977ef0f941764fb",
+      "head": "4d64aa5c51c952c7efe12d885352adc376fd7ef7cd1d398090a8a66bb19d92c7",
+      "header": "8cd022a204065ced48ccb2536c497cd320a2ca05afb23dbde0870a37595cd55f",
+      "forms": [
+        "0a22c4371fbbafe11fe0b83a344651cd1caa007a4a62b97ad5f480362c350620"
+      ],
+      "bodyWithoutBreadcrumb": "b3a7b664e122eea3376b55c65347b61e16fdf93dd7b774fc3e8dc68152ae0d94"
+    },
+    "tanfolyamok.html": {
+      "html": "9e1b0bb9e109699084637d1a66d1e995e6094cb5d3f5a392c640a3f4f4c823ef",
+      "head": "4c307c48c4ad56bdd0600e200a39e3d6f632dde5f00433cf61c5cdf6d0d6da98",
+      "header": "69686fbb053c8cb95d6849783db7378ac6ad7b884246155e5dd708df1380c3f6",
+      "forms": [
+        "0a22c4371fbbafe11fe0b83a344651cd1caa007a4a62b97ad5f480362c350620"
+      ],
+      "bodyWithoutBreadcrumb": "e64cec4039ac9ab5bddc37101132a43ca5ae177c4bb611e29b29da4832db6284"
+    },
+    "muhely.html": {
+      "html": "a4a414f7ff8ddd580b98b9129af91c89c4f8ce8478e9f8507cb92b3960b0eeb6",
+      "head": "a00b7bd81e0fd168a8ebe633be28a0cbba1e8e637d0523653777483c65b679cc",
+      "header": "8741946ce0a54341764b985ee6206981202f81f7ccd3822d8b2ce59791fa8520",
+      "forms": [
+        "a6a27d2551c599c5d14dc0b7a45d8da929c5ea5bbd4e11a3ea0f11ce3b8e481a"
+      ],
+      "bodyWithoutBreadcrumb": "72229f15e9e981e608fdb082ca09868581111a7c8fffa738e1dc21c7aab97ef8"
+    },
+    "kapcsolat.html": {
+      "html": "819bdacf9dfd1d0a3797909443fc3e64de18482d749eedc880cab8ac6f422d91",
+      "head": "6ac24fb7c3d4c3a8a5d39f2852d7c8dc5ce2538b7d86b981c5df4760dfb88320",
+      "header": "edd88313fa86d9fd649a5240853d37c811db8791477483d6c82b6e5df0d25747",
+      "forms": [
+        "0a22c4371fbbafe11fe0b83a344651cd1caa007a4a62b97ad5f480362c350620"
+      ],
+      "bodyWithoutBreadcrumb": "321374b9f25b10eb57a89f417f1f7d15a20eaebb2f028714d4f46a2f0a4120eb"
+    },
+    "adatkezeles.html": {
+      "html": "6e2e74b9804c2e2f513ce74e73ac797930dc888b69c1172a1a73606498c43acd",
+      "head": "14f9475bd90a3511030ad37fc493205f17387cef06c37c14fba3cd1e7181f187",
+      "header": "d6fe35ed780ef6036ac819576e79f9a15dd7e55722f00830bb32589a904d42bc",
+      "forms": [],
+      "bodyWithoutBreadcrumb": "36ef010c40a86f420c4fe182c1df800a5c5918422eeab5b6d99b9dce4604f934"
+    }
+  },
+  "scripts": {
+    "form-config.js": "36fb3d55f83de75781fb4960e3a404d9281c8a9058cb59eac03295032f931662",
+    "erdeklodes.js": "e41ea34c1cddf33062b36c2092ad1f2c7f640a9d1f9e5a9a8d9fa5f4ef168541",
+    "muhely-galeria.js": "6429509040b3e48321aa65fc20e6a8af64634f3d09567590f80e620a9d75931f"
+  }
+}

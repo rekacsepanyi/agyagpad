@@ -1,5 +1,4 @@
 /* Az aloldal saját elrendezése; a főoldal közös stílusait nem módosítja. */
-.courses-page .breadcrumb{margin-top:1.5rem;margin-bottom:0}
 .courses-page .courses-hero{padding-block:3rem 4rem;gap:3rem}
 .courses-page .courses-hero h1{max-width:18ch}
 .courses-page .courses-hero .hero-photo{aspect-ratio:4/5;object-position:50% 0%;height:auto;filter:none}

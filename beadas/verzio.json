@@ -1,6 +1,6 @@
 {
   "date": "2026-11-16",
-  "designRevision": "2026-11-16-live-seo",
+  "designRevision": "2026-11-16-no-breadcrumbs",
   "baseDesignCommit": "7064af8cb996f8d2fe00c5f4ecadf482048045c1",
   "liveUrl": "https://agyagpad-muhely.netlify.app",
   "designSystem": "4.17",
@@ -50,7 +50,7 @@
     },
     {
       "file": "public/assets/kapcsolat.css",
-      "sha256": "f3c0151f1d9f41509662eed789ec84f0d5db0396464f1dfa26f7b468ee0e9e41"
+      "sha256": "2e2fc631ccf2d11ef2b285890ae7dddd9414c0c34c06fa2dc922d0e3352636dd"
     },
     {
       "file": "public/assets/muhely-galeria.js",
@@ -58,15 +58,15 @@
     },
     {
       "file": "public/assets/muhely.css",
-      "sha256": "f671513ea8bd6bd833b0cf37622e570bed615277b2b9d8f21885df1b9c54daaa"
+      "sha256": "9c188932d476f5a250e846fef62339decc9819c4e07fe3bff01bed8470b91b5d"
     },
     {
       "file": "public/assets/tanfolyamok.css",
-      "sha256": "56d68afe267bf806ce6b705905553d4a5a475965d605a3184a83038b4d9d3ad2"
+      "sha256": "5c17709176e7fda44f56fe00cab50f014d9fe07d749cceab6ba8f6bec1455731"
     },
     {
       "file": "public/assets/udvari-muhely.css",
-      "sha256": "fec68b1d85a11f79434b62b730fdfd9de61756900abfb16e9d6ad83a82f01809"
+      "sha256": "c9970b972be9a7df7d4b81476e3c8f49adfc04d8bfd8f855f053dbe2b92de27e"
     },
     {
       "file": "public/images/logo/Agyagpad-favicon-transparent.png",
@@ -430,11 +430,11 @@
     },
     {
       "file": "public/kapcsolat.html",
-      "sha256": "819bdacf9dfd1d0a3797909443fc3e64de18482d749eedc880cab8ac6f422d91"
+      "sha256": "4443cba96b1ca4c18fc67d1e8d85876e1317f3e79d6f7ba1c0297af2144bf071"
     },
     {
       "file": "public/muhely.html",
-      "sha256": "a4a414f7ff8ddd580b98b9129af91c89c4f8ce8478e9f8507cb92b3960b0eeb6"
+      "sha256": "b5d71c4906893903223bee6374a93c54397def259a18ebc46101e0af252f59a9"
     },
     {
       "file": "public/robots.txt",
@@ -446,7 +446,7 @@
     },
     {
       "file": "public/tanfolyamok.html",
-      "sha256": "9e1b0bb9e109699084637d1a66d1e995e6094cb5d3f5a392c640a3f4f4c823ef"
+      "sha256": "3cbc8f865969349e0e86cdc6fb2f363d7c6c1cdf69cd16ba07d965741d43032e"
     }
   ],
   "planningImages": [
@@ -483,7 +483,7 @@
     "tanfolyamok-tablet-fekvo.png",
     "tudnivalok-asztali.png"
   ],
-  "note": "165 sikeres mobil/tablet nézet; nagyított szövegnél is alkalmazkodó főoldali hasábok. Műhely-bevezető frissítve, a Kapcsolat hero a részleteket. kifejezése együtt marad. SEO-alapok, további képtömörítés, csak webes fájlokat tartalmazó public kiadás. A domainhez kötött elemek állapotát a liveUrl és domainPending mezők jelzik; a végleges címet a tervezes/seo-konfiguracio.json rögzíti. Az űrlap fogadója inaktív.",
+  "note": "165 sikeres mobil/tablet nézet; nagyított szövegnél is alkalmazkodó főoldali hasábok. Műhely-bevezető frissítve, a Kapcsolat hero a részleteket. kifejezése együtt marad. SEO-alapok, további képtömörítés, csak webes fájlokat tartalmazó public kiadás. A domainhez kötött elemek állapotát a liveUrl és domainPending mezők jelzik; a végleges címet a tervezes/seo-konfiguracio.json rögzíti. Az űrlap fogadója inaktív. A Tanfolyamok, Műhely és Kapcsolat morzsamenüje és saját CSS-e eltávolítva; felső térközök egységesítve. A fejléc, más SEO és az űrlapok változatlanok. A célzott helyi ellenőrzés 20 nézete sikeres.",
   "publishDirectory": "public",
   "homePage": "public/index.html",
   "domainPending": false,

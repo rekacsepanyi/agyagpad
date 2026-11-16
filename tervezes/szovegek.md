@@ -1,6 +1,6 @@
 # Agyagpad – aktuális weboldalszövegek
 
-Verzió: 3.8 · 2026. november 14.
+Verzió: 3.9 · 2026. november 16.
 Forrás: a főoldal és a tanfolyamok aloldal tényleges HTML-tartalma, a felhasználó november 14-i szövegei alapján. Az előző változatot ez a dokumentum váltja fel.
 
 Az Agyagpad és Fehér Dóra fiktív. A 2009-es indulás, a népi iparművész megjelölés és a három számadat a felhasználó által újonnan megadott karakteradat; nem valós személy ellenőrzött szakmai referenciája. Az idővonal kikerült.

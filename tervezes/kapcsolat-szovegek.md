@@ -1,6 +1,6 @@
 # Agyagpad – Kapcsolat aloldali szövegek
 
-2026. november 14. · A felhasználó által megadott szövegek a tényleges HTML-ből.
+2026. november 16. · A felhasználó által megadott szövegek a tényleges HTML-ből.
 
 ## Bevezető
 
@@ -8,7 +8,7 @@ Az első lépés egy üzenet
 
 Beszéljük meg, mit alkotnál szívesen!
 
-Kérdésed van a tanfolyamokról, közös programot szerveznél, vagy a kerámiák érdekelnek? Írj bátran! Segítek eligazodni a lehetőségek között, és egyeztetjük a részleteket.
+Kérdésed van a tanfolyamokról, közös programot szerveznél, vagy a kerámiák érdekelnek? Írj bátran! Segítek eligazodni a lehetőségek között, és egyeztetjük a részleteket.
 
 ## Elérhetőségek
 

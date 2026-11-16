@@ -1,3 +1,9 @@
+# Legutóbbi ellenőrzés – 2026. november 16.
+
+Öt oldal 33 telefon/tablet beállításon, összesen 165 nézetben: 320–1368 px, álló/fekvő tájolás, köztes méretek, 200%-os szöveg. A nagyított fekvő tabletnézetben talált főoldali subgrid-szövegtúlcsordulás és túl szűk bemutatkozó hasáb javítva. A szövegdobozok, képek, űrlapmezők és a menü külön is ellenőrzöttek. Részletes gépi eredmény: reszponziv-ellenorzes-2026-11-16.json.
+
+A Műhely kért galériabevezetője cserélve; a cím, képek, képaláírások, galériaelrendezés nem változott. A Kapcsolat hero a részleteket. kifejezése nem törhető szóközt használ. Az általános kiadási ellenőrzés 35 nézete a működést és az asztali megjelenést is vizsgálja. Az alábbi jelentések korábbi állapotokat dokumentálnak.
+
 # Aktuális kiegészítés – SEO és public kiadás
 
 2026. november 14.: a webes források a public mappába költöztek, a főoldal public/index.html. A legfrissebb teszt a seo-publikalas-ellenorzes.json: 35 sikeres nézetpróba. A három űrlap öt-öt HTTP-szimulációja sikeres. A domainfüggő SEO-elemek a még hiányzó webcímre várnak; részletes állapot: tervezes/seo-es-publikalas.md. Az alábbi 53 nézetpróba a költöztetés előtti állapot történeti ellenőrzése.

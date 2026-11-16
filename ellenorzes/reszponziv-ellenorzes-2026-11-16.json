@@ -1,0 +1,1329 @@
+{
+  "date": "2026-11-16",
+  "browser": "Chrome, mobil érintéses emuláció",
+  "passed": true,
+  "testedViews": 165,
+  "results": [
+    {
+      "file": "index.html",
+      "width": 320,
+      "height": 568,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "index.html",
+      "width": 360,
+      "height": 800,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "index.html",
+      "width": 375,
+      "height": 667,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "index.html",
+      "width": 390,
+      "height": 844,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "index.html",
+      "width": 412,
+      "height": 915,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "index.html",
+      "width": 430,
+      "height": 932,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "index.html",
+      "width": 540,
+      "height": 720,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "index.html",
+      "width": 568,
+      "height": 320,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "index.html",
+      "width": 667,
+      "height": 375,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "index.html",
+      "width": 844,
+      "height": 390,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "index.html",
+      "width": 932,
+      "height": 430,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "index.html",
+      "width": 600,
+      "height": 960,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "index.html",
+      "width": 768,
+      "height": 1024,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "index.html",
+      "width": 800,
+      "height": 1280,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "index.html",
+      "width": 820,
+      "height": 1180,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "index.html",
+      "width": 834,
+      "height": 1194,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "index.html",
+      "width": 912,
+      "height": 1368,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "index.html",
+      "width": 1024,
+      "height": 768,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "index.html",
+      "width": 1180,
+      "height": 820,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "index.html",
+      "width": 1194,
+      "height": 834,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "index.html",
+      "width": 1280,
+      "height": 800,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "index.html",
+      "width": 1368,
+      "height": 912,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "index.html",
+      "width": 767,
+      "height": 1000,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "index.html",
+      "width": 899,
+      "height": 1000,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "index.html",
+      "width": 900,
+      "height": 1000,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "index.html",
+      "width": 1023,
+      "height": 768,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "index.html",
+      "width": 1099,
+      "height": 820,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "index.html",
+      "width": 1100,
+      "height": 820,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "index.html",
+      "width": 1199,
+      "height": 834,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "index.html",
+      "width": 1200,
+      "height": 834,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "index.html",
+      "width": 320,
+      "height": 568,
+      "textZoom": 2,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "index.html",
+      "width": 768,
+      "height": 1024,
+      "textZoom": 2,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "index.html",
+      "width": 1024,
+      "height": 768,
+      "textZoom": 2,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 320,
+      "height": 568,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 360,
+      "height": 800,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 375,
+      "height": 667,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 390,
+      "height": 844,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 412,
+      "height": 915,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 430,
+      "height": 932,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 540,
+      "height": 720,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 568,
+      "height": 320,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 667,
+      "height": 375,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 844,
+      "height": 390,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 932,
+      "height": 430,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 600,
+      "height": 960,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 768,
+      "height": 1024,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 800,
+      "height": 1280,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 820,
+      "height": 1180,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 834,
+      "height": 1194,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 912,
+      "height": 1368,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 1024,
+      "height": 768,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 1180,
+      "height": 820,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 1194,
+      "height": 834,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 1280,
+      "height": 800,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 1368,
+      "height": 912,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 767,
+      "height": 1000,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 899,
+      "height": 1000,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 900,
+      "height": 1000,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 1023,
+      "height": 768,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 1099,
+      "height": 820,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 1100,
+      "height": 820,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 1199,
+      "height": 834,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 1200,
+      "height": 834,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 320,
+      "height": 568,
+      "textZoom": 2,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 768,
+      "height": 1024,
+      "textZoom": 2,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "tanfolyamok.html",
+      "width": 1024,
+      "height": 768,
+      "textZoom": 2,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "muhely.html",
+      "width": 320,
+      "height": 568,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "muhely.html",
+      "width": 360,
+      "height": 800,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "muhely.html",
+      "width": 375,
+      "height": 667,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "muhely.html",
+      "width": 390,
+      "height": 844,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "muhely.html",
+      "width": 412,
+      "height": 915,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "muhely.html",
+      "width": 430,
+      "height": 932,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "muhely.html",
+      "width": 540,
+      "height": 720,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "muhely.html",
+      "width": 568,
+      "height": 320,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "muhely.html",
+      "width": 667,
+      "height": 375,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "muhely.html",
+      "width": 844,
+      "height": 390,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "muhely.html",
+      "width": 932,
+      "height": 430,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "muhely.html",
+      "width": 600,
+      "height": 960,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "muhely.html",
+      "width": 768,
+      "height": 1024,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "muhely.html",
+      "width": 800,
+      "height": 1280,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "muhely.html",
+      "width": 820,
+      "height": 1180,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "muhely.html",
+      "width": 834,
+      "height": 1194,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "muhely.html",
+      "width": 912,
+      "height": 1368,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "muhely.html",
+      "width": 1024,
+      "height": 768,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "muhely.html",
+      "width": 1180,
+      "height": 820,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "muhely.html",
+      "width": 1194,
+      "height": 834,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "muhely.html",
+      "width": 1280,
+      "height": 800,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "muhely.html",
+      "width": 1368,
+      "height": 912,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "muhely.html",
+      "width": 767,
+      "height": 1000,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "muhely.html",
+      "width": 899,
+      "height": 1000,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "muhely.html",
+      "width": 900,
+      "height": 1000,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "muhely.html",
+      "width": 1023,
+      "height": 768,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "muhely.html",
+      "width": 1099,
+      "height": 820,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "muhely.html",
+      "width": 1100,
+      "height": 820,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "muhely.html",
+      "width": 1199,
+      "height": 834,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "muhely.html",
+      "width": 1200,
+      "height": 834,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "muhely.html",
+      "width": 320,
+      "height": 568,
+      "textZoom": 2,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "muhely.html",
+      "width": 768,
+      "height": 1024,
+      "textZoom": 2,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "muhely.html",
+      "width": 1024,
+      "height": 768,
+      "textZoom": 2,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 320,
+      "height": 568,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 360,
+      "height": 800,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 375,
+      "height": 667,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 390,
+      "height": 844,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 412,
+      "height": 915,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 430,
+      "height": 932,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 540,
+      "height": 720,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 568,
+      "height": 320,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 667,
+      "height": 375,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 844,
+      "height": 390,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 932,
+      "height": 430,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 600,
+      "height": 960,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 768,
+      "height": 1024,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 800,
+      "height": 1280,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 820,
+      "height": 1180,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 834,
+      "height": 1194,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 912,
+      "height": 1368,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 1024,
+      "height": 768,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 1180,
+      "height": 820,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 1194,
+      "height": 834,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 1280,
+      "height": 800,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 1368,
+      "height": 912,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 767,
+      "height": 1000,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 899,
+      "height": 1000,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 900,
+      "height": 1000,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 1023,
+      "height": 768,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 1099,
+      "height": 820,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 1100,
+      "height": 820,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 1199,
+      "height": 834,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 1200,
+      "height": 834,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 320,
+      "height": 568,
+      "textZoom": 2,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 768,
+      "height": 1024,
+      "textZoom": 2,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "kapcsolat.html",
+      "width": 1024,
+      "height": 768,
+      "textZoom": 2,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 320,
+      "height": 568,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 360,
+      "height": 800,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 375,
+      "height": 667,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 390,
+      "height": 844,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 412,
+      "height": 915,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 430,
+      "height": 932,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 540,
+      "height": 720,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 568,
+      "height": 320,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 667,
+      "height": 375,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 844,
+      "height": 390,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 932,
+      "height": 430,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 600,
+      "height": 960,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 768,
+      "height": 1024,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 800,
+      "height": 1280,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 820,
+      "height": 1180,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 834,
+      "height": 1194,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 912,
+      "height": 1368,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 1024,
+      "height": 768,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 1180,
+      "height": 820,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 1194,
+      "height": 834,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 1280,
+      "height": 800,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 1368,
+      "height": 912,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 767,
+      "height": 1000,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 899,
+      "height": 1000,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 900,
+      "height": 1000,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 1023,
+      "height": 768,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 1099,
+      "height": 820,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 1100,
+      "height": 820,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 1199,
+      "height": 834,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 1200,
+      "height": 834,
+      "textZoom": 1,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 320,
+      "height": 568,
+      "textZoom": 2,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 768,
+      "height": 1024,
+      "textZoom": 2,
+      "passed": true,
+      "errors": []
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 1024,
+      "height": 768,
+      "textZoom": 2,
+      "passed": true,
+      "errors": []
+    }
+  ],
+  "note": "A külső térkép helyettesítve; az iframe mérete ellenőrzött. A teszt konkrét méreteket igazol, nem minden létező eszközt."
+}

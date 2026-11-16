@@ -1,6 +1,6 @@
 # Agyagpad – design system
 
-Verzió: 4.16 · 2026. november 14.
+Verzió: 4.17 · 2026. november 16.
 Állapot: az Udvari műhely aktuális specifikációja. Kiindulás: a jóváhagyott 16527e0 változat; november 14-i tartalmi továbbfejlesztés, kártyaélménysorok, Dóra-számadatok és előkészített valódi űrlapküldés. A korábbi türkiz gombos irányt ez a dokumentum felülírja.
 
 ## Források és hatókör
@@ -201,3 +201,10 @@ A közös fejléc Érdeklődöm gombjának egységes célja minden aktív oldalo
 
 
 Publikálási állapot, 2026. november 14.: a végleges webes források a public/ mappában találhatók, a főoldal public/index.html. A régi gyökérbeli HTML-ek csak helyi átirányítók. A SEO- és képtömörítési részletek: tervezes/seo-es-publikalas.md. A látható arculat és szövegek megmaradtak.
+
+
+## Mobil/tablet pontosítás – 2026. november 16.
+
+A főoldali programkártyák a tényleges hasábszélességhez és a megnövelt betűmérethez igazodnak: a program-cards nevű inline-size konténer 51.999 rem alatt egymás alá rendezi a kártyákat, 29.999 rem alatt a fotó és szöveg is egymás alá kerül. A subgrid szöveghasábja minmax(0,1fr), ezért nem vágja le a tartalmat. A bemutatkozó portré hasábja legfeljebb a rendelkezésre álló szélesség 40%-a, legfeljebb 22.5 rem. A normál desktop arányok megmaradnak. Új szín vagy díszítőelem nem került be.
+
+A Kapcsolat nyitószövegében az a részleteket. kifejezés nem törhető szóközzel marad egy sorban. A Műhely galériabevezetőjében a használat és ajándékozás szerepel; cím, képek, képaláírások és elrendezés változatlanok. Aktuális szövegverzió: 3.9.

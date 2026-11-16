@@ -178,3 +178,18 @@ p,.detail-link,.button,.notes-grid li,figcaption{overflow-wrap:anywhere}
 .shop{margin-top:5rem;padding-block:0}
 @media(min-width:64rem){.story{grid-template-columns:minmax(0,22.5rem) minmax(0,1fr)}}
 @media(max-width:47.999rem){.shop{margin-top:3rem}.story .photo-surround::before{bottom:-8px}}
+
+/* A hasábok a tényleges helyhez és a megnövelt betűmérethez is alkalmazkodnak. */
+#tanfolyamok>.wrap{container-name:program-cards;container-type:inline-size}
+.course-body{grid-template-columns:minmax(0,1fr)}
+@container program-cards (max-width:51.999rem){
+ .cards{grid-template-columns:minmax(0,1fr);row-gap:1.5rem}
+ .course{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);grid-template-rows:none;grid-row:auto}
+ .course-body{display:flex;flex-direction:column;grid-template-rows:none;grid-row:auto}
+ .course-photo{height:100%;aspect-ratio:auto;border-radius:1rem 0 0 1rem}
+}
+@container program-cards (max-width:29.999rem){
+ .course{display:flex;flex-direction:column}
+ .course-photo{height:auto;aspect-ratio:3/2;border-radius:1rem 1rem 0 0}
+}
+@media(min-width:64rem){.story{grid-template-columns:minmax(0,min(22.5rem,40%)) minmax(0,1fr)}}

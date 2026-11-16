@@ -1,6 +1,6 @@
 # Agyagpad – Műhely aloldali szövegek
 
-2026. november 14. · A felhasználó által véglegesített szövegek a tényleges HTML-ből.
+2026. november 16. · A felhasználó által véglegesített szövegek a tényleges HTML-ből.
 
 A vállalkozás és Dóra karaktere fiktív; ezt az oldalon a közös lábléc jelzi. A fotóforrások és a működési terv: muhely-terv.md.
 
@@ -54,7 +54,7 @@ Kicker: A műhelyből a mindennapokba
 
 ## Kézzel készült, használatra szánt kerámiák.
 
-Bögrék, tálak, tányérok és vázák: olyan tárgyakat készítek, amelyek nemcsak a polcon mutatnak jól, hanem öröm használni őket. A formákon és a mázak apró eltérésein ott marad a kézi munka nyoma, ettől mindegyik darab egy kicsit más.
+Bögrék, tálak, tányérok és vázák: olyan tárgyakat készítek, amelyeket öröm használni vagy ajándékba adni. A formákon és a mázak apró eltérésein ott marad a kézi munka nyoma, ettől mindegyik darab egy kicsit más.
 
 - Türkiz és földszínű tálak, tányérok
 

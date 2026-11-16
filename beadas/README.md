@@ -1,6 +1,6 @@
 # Agyagpad – beadási ellenőrzőlap
 
-Frissítve: 2026. november 14. Aktuális csomag: public/index.html főoldal, Tanfolyamok, Műhely, Kapcsolat és Adatkezelés. A reszponzív megjelenés és a helyi működés ellenőrzött; az élesítés hátravan.
+Frissítve: 2026. november 16. Aktuális csomag: public/index.html főoldal, Tanfolyamok, Műhely, Kapcsolat és Adatkezelés. A reszponzív megjelenés és a helyi működés ellenőrzött; az élesítés hátravan.
 
 ## Beadandó három tétel
 
@@ -47,3 +47,8 @@ Határidő: 2026. november 24.; kérhető haladékkal december 1. A csomag nem �
 ## SEO és feltöltési állapot
 
 A public mappa tiszta Netlify-kiadás, a munkaanyagok kimaradnak. 83 raszterfájl további tömörítésével 18,6% méretcsökkenés történt; a fotók WebP-k. Az öt oldalon egyedi metaadatok, OG/Twitter és strukturált adatok készültek. A végleges webcím hiánya miatt a canonical, og:url és sitemap URL-ek még véglegesítendők. Netlify Git-buildkor a beállított generátor ezt az URL környezeti változóból megoldja; kézi feltöltésnél a kapott webcímmel újra kell generálni és feltölteni a mappát. 35 új böngészős nézet és 15 szimulált űrlappróba sikeres. Részletek: tervezes/seo-es-publikalas.md.
+
+
+## November 16-i pontosítás
+
+Design system 4.17, szövegek 3.9. A Műhely galériabevezetője az új használati/ajándékozási szöveg, a galéria és elrendezése változatlan. A Kapcsolat hero a részleteket. kifejezése egy sorban marad. A mobil/tablet ellenőrzés 165 nézete sikeres (álló/fekvő, köztes méretek, 200%-os szöveg). A főoldal nagyított tabletnézetének belső túlcsordulása javítva. A 35 nézetes általános működési próba is sikeres.

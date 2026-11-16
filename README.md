@@ -1,6 +1,6 @@
 # Agyagpad – végleges weboldal és Netlify-feltöltés
 
-Frissítve: 2026. november 14. A vállalkozás, Dóra karaktere és a műhely címe fiktív vizsgaadat.
+Frissítve: 2026. november 16. A vállalkozás, Dóra karaktere és a műhely címe fiktív vizsgaadat.
 
 A publikálandó weboldal kizárólag a **public/** mappában található. Kezdőlap: [public/index.html](public/index.html). Aloldalak: Tanfolyamok, Műhely, Kapcsolat és Adatkezelés. A főoldal korábbi koncepciós fájlneve belső linkként már nem szerepel. A régi gyökérbeli HTML-fájlok csak a korábban használt helyi címek átirányítói.
 
@@ -40,3 +40,8 @@ Részletek és pontos fájlhelyek: [tervezes/seo-es-publikalas.md](tervezes/seo-
 A korábbi, dátumozott megjelenéstesztek és védett forráspéldányok történeti ellenőrzések. A public mappás kiadás aktuális tesztje a seo-publikalas-ellenorzes.cjs; nem a régi gyökérbeli HTML-eket kell szerkeszteni.
 
 Helyi előnézet a projekt gyökeréből: `node eszkozok/helyi-szerver.cjs`, majd http://127.0.0.1:4173/public/index.html. Ez nem élő weboldal.
+
+
+## Legutóbbi mobil/tablet ellenőrzés – november 16.
+
+`node eszkozok/reszponziv-ellenorzes.cjs`: öt oldal, 33 beállítás oldalanként, összesen 165 nézet. Telefon és tablet álló/fekvő helyzetben, 320–1368 px szélességen, töréspontok mellett és 200%-os szöveggel. A főoldal nagyított fekvő tabletnézetében talált belső kártyatúlcsordulás és túl szűk bemutatkozó hasáb javítva. A Műhely galériabevezetője a kért új szöveg, a Kapcsolat hero a részleteket. kifejezése nem válik két sorra. Új szín, galériakép vagy gomb nincs. Részletes eredmény: ellenorzes/reszponziv-ellenorzes-2026-11-16.json. A teszt Chrome érintéses emulációban futott, nem minden létező fizikai eszközön.

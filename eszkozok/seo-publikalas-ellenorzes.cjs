@@ -66,7 +66,7 @@ const mime={'.html':'text/html; charset=utf-8','.css':'text/css','.js':'applicat
   fs.writeFileSync(path.join(root,'ellenorzes/publikalasi-fajllista.json'),JSON.stringify(files.sort(),null,2)+'\n');
  }finally{
   await browser.close();await new Promise(resolve=>server.close(resolve));
-  fs.writeFileSync(path.join(root,'ellenorzes/seo-publikalas-ellenorzes.json'),JSON.stringify({date:'2026-11-14',passed:!issues.length&&results.length===35,domainPending:!state.siteUrl,results,issues,pending,realDeliveryVerified:false},null,2)+'\n');
+  fs.writeFileSync(path.join(root,'ellenorzes/seo-publikalas-ellenorzes.json'),JSON.stringify({date:'2026-11-16',passed:!issues.length&&results.length===35,domainPending:!state.siteUrl,results,issues,pending,realDeliveryVerified:false},null,2)+'\n');
  }
  console.log('35 nézet sikeres. '+pending.join(' '));
 })().catch(e=>{console.error(e);process.exitCode=1});

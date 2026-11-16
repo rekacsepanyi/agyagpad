@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-14",
-  "designRevision": "2026-11-14-seo-public-webp",
+  "date": "2026-11-16",
+  "designRevision": "2026-11-16-responsive-copy",
   "baseDesignCommit": "7064af8cb996f8d2fe00c5f4ecadf482048045c1",
   "liveUrl": null,
-  "designSystem": "4.16",
-  "copy": "3.8",
+  "designSystem": "4.17",
+  "copy": "3.9",
   "formEnabled": false,
   "realDeliveryVerified": false,
   "sourceFiles": [
@@ -66,7 +66,7 @@
     },
     {
       "file": "public/assets/udvari-muhely.css",
-      "sha256": "9f51ba709c2861bdcd386efd16426be35ada16f34dd7e8bfeec34cdac572d3fe"
+      "sha256": "fec68b1d85a11f79434b62b730fdfd9de61756900abfb16e9d6ad83a82f01809"
     },
     {
       "file": "public/images/logo/Agyagpad-favicon-transparent.png",
@@ -430,11 +430,11 @@
     },
     {
       "file": "public/kapcsolat.html",
-      "sha256": "0a8dee274de95a31fda5b074fa22600ff617dca72ef4af1fa764c9f40c410fe2"
+      "sha256": "5ba3b173976303fc5c34f373ac1b9f74328827dcbb0a4e4f54ce77716cceed74"
     },
     {
       "file": "public/muhely.html",
-      "sha256": "9cb5b17be61ebea9758294eea3dcddc02a35c236b7c9f08fddccd36eca88a419"
+      "sha256": "3482231bc0da4e821a86898cdc8e3873d303e7e0cc43c0e4119a1cb469ac2657"
     },
     {
       "file": "public/robots.txt",
@@ -483,7 +483,7 @@
     "tanfolyamok-tablet-fekvo.png",
     "tudnivalok-asztali.png"
   ],
-  "note": "SEO-alapok, további képtömörítés, csak webes fájlokat tartalmazó public kiadás. A végleges webcím hiányzik: canonical, og:url és sitemap URL-ek még nem véglegesek. Netlify Git-build az URL környezeti változóból generálja őket. Az űrlap fogadója inaktív.",
+  "note": "165 sikeres mobil/tablet nézet; nagyított szövegnél is alkalmazkodó főoldali hasábok. Műhely-bevezető frissítve, a Kapcsolat hero a részleteket. kifejezése együtt marad. SEO-alapok, további képtömörítés, csak webes fájlokat tartalmazó public kiadás. A végleges webcím hiányzik: canonical, og:url és sitemap URL-ek még nem véglegesek. Netlify Git-build az URL környezeti változóból generálja őket. Az űrlap fogadója inaktív.",
   "publishDirectory": "public",
   "homePage": "public/index.html",
   "domainPending": true

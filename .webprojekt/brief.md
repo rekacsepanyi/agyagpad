@@ -70,3 +70,6 @@ Kapcsolat aloldal: rövid bevezető, elérhetőségek, változatlan közös űrl
 
 
 Publikálási állapot, 2026. november 14.: a végleges webes források a public/ mappában találhatók, a főoldal public/index.html. A régi gyökérbeli HTML-ek csak helyi átirányítók. A SEO- és képtömörítési részletek: tervezes/seo-es-publikalas.md. A látható arculat és szövegek megmaradtak.
+
+
+Aktuális pontosítás, 2026. november 16.: design system 4.17; szövegek 3.9. A public mappás kiadás mobil/tablet arányait, nagyított szövegét és a két kért szövegpontosítást ellenőriztük. Részletek: ellenorzes/reszponziv-ellenorzes-2026-11-16.json.

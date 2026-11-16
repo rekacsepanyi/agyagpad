@@ -1,10 +1,12 @@
 {
   "date": "2026-11-16",
-  "origin": "http://127.0.0.1:53327",
+  "origin": "http://127.0.0.1:53585",
   "passed": true,
   "formConfigurationUnchanged": true,
   "formScriptsUnchanged": true,
   "formSubmissions": 0,
+  "auxiliaryPosts": [],
+  "auxiliaryErrors": [],
   "otherSeoAndVisibleContentUnchanged": true,
   "results": [
     {
@@ -14,6 +16,7 @@
       "checks": [
         "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
         "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Logó és Kezdőlap a / címre vezet; a fejléc látható az oldal tetején",
         "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
       ],
       "topSpacing": {
@@ -30,6 +33,7 @@
       "checks": [
         "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
         "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Logó és Kezdőlap a / címre vezet; a fejléc látható az oldal tetején",
         "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
       ],
       "topSpacing": {
@@ -46,6 +50,7 @@
       "checks": [
         "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
         "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Logó és Kezdőlap a / címre vezet; a fejléc látható az oldal tetején",
         "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
       ],
       "topSpacing": {
@@ -62,6 +67,7 @@
       "checks": [
         "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
         "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Logó és Kezdőlap a / címre vezet; a fejléc látható az oldal tetején",
         "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
       ],
       "topSpacing": {
@@ -78,6 +84,7 @@
       "checks": [
         "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
         "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Logó és Kezdőlap a / címre vezet; a fejléc látható az oldal tetején",
         "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
       ],
       "topSpacing": {
@@ -94,6 +101,7 @@
       "checks": [
         "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
         "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Logó és Kezdőlap a / címre vezet; a fejléc látható az oldal tetején",
         "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
       ],
       "topSpacing": {
@@ -110,6 +118,7 @@
       "checks": [
         "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
         "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Logó és Kezdőlap a / címre vezet; a fejléc látható az oldal tetején",
         "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
       ],
       "topSpacing": {
@@ -126,6 +135,7 @@
       "checks": [
         "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
         "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Logó és Kezdőlap a / címre vezet; a fejléc látható az oldal tetején",
         "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
       ],
       "topSpacing": {
@@ -142,6 +152,7 @@
       "checks": [
         "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
         "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Logó és Kezdőlap a / címre vezet; a fejléc látható az oldal tetején",
         "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
       ],
       "topSpacing": {
@@ -158,6 +169,7 @@
       "checks": [
         "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
         "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Logó és Kezdőlap a / címre vezet; a fejléc látható az oldal tetején",
         "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
       ],
       "topSpacing": {
@@ -174,6 +186,7 @@
       "checks": [
         "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
         "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Logó és Kezdőlap a / címre vezet; a fejléc látható az oldal tetején",
         "Mind a hat fotó nagyítása, bezárógomb, Escape és fókusz-visszaadás",
         "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
       ],
@@ -191,6 +204,7 @@
       "checks": [
         "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
         "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Logó és Kezdőlap a / címre vezet; a fejléc látható az oldal tetején",
         "Mind a hat fotó nagyítása, bezárógomb, Escape és fókusz-visszaadás",
         "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
       ],
@@ -208,6 +222,7 @@
       "checks": [
         "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
         "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Logó és Kezdőlap a / címre vezet; a fejléc látható az oldal tetején",
         "Mind a hat fotó nagyítása, bezárógomb, Escape és fókusz-visszaadás",
         "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
       ],
@@ -225,6 +240,7 @@
       "checks": [
         "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
         "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Logó és Kezdőlap a / címre vezet; a fejléc látható az oldal tetején",
         "Mind a hat fotó nagyítása, bezárógomb, Escape és fókusz-visszaadás",
         "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
       ],
@@ -242,6 +258,7 @@
       "checks": [
         "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
         "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Logó és Kezdőlap a / címre vezet; a fejléc látható az oldal tetején",
         "Mind a hat fotó nagyítása, bezárógomb, Escape és fókusz-visszaadás",
         "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
       ],
@@ -259,6 +276,7 @@
       "checks": [
         "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
         "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Logó és Kezdőlap a / címre vezet; a fejléc látható az oldal tetején",
         "Mind a négy GYIK Enter/szóköz kezelése",
         "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
       ],
@@ -276,6 +294,7 @@
       "checks": [
         "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
         "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Logó és Kezdőlap a / címre vezet; a fejléc látható az oldal tetején",
         "Mind a négy GYIK Enter/szóköz kezelése",
         "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
       ],
@@ -293,6 +312,7 @@
       "checks": [
         "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
         "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Logó és Kezdőlap a / címre vezet; a fejléc látható az oldal tetején",
         "Mind a négy GYIK Enter/szóköz kezelése",
         "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
       ],
@@ -310,6 +330,7 @@
       "checks": [
         "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
         "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Logó és Kezdőlap a / címre vezet; a fejléc látható az oldal tetején",
         "Mind a négy GYIK Enter/szóköz kezelése",
         "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
       ],
@@ -327,6 +348,7 @@
       "checks": [
         "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
         "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Logó és Kezdőlap a / címre vezet; a fejléc látható az oldal tetején",
         "Mind a négy GYIK Enter/szóköz kezelése",
         "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
       ],
@@ -336,6 +358,66 @@
         "padding": 48,
         "rem": 16
       }
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 320,
+      "passed": true,
+      "checks": [
+        "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
+        "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Logó és Kezdőlap a / címre vezet; a fejléc látható az oldal tetején",
+        "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
+      ],
+      "topSpacing": null
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 390,
+      "passed": true,
+      "checks": [
+        "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
+        "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Logó és Kezdőlap a / címre vezet; a fejléc látható az oldal tetején",
+        "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
+      ],
+      "topSpacing": null
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 768,
+      "passed": true,
+      "checks": [
+        "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
+        "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Logó és Kezdőlap a / címre vezet; a fejléc látható az oldal tetején",
+        "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
+      ],
+      "topSpacing": null
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 1024,
+      "passed": true,
+      "checks": [
+        "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
+        "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Logó és Kezdőlap a / címre vezet; a fejléc látható az oldal tetején",
+        "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
+      ],
+      "topSpacing": null
+    },
+    {
+      "file": "adatkezeles.html",
+      "width": 1440,
+      "passed": true,
+      "checks": [
+        "Morzsamenü nélkül, egységes felső térköz; egy H1, nincs túlcsordulás",
+        "Navigáció, aktív menüpont és billentyűzetes fókusz",
+        "Logó és Kezdőlap a / címre vezet; a fejléc látható az oldal tetején",
+        "Belső linkek, horgonyok és CTA-k; űrlapküldés nélkül"
+      ],
+      "topSpacing": null
     }
   ],
   "screenshots": [
@@ -346,6 +428,8 @@
     "morzsamenu-helyi-muhely-390.png",
     "morzsamenu-helyi-muhely-1440.png",
     "morzsamenu-helyi-kapcsolat-390.png",
-    "morzsamenu-helyi-kapcsolat-1440.png"
+    "morzsamenu-helyi-kapcsolat-1440.png",
+    "morzsamenu-helyi-adatkezeles-390.png",
+    "morzsamenu-helyi-adatkezeles-1440.png"
   ]
 }

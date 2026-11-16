@@ -8,7 +8,9 @@
       "forms": [
         "0a22c4371fbbafe11fe0b83a344651cd1caa007a4a62b97ad5f480362c350620"
       ],
-      "bodyWithoutBreadcrumb": "b3a7b664e122eea3376b55c65347b61e16fdf93dd7b774fc3e8dc68152ae0d94"
+      "bodyWithoutBreadcrumb": "b3a7b664e122eea3376b55c65347b61e16fdf93dd7b774fc3e8dc68152ae0d94",
+      "approvedNavigationHeader": "d19e3fe375bdfcf102970ed125bd20e858f8c75b801bc5305e4ac366b5b6f35c",
+      "approvedNavigationBody": "2bac33cf52205db365ab591fad64724b7934318cd869f67a6b803c3098168de7"
     },
     "tanfolyamok.html": {
       "html": "9e1b0bb9e109699084637d1a66d1e995e6094cb5d3f5a392c640a3f4f4c823ef",
@@ -17,7 +19,9 @@
       "forms": [
         "0a22c4371fbbafe11fe0b83a344651cd1caa007a4a62b97ad5f480362c350620"
       ],
-      "bodyWithoutBreadcrumb": "e64cec4039ac9ab5bddc37101132a43ca5ae177c4bb611e29b29da4832db6284"
+      "bodyWithoutBreadcrumb": "e64cec4039ac9ab5bddc37101132a43ca5ae177c4bb611e29b29da4832db6284",
+      "approvedNavigationHeader": "2b3d18189ee11f77b217c95926d69ee137b4e44d17aa37f7af7fae9acbdfe7e3",
+      "approvedNavigationBody": "b563214109907f4649e601a55051602c53e75555bccb8810e303b01dcd630848"
     },
     "muhely.html": {
       "html": "a4a414f7ff8ddd580b98b9129af91c89c4f8ce8478e9f8507cb92b3960b0eeb6",
@@ -26,7 +30,9 @@
       "forms": [
         "a6a27d2551c599c5d14dc0b7a45d8da929c5ea5bbd4e11a3ea0f11ce3b8e481a"
       ],
-      "bodyWithoutBreadcrumb": "72229f15e9e981e608fdb082ca09868581111a7c8fffa738e1dc21c7aab97ef8"
+      "bodyWithoutBreadcrumb": "72229f15e9e981e608fdb082ca09868581111a7c8fffa738e1dc21c7aab97ef8",
+      "approvedNavigationHeader": "7548e166dbbb42ce9ab5b6e58ef2b627ccef5b5a75590027b71d163a70dd3eb8",
+      "approvedNavigationBody": "98f1c6f373b3fc6f614362c53ec90d3e1522b2a95789a88f725ac1ac2e57fa1b"
     },
     "kapcsolat.html": {
       "html": "819bdacf9dfd1d0a3797909443fc3e64de18482d749eedc880cab8ac6f422d91",
@@ -35,19 +41,24 @@
       "forms": [
         "0a22c4371fbbafe11fe0b83a344651cd1caa007a4a62b97ad5f480362c350620"
       ],
-      "bodyWithoutBreadcrumb": "321374b9f25b10eb57a89f417f1f7d15a20eaebb2f028714d4f46a2f0a4120eb"
+      "bodyWithoutBreadcrumb": "321374b9f25b10eb57a89f417f1f7d15a20eaebb2f028714d4f46a2f0a4120eb",
+      "approvedNavigationHeader": "c8f4801165a0895255f1e46bd5c6929d5d5e6195df943f31429ad5dcf24238f6",
+      "approvedNavigationBody": "0b446c90ff9990b3e816502ad885bb62269a85d07f6ddc178f53b24ca8549281"
     },
     "adatkezeles.html": {
       "html": "6e2e74b9804c2e2f513ce74e73ac797930dc888b69c1172a1a73606498c43acd",
       "head": "14f9475bd90a3511030ad37fc493205f17387cef06c37c14fba3cd1e7181f187",
       "header": "d6fe35ed780ef6036ac819576e79f9a15dd7e55722f00830bb32589a904d42bc",
       "forms": [],
-      "bodyWithoutBreadcrumb": "36ef010c40a86f420c4fe182c1df800a5c5918422eeab5b6d99b9dce4604f934"
+      "bodyWithoutBreadcrumb": "36ef010c40a86f420c4fe182c1df800a5c5918422eeab5b6d99b9dce4604f934",
+      "approvedNavigationHeader": "04ab65893c2ad616fb19e6348ee5477b74383a6dfe8759ada90121b9f07b49f2",
+      "approvedNavigationBody": "4a54b2bd2cbf6eb9e2975fcce102524c7c5fc010954a12fcaafae50763479b3e"
     }
   },
   "scripts": {
     "form-config.js": "36fb3d55f83de75781fb4960e3a404d9281c8a9058cb59eac03295032f931662",
     "erdeklodes.js": "e41ea34c1cddf33062b36c2092ad1f2c7f640a9d1f9e5a9a8d9fa5f4ef168541",
     "muhely-galeria.js": "6429509040b3e48321aa65fc20e6a8af64634f3d09567590f80e620a9d75931f"
-  }
+  },
+  "navigationUpdate": "A 3101d64 kiinduló forráshoz képest csak a morzsamenük eltávolítása, a navigáció és a Kezdőlap aktív jelölése módosulhat. Az űrlapok tartalma és az összes SEO head változatlan."
 }

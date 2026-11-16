@@ -38,4 +38,4 @@ A Netlify Forms küldőkódja az éles domainen aktív. A felhasználó beállí
 
 Helyi előnézet: `node eszkozok/helyi-szerver.cjs`, majd http://127.0.0.1:4173/public/index.html .
 
-A `/koszonom` oldal csak pozitív küldési válasz után kap egyszeri `generate_lead` eseményt. `noindex,follow`, nincs a sitemapben. GA4-azonosító még nincs beállítva, a tényleges analitikai adatküldés nem aktív. Beállítás és korlátok: [tervezes/ga4-konverzio.md](tervezes/ga4-konverzio.md).
+A `/koszonom` oldal csak pozitív küldési válasz után kap egyszeri `generate_lead` eseményt. `noindex,follow`, nincs a sitemapben. A megadott GTM-W96CCPWJ konténer kapcsolt GA4-célja G-NVP2Z1B13Y. Google-kód csak a mérési választó engedélyezése után töltődik be. A valódi konténerrel tesztelt mérési kérések helyben elfogva; GA4-riportbeli beérkezés még nincs igazolva. Beállítás és korlátok: [tervezes/ga4-konverzio.md](tervezes/ga4-konverzio.md).

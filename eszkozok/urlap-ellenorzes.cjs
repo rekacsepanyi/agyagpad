@@ -8,7 +8,7 @@ const assert=(ok,message)=>{if(!ok)throw Error(message)};
  const gate=new Promise(resolve=>{release=resolve});
  try{
   await page.route('**/*',async route=>{
-   const req=route.request(),url=new URL(req.url());if(url.origin!==origin){if(url.origin==='https://www.openstreetmap.org'&&url.pathname==='/export/embed.html')return route.fulfill({status:200,contentType:'text/html',body:'<p>A térképet a küldési szimuláció nem tölti be.</p>'});throw Error('Váratlan külső kérés');}
+   const req=route.request(),url=new URL(req.url());if(url.origin!==origin){if(url.hostname==='www.googletagmanager.com')return route.fulfill({status:200,contentType:'text/javascript',body:'/* A Google-fogadót ez a teszt nem tölti be. */'});if(url.origin==='https://www.openstreetmap.org'&&url.pathname==='/export/embed.html')return route.fulfill({status:200,contentType:'text/html',body:'<p>A térképet a küldési szimuláció nem tölti be.</p>'});throw Error('Váratlan külső kérés');}
    if(req.method()==='POST'){
     posts++;lastBody=new URLSearchParams(req.postData());
     if(mode==='network')return route.abort('failed');
@@ -23,6 +23,7 @@ const assert=(ok,message)=>{if(!ok)throw Error(message)};
   const target=process.argv[2]||'index.html';
   assert(['index.html','tanfolyamok.html','kapcsolat.html'].includes(target),'Ismeretlen tesztoldal');
   await page.goto(origin+'/'+target);
+  await page.locator('[data-measurement="granted"]').click();
   assert(await page.evaluate(()=>window.AGYAGPAD_FORM_CONFIG?.enabled===true&&window.AGYAGPAD_FORM_CONFIG.allowedHosts.includes(location.hostname)),'Az éles domain küldési konfigurációja inaktív');
   await page.locator('#name').fill('Teszt Elek');await page.locator('#email').fill('teszt@example.com');await page.locator('#program').selectOption('kezdo-kurzus');await page.locator('#message').fill('Helyi, szimulált beküldési próba.');
   await page.locator('.send').click();await page.waitForFunction(()=>document.querySelector('.form-status').textContent.includes('nem sikerült'));

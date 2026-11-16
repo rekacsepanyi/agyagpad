@@ -1,0 +1,15 @@
+{
+  "measurementId": "G-NVP2Z1B13Y",
+  "container": "GTM-W96CCPWJ",
+  "publicTag": {
+    "function": "__ogt_1p_data_v2",
+    "priority": 13,
+    "vtp_isEnabled": false,
+    "vtp_isAutoCollectPiiEnabledFlag": true,
+    "tag_id": 8
+  },
+  "source": "https://www.googletagmanager.com/gtm.js?id=GTM-W96CCPWJ",
+  "checkedAtUtc": "2026-11-16T18:06:55.2079357Z",
+  "userProvidedDataEnabled": false,
+  "passed": true
+}

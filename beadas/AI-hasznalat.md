@@ -12,4 +12,4 @@
 
 **Élesítés és SEO.** Az oldalt Netlifyon publikáltam: https://agyagpad-muhely.netlify.app/ . Codex segítségével az öt oldal metaadatait, abszolút URL-jeit, strukturált adatait, sitemapjét és robots.txt-jét ellenőriztem; az élő oldalon 15 nézetpróba és a SEO-vizsgálat sikeres.
 
-**Hátralévő lépés.** Az űrlap Netlify-küldőkódja aktiválva; az éles próba sikerét a felhasználó visszaigazolta. Köszönőoldal és egyszeri konverziós esemény készült; a GA4-azonosító és az üzemeltetői adatkezelési adatok még hiányoznak. A Figma tervezőeszköz, a Sharp, Playwright, Chrome és Git fejlesztői eszközök; az AI-munkatársak ChatGPT és Codex voltak.
+**Hátralévő lépés.** Az űrlap Netlify-küldőkódja aktiválva; az éles próba sikerét a felhasználó visszaigazolta. Köszönőoldal és egyszeri konverziós esemény készült; a GTM bekötve, engedélykéréssel. Az Analytics-riport ellenőrzése és az üzemeltetői adatok még hátravannak. A Figma tervezőeszköz, a Sharp, Playwright, Chrome és Git fejlesztői eszközök; az AI-munkatársak ChatGPT és Codex voltak.

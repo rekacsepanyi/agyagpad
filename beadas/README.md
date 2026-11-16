@@ -24,7 +24,7 @@ A fotók többméretű WebP-k; a további tömörítés 18,6% megtakarítás. A 
 
 ## Ami még hátravan
 
-- A felhasználó beállította a Netlify e-mail-értesítést és sikeres éles próbát jelzett. A köszönőoldal és a duplázásmentes konverziós esemény előkészítve; GA4-mérőazonosító és analitikai adatküldési próba még hiányzik.
+- A felhasználó beállította a Netlify e-mail-értesítést és sikeres éles próbát jelzett. A köszönőoldal és a duplázásmentes konverziós esemény előkészítve; a GTM-konténer bekötve, mérési választóval. A GA4-riportban való beérkezés ellenőrzése még hátravan.
 - Valódi üzemeltetői adatkezelési adatok és a tényleges képkreditek/licencadatok véglegesítése.
 - Search Console-hitelesítés és sitemap-beküldés ajánlott extra; jelenleg nem igazolt.
 

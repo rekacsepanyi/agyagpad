@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-16",
+  "passed": true,
+  "results": [
+    "Hat oldal × öt nézet: látható választó, nincs túlcsordulás vagy Google-kérés a döntés előtt",
+    "Elutasítás megmarad, nincs Google-kód vagy mérési kérés",
+    "Engedélyezés után egy konténerbetöltés, valós publikált Google-kóddal",
+    "Köszönőoldalon utólagos engedélyezésre is egy generate_lead kérés a G-NVP2Z1B13Y célra; helyben elfogva",
+    "Frissítéskor nincs új konverziós hálózati kérés",
+    "Visszavonás után nincs új mérés; GA-sütik törölve"
+  ],
+  "container": "GTM-W96CCPWJ",
+  "measurementId": "G-NVP2Z1B13Y",
+  "analyticsRequestsIntercepted": true,
+  "realAnalyticsDeliveryVerified": false
+}

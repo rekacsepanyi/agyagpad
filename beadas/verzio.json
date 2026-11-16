@@ -14,7 +14,7 @@
     },
     {
       "file": "public/adatkezeles.html",
-      "sha256": "52609705c410549a1d06cba96524c4b7ae53fea1ddaae2613e801148d8f94a3a"
+      "sha256": "13f10e3339c0792204059d04fa971ceb913c4056c4269e491e4391d602d7a94d"
     },
     {
       "file": "public/assets/erdeklodes.js",
@@ -58,7 +58,15 @@
     },
     {
       "file": "public/assets/koszonom.js",
-      "sha256": "2742d08dcb045f642e3b459494208508a4f943dc641d90bda1e6e2b6563ef884"
+      "sha256": "1b57d753b1040e9ebd35f32af35a4cf4fa3c3ea0af17c8ddb622ddf61c9370c8"
+    },
+    {
+      "file": "public/assets/meres.css",
+      "sha256": "75ac68d1d581d5ee27a09566d9a38df8b578e241c1ab9c64377421002ecb6e59"
+    },
+    {
+      "file": "public/assets/meres.js",
+      "sha256": "9fe74c135cb983165cf450caac0fb9810d967fbf36943fba1bb0d3861cb484d5"
     },
     {
       "file": "public/assets/muhely-galeria.js",
@@ -434,19 +442,19 @@
     },
     {
       "file": "public/index.html",
-      "sha256": "14e8d1d7c3b3103f0e6cd617c3bc3b60e82a2208f8743145c90253e217009ec4"
+      "sha256": "a39f36eddbf21396d5666fac2887a7cd497b48a63b8eb732b2d1ba1d4bc5f119"
     },
     {
       "file": "public/kapcsolat.html",
-      "sha256": "2d4b05ef0d1bb3d679feb97a5d7597606cd090ee8b1b141df562a992f7d04ef7"
+      "sha256": "dc0a5bd392980492a79f214f3f523c2211d4141a4443ae00851de6f33e19ca0e"
     },
     {
       "file": "public/koszonom.html",
-      "sha256": "8cf72a23a241cced66cc3effb3b76e75760b921b4261101c409a43e9999b1e59"
+      "sha256": "56a684b87d68cd7efa8c6e7fbb7114c0d081f6a8e29516b2c8d661ee23facfe8"
     },
     {
       "file": "public/muhely.html",
-      "sha256": "dfd6ac29f0dc95f80b032e461593ad00b5b3b6975254481cd0b9e4ee19052718"
+      "sha256": "9654809baffd4c9f66788b5eeb1afdf036d951c4a228d2c3d89a17588431159b"
     },
     {
       "file": "public/robots.txt",
@@ -458,7 +466,7 @@
     },
     {
       "file": "public/tanfolyamok.html",
-      "sha256": "212021eb9c5c5b59bcb5e57a8136c8ef24f421920bc007756b86c6677e229d06"
+      "sha256": "f827eb141de2ddba958de86e62ffe909163f315752dc412615a217526a28bc0e"
     }
   ],
   "planningImages": [
@@ -495,12 +503,17 @@
     "tanfolyamok-tablet-fekvo.png",
     "tudnivalok-asztali.png"
   ],
-  "note": "165 sikeres mobil/tablet nézet; nagyított szövegnél is alkalmazkodó főoldali hasábok. Műhely-bevezető frissítve, a Kapcsolat hero a részleteket. kifejezése együtt marad. SEO-alapok, további képtömörítés, csak webes fájlokat tartalmazó public kiadás. A domainhez kötött elemek állapotát a liveUrl és domainPending mezők jelzik; a végleges címet a tervezes/seo-konfiguracio.json rögzíti. A Tanfolyamok, Műhely és Kapcsolat morzsamenüje és saját CSS-e eltávolítva; felső térközök egységesítve. A fejléc, más SEO és az űrlapok változatlanok. A célzott helyi ellenőrzés 20 nézete sikeres. A logó és Kezdőlap / címre vezet, a főoldali aktív menüpont oldaljelölés; az aloldalak rövid navigációs URL-eket használnak, a valódi szakaszhivatkozások megmaradtak. Netlify Forms küldőkód aktiválva; felismerés és valódi kézbesítés ellenőrzése hátravan. Köszönőoldal és egyszer használható generate_lead jelzés, 21 szimulált eset sikeres. GA4-mérőkód még nincs; az éles üzenet beérkezését a felhasználó igazolta vissza.",
+  "note": "165 sikeres mobil/tablet nézet; nagyított szövegnél is alkalmazkodó főoldali hasábok. Műhely-bevezető frissítve, a Kapcsolat hero a részleteket. kifejezése együtt marad. SEO-alapok, további képtömörítés, csak webes fájlokat tartalmazó public kiadás. A domainhez kötött elemek állapotát a liveUrl és domainPending mezők jelzik; a végleges címet a tervezes/seo-konfiguracio.json rögzíti. A Tanfolyamok, Műhely és Kapcsolat morzsamenüje és saját CSS-e eltávolítva; felső térközök egységesítve. A fejléc, más SEO és az űrlapok változatlanok. A célzott helyi ellenőrzés 20 nézete sikeres. A logó és Kezdőlap / címre vezet, a főoldali aktív menüpont oldaljelölés; az aloldalak rövid navigációs URL-eket használnak, a valódi szakaszhivatkozások megmaradtak. Netlify Forms küldőkód aktiválva; felismerés és valódi kézbesítés ellenőrzése hátravan. Köszönőoldal és egyszer használható generate_lead jelzés, 21 szimulált eset sikeres. GA4-mérőkód engedélyezéshez kötve; az éles üzenet beérkezését a felhasználó igazolta vissza. GTM és basic consent mód integrálva; valós konténerrel az egyszeri generate_lead kérés ellenőrizve, a mérési kérések helyben elfogva.",
   "publishDirectory": "public",
   "homePage": "public/index.html",
   "domainPending": false,
   "liveSeoVerified": true,
   "formRevision": "2026-11-16-thank-you-conversion",
   "userReportedDeliveryVerified": true,
-  "analyticsDeliveryVerified": false
+  "analyticsDeliveryVerified": false,
+  "analyticsContainer": "GTM-W96CCPWJ",
+  "analyticsMeasurementId": "G-NVP2Z1B13Y",
+  "analyticsDeploymentVerified": false,
+  "analyticsDeploymentStatus": "Google user-provided data capabilities disabled by user and verified in public configuration; ready to publish consent-gated analytics.",
+  "googleUserProvidedDataEnabled": false
 }

@@ -562,14 +562,14 @@
     {
       "file": "beadas/feltoltendo-kepek/06-kezdolap-asztali.png",
       "width": 1440,
-      "height": 1050,
-      "sha256": "383c41083f3f22cc2b7ff2588e5c991905073f5eac5b633a699c9e1971da10ec"
+      "height": 948,
+      "sha256": "307b2092ef9a0338da5887f95388d918e3e0a45177e3a0c7fc2a16ea9bf1bb94"
     },
     {
       "file": "beadas/feltoltendo-kepek/07-kezdolap-mobil.png",
       "width": 390,
-      "height": 1050,
-      "sha256": "eb2c7707434234e4888b6d0def7b22e03d01c431f54e66e9fd7671fdff89b036"
+      "height": 1200,
+      "sha256": "18db7106191a08bf0b6a8fb399d11835097588c79509a9cbd37c7d5cf50c0431"
     }
   ],
   "legacyScreenshotsStatus": "Earlier verification images in beadas/jelenlegi-oldal; the curated submission exports are listed under submissionImages."

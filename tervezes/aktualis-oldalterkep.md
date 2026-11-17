@@ -1,18 +1,18 @@
 # Agyagpad – aktuális oldaltérkép
 
-Frissítve: 2026. november 14. Revízió: 2026-11-14-seo-public-webp.
+Frissítve: 2026. november 17. Revízió: beadási összefoglaló.
 
 ## Közös navigáció
 
-Öt aktív oldal a public mappában: `index.html`, `tanfolyamok.html`, `muhely.html`, `kapcsolat.html`, `adatkezeles.html`. A public/index.html a végleges belépési pont. A régi koncepcióválasztó az archivum/koncepciok-index.html fájlban maradt.
+Hat aktív oldal a public mappában: `index.html`, `tanfolyamok.html`, `muhely.html`, `kapcsolat.html`, `adatkezeles.html`, `koszonom.html`. A public/index.html a végleges belépési pont. A régi koncepcióválasztó az archivum/koncepciok-index.html fájlban maradt.
 
-A közös fejlécben logó, Kezdőlap, Tanfolyamok, Műhely, Kapcsolat és Érdeklődöm gomb szerepel. Az utóbbi minden oldalon `kapcsolat.html#erdeklodes` célra vezet, mobilmenüben is. A helyi programgombok célja ettől függetlenül megmarad.
+A közös fejlécben logó, Kezdőlap, Tanfolyamok, Műhely, Kapcsolat és Érdeklődöm gomb szerepel. Az utóbbi minden oldalon `/kapcsolat#erdeklodes` célra vezet, mobilmenüben is. A helyi programgombok célja ettől függetlenül megmarad.
 
 ## Főoldal
 
 1. `#kezdo`: terrakotta H1, kezdőbarát bevezető, két CTA, korongozós fotó és idézetkártya.
 2. `#tanfolyamok`: három ár nélküli, élményalapú programkártya. Részletlinkek a Tanfolyamok megfelelő programjához. Közvetlenül alattuk türkiz tudnivalóblokk hat állítással; asztalon két, mobilon egy oszlop.
-3. `#muhely`: Dóra bemutatkozása, portréja és három számadata. A bemutatkozás után szellősebb műhelybolt: balra szöveg, jobbra kerámiafotó. A Felfedezem a kerámiákat gomb a `muhely.html#keramiak` célra vezet.
+3. `#muhely`: Dóra bemutatkozása, portréja és három számadata. A bemutatkozás után szellősebb műhelybolt: balra szöveg, jobbra kerámiafotó. A Felfedezem a kerámiákat gomb a `/muhely#keramiak` célra vezet.
 4. `#kapcsolat`: meglévő érdeklődési űrlap és Találkozzunk a műhelyben! információs kártya.
 
 ## Tanfolyamok
@@ -37,10 +37,10 @@ Az elérhetőségek alatt Szentendre-térkép látható, a kitalált bemutatóc�
 
 Közös márkaszöveg, bemutatócím, nyitvatartás, előzetes egyeztetés, négy navigációs link és adatkezelési link. Alsó sor: © 2026 Agyagpad · Fiktív vállalkozást bemutató webdesign-vizsgamunka.
 
-Az Adatkezelés oldal az űrlapot, a külső térképet és a pótlandó valós üzemeltetői adatokat ismerteti. A Netlify-kód előkészített, de a fogadó felhasználói döntés alapján inaktív. Éles kézbesítést még nem igazoltunk. Beállítás: `urlap-beallitas.md`.
+Az Adatkezelés oldal az űrlapot, a külső térképet és a pótlandó valós üzemeltetői adatokat ismerteti. A Netlify Forms aktív, az éles próba sikerét a felhasználó igazolta. Sikeres küldés után a /koszonom oldal következik, engedélyezett mérésnél egyszeri generate_lead eseménnyel. Beállítás: `urlap-beallitas.md`.
 
 ## Tervezési bizonyíték és ellenőrzés
 
-Az eredeti oldaltérkép és drótváz a kezdeti tervezést dokumentálja. A `beadas/tervezesi-folyamat/03-aktualis-oldalterkep.png` már a fenti ötoldalas állapotot mutatja. Az aktuális nézetképek a `beadas/jelenlegi-oldal/` mappában találhatók. Az 53 sikeres nézetpróba és az űrlapszimulációk összefoglalója: `ellenorzes/eredmenyek.md`.
+Az eredeti oldaltérkép és drótváz a kezdeti tervezést dokumentálja. A `beadas/tervezesi-folyamat/03-aktualis-oldalterkep.png` már a végleges fő tartalmi szerkezetet mutatja. A november 17-i feltöltési válogatás a `beadas/feltoltendo-kepek/` mappában található; a `beadas/jelenlegi-oldal/` korábbi ellenőrzési képeket is őriz. Az 53 sikeres nézetpróba és az űrlapszimulációk összefoglalója: `ellenorzes/eredmenyek.md`.
 
 SEO és kiadási mappa: tervezes/seo-es-publikalas.md. Élő cím: https://agyagpad-muhely.netlify.app/ . A domainfüggő SEO-elemek véglegesek, az élő oldalon is ellenőrizve.

@@ -1,0 +1,169 @@
+{
+  "date": "2026-11-16",
+  "passed": true,
+  "source": "Current public files; responsive image loads awaited; empty image in closed lightbox excluded; no form submission or analytics transmission",
+  "results": [
+    {
+      "file": "index",
+      "width": 390,
+      "h1": 1,
+      "overflow": false,
+      "images": true,
+      "placeholder": false,
+      "nav": true
+    },
+    {
+      "file": "index",
+      "width": 768,
+      "h1": 1,
+      "overflow": false,
+      "images": true,
+      "placeholder": false,
+      "nav": true
+    },
+    {
+      "file": "index",
+      "width": 1440,
+      "h1": 1,
+      "overflow": false,
+      "images": true,
+      "placeholder": false,
+      "nav": true
+    },
+    {
+      "file": "tanfolyamok",
+      "width": 390,
+      "h1": 1,
+      "overflow": false,
+      "images": true,
+      "placeholder": false,
+      "nav": true
+    },
+    {
+      "file": "tanfolyamok",
+      "width": 768,
+      "h1": 1,
+      "overflow": false,
+      "images": true,
+      "placeholder": false,
+      "nav": true
+    },
+    {
+      "file": "tanfolyamok",
+      "width": 1440,
+      "h1": 1,
+      "overflow": false,
+      "images": true,
+      "placeholder": false,
+      "nav": true
+    },
+    {
+      "file": "muhely",
+      "width": 390,
+      "h1": 1,
+      "overflow": false,
+      "images": true,
+      "placeholder": false,
+      "nav": true
+    },
+    {
+      "file": "muhely",
+      "width": 768,
+      "h1": 1,
+      "overflow": false,
+      "images": true,
+      "placeholder": false,
+      "nav": true
+    },
+    {
+      "file": "muhely",
+      "width": 1440,
+      "h1": 1,
+      "overflow": false,
+      "images": true,
+      "placeholder": false,
+      "nav": true
+    },
+    {
+      "file": "kapcsolat",
+      "width": 390,
+      "h1": 1,
+      "overflow": false,
+      "images": true,
+      "placeholder": false,
+      "nav": true
+    },
+    {
+      "file": "kapcsolat",
+      "width": 768,
+      "h1": 1,
+      "overflow": false,
+      "images": true,
+      "placeholder": false,
+      "nav": true
+    },
+    {
+      "file": "kapcsolat",
+      "width": 1440,
+      "h1": 1,
+      "overflow": false,
+      "images": true,
+      "placeholder": false,
+      "nav": true
+    },
+    {
+      "file": "adatkezeles",
+      "width": 390,
+      "h1": 1,
+      "overflow": false,
+      "images": true,
+      "placeholder": false,
+      "nav": true
+    },
+    {
+      "file": "adatkezeles",
+      "width": 768,
+      "h1": 1,
+      "overflow": false,
+      "images": true,
+      "placeholder": false,
+      "nav": true
+    },
+    {
+      "file": "adatkezeles",
+      "width": 1440,
+      "h1": 1,
+      "overflow": false,
+      "images": true,
+      "placeholder": false,
+      "nav": true
+    },
+    {
+      "file": "koszonom",
+      "width": 390,
+      "h1": 1,
+      "overflow": false,
+      "images": true,
+      "placeholder": false,
+      "nav": true
+    },
+    {
+      "file": "koszonom",
+      "width": 768,
+      "h1": 1,
+      "overflow": false,
+      "images": true,
+      "placeholder": false,
+      "nav": true
+    },
+    {
+      "file": "koszonom",
+      "width": 1440,
+      "h1": 1,
+      "overflow": false,
+      "images": true,
+      "placeholder": false,
+      "nav": true
+    }
+  ]
+}

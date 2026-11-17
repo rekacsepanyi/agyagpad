@@ -1,31 +1,45 @@
-# Agyagpad – beadási ellenőrzőlap
+# Agyagpad beadási csomag
 
-Frissítve: 2026. november 16. **Élő URL: https://agyagpad-muhely.netlify.app/**.
+Frissítve: 2026. november 17. A megadott vizsgakiírás kötelező elemei rendelkezésre állnak; a végső minősítést a vizsgáztató adja. Határidő: 2026. november 24.
 
-## Beadandó három tétel
+## Beadandó tételek
 
-| Tétel | Állapot | Hely |
-| --- | --- | --- |
-| Élő weboldal | Elérhető, HTTP 200-zal ellenőrizve | https://agyagpad-muhely.netlify.app/ |
-| Tervezési folyamat képei | Elkészültek | tervezesi-folyamat/01-eredeti-oldalterkep.png, 02-eredeti-drotvaz.png, 03-aktualis-oldalterkep.png |
-| AI-használat leírása | Frissítve az élesítéssel | AI-hasznalat.md |
+1. Élő URL: https://agyagpad-muhely.netlify.app/
+2. A tervezési folyamat képei: a feltoltendo-kepek/ mappában található hét PNG, számozási sorrendben.
+3. AI-használati leírás: AI-hasznalat.md. Rövid, első személyű munkafolyamat-leírás; a beadófelület külön szövegmezőjébe is másolható. Dokumentumba másoláskor legfeljebb egy oldalra formázandó, olvasható betűmérettel.
 
-A közzétett oldal hat részből áll: főoldal, Tanfolyamok, Műhely, Kapcsolat, Adatkezelés és Köszönöm. A public/index.html a belépési pont. A public mappa a Netlify publish directory; a briefek, ellenőrzések és eredeti fotók nem kerülnek nyilvánosságra.
+## A hét javasolt kép
 
-Az arculat 4.17, a szövegek 3.9 verziójúak. A Műhely hat kész kerámiát mutató galériája nagyítható. A fiktív vállalkozás és bemutatócím jelölése megmaradt; vásárlói vélemény vagy kitalált díj nem szerepel.
+| Fájl | Mit mutat be? |
+| --- | --- |
+| 01-eredeti-figma-arculat.png | A színválasztás, moodboard, betűk és logó eredeti Figma-állapota |
+| 02-eredeti-oldalterkep.png | A kezdeti szakaszok és a látogatói útvonal megtervezése |
+| 03-eredeti-drotvaz.png | A főoldal kezdeti elrendezési terve |
+| 04-vegleges-arculat.png | Az AI-építés során véglegesített paletta, türkizzel és komponenspéldákkal |
+| 05-vegleges-oldalterkep.png | A továbbfejlesztett oldalszerkezet és űrlapfolyamat |
+| 06-kezdolap-asztali.png | Az éles kezdőlap november 17-i asztali nyitónézete |
+| 07-kezdolap-mobil.png | Ugyanennek a mobil nyitónézete |
 
-## Ellenőrzések és SEO
+A 20 fájl a feltöltési keret, nem követelmény. Az első öt kép a folyamatot és a terveket dokumentálja, az utolsó kettő az eredményt egészíti ki. A teljes weboldalt az élő URL-en lehet bejárni.
 
-A november 16-i mobil/tablet ellenőrzés 165 nézete, az általános kiadási próba 35 nézete és az élő SEO-ellenőrzés 15 nézete sikeres. A képernyőképek a jelenlegi-oldal/ mappában, a részletes gépi jelentések a projekt ellenorzes/ mappájában találhatók.
+## Miért nincs türkiz az eredeti arculati táblán?
 
-Mind a hat oldalon egyedi title és leírás, Open Graph/Twitter, abszolút canonical és megfelelő JSON-LD van. A cím és nyitvatartás fiktív LocalBusiness adatként szerepel; a Kapcsolat FAQPage, a Műhely Person kiegészítést is tartalmaz. Az élő sitemap öt URL-t sorol, a robots.txt hivatkozik rá. A helyi és élő Vikingo-ellenőrzés 0 hibát mutat. A végleges webcím már nem hiányzó adat.
+Az eredeti Figma-kép a kezdeti döntéseket mutatja. A sötéttürkiz (#1B4D4F) az AI-építés és a finomhangolás során került a földszínű paletta mellé. A 04-es kép ezt a végleges állapotot dokumentálja, külön megnevezve a változást. Ez nem utólag módosított Figma-screenshot, hanem a végleges weboldal CSS-színeiből, betűfájljaiból és logójából készített összefoglaló. A két állapot együtt mutatja a tervezés fejlődését.
 
-A fotók többméretű WebP-k; a további tömörítés 18,6% megtakarítás. A logó/favikon SVG, a megosztási képek külön JPEG-ek. A forráslenyomatokat és az élő címet a verzio.json rögzíti. Részletes lista: tervezes/seo-es-publikalas.md a projektben.
+## Igazolt állapot
 
-## Ami még hátravan
+- Statikus HTML/CSS, élő Netlify-URL, hat oldal, saját tartalom és CTA.
+- Egységes arculat és több körben ellenőrzött mobil-, tablet- és asztali megjelenés; a legutóbbi beadási próba 18 nézete sikeres.
+- Működő Netlify Forms; az értesítési e-mail és az éles próba sikerét a felhasználó visszaigazolta.
+- GitHub-verziókövetés és SEO-alapok: egyedi metaadatok, címsorok, alt szövegek, WebP-képek, strukturált adatok, sitemap és robots.txt.
+- Saját sütiválasztó: Google-mérés csak engedély után. CookieYes nem került telepítésre, előfizetés nem szükséges a vizsgakiírás teljesítéséhez.
+- A generate_lead GA4-esemény egyszeri beérkezése felhasználói képernyőképpel igazolt. A kulcseseményként való elszámolás külön riportellenőrzése még nincs igazolva.
+- A Search Console tulajdonigazolását és a sitemap-beküldést a felhasználó 2026. november 17-én sikeresnek jelezte.
 
-- A felhasználó beállította a Netlify e-mail-értesítést és sikeres éles próbát jelzett. A köszönőoldal és a duplázásmentes konverziós esemény előkészítve; a GTM-konténer bekötve, mérési választóval. A GA4-riportban való beérkezés ellenőrzése még hátravan.
-- Valódi üzemeltetői adatkezelési adatok és a tényleges képkreditek/licencadatok véglegesítése.
-- Search Console-hitelesítés és sitemap-beküldés ajánlott extra; jelenleg nem igazolt.
+## Elkülönített tervezetek és régebbi fájlok
 
-A kiírásban a működő űrlap ajánlott extra volt; a felhasználó külön projektkövetelménnyé tette, ezért a kézbesítési próbát a felhasználó sikeresnek igazolta vissza. Határidő: 2026. november 24.; kérhető haladékkal december 1.
+Az archivum/ és a számozott eredeti tervképek történeti bizonyítékok, ezért nem írjuk át őket végleges állapotnak. A jelenlegi-oldal/ mappa korábbi ellenőrzési képeket is tartalmaz; feltöltéshez a külön hétképes válogatást használd.
+
+Az új, oktatási mintából átdolgozott adatkezelési szöveg helyi tervezet. Nincs élesítve; az adatkezelő neve és kapcsolati adatai, valamint egyes szolgáltatói beállítások még hiányoznak. Nem része a feltöltési képválogatásnak, és nem tekintjük végleges jogi dokumentumnak. A fotók forrás-/licencnyilvántartása is véglegesítendő.
+
+Saját domain és külön portfóliós esettanulmány nem készült; a kiírásban ezek ajánlott kiegészítések, nem kötelező beadandók.

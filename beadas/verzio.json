@@ -1,32 +1,32 @@
 {
-  "date": "2026-11-16",
-  "designRevision": "2026-11-16-clean-navigation",
+  "date": "2026-11-17",
+  "designRevision": "2026-11-17-submission-package",
   "baseDesignCommit": "7064af8cb996f8d2fe00c5f4ecadf482048045c1",
   "liveUrl": "https://agyagpad-muhely.netlify.app",
   "designSystem": "4.17",
   "copy": "3.9",
   "formEnabled": true,
-  "realDeliveryVerified": false,
+  "realDeliveryVerified": true,
   "sourceFiles": [
     {
       "file": "public/_redirects",
-      "sha256": "61f278cd7fcf162a39a43bc799712ff3f08d2c08c6146a9831520b87855e0fac"
+      "sha256": "47b66ecea355f16e105f29aebe7fc52c1c4999d070d5edb62061ffc88311b75b"
     },
     {
       "file": "public/adatkezeles.html",
-      "sha256": "360abae2488b676970c3e4f82f2054a049d518b198cd542565a3861abc85afd9"
+      "sha256": "566b6698f0a4ef51f87b6d06b592bcccc7fa4fac1fc030b2a3c8f260cb62f87f"
     },
     {
       "file": "public/assets/erdeklodes.js",
-      "sha256": "6e973da75c93fffdde3cca1b0ba0109513b7844b4d1e91c0244e230dcff2ebd9"
+      "sha256": "96bcc7270a8df42fbdae9db60e56267bd3bf4d2bdfd118b2069e23006f18e867"
     },
     {
       "file": "public/assets/fonts/Inter-LICENSE.txt",
-      "sha256": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+      "sha256": "b3195af0fb14368d1b3b10fb9d3fe503b7163ea083859d2ee553bc74da07c320"
     },
     {
       "file": "public/assets/fonts/Merriweather-OFL.txt",
-      "sha256": "715bd349bfa6116f99e351e1548321dcfa25b91df65502d22ca8d624557697d2"
+      "sha256": "b4363fa08567b8c83d244e2a1f0a1fa1d25f75916e78865d0ee1dd03d05880e0"
     },
     {
       "file": "public/assets/fonts/inter-latin-ext.woff2",
@@ -46,43 +46,43 @@
     },
     {
       "file": "public/assets/form-config.js",
-      "sha256": "9d34b6ea83f3a10d992a479c4eeda4c7747abb0f5543561b53d46a39a947d612"
+      "sha256": "0dccd7623ac8ef41f0b78faf3fda45e7ffa93e395ee58621141970926fa02c83"
     },
     {
       "file": "public/assets/kapcsolat.css",
-      "sha256": "2e2fc631ccf2d11ef2b285890ae7dddd9414c0c34c06fa2dc922d0e3352636dd"
+      "sha256": "ba6232a90719a241a43916bc6764b0e24cc2354bf874fe9665804fcd933d4490"
     },
     {
       "file": "public/assets/koszonom.css",
-      "sha256": "492f1f8ceb756cc95ebf71f676b111812c8c9d25fa0c825e4ac4906c59e612e1"
+      "sha256": "ac467347ed2a5d902bd05b67f678f8e7c67c547a70dddb86512d6acbb08a7b4e"
     },
     {
       "file": "public/assets/koszonom.js",
-      "sha256": "1b57d753b1040e9ebd35f32af35a4cf4fa3c3ea0af17c8ddb622ddf61c9370c8"
+      "sha256": "f5f28c0ff326bc4e77734295bec651f3ab1c8066e5ff7b764228ea878341f983"
     },
     {
       "file": "public/assets/meres.css",
-      "sha256": "dab40630ca18b20c3aa7cdc58a0003bfbba61e5363fd2de6df4dbfccb7323847"
+      "sha256": "a2c9d333e4ba9377242672bd46dc5340c70468414fbabf1287a27254f2de7070"
     },
     {
       "file": "public/assets/meres.js",
-      "sha256": "9fe74c135cb983165cf450caac0fb9810d967fbf36943fba1bb0d3861cb484d5"
+      "sha256": "ef52535f2fb7d6b16048a5549573a731d2daaaa4a28797c98efd5c283a7c5091"
     },
     {
       "file": "public/assets/muhely-galeria.js",
-      "sha256": "6429509040b3e48321aa65fc20e6a8af64634f3d09567590f80e620a9d75931f"
+      "sha256": "16b3d1cb4f2f0bc8602f09b84fcaaa745e1c859f2f08a89c0bbb08d6039216c1"
     },
     {
       "file": "public/assets/muhely.css",
-      "sha256": "9c188932d476f5a250e846fef62339decc9819c4e07fe3bff01bed8470b91b5d"
+      "sha256": "ae5bbe720ce243cc11c97cceb15ed57002f0d5dcfe1cca532c7d8b4eb621f095"
     },
     {
       "file": "public/assets/tanfolyamok.css",
-      "sha256": "5c17709176e7fda44f56fe00cab50f014d9fe07d749cceab6ba8f6bec1455731"
+      "sha256": "7ef3e3a9b144046679dc60e009e3372b6f41547287ce569d731da494fe85f6b5"
     },
     {
       "file": "public/assets/udvari-muhely.css",
-      "sha256": "c9970b972be9a7df7d4b81476e3c8f49adfc04d8bfd8f855f053dbe2b92de27e"
+      "sha256": "eaa32f02824bf0dd3b95292bd31bfb873e138486062bcde5450bbe93dabc5ce8"
     },
     {
       "file": "public/images/logo/Agyagpad-favicon-transparent.png",
@@ -442,31 +442,31 @@
     },
     {
       "file": "public/index.html",
-      "sha256": "b9c7b89fb9dfa947f8072c72a52698ed760faff95f490fb7b7db16e45b28dbf3"
+      "sha256": "9d3d516c39ec4fe3be2804aef8c339b85815d735c5b0bb6019158a81224d000f"
     },
     {
       "file": "public/kapcsolat.html",
-      "sha256": "b0d5da2b1acfa982de10256bd4e5f824e4e595d721d988d4b72dfa4b9220f5c6"
+      "sha256": "7c0851a36d2b77f6168d15681dff4636887dac71ae785d94af8fecd8be29ff68"
     },
     {
       "file": "public/koszonom.html",
-      "sha256": "0328f8fba5f0380ad11c5c9fccf9171379d0e36fe16c68e5fff8d2c9ccfb811f"
+      "sha256": "306d9afe5035e0a3e03a07fbdc28613ddcdd5e3256b365551f8bfb4412d42da6"
     },
     {
       "file": "public/muhely.html",
-      "sha256": "9983199b7eda494692ee20496233c7f6d092bfd4394c0098bc38d93c11637cac"
+      "sha256": "de606b7a9f418294616e0d90a5def162d0399d877868cbd859d19b13ce9c4786"
     },
     {
       "file": "public/robots.txt",
-      "sha256": "750dd7a5925ed42b58e8f6c311ff5081c325ea7ceb5faec09bd7cefb3106b9f8"
+      "sha256": "02591a07623ac02365c1f71ed9dbf2572285383086294be1b79aa81c261daab7"
     },
     {
       "file": "public/sitemap.xml",
-      "sha256": "f72f85b6e4876762a54d928778a8dfa7fa564f5047f717809e420af24fdcdaac"
+      "sha256": "4def49fdceb7593ff71e250f349071b218054228de2e3a16d6662b7ef920bb7c"
     },
     {
       "file": "public/tanfolyamok.html",
-      "sha256": "5adac009a389699840576c2f78bc1998c65ca216b340c516603e14113517da0e"
+      "sha256": "d75ad566f89f0a94f16c490fa42b83a235021e951dd30986cc9e4feec8d5f4bd"
     }
   ],
   "planningImages": [
@@ -503,17 +503,74 @@
     "tanfolyamok-tablet-fekvo.png",
     "tudnivalok-asztali.png"
   ],
-  "note": "165 sikeres mobil/tablet nézet; nagyított szövegnél is alkalmazkodó főoldali hasábok. Műhely-bevezető frissítve, a Kapcsolat hero a részleteket. kifejezése együtt marad. SEO-alapok, további képtömörítés, csak webes fájlokat tartalmazó public kiadás. A domainhez kötött elemek állapotát a liveUrl és domainPending mezők jelzik; a végleges címet a tervezes/seo-konfiguracio.json rögzíti. A Tanfolyamok, Műhely és Kapcsolat morzsamenüje és saját CSS-e eltávolítva; felső térközök egységesítve. A fejléc, más SEO és az űrlapok változatlanok. A célzott helyi ellenőrzés 20 nézete sikeres. A logó és Kezdőlap / címre vezet, a főoldali aktív menüpont oldaljelölés; az aloldalak rövid navigációs URL-eket használnak, a valódi szakaszhivatkozások megmaradtak. Netlify Forms küldőkód aktiválva; felismerés és valódi kézbesítés ellenőrzése hátravan. Köszönőoldal és egyszer használható generate_lead jelzés, 21 szimulált eset sikeres. GA4-mérőkód engedélyezéshez kötve; az éles üzenet beérkezését a felhasználó igazolta vissza. GTM és basic consent mód integrálva; valós konténerrel az egyszeri generate_lead kérés ellenőrizve, a mérési kérések helyben elfogva. A köszönőoldal nyitó kickere eltávolítva. A mérési választó a Netlify-jelvény fölé kerül, a gombok mobilon kattinthatók.",
+  "note": "The required exam deliverables are available. Netlify Forms delivery is user-confirmed; GA4 generate_lead count 1 is confirmed by the supplied realtime screenshot. Search Console ownership and sitemap submission are user-confirmed. Original planning images are retained as history; the later teal accent is documented in a separate final brand board. Local privacy draft is not published. Existing unrelated performance files are outside this submission update.",
   "publishDirectory": "public",
   "homePage": "public/index.html",
   "domainPending": false,
   "liveSeoVerified": true,
   "formRevision": "2026-11-16-thank-you-conversion",
   "userReportedDeliveryVerified": true,
-  "analyticsDeliveryVerified": false,
+  "analyticsDeliveryVerified": true,
   "analyticsContainer": "GTM-W96CCPWJ",
   "analyticsMeasurementId": "G-NVP2Z1B13Y",
   "analyticsDeploymentVerified": true,
-  "analyticsDeploymentStatus": "Consent-gated Google measurement deployed; public user-provided data capabilities disabled and verified. GA4 reporting receipt remains unverified.",
-  "googleUserProvidedDataEnabled": false
+  "analyticsDeploymentStatus": "Consent-gated measurement deployed; generate_lead receipt confirmed by user GA4 screenshot; key-event reporting not separately confirmed",
+  "googleUserProvidedDataEnabled": false,
+  "analyticsDeliveryEvidence": "User-provided GA4 realtime screenshot on 2026-11-16: generate_lead event count 1. Key-event card empty; key-event reporting not verified.",
+  "analyticsKeyEventReportingVerified": false,
+  "submissionReviewDate": "2026-11-17",
+  "submissionRequiredItemsAvailable": true,
+  "publishedSourceCommit": "3abe00eb9fbc87aaa422f62d448cec277d14fb3d",
+  "sourceFilesBasis": "Published Git public tree before Netlify build; excludes the local uncommitted privacy draft",
+  "deliveryVerificationMethod": "User reported successful real Netlify Forms email receipt on 2026-11-16",
+  "searchConsoleVerificationTagPublished": true,
+  "searchConsoleOwnershipVerifiedByUser": true,
+  "searchConsoleSitemapSubmittedByUser": true,
+  "cookieConsentProvider": "custom",
+  "privacyDraftPublished": false,
+  "submissionImages": [
+    {
+      "file": "beadas/feltoltendo-kepek/01-eredeti-figma-arculat.png",
+      "width": 1112,
+      "height": 739,
+      "sha256": "5bebc8d5e8aacb6a49cf2c7101c2d47ed41ed08cdb1b831f3ed347cf9ab1bc32"
+    },
+    {
+      "file": "beadas/feltoltendo-kepek/02-eredeti-oldalterkep.png",
+      "width": 1440,
+      "height": 880,
+      "sha256": "04ac60160e48bc874dcf3c3e57ea158845fa9ee7020aa3cc878935974e80bbe4"
+    },
+    {
+      "file": "beadas/feltoltendo-kepek/03-eredeti-drotvaz.png",
+      "width": 1600,
+      "height": 2520,
+      "sha256": "e367000916fc6625328678383f2041b9dc78c7c849dd55387d7dea62d95844c0"
+    },
+    {
+      "file": "beadas/feltoltendo-kepek/04-vegleges-arculat.png",
+      "width": 1600,
+      "height": 1200,
+      "sha256": "45a8d6bec978de19d9e5d0cadc52f25b5bae1256258a9a81194754910b9bfff0"
+    },
+    {
+      "file": "beadas/feltoltendo-kepek/05-vegleges-oldalterkep.png",
+      "width": 1200,
+      "height": 1390,
+      "sha256": "36c12efc77117b466f3170a2bf1a2e1f7c04a18761a030c3a76c791956399220"
+    },
+    {
+      "file": "beadas/feltoltendo-kepek/06-kezdolap-asztali.png",
+      "width": 1440,
+      "height": 1050,
+      "sha256": "383c41083f3f22cc2b7ff2588e5c991905073f5eac5b633a699c9e1971da10ec"
+    },
+    {
+      "file": "beadas/feltoltendo-kepek/07-kezdolap-mobil.png",
+      "width": 390,
+      "height": 1050,
+      "sha256": "eb2c7707434234e4888b6d0def7b22e03d01c431f54e66e9fd7671fdff89b036"
+    }
+  ],
+  "legacyScreenshotsStatus": "Earlier verification images in beadas/jelenlegi-oldal; the curated submission exports are listed under submissionImages."
 }

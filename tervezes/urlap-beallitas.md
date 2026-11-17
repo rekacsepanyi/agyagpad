@@ -1,6 +1,6 @@
 # Agyagpad – Netlify Forms
 
-Állapot: 2026. november 16. A felhasználó bekapcsolta a Form detection beállítást. A küldőkód aktív a https://agyagpad-muhely.netlify.app domainen; a helyi előnézet nem küld adatot. A felismerést az új közzététel után a Netlify felületén kell ellenőrizni. A felhasználó beállította az e-mail-értesítést, és 2026. november 16-án sikeres éles próbaküldést jelzett. Ez felhasználói visszaigazolás, a Netlify beérkezési listájához nincs közvetlen hozzáférésünk.
+Állapot: 2026. november 16. A felhasználó bekapcsolta a Form detection beállítást. A küldőkód aktív a https://agyagpad-muhely.netlify.app domainen; a helyi előnézet nem küld adatot. Az éles küldési próba sikerét a felhasználó visszaigazolta. A felhasználó beállította az e-mail-értesítést, és 2026. november 16-án sikeres éles próbaküldést jelzett. Ez felhasználói visszaigazolás, a Netlify beérkezési listájához nincs közvetlen hozzáférésünk.
 
 ## Megvalósítás és ellenőrzés
 

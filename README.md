@@ -34,8 +34,8 @@ A korábbi dátumozott jelentések történeti állapotokat dokumentálnak. Az �
 
 ## Hátralévő lépések
 
-A Netlify Forms küldőkódja az éles domainen aktív. A felhasználó beállította az e-mail-értesítést, és 2026. november 16-án sikeres éles próbát jelzett. Beállítás: [tervezes/urlap-beallitas.md](tervezes/urlap-beallitas.md). Az üzemeltetői adatkezelési adatok véglegesítése szintén hátravan. Search Console-hitelesítés és a sitemap beküldése a következő keresőoldali feladat.
+A Netlify Forms küldőkódja az éles domainen aktív. A felhasználó beállította az e-mail-értesítést, és 2026. november 16-án sikeres éles próbát jelzett. Beállítás: [tervezes/urlap-beallitas.md](tervezes/urlap-beallitas.md). Az üzemeltetői adatkezelési adatok véglegesítése szintén hátravan. A Search Console tulajdonigazolása és a sitemap beküldése a felhasználó 2026. november 17-i visszajelzése szerint sikeres. CookieYes nem került telepítésre; a saját hozzájáruláskezelő maradt.
 
 Helyi előnézet: `node eszkozok/helyi-szerver.cjs`, majd http://127.0.0.1:4173/public/index.html .
 
-A `/koszonom` oldal csak pozitív küldési válasz után kap egyszeri `generate_lead` eseményt. `noindex,follow`, nincs a sitemapben. A megadott GTM-W96CCPWJ konténer kapcsolt GA4-célja G-NVP2Z1B13Y. Google-kód csak a mérési választó engedélyezése után töltődik be. A valódi konténerrel tesztelt mérési kérések helyben elfogva; GA4-riportbeli beérkezés még nincs igazolva. Beállítás és korlátok: [tervezes/ga4-konverzio.md](tervezes/ga4-konverzio.md).
+A `/koszonom` oldal csak pozitív küldési válasz után kap egyszeri `generate_lead` eseményt. `noindex,follow`, nincs a sitemapben. A megadott GTM-W96CCPWJ konténer kapcsolt GA4-célja G-NVP2Z1B13Y. Google-kód csak a mérési választó engedélyezése után töltődik be. A valódi konténerrel tesztelt mérési kérések helyben elfogva; A felhasználó GA4-képernyőképe igazolja a generate_lead egyszeri beérkezését; kulcseseményként való elszámolása még külön ellenőrizendő. Beállítás és korlátok: [tervezes/ga4-konverzio.md](tervezes/ga4-konverzio.md).

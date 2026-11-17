@@ -51,8 +51,8 @@ A public mappa kizárólag a webhelyhez szükséges 110 fájlt tartalmazza. Brie
 
 ## Következő keresőoldali lépés
 
-Search Console-hitelesítés és a sitemap beküldése ajánlott; a kódban ennek még nincs nyoma. DNS-hitelesítés az oldal forrásából nem igazolható. A strukturált adat nem garantál kiemelt keresési megjelenést, és az alapbeállítások nem garantálnak helyezést vagy AI-válaszban megjelenést.
+Search Console: a főoldal google-site-verification címkéje élesben ellenőrizve; a tulajdonigazolás és sitemap-beküldés sikerét a felhasználó 2026. november 17-én visszaigazolta. A strukturált adat nem garantál kiemelt keresési megjelenést, és az alapbeállítások nem garantálnak helyezést vagy AI-válaszban megjelenést.
 
-Az űrlap fogadója a korábbi döntés szerint változatlanul inaktív; aktiválása és az éles e-mail-próba külön feladat. Az üzemeltető adatkezelési adatai is véglegesítendők.
+A Netlify Forms fogadó aktív, az e-mail-értesítés beállítva; az éles próba sikerét a felhasználó visszaigazolta. Az üzemeltető adatkezelési adatai is véglegesítendők.
 
 Felhasznált szakmai források: [Google LocalBusiness](https://developers.google.com/search/docs/appearance/structured-data/local-business), [Google sitemap-útmutató](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap), [strukturált adatok irányelvei](https://developers.google.com/search/docs/appearance/structured-data/sd-policies). Alkalmazott skill: C:/Users/jolci/.codex/skills/vikingo-seo-skill/SKILL.md.

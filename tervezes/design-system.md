@@ -1,19 +1,19 @@
 # Agyagpad – design system
 
-Verzió: 4.17 · 2026. november 16.
-Állapot: az Udvari műhely aktuális specifikációja. Kiindulás: a jóváhagyott 16527e0 változat; november 14-i tartalmi továbbfejlesztés, kártyaélménysorok, Dóra-számadatok és előkészített valódi űrlapküldés. A korábbi türkiz gombos irányt ez a dokumentum felülírja.
+Verzió: 4.17 · Dokumentáció frissítve: 2026. november 17.
+Állapot: az Udvari műhely véglegesített vizsgaváltozatának specifikációja. Terrakotta CTA-k, türkiz hangsúlyok, véglegesített tartalom, működő Netlify Forms, köszönőoldal és hozzájáruláshoz kötött Google-mérés. A november 17-i beadási összefoglaló rögzíti a tervezés közben kialakított arculatot.
 
 ## Források és hatókör
 
 - A felhasználó legutóbbi főoldali módosításai az elsődlegesek.
 - A meglévő brief és a szovegek.md rögzíti a projektadatokat; az eredeti arculat, Figma és iskolai méretskála adja az alapokat.
-- Aktuális főoldal: koncepcio-1-udvari-muhely.html. Az index.html külön koncepcióválasztó, a főoldal fejlécéből nincs hozzá hivatkozás.
-- Megjelenési forrás: assets/udvari-muhely.css. A betűfájlok és a licencek az assets/fonts mappában elérhetők.
+- Aktuális főoldal: public/index.html. A régi koncepcióválasztó az archivum/koncepciok-index.html történeti fájl; nem része az éles navigációnak.
+- Megjelenési forrás: public/assets/udvari-muhely.css. A betűfájlok és licencek a public/assets/fonts mappában elérhetők.
 - A Tanfolyamok aloldal a főoldali arculatra épülő önálló elrendezést kapott. Az aloldali felülírásokat az assets/tanfolyamok.css tartalmazza; a főoldal HTML-je és közös CSS-e változatlan.
 
 ## Hangulat
 
-Meleg, földközeli, kézműves, rendezett és olvasható. A nyitókép az agyag formálását mutatja. A műhelyt egyetlen hangsúlyos munka közbeni portré és visszafogott tárgyfotók személyesítik meg. Nincs review-szekció, kitalált statisztika vagy új elismerés.
+Meleg, földközeli, kézműves, rendezett és olvasható. A nyitókép az agyag formálását mutatja. A műhelyt egyetlen hangsúlyos munka közbeni portré és visszafogott tárgyfotók személyesítik meg. Nincs review-szekció vagy kitalált elismerés. A bemutatkozás számai a fiktív vizsgaprojekt felhasználó által megadott mintatartalmának részei.
 
 ## Színek
 
@@ -208,3 +208,7 @@ Publikálási állapot, 2026. november 14.: a végleges webes források a public
 A főoldali programkártyák a tényleges hasábszélességhez és a megnövelt betűmérethez igazodnak: a program-cards nevű inline-size konténer 51.999 rem alatt egymás alá rendezi a kártyákat, 29.999 rem alatt a fotó és szöveg is egymás alá kerül. A subgrid szöveghasábja minmax(0,1fr), ezért nem vágja le a tartalmat. A bemutatkozó portré hasábja legfeljebb a rendelkezésre álló szélesség 40%-a, legfeljebb 22.5 rem. A normál desktop arányok megmaradnak. Új szín vagy díszítőelem nem került be.
 
 A Kapcsolat nyitószövegében az a részleteket. kifejezés nem törhető szóközzel marad egy sorban. A Műhely galériabevezetőjében a használat és ajándékozás szerepel; cím, képek, képaláírások és elrendezés változatlanok. Aktuális szövegverzió: 3.9.
+
+## A tervezési folyamat beadási képei
+
+Az eredeti Figma-arculati tábla történeti dokumentum, a türkiz nélküli induló palettával. Az AI-építés során a #1B4D4F sötéttürkiz hangsúlyszínként került be. A végleges terrakotta CTA és a Merriweather–Inter betűpár megmaradt. A végleges összefoglaló: beadas/tervezesi-folyamat/04-vegleges-arculat.png. A beadásra válogatott hét kép külön a beadas/feltoltendo-kepek mappában található.

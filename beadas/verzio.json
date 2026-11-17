@@ -10,23 +10,23 @@
   "sourceFiles": [
     {
       "file": "public/_redirects",
-      "sha256": "47b66ecea355f16e105f29aebe7fc52c1c4999d070d5edb62061ffc88311b75b"
+      "sha256": "61f278cd7fcf162a39a43bc799712ff3f08d2c08c6146a9831520b87855e0fac"
     },
     {
       "file": "public/adatkezeles.html",
-      "sha256": "566b6698f0a4ef51f87b6d06b592bcccc7fa4fac1fc030b2a3c8f260cb62f87f"
+      "sha256": "360abae2488b676970c3e4f82f2054a049d518b198cd542565a3861abc85afd9"
     },
     {
       "file": "public/assets/erdeklodes.js",
-      "sha256": "96bcc7270a8df42fbdae9db60e56267bd3bf4d2bdfd118b2069e23006f18e867"
+      "sha256": "6e973da75c93fffdde3cca1b0ba0109513b7844b4d1e91c0244e230dcff2ebd9"
     },
     {
       "file": "public/assets/fonts/Inter-LICENSE.txt",
-      "sha256": "b3195af0fb14368d1b3b10fb9d3fe503b7163ea083859d2ee553bc74da07c320"
+      "sha256": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
     },
     {
       "file": "public/assets/fonts/Merriweather-OFL.txt",
-      "sha256": "b4363fa08567b8c83d244e2a1f0a1fa1d25f75916e78865d0ee1dd03d05880e0"
+      "sha256": "715bd349bfa6116f99e351e1548321dcfa25b91df65502d22ca8d624557697d2"
     },
     {
       "file": "public/assets/fonts/inter-latin-ext.woff2",
@@ -46,43 +46,43 @@
     },
     {
       "file": "public/assets/form-config.js",
-      "sha256": "0dccd7623ac8ef41f0b78faf3fda45e7ffa93e395ee58621141970926fa02c83"
+      "sha256": "9d34b6ea83f3a10d992a479c4eeda4c7747abb0f5543561b53d46a39a947d612"
     },
     {
       "file": "public/assets/kapcsolat.css",
-      "sha256": "ba6232a90719a241a43916bc6764b0e24cc2354bf874fe9665804fcd933d4490"
+      "sha256": "2e2fc631ccf2d11ef2b285890ae7dddd9414c0c34c06fa2dc922d0e3352636dd"
     },
     {
       "file": "public/assets/koszonom.css",
-      "sha256": "ac467347ed2a5d902bd05b67f678f8e7c67c547a70dddb86512d6acbb08a7b4e"
+      "sha256": "492f1f8ceb756cc95ebf71f676b111812c8c9d25fa0c825e4ac4906c59e612e1"
     },
     {
       "file": "public/assets/koszonom.js",
-      "sha256": "f5f28c0ff326bc4e77734295bec651f3ab1c8066e5ff7b764228ea878341f983"
+      "sha256": "1b57d753b1040e9ebd35f32af35a4cf4fa3c3ea0af17c8ddb622ddf61c9370c8"
     },
     {
       "file": "public/assets/meres.css",
-      "sha256": "a2c9d333e4ba9377242672bd46dc5340c70468414fbabf1287a27254f2de7070"
+      "sha256": "dab40630ca18b20c3aa7cdc58a0003bfbba61e5363fd2de6df4dbfccb7323847"
     },
     {
       "file": "public/assets/meres.js",
-      "sha256": "ef52535f2fb7d6b16048a5549573a731d2daaaa4a28797c98efd5c283a7c5091"
+      "sha256": "9fe74c135cb983165cf450caac0fb9810d967fbf36943fba1bb0d3861cb484d5"
     },
     {
       "file": "public/assets/muhely-galeria.js",
-      "sha256": "16b3d1cb4f2f0bc8602f09b84fcaaa745e1c859f2f08a89c0bbb08d6039216c1"
+      "sha256": "6429509040b3e48321aa65fc20e6a8af64634f3d09567590f80e620a9d75931f"
     },
     {
       "file": "public/assets/muhely.css",
-      "sha256": "ae5bbe720ce243cc11c97cceb15ed57002f0d5dcfe1cca532c7d8b4eb621f095"
+      "sha256": "9c188932d476f5a250e846fef62339decc9819c4e07fe3bff01bed8470b91b5d"
     },
     {
       "file": "public/assets/tanfolyamok.css",
-      "sha256": "7ef3e3a9b144046679dc60e009e3372b6f41547287ce569d731da494fe85f6b5"
+      "sha256": "5c17709176e7fda44f56fe00cab50f014d9fe07d749cceab6ba8f6bec1455731"
     },
     {
       "file": "public/assets/udvari-muhely.css",
-      "sha256": "eaa32f02824bf0dd3b95292bd31bfb873e138486062bcde5450bbe93dabc5ce8"
+      "sha256": "5a5f37f02f3f9a2a01f40a39dc02c31a7fbce6528a3ab7d0895f4fdb6c5fb591"
     },
     {
       "file": "public/images/logo/Agyagpad-favicon-transparent.png",
@@ -442,31 +442,31 @@
     },
     {
       "file": "public/index.html",
-      "sha256": "9d3d516c39ec4fe3be2804aef8c339b85815d735c5b0bb6019158a81224d000f"
+      "sha256": "8cf704d61c4d0e1f10bde8779f3c33486e59a8e22bf399e79e2d5d8a6142f97e"
     },
     {
       "file": "public/kapcsolat.html",
-      "sha256": "7c0851a36d2b77f6168d15681dff4636887dac71ae785d94af8fecd8be29ff68"
+      "sha256": "4849cf418e358384311c6f826bfc967ffa3545a029f16e8a02a97ac0bee5811a"
     },
     {
       "file": "public/koszonom.html",
-      "sha256": "306d9afe5035e0a3e03a07fbdc28613ddcdd5e3256b365551f8bfb4412d42da6"
+      "sha256": "4dd62695a2c4b1008f66a7d254a986eac5fab2ab2d43c58372798b5a9b8b609d"
     },
     {
       "file": "public/muhely.html",
-      "sha256": "de606b7a9f418294616e0d90a5def162d0399d877868cbd859d19b13ce9c4786"
+      "sha256": "49cbbca0a013895165fe6ef227456b3c76192dec664b549409529e2f675a48ef"
     },
     {
       "file": "public/robots.txt",
-      "sha256": "02591a07623ac02365c1f71ed9dbf2572285383086294be1b79aa81c261daab7"
+      "sha256": "750dd7a5925ed42b58e8f6c311ff5081c325ea7ceb5faec09bd7cefb3106b9f8"
     },
     {
       "file": "public/sitemap.xml",
-      "sha256": "4def49fdceb7593ff71e250f349071b218054228de2e3a16d6662b7ef920bb7c"
+      "sha256": "f72f85b6e4876762a54d928778a8dfa7fa564f5047f717809e420af24fdcdaac"
     },
     {
       "file": "public/tanfolyamok.html",
-      "sha256": "d75ad566f89f0a94f16c490fa42b83a235021e951dd30986cc9e4feec8d5f4bd"
+      "sha256": "a9edad0c2c86a6ecca13d89640b0ce005c02afcc5d9d78b8000abf7ad2aecf02"
     }
   ],
   "planningImages": [
@@ -521,7 +521,7 @@
   "submissionReviewDate": "2026-11-17",
   "submissionRequiredItemsAvailable": true,
   "publishedSourceCommit": "3abe00eb9fbc87aaa422f62d448cec277d14fb3d",
-  "sourceFilesBasis": "Published Git public tree before Netlify build; excludes the local uncommitted privacy draft",
+  "sourceFilesBasis": "Committed public working-copy content; text normalized to LF to ignore Windows line endings",
   "deliveryVerificationMethod": "User reported successful real Netlify Forms email receipt on 2026-11-16",
   "searchConsoleVerificationTagPublished": true,
   "searchConsoleOwnershipVerifiedByUser": true,
@@ -572,5 +572,7 @@
       "sha256": "18db7106191a08bf0b6a8fb399d11835097588c79509a9cbd37c7d5cf50c0431"
     }
   ],
-  "legacyScreenshotsStatus": "Earlier verification images in beadas/jelenlegi-oldal; the curated submission exports are listed under submissionImages."
+  "legacyScreenshotsStatus": "Earlier verification images in beadas/jelenlegi-oldal; the curated submission exports are listed under submissionImages.",
+  "privacyDraftPath": "tervezes/adatkezeles-tervezet/adatkezeles.html",
+  "aiSubmissionText": "beadas/AI-hasznalat-beillesztheto.txt"
 }

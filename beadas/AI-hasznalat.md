@@ -1,15 +1,13 @@
 # AI-használat – Agyagpad
 
-Az Agyagpad egy fiktív szentendrei kerámiaműhely számára készített webdesign-vizsgamunka. A projektet ChatGPT és Codex segítségével, saját tartalmi és vizuális döntésekkel vittem végig.
+Az Agyagpad vizsgamunkát ChatGPT és Codex segítségével készítettem, a képzés kerámiaműhely-briefjéből kiindulva. Az AI-nak átadtam a vállalkozás bemutatóadatait, a célcsoportot, a programokat és az oldal fő célját: a látogató ismerje meg a műhelyt, majd érdeklődjön a foglalkozásokról.
 
-**Kiindulás és struktúra.** Az iskolai briefből indultam ki. Az AI-nak átadtam a vállalkozás adatait, a célcsoportot, a programokat és a fő célt: a látogató érdeklődjön a foglalkozásokról. ChatGPT segítségével pontosítottam az oldalszerkezetet és a szövegeket. Oldaltérkép és mobil-, illetve asztali drótváz készült; ezeket átnéztem, majd többoldalas webhellyé fejlesztettük a tervet.
+Először az oldalszerkezetet és a szövegeket dolgoztuk ki. Oldaltérkép, valamint asztali és mobil drótváz készült. Az arculathoz megadtam a Figma-arculati táblámat, a választott színeket, betűtípusokat, logót, fotókat és elrendezési inspirációkat. Az AI ezek alapján három HTML/CSS-koncepciót készített, amelyek közül az „Udvari műhely” irányt választottam.
 
-**Arculat és tartalom.** Kiindulásként megadtam a színeket, a Merriweather–Inter betűpárt, a logót, a kiválasztott fotókat, Figma-arculati táblát és elrendezési inspirációkat. A következetes megvalósításhoz design-system.md készült. A szövegeket, feliratokat, képkivágásokat és a programok sorrendjét több körben finomítottam; a türkiz hangsúlyszínt az építés során adtam az eredeti palettához. A fiktív vállalkozás jelölése megmaradt.
+A kiválasztott változatot több körben finomítottam. Böngészős megjegyzésekkel kértem módosításokat a szövegeken, térközökön, képkivágásokon, navigáción és mobilos megjelenésen. A türkiz hangsúlyszín is ebben a szakaszban került az eredeti palettába. A tartalmi és vizuális döntéseket én hoztam meg, az AI a megvalósításban segített.
 
-**Építés és javítás.** Codex három HTML/CSS-koncepciót készített; az Udvari műhely irányt választottam. Böngészős megjegyzésekkel alakítottam a főoldalt, a Tanfolyamok, Műhely és Kapcsolat aloldalakat. Elkészült a kerámiagaléria képnagyítóval, a lenyitható kérdések, a mobilmenü, az érdeklődési űrlap és a külön köszönőoldal. A tartalmi és vizuális döntéseket én hoztam meg.
+Codex segítségével elkészültek az aloldalak, a nagyítható kerámiagaléria, az érdeklődési űrlap és a köszönőoldal. Az AI közreműködött a képek WebP-optimalizálásában, a reszponzív és billentyűzetes működés ellenőrzésében, valamint a SEO-alapok beállításában.
 
-**Ellenőrzés és élesítés.** Az AI Sharp segítségével többméretű WebP-képeket készített, Playwright és Chrome segítségével pedig mobil-, tablet- és asztali nézeteket, billentyűzetes használatot és az űrlap hibakezelését ellenőrizte. SEO-metaadatok, strukturált adatok, sitemap és robots.txt készült. A forrás GitHubra, a publikálható fájlok külön public mappába kerültek; az oldalt Netlifyon élesítettem. A Search Console tulajdonigazolása és a sitemap beküldése is elkészült.
+A forráskód GitHub-verziókövetést kapott, az oldalt Netlifyon publikáltam. Beállítottam az űrlap e-mail-értesítését, próbaüzenettel ellenőriztem a működését, majd a hozzájáruláshoz kötött Google Analytics-mérést és a Search Console-kapcsolatot is bekötöttük. A sikeres érdeklődés eseményének beérkezését a GA4 valós idejű riportjában ellenőriztem.
 
-**Működés igazolása.** A Netlify Forms értesítési címét beállítottam, a próbaüzenet megérkezett. A Google-mérés csak analitikai hozzájárulás után indul. A sikeres érdeklődés generate_lead eseménye megjelent a GA4 valós idejű riportjában; ezt képernyőképpel ellenőriztem. A kulcseseményként történő elszámolás külön ellenőrzése még hátravan.
-
-Élő oldal: https://agyagpad-muhely.netlify.app/
+Az AI-t a teljes folyamatban tervezési és fejlesztési segítőként használtam: az eredményeket átnéztem, javításokat kértem, és a végleges változatot ezek alapján alakítottam ki.

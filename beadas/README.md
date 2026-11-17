@@ -40,6 +40,8 @@ Az eredeti Figma-kép a kezdeti döntéseket mutatja. A sötéttürkiz (#1B4D4F)
 
 Az archivum/ és a számozott eredeti tervképek történeti bizonyítékok, ezért nem írjuk át őket végleges állapotnak. A jelenlegi-oldal/ mappa korábbi ellenőrzési képeket is tartalmaz; feltöltéshez a külön hétképes válogatást használd.
 
-Az új, oktatási mintából átdolgozott adatkezelési szöveg helyi tervezet. Nincs élesítve; az adatkezelő neve és kapcsolati adatai, valamint egyes szolgáltatói beállítások még hiányoznak. Nem része a feltöltési képválogatásnak, és nem tekintjük végleges jogi dokumentumnak. A fotók forrás-/licencnyilvántartása is véglegesítendő.
+Az új, oktatási mintából átdolgozott adatkezelési szöveg a tervezes/adatkezeles-tervezet/ mappában megőrzött tervezet. Nincs élesítve; az adatkezelő neve és kapcsolati adatai, valamint egyes szolgáltatói beállítások még hiányoznak. Nem része a feltöltési képválogatásnak, és nem tekintjük végleges jogi dokumentumnak. A fotók forrás-/licencnyilvántartása is véglegesítendő.
 
 Saját domain és külön portfóliós esettanulmány nem készült; a kiírásban ezek ajánlott kiegészítések, nem kötelező beadandók.
+
+Az AI-használat szöveges beadási mezőjéhez az AI-hasznalat-beillesztheto.txt teljes szövegét másold be. Ugyanez címmel az AI-hasznalat.md fájlban szerepel. A képfeltöltéshez csak a hét számozott PNG szükséges.

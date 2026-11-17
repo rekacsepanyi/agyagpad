@@ -1,0 +1,18 @@
+.privacy-main{max-width:58rem}
+.privacy-main h1{max-width:100%}
+.privacy-main p,.privacy-main li,.privacy-main dd{line-height:1.75}
+.privacy-main section{margin-top:2.5rem}
+.privacy-main section h2{scroll-margin-top:7rem;line-height:1.4}
+.privacy-version{font-size:var(--small);color:var(--teal)}
+.privacy-draft{border-left:3px solid var(--teal);padding:.25rem 1.25rem;margin-block:1.5rem}
+.privacy-draft p{margin-block:.75rem}
+.privacy-contents{margin-block:2rem}
+.privacy-main ul{padding-left:1.5rem}
+.privacy-main li+li{margin-top:.75rem}
+.privacy-details{margin-top:1.5rem;display:grid;gap:.5rem 1.5rem}
+.privacy-main dt{font-weight:600;margin-top:1rem;overflow-wrap:anywhere}
+.privacy-main dd{margin:0;overflow-wrap:anywhere}
+.privacy-main code{font-size:.9375em;overflow-wrap:anywhere}
+.privacy-main a{overflow-wrap:anywhere}
+.privacy-storage{margin-top:1.5rem}
+@media(min-width:48rem){.privacy-details{grid-template-columns:minmax(0,1fr) minmax(0,2fr)}.privacy-details dt{margin:0}}

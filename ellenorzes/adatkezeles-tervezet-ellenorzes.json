@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-17",
+  "passed": true,
+  "results": [
+    {
+      "width": 320,
+      "overflow": false,
+      "h1": 1,
+      "sections": 10,
+      "draft": true,
+      "anchors": true,
+      "oldPlaceholders": false,
+      "privateEmail": false
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "sections": 10,
+      "draft": true,
+      "anchors": true,
+      "oldPlaceholders": false,
+      "privateEmail": false
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "h1": 1,
+      "sections": 10,
+      "draft": true,
+      "anchors": true,
+      "oldPlaceholders": false,
+      "privateEmail": false
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "sections": 10,
+      "draft": true,
+      "anchors": true,
+      "oldPlaceholders": false,
+      "privateEmail": false
+    }
+  ],
+  "published": false,
+  "legalCompletenessVerified": false,
+  "note": "Az adatkezelő azonosítása és a GA4-megőrzés visszaigazolása hiányzik; nincs adatküldés vagy éles közzététel."
+}

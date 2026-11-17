@@ -1,0 +1,11 @@
+Az Agyagpad vizsgamunkát ChatGPT és Codex segítségével készítettem, a képzés kerámiaműhely-briefjéből kiindulva. Az AI-nak átadtam a vállalkozás bemutatóadatait, a célcsoportot, a programokat és az oldal fő célját: a látogató ismerje meg a műhelyt, majd érdeklődjön a foglalkozásokról.
+
+Először az oldalszerkezetet és a szövegeket dolgoztuk ki. Oldaltérkép, valamint asztali és mobil drótváz készült. Az arculathoz megadtam a Figma-arculati táblámat, a választott színeket, betűtípusokat, logót, fotókat és elrendezési inspirációkat. Az AI ezek alapján három HTML/CSS-koncepciót készített, amelyek közül az „Udvari műhely” irányt választottam.
+
+A kiválasztott változatot több körben finomítottam. Böngészős megjegyzésekkel kértem módosításokat a szövegeken, térközökön, képkivágásokon, navigáción és mobilos megjelenésen. A türkiz hangsúlyszín is ebben a szakaszban került az eredeti palettába. A tartalmi és vizuális döntéseket én hoztam meg, az AI a megvalósításban segített.
+
+Codex segítségével elkészültek az aloldalak, a nagyítható kerámiagaléria, az érdeklődési űrlap és a köszönőoldal. Az AI közreműködött a képek WebP-optimalizálásában, a reszponzív és billentyűzetes működés ellenőrzésében, valamint a SEO-alapok beállításában.
+
+A forráskód GitHub-verziókövetést kapott, az oldalt Netlifyon publikáltam. Beállítottam az űrlap e-mail-értesítését, próbaüzenettel ellenőriztem a működését, majd a hozzájáruláshoz kötött Google Analytics-mérést és a Search Console-kapcsolatot is bekötöttük. A sikeres érdeklődés eseményének beérkezését a GA4 valós idejű riportjában ellenőriztem.
+
+Az AI-t a teljes folyamatban tervezési és fejlesztési segítőként használtam: az eredményeket átnéztem, javításokat kértem, és a végleges változatot ezek alapján alakítottam ki.
